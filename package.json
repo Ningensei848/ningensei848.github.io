@@ -1,22 +1,58 @@
 {
-  "name": "my-app",
+  "name": "ningensei848.github.io",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "export": "next export",
+    "lint": "next lint --cache --ignore-path .gitignore",
+    "lint:fix": "yarn lint --fix && yarn format",
+    "format": "prettier --write --ignore-path .gitignore './**/*.{js,jsx,ts,tsx,json,css,md,mdx}'"
   },
   "dependencies": {
-    "next": "12.0.7",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "@emotion/react": "^11.7.1",
+    "@emotion/server": "^11.4.0",
+    "@emotion/styled": "^11.6.0",
+    "@mdx-js/mdx": "2.0.0-rc.2",
+    "@mui/icons-material": "^5.2.1",
+    "@mui/lab": "^5.0.0-alpha.62",
+    "@mui/material": "^5.2.3",
+    "@reduxjs/toolkit": "^1.7.0",
+    "ajv": "^8.8.2",
+    "github-markdown-css": "^5.1.0",
+    "gray-matter": "^4.0.3",
+    "next": "^12.0.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6",
+    "remark-gfm": "^3.0.1",
+    "rss-parser": "^3.12.0",
+    "swr": "^1.1.1"
   },
   "devDependencies": {
-    "@types/node": "17.0.1",
-    "@types/react": "17.0.37",
-    "eslint": "8.5.0",
+    "@types/mdx": "^2.0.1",
+    "@types/node": "^16.11.12",
+    "@types/react": "^17.0.37",
+    "@typescript-eslint/eslint-plugin": "^5.6.0",
+    "@typescript-eslint/parser": "^5.6.0",
+    "eslint": "8.4.1",
     "eslint-config-next": "12.0.7",
-    "typescript": "4.5.4"
-  }
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.3"
+  },
+  "prettier": {
+    "trailingComma": "none",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true,
+    "jsxSingleQuote": true,
+    "printWidth": 100
+  },
+  "eslintIgnore": [
+    ".eslintrc.js",
+    "next.config.js"
+  ]
 }
