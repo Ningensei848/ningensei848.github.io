@@ -26,7 +26,6 @@ const getGitHubContent = async (
 export const getStaticProps = async () => {
   const file = await getGitHubContent('Ningensei848', 'Ningensei848', 'README.md')
   const text = file.replaceAll(/<!--[\s\S]*?-->/g, '')
-  console.log(text)
 
   const mdxContent = await mdxCompile(text || '')
 
