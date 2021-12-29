@@ -1,3 +1,5 @@
+import { Box } from '@mui/material'
+
 import { mdxCompile } from 'libs/markdown'
 import MDXContent from 'components/MDXContent'
 
@@ -37,7 +39,11 @@ export const getStaticProps = async () => {
 }
 
 const MyProfile = ({ content }: InferGetStaticPropsType<typeof getStaticProps>): JSX.Element => {
-  return <MDXContent content={content} />
+  return (
+    <Box m={2}>
+      <MDXContent content={content} />
+    </Box>
+  )
 }
 
 export default MyProfile
