@@ -71,9 +71,9 @@ const Index = () => {
           {/* <Item name='RSS'>
             <RssFeedIcon />
           </Item> */}
-          {/* <Item name='Link'>
+          <Item name='Link'>
             <LinkIcon />
-          </Item> */}
+          </Item>
         </List>
       </Box>
       <Box m={2} display={isViewportMedium ? 'none' : undefined}>
