@@ -10,10 +10,10 @@ import {
 } from '@mui/material'
 
 import {
-  Timeline as TimelineIcon,
+  // Timeline as TimelineIcon,
   // LocalLibrary as NoteIcon,  // for markdown
   AccountCircle as ProfileIcon,
-  RssFeed as RssFeedIcon,
+  // RssFeed as RssFeedIcon,
   CollectionsBookmark as LinkIcon
 } from '@mui/icons-material'
 import { TwitterTimeline } from 'components/parts/Twitter'

@@ -21,6 +21,8 @@ const JTDV = () => (
           aria-label='github'
           component={NextLinkComposed}
           to='https://github.com/Ningensei848/jtd-validator'
+          target='_blank'
+          rel='noopener noreferrer'
         >
           <GitHubIcon />
         </IconButton>
@@ -40,7 +42,13 @@ const JTDV = () => (
       </Typography>
     </CardContent>
     <CardActions>
-      <Button size='small' component={NextLinkComposed} to='/jtd-validator'>
+      <Button
+        size='small'
+        component={NextLinkComposed}
+        to='/jtd-validator'
+        target='_blank'
+        rel='noopener noreferrer'
+      >
         Learn More
       </Button>
     </CardActions>
@@ -55,6 +63,8 @@ const Eyjatto = () => (
           aria-label='github'
           component={NextLinkComposed}
           to='https://github.com/Ningensei848/Eyjatto'
+          target='_blank'
+          rel='noopener noreferrer'
         >
           <GitHubIcon />
         </IconButton>
@@ -75,7 +85,13 @@ const Eyjatto = () => (
       </Typography>
     </CardContent>
     <CardActions>
-      <Button size='small' component={NextLinkComposed} to='/Eyjatto'>
+      <Button
+        size='small'
+        component={NextLinkComposed}
+        to='/Eyjatto'
+        target='_blank'
+        rel='noopener noreferrer'
+      >
         Learn More
       </Button>
     </CardActions>
