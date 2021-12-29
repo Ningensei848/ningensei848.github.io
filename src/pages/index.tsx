@@ -1,4 +1,6 @@
+import Image from 'next/image'
 import {
+  Stack,
   useMediaQuery,
   Container,
   Box,
@@ -56,27 +58,34 @@ const Index = () => {
 
   return (
     <Container maxWidth='md'>
-      <Box mt={5}>
-        <List>
-          {/* <Item name='Timeline'>
+      <Box mt={2}>
+        <Image
+          src='/images/nono4rsibus.jpg'
+          width={800}
+          height={450}
+          objectFit='contain'
+          alt='hero image'
+        />
+      </Box>
+      <List>
+        {/* <Item name='Timeline'>
             <TimelineIcon />
           </Item> */}
-          {/* for markdown pages */}
-          {/* <Item name='Note'>
+        {/* for markdown pages */}
+        {/* <Item name='Note'>
             <NoteIcon />
           </Item> */}
-          <Item name='Profile'>
-            <ProfileIcon />
-          </Item>
-          {/* <Item name='RSS'>
+        <Item name='Profile'>
+          <ProfileIcon />
+        </Item>
+        {/* <Item name='RSS'>
             <RssFeedIcon />
           </Item> */}
-          <Item name='Link'>
-            <LinkIcon />
-          </Item>
-        </List>
-      </Box>
-      <Box m={2} display={isViewportMedium ? 'none' : undefined}>
+        <Item name='Link'>
+          <LinkIcon />
+        </Item>
+      </List>
+      <Box display={isViewportMedium ? 'none' : undefined}>
         <TwitterTimeline width={900} height={420} theme='light' username='Ningensei848' />
       </Box>
     </Container>
