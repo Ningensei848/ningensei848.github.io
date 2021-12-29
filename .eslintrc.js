@@ -44,6 +44,7 @@ module.exports = {
   },
   rules: {
     // turn on errors for missing imports
-    'import/no-unresolved': 'error'
+    'import/no-unresolved': 'error',
+    '@next/next/no-img-element': 'off'
   }
 }

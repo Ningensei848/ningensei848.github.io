@@ -1,6 +1,4 @@
-import Image from 'next/image'
 import {
-  Stack,
   useMediaQuery,
   Container,
   Box,
@@ -59,13 +57,7 @@ const Index = () => {
   return (
     <Container maxWidth='md'>
       <Box mt={2}>
-        <Image
-          src='/images/nono4rsibus.jpg'
-          width={800}
-          height={450}
-          objectFit='contain'
-          alt='hero image'
-        />
+        <img src='/images/nono4rsibus.jpg' width='100%' height='auto' alt='hero' />
       </Box>
       <List>
         {/* <Item name='Timeline'>
