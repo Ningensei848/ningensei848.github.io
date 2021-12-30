@@ -10,17 +10,22 @@ import {
 } from '@mui/material'
 
 import {
+  CallMade as ExternalLinkIcon,
+  East as InternalLinkIcon,
   // Timeline as TimelineIcon,
   // LocalLibrary as NoteIcon,  // for markdown
   AccountCircle as ProfileIcon,
   // RssFeed as RssFeedIcon,
   CollectionsBookmark as LinkIcon
 } from '@mui/icons-material'
+
 import { TwitterTimeline } from 'components/parts/Twitter'
 import { NextLinkComposed } from 'components/Link'
+import { ScrapboxIcon, ZennIcon } from 'components/parts/icons'
 
 import type { ReactNode } from 'react'
 import type { Theme } from '@mui/material'
+
 // Next.js の InferGetStaticPropsType が便利 @catnose99 | zenn.dev
 // cf. https://zenn.dev/catnose99/articles/7201a6c56d3c88
 // import type { InferGetStaticPropsType } from 'next'
@@ -42,11 +47,58 @@ import type { Theme } from '@mui/material'
 // const Index = ({ feeds }: InferGetStaticPropsType<typeof getStaticProps>) => {
 // const Feeds = feeds.map((feed) => <RSSFeed key={feed.id} {...feed} />)
 
-const Item = ({ children, name }: { children: ReactNode; name: string }) => (
+// const isExternal = (name: string) => name.indexOf('http') === 0 || name.indexOf('mailto:') === 0
+
+const Item = ({
+  children,
+  name,
+  desc,
+  isViewportMedium
+}: {
+  children: ReactNode
+  name: string
+  desc: string
+  isViewportMedium: boolean
+}) => (
   <ListItem disablePadding>
-    <ListItemButton component={NextLinkComposed} to={`/${name.toLowerCase()}`}>
+    <ListItemButton
+      component={NextLinkComposed}
+      to={`/${name.replaceAll(/\s/g, '-').toLowerCase()}`}
+    >
       <ListItemIcon>{children}</ListItemIcon>
-      <ListItemText primary={name} />
+      <ListItemText primary={name} secondary={desc} />
+
+      {isViewportMedium || (
+        <ListItemIcon>
+          <InternalLinkIcon />
+        </ListItemIcon>
+      )}
+    </ListItemButton>
+  </ListItem>
+)
+
+const ExternalItem = ({
+  children,
+  name,
+  url,
+  desc,
+  isViewportMedium
+}: {
+  children: ReactNode
+  name: string
+  url: string
+  desc: string
+  isViewportMedium: boolean
+}) => (
+  <ListItem disablePadding>
+    <ListItemButton component={NextLinkComposed} to={url} target='_blank' rel='noopener noreferrer'>
+      <ListItemIcon>{children}</ListItemIcon>
+      <ListItemText primary={name} secondary={desc} />
+      {isViewportMedium || (
+        <ListItemIcon>
+          <ExternalLinkIcon />
+        </ListItemIcon>
+      )}
     </ListItemButton>
   </ListItem>
 )
@@ -56,9 +108,7 @@ const Index = () => {
 
   return (
     <Container maxWidth='md'>
-      <Box mt={2}>
-        <img src='/images/nono4rsibus.jpg' width='100%' height='auto' alt='hero' />
-      </Box>
+      <img src='/images/nono4rsibus.jpg' width='100%' height='auto' alt='hero' />
       <List>
         {/* <Item name='Timeline'>
             <TimelineIcon />
@@ -67,13 +117,30 @@ const Index = () => {
         {/* <Item name='Note'>
             <NoteIcon />
           </Item> */}
-        <Item name='Profile'>
+        <Item name='About' desc='brief introduction about me' isViewportMedium={isViewportMedium}>
           <ProfileIcon />
         </Item>
         {/* <Item name='RSS'>
             <RssFeedIcon />
           </Item> */}
-        <Item name='Link'>
+
+        <ExternalItem
+          name='Zenn.dev'
+          url='https://zenn.dev/ningensei848'
+          desc='tech blog'
+          isViewportMedium={isViewportMedium}
+        >
+          <ZennIcon fontSize='small' />
+        </ExternalItem>
+        <ExternalItem
+          name='Scrapbox'
+          url='https://scrapbox.io/Ningensei848'
+          desc='idea connection pool in my mind'
+          isViewportMedium={isViewportMedium}
+        >
+          <ScrapboxIcon fontSize='small' />
+        </ExternalItem>
+        <Item name='My Works' desc='' isViewportMedium={isViewportMedium}>
           <LinkIcon />
         </Item>
       </List>

@@ -98,11 +98,11 @@ const Eyjatto = () => (
   </Card>
 )
 
-const Links = () => {
+const MyWorks = () => {
   return (
     <Box m={2}>
       <Typography variant='h1' component='h1'>
-        Links
+        My Works
       </Typography>
       <Grid container mt={2} spacing={2}>
         <Grid item xs={12} md={6}>
@@ -116,4 +116,4 @@ const Links = () => {
   )
 }
 
-export default Links
+export default MyWorks
