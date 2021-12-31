@@ -2,14 +2,14 @@ export const ZennContentMetaSchema = {
   additionalProperties: true,
   optionalProperties: { content: { type: 'string' }, contentSnippet: { type: 'string' } },
   properties: {
-    creator: { type: 'string' },
-    'dc:creator': { type: 'string' },
+    // creator: { type: 'string' },
+    // 'dc:creator': { type: 'string' },
     enclosure: {
       additionalProperties: true,
       properties: {
-        url: { type: 'string' },
-        length: { type: 'string' },
-        type: { type: 'string' }
+        url: { type: 'string' }
+        // length: { type: 'string' },
+        // type: { type: 'string' }
       }
     },
     guid: { type: 'string' },
@@ -23,27 +23,21 @@ export const ZennContentMetaSchema = {
 export const ZennFeedSchema = {
   additionalProperties: true,
   properties: {
+    title: { type: 'string' },
     description: { type: 'string' },
-    feedUrl: { type: 'string' },
-    generator: { type: 'string' },
+    link: { type: 'string' },
     image: {
       additionalProperties: true,
       properties: {
-        link: { type: 'string' },
         url: { type: 'string' },
-        title: { type: 'string' }
+        title: { type: 'string' },
+        link: { type: 'string' }
       }
     },
-    items: { elements: ZennContentMetaSchema },
-    language: { type: 'string' },
+    generator: { type: 'string' },
     lastBuildDate: { type: 'string' },
-    link: { type: 'string' },
-    paginationLinks: {
-      additionalProperties: true,
-      properties: {
-        self: { type: 'string' }
-      }
-    },
-    title: { type: 'string' }
+    feedUrl: { type: 'string' }, // atom:link.href
+    language: { type: 'string' },
+    items: { elements: ZennContentMetaSchema }
   }
 } as const

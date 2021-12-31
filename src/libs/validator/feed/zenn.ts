@@ -1,5 +1,5 @@
 import { ajv } from 'consts'
-import { ZennFeedSchema } from 'types/schemas/feed'
+import { ZennFeedSchema } from 'types/schemas/feeds/zenn'
 import type { ZennFeed } from 'types/feed'
 
 // type inference is not supported for JTDDataType yet

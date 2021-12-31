@@ -15,4 +15,4 @@ export const getFeed = async (feedUrl: string) => {
 }
 
 // ----------------------------------------------------------------------------
-export { zennFeedSerializer, zennFeedParser } from './validator/feed'
+export { zennFeedSerializer, zennFeedParser } from './validator/feed/zenn'
