@@ -1,0 +1,1 @@
+export { FeedFromZenn } from './ZennFeeds'

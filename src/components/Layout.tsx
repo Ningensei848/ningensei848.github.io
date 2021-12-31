@@ -37,8 +37,8 @@ const Layout = ({ children }: { children: ReactNode }) => {
           <main>{children}</main>
         </Grid>
         <Grid item md={3} display={isViewportMedium ? undefined : 'none'}>
-          <Box mt={3} mx={2}>
-            <TwitterTimeline width={400} height={650} theme='light' username='Ningensei848' />
+          <Box mx={2} height='100%'>
+            <TwitterTimeline width='100%' height='100%' theme='light' username='Ningensei848' />
           </Box>
         </Grid>
       </Grid>
