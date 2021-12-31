@@ -1,4 +1,4 @@
-const ZennContentMeta = {
+export const ZennContentMetaSchema = {
   additionalProperties: true,
   optionalProperties: { content: { type: 'string' }, contentSnippet: { type: 'string' } },
   properties: {
@@ -34,7 +34,7 @@ export const ZennFeedSchema = {
         title: { type: 'string' }
       }
     },
-    items: { elements: ZennContentMeta },
+    items: { elements: ZennContentMetaSchema },
     language: { type: 'string' },
     lastBuildDate: { type: 'string' },
     link: { type: 'string' },
