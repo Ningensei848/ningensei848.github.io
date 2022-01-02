@@ -19,7 +19,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-
       - name: Setup Node
         uses: actions/setup-node@v2
         # Caching packages dependencies
@@ -38,6 +37,9 @@ jobs:
           NEXT_PUBLIC_GOOGLE_ADSENSE_ID: ${{ secrets.GOOGLE_ADSENSE_ID }}
           NEXT_PUBLIC_NINJA_ADMAX_ID: ${{ secrets.NINJA_ADMAX_ID }}
 
+      - name: Export Next.js app
+        run: yarn export
+
       - name: Outout file to pass on to the next job
         id: shareData
         env:
@@ -45,9 +47,6 @@ jobs:
         run: |
           filedata=$(cat out/$FILENAME_ATOM)
           echo "::set-output name=atom::$filedata"
-
-      - name: Export Next.js app
-        run: yarn export
 
       - name: Deploy Next.js app to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
