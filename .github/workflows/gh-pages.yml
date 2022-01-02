@@ -78,10 +78,10 @@ jobs:
           name: ${{ env.ARTIFACT_ATOM }}
           path: public # path/to/directory
 
-      - name: Commit files
+      - name: Force commit of ignored files
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add $FILEPATH_ATOM
+          git add -f $FILEPATH_ATOM
           git commit -m "[GitHub Actions BOT] Update Feed || $(date)"
           git push
