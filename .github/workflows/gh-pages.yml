@@ -70,22 +70,18 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Remove existed files
-        env:
-          FILEPATH: ${{ env.FILEPATH_ATOM }}
-        run: rm $FILEPATH
+        run: rm $FILEPATH_ATOM
 
       - name: Download atomFeed from artifact
         uses: actions/download-artifact@v2
         with:
           name: ${{ env.ARTIFACT_ATOM }}
-          path: ${{ env.FILEPATH_ATOM }}
+          path: public # path/to/directory
 
       - name: Commit files
-        env:
-          FILEPATH: ${{ env.FILEPATH_ATOM }}
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add $FILEPATH
+          git add $FILEPATH_ATOM
           git commit -m "[GitHub Actions BOT] Update Feed || $(date)"
           git push
