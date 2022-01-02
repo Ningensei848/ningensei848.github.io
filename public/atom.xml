@@ -7,8 +7,76 @@
     </author>
     <link rel="alternate" type="text/html" href="https://ningensei848.github.io/"/>
     <link rel="self" type="application/atom+xml" href="https://ningensei848.github.io/atom.xml"/>
-    <updated>2022-01-02T16:17:00Z</updated>
+    <updated>2022-01-02T17:01:33Z</updated>
     
+      <entry>
+        <title type="html">favicon generator - 気合でなんとか - Scrapbox</title>
+        <id>https://scrapbox.io/Ningensei848/favicon_generator</id>
+        <link rel="alternate" type="text/html" href="https://scrapbox.io/Ningensei848/favicon_generator"/>
+        <updated>2022-01-02T17:00:05Z</updated>
+        <content type="html">&lt;br /&gt;&lt;a href=&quot;https://realfavicongenerator.net/&quot;&gt;https://realfavicongenerator.net/&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;Next.jsでFaviconを設定する - Qiita&lt;br /&gt;&lt;a href=&quot;https://qiita.com/purpleeeee/items/cd9aca1ae735ad678355&quot;&gt;https://qiita.com/purpleeeee/items/cd9aca1ae735ad678355&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;</content>
+      </entry>
+
+      <entry>
+        <title type="html">Ningensei848 pushed to main in Ningensei848/ningensei848.github.io</title>
+        <id>tag:github.com,2008:PushEvent/19550400764/</id>
+        <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/ningensei848.github.io/compare/edbcacaa24...e0b6917d7e"/>
+        <updated>2022-01-02T16:59:22Z</updated>
+        <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- push --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
+    &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div class=&quot;&quot;&gt;
+      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
+      
+      pushed to
+        &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
+        in
+      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/ningensei848.github.io&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/ningensei848.github.io&lt;/a&gt;
+        &lt;span class=&quot;color-fg-muted no-wrap f6 ml-1&quot;&gt;
+          &lt;relative-time datetime=&quot;2022-01-02T16:59:22Z&quot; class=&quot;no-wrap&quot;&gt;Jan 2, 2022&lt;/relative-time&gt;
+        &lt;/span&gt;
+
+        &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
+          &lt;span&gt;2 commits to&lt;/span&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
+
+          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+            &lt;ul class=&quot;list-style-none&quot;&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span title=&quot;Ningensei848&quot;&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/ningensei848.github.io/commit/e0b6917d7e7dd8334ef4617ba73c2dc841ffb605&quot; rel=&quot;noreferrer&quot;&gt;e0b6917&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Add: favicons
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span title=&quot;Ningensei848&quot;&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/ningensei848.github.io/commit/94995e2c4d992af6568aa3f0d13928a8a2ca9eb0&quot; rel=&quot;noreferrer&quot;&gt;94995e2&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Update: force commit of ignored file &#x60;public/atom.xml&#x60;
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+      </entry>
+
       <entry>
         <title type="html">Ningensei848 pushed to main in Ningensei848/ningensei848.github.io</title>
         <id>tag:github.com,2008:PushEvent/19550182726/</id>
@@ -1465,55 +1533,6 @@
       </entry>
 
       <entry>
-        <title type="html">Ningensei848 pushed to zenn in Ningensei848/lifelog</title>
-        <id>tag:github.com,2008:PushEvent/19403194012/</id>
-        <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/lifelog/compare/1ce646e683...53cd9d5f0e"/>
-        <updated>2021-12-19T14:57:59Z</updated>
-        <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;
-&lt;!-- push --&gt;
-&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
-    &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div class=&quot;&quot;&gt;
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
-      
-      pushed to
-        &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/lifelog/tree/zenn&quot; rel=&quot;noreferrer&quot;&gt;zenn&lt;/a&gt;
-        in
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/lifelog&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/lifelog&lt;/a&gt;
-        &lt;span class=&quot;color-fg-muted no-wrap f6 ml-1&quot;&gt;
-          &lt;relative-time datetime=&quot;2021-12-19T14:57:59Z&quot; class=&quot;no-wrap&quot;&gt;Dec 19, 2021&lt;/relative-time&gt;
-        &lt;/span&gt;
-
-        &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
-          &lt;span&gt;1 commit to&lt;/span&gt;
-          &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/lifelog/tree/zenn&quot; rel=&quot;noreferrer&quot;&gt;zenn&lt;/a&gt;
-
-          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
-            &lt;ul class=&quot;list-style-none&quot;&gt;
-                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
-                  &lt;span title=&quot;Ningensei848&quot;&gt;
-                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
-                  &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/lifelog/commit/53cd9d5f0ed17a1363f95c8df341faf155609d1a&quot; rel=&quot;noreferrer&quot;&gt;53cd9d5&lt;/a&gt;&lt;/code&gt;
-                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
-                    &lt;blockquote&gt;
-                      Fix: tiny misleading
-                    &lt;/blockquote&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-
-
-            &lt;/ul&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-      </entry>
-
-      <entry>
         <title type="html">Virtuso on GCP: Faster with Container-Optimised OS</title>
         <id>https://zenn.dev/ningensei848/articles/virtuoso_on_gcp_faster_with_cos</id>
         <link rel="alternate" type="text/html" href="https://zenn.dev/ningensei848/articles/virtuoso_on_gcp_faster_with_cos"/>
@@ -1818,14 +1837,6 @@ JSON Typed Definition っていう規格を使う；ただし RFC 8927 (Experime
         <link rel="alternate" type="text/html" href="https://scrapbox.io/Ningensei848/JSON-LD%E5%BD%A2%E5%BC%8F%E3%81%AE%E3%83%87%E3%83%BC%E3%82%BF%E3%82%92%E4%BD%9C%E3%82%8B%E2%91%A1"/>
         <updated>2021-05-08T15:20:31Z</updated>
         <content type="html">&lt;a href=&quot;https://scrapbox.io/Ningensei848/JSON-LD&quot;&gt;#JSON-LD&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;ノード識別子（Identifier；@id）&lt;/strong&gt;&lt;br /&gt;RDFグラフ内のノードを外部参照できるようにするには、ノードが識別子を持っていることが重要です。IRIは、リンクト・データの基本的な概念であり、ノードが真にリンク付けされるためには、識別子を逆参照すると、そのノードが表されるようになるべきです。これにより、アプリケーションはノードに関する詳細情報を取得できます。&lt;br /&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;&lt;a href=&quot;https://scrapbox.io/api/code/Ningensei848/JSON-LD形式のデータを作る①/withContext.ttl&quot;&gt;withContext.ttl&lt;/a&gt;&lt;/span&gt;&lt;span&gt; では，主語に相当する部分が空白ノードであった．これだと外部からは探せない．&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;→　&lt;/span&gt;&lt;span&gt;@id&lt;/span&gt;&lt;span&gt; をつかって主語ノードを作ろう！&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;code:identifier.json&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;{&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&amp;quot;@context&amp;quot;: {&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span&gt;&amp;quot;name&amp;quot;: &amp;quot;&lt;/span&gt;&lt;span&gt;&lt;a href=&quot;http://schema.org/name&amp;quot;&quot;&gt;http://schema.org/name&amp;quot;&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;},&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span&gt;&amp;quot;@id&amp;quot;: &amp;quot;&lt;/span&gt;&lt;span&gt;&lt;a href=&quot;http://me.markus-lanthaler.com/&amp;quot;,&quot;&gt;http://me.markus-lanthaler.com/&amp;quot;,&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&amp;quot;name&amp;quot;: &amp;quot;Markus Lanthaler&amp;quot;,&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;}&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;code:identifier.ttl&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;@prefix schema: &amp;lt;&lt;/span&gt;&lt;span&gt;&lt;a href=&quot;http://schema.org/&amp;gt;&quot;&gt;http://schema.org/&amp;gt;&lt;/a&gt;&lt;/span&gt;&lt;span&gt; .&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;@prefix xsd: &amp;lt;&lt;/span&gt;&lt;span&gt;&lt;a href=&quot;http://www.w3.org/2001/XMLSchema#&amp;gt;&quot;&gt;http://www.w3.org/2001/XMLSchema#&amp;gt;&lt;/a&gt;&lt;/span&gt;&lt;span&gt; .&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;&amp;lt;&lt;/span&gt;&lt;span&gt;&lt;a href=&quot;http://me.markus-lanthaler.com/&amp;gt;&quot;&gt;http://me.markus-lanthaler.com/&amp;gt;&lt;/a&gt;&lt;/span&gt;&lt;span&gt; schema:name &amp;quot;Markus Lanthaler&amp;quot; .&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;&lt;a href=&quot;http://schema.org&quot;&gt;http://schema.org&lt;/a&gt;&lt;/span&gt;&lt;span&gt; で既に規定されている &lt;/span&gt;&lt;span&gt;name&lt;/span&gt;&lt;span&gt; というコンテキストを用いる&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span&gt;解釈：&lt;/span&gt;&lt;span&gt;@id&lt;/span&gt;&lt;span&gt; で指定されたIRIは，&lt;/span&gt;&lt;span&gt;name&lt;/span&gt;&lt;span&gt; というコンテキストで，&amp;quot;Markus Lanthaler&amp;quot; という値を持つ&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://scrapbox.io/Ningensei848/JSON-LD%E5%BD%A2%E5%BC%8F%E3%81%AE%E3%83%87%E3%83%BC%E3%82%BF%E3%82%92%E4%BD%9C%E3%82%8B%E2%91%A2&quot;&gt;JSON-LD形式のデータを作る③&lt;/a&gt;&lt;br /&gt;</content>
-      </entry>
-
-      <entry>
-        <title type="html">JSON-LD形式のデータを作る① - 気合でなんとか - Scrapbox</title>
-        <id>https://scrapbox.io/Ningensei848/JSON-LD%E5%BD%A2%E5%BC%8F%E3%81%AE%E3%83%87%E3%83%BC%E3%82%BF%E3%82%92%E4%BD%9C%E3%82%8B%E2%91%A0</id>
-        <link rel="alternate" type="text/html" href="https://scrapbox.io/Ningensei848/JSON-LD%E5%BD%A2%E5%BC%8F%E3%81%AE%E3%83%87%E3%83%BC%E3%82%BF%E3%82%92%E4%BD%9C%E3%82%8B%E2%91%A0"/>
-        <updated>2021-05-07T08:25:16Z</updated>
-        <content type="html">&lt;a href=&quot;https://scrapbox.io/Ningensei848/JSON-LD&quot;&gt;#JSON-LD&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://search.google.com/structured-data/testing-tool&quot;&gt;構造化データテストツール&lt;/a&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;http://www.asahi-net.or.jp/~ax2s-kmtn/internet/lod/REC-json-ld11-20200716.html&quot;&gt;JSON-LD 1.1 : A JSON-based Serialization for Linked Data W3C Recommendation 16 July 2020の和訳&lt;/a&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;以下のJSONを例に考える．&lt;br /&gt;単純なキー・バリュー構造になっていて意見すると読みやすい．しかし……，&lt;br /&gt;&lt;br /&gt;code:sample.json&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;{&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&amp;quot;name&amp;quot;: &amp;quot;Manu Sporny&amp;quot;,&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span&gt;&amp;quot;homepage&amp;quot;: &amp;quot;&lt;/span&gt;&lt;span&gt;&lt;a href=&quot;http://manu.sporny.org/&amp;quot;,&quot;&gt;http://manu.sporny.org/&amp;quot;,&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span&gt;&amp;quot;image&amp;quot;: &amp;quot;&lt;/span&gt;&lt;span&gt;&lt;a href=&quot;http://manu.sporny.org/images/manu.png&amp;quot;&quot;&gt;http://manu.sporny.org/images/manu.png&amp;quot;&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;}&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;データが「Manu Sporny」というname(名前)の人物に関するものであり、homepage(ホームページ)というプロパティーにその人物のホームページのURLが含まれていることは、人間には明らかです。機械にはそのような直感的な理解はできず、人間にとっても、そのような表現のあいまいさを解決することは困難な場合があります。この問題は、「名前」、「ホームページ」などのトークンの代わりに、明確な識別子を用いて異なる概念を示すことで解決できます。&lt;br /&gt;&lt;br /&gt;機械にとっては曖昧さがあって処理できない．&lt;br /&gt;&lt;span&gt;→　&lt;/span&gt;&lt;span&gt;&lt;a href=&quot;http://www.asahi-net.or.jp/~ax2s-kmtn/internet/lod/REC-json-ld11-20200716.html#the-context&quot;&gt;コンテキスト&lt;/a&gt;&lt;/span&gt;&lt;span&gt;という概念を導入して解決！&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;code:extended.json&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;{&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span&gt;&amp;quot;&lt;/span&gt;&lt;span&gt;&lt;a href=&quot;http://schema.org/name&amp;quot;:&quot;&gt;http://schema.org/name&amp;quot;:&lt;/a&gt;&lt;/span&gt;&lt;span&gt; &amp;quot;Manu Sporny&amp;quot;,&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span&gt;&amp;quot;&lt;/span&gt;&lt;span&gt;&lt;a href=&quot;http://schema.org/url&amp;quot;:&quot;&gt;http://schema.org/url&amp;quot;:&lt;/a&gt;&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span&gt;&amp;quot;@id&amp;quot;: &amp;quot;&lt;/span&gt;&lt;span&gt;&lt;a href=&quot;http://manu.sporny.org/&amp;quot;&quot;&gt;http://manu.sporny.org/&amp;quot;&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;↑ 「@id」キーワードは「この値はIRIである識別子」ということを意味します。&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;},&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span&gt;&amp;quot;&lt;/span&gt;&lt;span&gt;&lt;a href=&quot;http://schema.org/image&amp;quot;:&quot;&gt;http://schema.org/image&amp;quot;:&lt;/a&gt;&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span&gt;&amp;quot;@id&amp;quot;: &amp;quot;&lt;/span&gt;&lt;span&gt;&lt;a href=&quot;http://manu.sporny.org/images/manu.png&amp;quot;&quot;&gt;http://manu.sporny.org/images/manu.png&amp;quot;&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;}&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span&gt;これを　&lt;/span&gt;&lt;span&gt;turtle&lt;/span&gt;&lt;span&gt;形式に直すと↓&lt;/span&gt;&lt;br /&gt;code:extended.ttl&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;@prefix schema: &amp;lt;&lt;/span&gt;&lt;span&gt;&lt;a href=&quot;http://schema.org/&amp;gt;&quot;&gt;http://schema.org/&amp;gt;&lt;/a&gt;&lt;/span&gt;&lt;span&gt; .&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;@prefix xsd: &amp;lt;&lt;/span&gt;&lt;span&gt;&lt;a href=&quot;http://www.w3.org/2001/XMLSchema#&amp;gt;&quot;&gt;http://www.w3.org/2001/XMLSchema#&amp;gt;&lt;/a&gt;&lt;/span&gt;&lt;span&gt; .&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;[&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span&gt;schema:image &amp;lt;&lt;/span&gt;&lt;span&gt;&lt;a href=&quot;http://manu.sporny.org/images/manu.png&amp;gt;;&quot;&gt;http://manu.sporny.org/images/manu.png&amp;gt;;&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;schema:name &amp;quot;Manu Sporny&amp;quot;;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span&gt;schema:url &amp;lt;&lt;/span&gt;&lt;span&gt;&lt;a href=&quot;http://manu.sporny.org/&amp;gt;&quot;&gt;http://manu.sporny.org/&amp;gt;&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;] .&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;メリット：&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;データに関して非常に具体的&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;デメリット：&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;ドキュメントがあまりにも冗長&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;人間の開発者にとっては扱い難い&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;code:withContext.json&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;{&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&amp;quot;@context&amp;quot;: {&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span&gt;&amp;quot;name&amp;quot;: &amp;quot;&lt;/span&gt;&lt;span&gt;&lt;a href=&quot;http://schema.org/name&amp;quot;,&quot;&gt;http://schema.org/name&amp;quot;,&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span&gt;↑ これは「name」が「&lt;/span&gt;&lt;span&gt;&lt;a href=&quot;http://schema.org/name」の省略形であることを意味します。&quot;&gt;http://schema.org/name」の省略形であることを意味します。&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&amp;quot;image&amp;quot;: {&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span&gt;&amp;quot;@id&amp;quot;: &amp;quot;&lt;/span&gt;&lt;span&gt;&lt;a href=&quot;http://schema.org/image&amp;quot;,&quot;&gt;http://schema.org/image&amp;quot;,&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span&gt;↑ これは「image」が「&lt;/span&gt;&lt;span&gt;&lt;a href=&quot;http://schema.org/image」の省略形であることを意味します。&quot;&gt;http://schema.org/image」の省略形であることを意味します。&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&amp;quot;@type&amp;quot;: &amp;quot;@id&amp;quot;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;↑ これは、「image」に関連付けられている文字列値が&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;IRIである識別子として解釈されるべきであることを意味します。&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;},&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&amp;quot;homepage&amp;quot;: {&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span&gt;&amp;quot;@id&amp;quot;: &amp;quot;&lt;/span&gt;&lt;span&gt;&lt;a href=&quot;http://schema.org/url&amp;quot;,&quot;&gt;http://schema.org/url&amp;quot;,&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span&gt;↑ これは、「homepage」が「&lt;/span&gt;&lt;span&gt;&lt;a href=&quot;http://schema.org/url」の省略形であることを意味します。&quot;&gt;http://schema.org/url」の省略形であることを意味します。&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&amp;quot;@type&amp;quot;: &amp;quot;@id&amp;quot;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;↑ これは、「homepage」に関連付けられている文字列値が&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;IRIである識別子として解釈されるべきであることを意味します。 &lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;}&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;},&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&amp;quot;name&amp;quot;: &amp;quot;Manu Sporny&amp;quot;,&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span&gt;&amp;quot;homepage&amp;quot;: &amp;quot;&lt;/span&gt;&lt;span&gt;&lt;a href=&quot;http://manu.sporny.org/&amp;quot;,&quot;&gt;http://manu.sporny.org/&amp;quot;,&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span&gt;&amp;quot;image&amp;quot;: &amp;quot;&lt;/span&gt;&lt;span&gt;&lt;a href=&quot;http://manu.sporny.org/images/manu.png&amp;quot;&quot;&gt;http://manu.sporny.org/images/manu.png&amp;quot;&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;}&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;code:withContext.ttl&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;@prefix schema: &amp;lt;&lt;/span&gt;&lt;span&gt;&lt;a href=&quot;http://schema.org/&amp;gt;&quot;&gt;http://schema.org/&amp;gt;&lt;/a&gt;&lt;/span&gt;&lt;span&gt; .&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;@prefix xsd: &amp;lt;&lt;/span&gt;&lt;span&gt;&lt;a href=&quot;http://www.w3.org/2001/XMLSchema#&amp;gt;&quot;&gt;http://www.w3.org/2001/XMLSchema#&amp;gt;&lt;/a&gt;&lt;/span&gt;&lt;span&gt; .&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;[&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span&gt;schema:image &amp;lt;&lt;/span&gt;&lt;span&gt;&lt;a href=&quot;http://manu.sporny.org/images/manu.png&amp;gt;;&quot;&gt;http://manu.sporny.org/images/manu.png&amp;gt;;&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;schema:name &amp;quot;Manu Sporny&amp;quot;;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span&gt;schema:url &amp;lt;&lt;/span&gt;&lt;span&gt;&lt;a href=&quot;http://manu.sporny.org/&amp;gt;&quot;&gt;http://manu.sporny.org/&amp;gt;&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;] .&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://scrapbox.io/Ningensei848/JSON-LD%E5%BD%A2%E5%BC%8F%E3%81%AE%E3%83%87%E3%83%BC%E3%82%BF%E3%82%92%E4%BD%9C%E3%82%8B%E2%91%A1&quot;&gt;JSON-LD形式のデータを作る②&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://scrapbox.io/Ningensei848/JSON-LD&quot;&gt;#JSON-LD&lt;/a&gt;&lt;br /&gt;</content>
       </entry>
 
       <entry>
