@@ -7,6 +7,7 @@ import { GoogleTagManagerAlt } from 'components/parts/Google'
 
 import type { DocumentContext } from 'next/document'
 import type { EmotionCriticalToChunks } from '@emotion/server/create-instance'
+import Favicons from 'components/parts/Favicons'
 
 const cache = createEmotionCache()
 
@@ -66,6 +67,7 @@ class MyDocument extends NextDocument {
             title={`${siteName} - integrated atom feed`}
             href={URL_ATOM}
           />
+          <Favicons />
         </Head>
         <body>
           <GoogleTagManagerAlt />

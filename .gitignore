@@ -294,6 +294,7 @@ $RECYCLE.BIN/
 
 # production
 /build
+/public/atom.xml
 
 # misc
 .DS_Store
