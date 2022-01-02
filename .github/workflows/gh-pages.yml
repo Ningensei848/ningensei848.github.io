@@ -66,7 +66,9 @@ jobs:
 
       - name: Take over my data from the previous step
         # ${{ needs.<previous-job>.outputs.varName }}
-        run: echo ${{ needs.deploy.outputs.atomFeed }} > public/$FILENAME_ATOM
+        run: |
+          filedata=${{ needs.deploy.outputs.atomFeed }}
+          echo "$filedata" > public/$FILENAME_ATOM
 
       - name: Commit files
         run: |
