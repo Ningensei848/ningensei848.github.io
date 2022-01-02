@@ -69,6 +69,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
+      - name: Remove existed files
+        env:
+          FILEPATH: ${{ env.FILEPATH_ATOM }}
+        run: rm $FILEPATH
+
       - name: Download atomFeed from artifact
         uses: actions/download-artifact@v2
         with:
