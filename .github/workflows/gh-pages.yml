@@ -13,8 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     name: 'Build and Export source codes to Deploy Next.js App'
     env:
-      FILEPATH_ATOM: 'public/atom.xml'
       ARTIFACT_ATOM: 'artifact_atom'
+      FILEPATH_ATOM: 'public/atom.xml'
     outputs:
       # varName: ${{ steps.<id>.outputs.<name> }}
       atomFeed: ${{ steps.shareData.outputs.atom }}
@@ -63,8 +63,8 @@ jobs:
     name: 'Push files created at build time to the repository'
     needs: deploy
     env:
-      FILEPATH_ATOM: 'public/atom.xml'
       ARTIFACT_ATOM: 'artifact_atom'
+      FILEPATH_ATOM: 'public/atom.xml'
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -73,6 +73,7 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: ${{ env.ARTIFACT_ATOM }}
+          path: ${{ env.FILEPATH_ATOM }}
 
       - name: Commit files
         env:
