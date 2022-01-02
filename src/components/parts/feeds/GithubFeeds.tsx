@@ -80,7 +80,7 @@ export const FeedFromGithub = ({ feed }: { feed: GithubFeed }) => {
   return (
     <>
       <Typography component='h3' variant='h4'>
-        <GitHubIcon /> GitHub Activity
+        <GitHubIcon /> GitHub Event Logs
       </Typography>
       <Timeline>
         {items.slice(0, 9).map((item: GithubFeedItem) => {

@@ -2,6 +2,7 @@ import { Children } from 'react'
 import NextDocument, { Html, Head, Main, NextScript } from 'next/document'
 import createEmotionServer from '@emotion/server/create-instance'
 import { theme, createEmotionCache } from 'styles/theme'
+import { siteName, URL_ATOM } from 'consts'
 import { GoogleTagManagerAlt } from 'components/parts/Google'
 
 import type { DocumentContext } from 'next/document'
@@ -58,6 +59,12 @@ class MyDocument extends NextDocument {
           <link
             rel='stylesheet'
             href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap'
+          />
+          <link
+            rel='alternate'
+            type='application/atom+xml'
+            title={`${siteName} - integrated atom feed`}
+            href={URL_ATOM}
           />
         </Head>
         <body>

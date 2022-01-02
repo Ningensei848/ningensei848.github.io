@@ -3,11 +3,12 @@ export const ScrapboxContentMetaSchema = {
   properties: {
     title: { type: 'string' },
     link: { type: 'string' },
-    pubDate: { type: 'string' },
     content: { type: 'string' },
+    isoDate: { type: 'timestamp' },
+    // optional ? --------------------
+    pubDate: { type: 'string' },
     contentSnippet: { type: 'string' },
-    guid: { type: 'string' },
-    isoDate: { type: 'timestamp' }
+    guid: { type: 'string' }
   }
 } as const
 

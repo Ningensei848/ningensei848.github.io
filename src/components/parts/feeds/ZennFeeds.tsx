@@ -10,7 +10,6 @@ import {
   CardContent,
   CardActions,
   CardActionArea,
-  Grid,
   Typography,
   List,
   ListItem,
@@ -26,7 +25,7 @@ import {
 import { NextLinkComposed } from 'components/Link'
 import { ZennIcon } from 'components/parts/icons'
 
-import type { ZennFeed, ZennFeedItem } from 'types/feed'
+import type { ZennFeedItem } from 'types/feed'
 
 export const ZennArticles = ({ items }: { items: ZennFeedItem[] }) => {
   const [expanded, setExpanded] = useState<string | false>(items[0].guid)

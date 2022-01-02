@@ -30,12 +30,6 @@ const JTDV = () => (
       title='jtd-validator'
       subheader='Novembar 11, 2021'
     />
-    {/* <CardMedia
-        component='img'
-        height='140'
-        image='/static/images/cards/contemplative-reptile.jpg'
-        alt='green iguana'
-      /> */}
     <CardContent>
       <Typography variant='body2' color='text.secondary'>
         Online Validator for JSON Typed Definition built with Next.js + TypeScript
@@ -72,12 +66,6 @@ const Eyjatto = () => (
       title='Eyjatto'
       subheader='December 16, 2021'
     />
-    {/* <CardMedia
-        component='img'
-        height='140'
-        image='/static/images/cards/contemplative-reptile.jpg'
-        alt='green iguana'
-      /> */}
     <CardContent>
       <Typography variant='body2' color='text.secondary'>
         Repository server for SPARQL / No your own server, No RDB, No SSR, but Static Generation

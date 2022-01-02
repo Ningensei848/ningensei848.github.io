@@ -3,12 +3,13 @@ export const GithubContentMetaSchema = {
   properties: {
     title: { type: 'string' },
     link: { type: 'string' },
+    content: { type: 'string' },
+    isoDate: { type: 'timestamp' },
+
     pubDate: { type: 'string' },
     author: { type: 'string' },
-    content: { type: 'string' },
     contentSnippet: { type: 'string' },
-    id: { type: 'string' },
-    isoDate: { type: 'timestamp' }
+    id: { type: 'string' }
   }
 } as const
 

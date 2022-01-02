@@ -19,7 +19,7 @@ export const FeedFromScrapbox = ({ feed }: { feed: ScrapboxFeed }) => {
   return (
     <>
       <Typography component='h3' variant='h4'>
-        <ScrapboxIcon fontSize='small' /> Scrapbox ideas
+        <ScrapboxIcon fontSize='small' /> Scrapbox Ideas
       </Typography>
       <List>
         {items.slice(0, 9).map((item: ScrapboxFeedItem) => (

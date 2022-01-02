@@ -3,17 +3,27 @@ name: Deploy Next.js app
 on:
   push:
     branches: [ main ]
+  schedule:
+    # 34 分かつ３時または15時に定期実行（な阪関無）
+    - cron: '34 3,15 * * *'
   workflow_dispatch:
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
+    name: 'Build and Export source codes to Deploy Next.js App'
+    outputs:
+      # varName: ${{ steps.<id>.outputs.<name> }}
+      atomFeed: ${{ steps.shareData.outputs.atom }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
 
+
       - name: Setup Node
         uses: actions/setup-node@v2
+        # Caching packages dependencies
+        # cf. https://github.com/actions/setup-node/blob/main/docs/advanced-usage.md#caching-packages-dependencies
         with:
           node-version: 16.x
           cache: yarn
@@ -28,6 +38,14 @@ jobs:
           NEXT_PUBLIC_GOOGLE_ADSENSE_ID: ${{ secrets.GOOGLE_ADSENSE_ID }}
           NEXT_PUBLIC_NINJA_ADMAX_ID: ${{ secrets.NINJA_ADMAX_ID }}
 
+      - name: Outout file to pass on to the next job
+        id: shareData
+        env:
+          FILENAME_ATOM: 'atom.xml'
+        run: |
+          filedata=$(cat out/$FILENAME_ATOM)
+          echo "::set-output name=atom::$filedata"
+
       - name: Export Next.js app
         run: yarn export
 
@@ -36,3 +54,25 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: out
+
+  update-feeds:
+    runs-on: ubuntu-latest
+    name: 'Push files created at build time to the repository'
+    needs: deploy
+    env:
+      FILENAME_ATOM: 'atom.xml'
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Take over my data from the previous step
+        # ${{ needs.<previous-job>.outputs.varName }}
+        run: echo ${{ needs.deploy.outputs.atomFeed }} > public/$FILENAME_ATOM
+
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add public/$FILENAME_ATOM
+          git commit -m "[GitHub Actions BOT] Update Feed || $(date)"
+          git push

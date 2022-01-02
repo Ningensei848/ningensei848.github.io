@@ -20,6 +20,7 @@ import {
   CollectionsBookmark as LinkIcon
 } from '@mui/icons-material'
 
+import { url } from 'libs/util'
 import { TwitterTimeline } from 'components/parts/Twitter'
 import { NextLinkComposed } from 'components/Link'
 import { ScrapboxIcon, ZennIcon } from 'components/parts/icons'
@@ -86,7 +87,13 @@ const Index = () => {
 
   return (
     <Container maxWidth='md'>
-      <img loading='lazy' src='/images/nono4rsibus.jpg' width='100%' height='auto' alt='hero' />
+      <img
+        loading='lazy'
+        src={url('/images/nono4rsibus.jpg')}
+        width='100%'
+        height='auto'
+        alt='hero'
+      />
       <Stack direction={{ xs: 'column', md: 'row' }}>
         <Box width='100%'>
           <List>
