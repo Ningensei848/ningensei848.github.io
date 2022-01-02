@@ -12,6 +12,9 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     name: 'Build and Export source codes to Deploy Next.js App'
+    env:
+      FILEPATH_ATOM: 'public/atom.xml'
+      ARTIFACT_ATOM: 'artifact_atom'
     outputs:
       # varName: ${{ steps.<id>.outputs.<name> }}
       atomFeed: ${{ steps.shareData.outputs.atom }}
@@ -37,16 +40,16 @@ jobs:
           NEXT_PUBLIC_GOOGLE_ADSENSE_ID: ${{ secrets.GOOGLE_ADSENSE_ID }}
           NEXT_PUBLIC_NINJA_ADMAX_ID: ${{ secrets.NINJA_ADMAX_ID }}
 
+      # Passing data between jobs in a workflow
+      # cf. https://docs.github.com/ja/actions/advanced-guides/storing-workflow-data-as-artifacts#passing-data-between-jobs-in-a-workflow
+      - name: Outout file to pass on to the next job
+        uses: actions/upload-artifact@v2
+        with:
+          name: ${{ env.ARTIFACT_ATOM }}
+          path: ${{ env.FILEPATH_ATOM }}
+
       - name: Export Next.js app
         run: yarn export
-
-      - name: Outout file to pass on to the next job
-        id: shareData
-        env:
-          FILENAME_ATOM: 'atom.xml'
-        run: |
-          filedata=$(cat out/$FILENAME_ATOM)
-          echo "::set-output name=atom::$filedata"
 
       - name: Deploy Next.js app to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
@@ -54,26 +57,29 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: out
 
+
   update-feeds:
     runs-on: ubuntu-latest
     name: 'Push files created at build time to the repository'
     needs: deploy
     env:
-      FILENAME_ATOM: 'atom.xml'
+      FILEPATH_ATOM: 'public/atom.xml'
+      ARTIFACT_ATOM: 'artifact_atom'
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Take over my data from the previous step
-        # ${{ needs.<previous-job>.outputs.varName }}
-        run: |
-          filedata=${{ needs.deploy.outputs.atomFeed }}
-          echo "$filedata" > public/$FILENAME_ATOM
+      - name: Download atomFeed from artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: ${{ env.ARTIFACT_ATOM }}
 
       - name: Commit files
+        env:
+          FILEPATH: ${{ env.FILEPATH_ATOM }}
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add public/$FILENAME_ATOM
+          git add $FILEPATH
           git commit -m "[GitHub Actions BOT] Update Feed || $(date)"
           git push
