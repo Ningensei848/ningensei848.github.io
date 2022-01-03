@@ -11,7 +11,7 @@ import {
   TIMESTAMP,
   siteAuthor,
   siteName,
-  siteUrl,
+  origin,
   FILENAME_ATOMFEED,
   FILEPATH_ATOMFEED
 } from 'consts'
@@ -39,7 +39,6 @@ import type { MyFeedItem, ZennFeedItem } from 'types/feed'
   cf. https://neos21.net/blog/2020/11/30-01.html
 */
 const atomTemplate = (entries: string) => {
-  const origin = siteUrl.replace(/\/$/, '')
   return `<?xml version="1.0" encoding="UTF-8"?>
   <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ja">
     <title>${siteName}</title>

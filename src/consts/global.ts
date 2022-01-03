@@ -8,10 +8,11 @@ export const siteAuthor =
   process.env.NEXT_PUBLIC_SITE_AUTHOR || 'K.Kubokawa (@Ningensei848) a.k.a. Kiai'
 export const siteName = process.env.NEXT_PUBLIC_SITE_NAME || 'Kiai de Nantoka'
 export const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://ningensei848.github.io'
+export const origin = siteUrl.replace(/\/$/, '')
 
 export const FILENAME_ATOMFEED = 'atom.xml'
 export const FILEPATH_ATOMFEED = `${process.cwd()}/public/${FILENAME_ATOMFEED}`
-export const URL_ATOM = siteUrl.replace(/\/$/, '') + '/' + FILENAME_ATOMFEED
+export const URL_ATOM = origin + '/' + FILENAME_ATOMFEED
 
 export const NINJA_ADMAX_ID = process.env.NEXT_PUBLIC_NINJA_ADMAX_ID || 'XXXXXXXXX'
 
