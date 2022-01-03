@@ -7,8 +7,65 @@
     </author>
     <link rel="alternate" type="text/html" href="https://ningensei848.github.io/"/>
     <link rel="self" type="application/atom+xml" href="https://ningensei848.github.io/atom.xml"/>
-    <updated>2022-01-03T11:30:20Z</updated>
+    <updated>2022-01-03T12:14:39Z</updated>
     
+      <entry>
+        <title type="html">Ningensei848 pushed to main in Ningensei848/ningensei848.github.io</title>
+        <id>tag:github.com,2008:PushEvent/19557798478/</id>
+        <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/ningensei848.github.io/compare/ca0bd7beb5...d082ef5080"/>
+        <updated>2022-01-03T12:12:35Z</updated>
+        <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- push --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
+    &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div class=&quot;&quot;&gt;
+      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
+      
+      pushed to
+        &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
+        in
+      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/ningensei848.github.io&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/ningensei848.github.io&lt;/a&gt;
+        &lt;span class=&quot;color-fg-muted no-wrap f6 ml-1&quot;&gt;
+          &lt;relative-time datetime=&quot;2022-01-03T12:12:35Z&quot; class=&quot;no-wrap&quot;&gt;Jan 3, 2022&lt;/relative-time&gt;
+        &lt;/span&gt;
+
+        &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
+          &lt;span&gt;1 commit to&lt;/span&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
+
+          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+            &lt;ul class=&quot;list-style-none&quot;&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span title=&quot;Ningensei848&quot;&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/ningensei848.github.io/commit/d082ef5080fa1d5ba9b7f77808be1454bedd8f6d&quot; rel=&quot;noreferrer&quot;&gt;d082ef5&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Add: event node &#x60;pullRequest&#x60; and &#x60;delete&#x60;
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+      </entry>
+
+      <entry>
+        <title type="html">mui theme - 気合でなんとか - Scrapbox</title>
+        <id>https://scrapbox.io/Ningensei848/mui_theme</id>
+        <link rel="alternate" type="text/html" href="https://scrapbox.io/Ningensei848/mui_theme"/>
+        <updated>2022-01-03T12:10:37Z</updated>
+        <content type="html">&lt;br /&gt;&lt;a href=&quot;https://coders-shelf.com/mui-v5-theme-toggle/&quot;&gt;https://coders-shelf.com/mui-v5-theme-toggle/&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;</content>
+      </entry>
+
       <entry>
         <title type="html">Ningensei848 pushed to main in Ningensei848/ningensei848.github.io</title>
         <id>tag:github.com,2008:PushEvent/19557316417/</id>
@@ -1500,55 +1557,6 @@
       </entry>
 
       <entry>
-        <title type="html">Ningensei848 pushed to main in Ningensei848/Ningensei848</title>
-        <id>tag:github.com,2008:PushEvent/19517784294/</id>
-        <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/Ningensei848/compare/447e19c26d...ad1c9e69db"/>
-        <updated>2021-12-29T13:15:28Z</updated>
-        <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;
-&lt;!-- push --&gt;
-&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
-    &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div class=&quot;&quot;&gt;
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
-      
-      pushed to
-        &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/Ningensei848/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-        in
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/Ningensei848&lt;/a&gt;
-        &lt;span class=&quot;color-fg-muted no-wrap f6 ml-1&quot;&gt;
-          &lt;relative-time datetime=&quot;2021-12-29T13:15:28Z&quot; class=&quot;no-wrap&quot;&gt;Dec 29, 2021&lt;/relative-time&gt;
-        &lt;/span&gt;
-
-        &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
-          &lt;span&gt;1 commit to&lt;/span&gt;
-          &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/Ningensei848/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-
-          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
-            &lt;ul class=&quot;list-style-none&quot;&gt;
-                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
-                  &lt;span title=&quot;Ningensei848&quot;&gt;
-                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
-                  &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/Ningensei848/commit/ad1c9e69db7af4c3277776fe9a8df913b282d8ab&quot; rel=&quot;noreferrer&quot;&gt;ad1c9e6&lt;/a&gt;&lt;/code&gt;
-                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
-                    &lt;blockquote&gt;
-                      Fix: remove unexpected character
-                    &lt;/blockquote&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-
-
-            &lt;/ul&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-      </entry>
-
-      <entry>
         <title type="html">馬券の購入履歴 - 気合でなんとか - Scrapbox</title>
         <id>https://scrapbox.io/Ningensei848/%E9%A6%AC%E5%88%B8%E3%81%AE%E8%B3%BC%E5%85%A5%E5%B1%A5%E6%AD%B4</id>
         <link rel="alternate" type="text/html" href="https://scrapbox.io/Ningensei848/%E9%A6%AC%E5%88%B8%E3%81%AE%E8%B3%BC%E5%85%A5%E5%B1%A5%E6%AD%B4"/>
@@ -1845,14 +1853,6 @@ JSON Typed Definition っていう規格を使う；ただし RFC 8927 (Experime
         <link rel="alternate" type="text/html" href="https://scrapbox.io/Ningensei848/%E3%82%86%E3%82%81%E3%81%AE%E3%81%BE%E3%81%9F%E3%82%86%E3%82%81"/>
         <updated>2021-05-31T14:32:12Z</updated>
         <content type="html">&lt;br /&gt;zenn.dev に「Declarative Quadratic Funding」機能をPRする：締め切りと目標寄附金額を宣言して寄付を募る←公共財としての価値をうんぬん&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;「公共財として公開されてもいいと思える額」を設定する（寄付する人も独占できない）&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;</content>
-      </entry>
-
-      <entry>
-        <title type="html">佐藤可士和の打ち合わせ - 気合でなんとか - Scrapbox</title>
-        <id>https://scrapbox.io/Ningensei848/%E4%BD%90%E8%97%A4%E5%8F%AF%E5%A3%AB%E5%92%8C%E3%81%AE%E6%89%93%E3%81%A1%E5%90%88%E3%82%8F%E3%81%9B</id>
-        <link rel="alternate" type="text/html" href="https://scrapbox.io/Ningensei848/%E4%BD%90%E8%97%A4%E5%8F%AF%E5%A3%AB%E5%92%8C%E3%81%AE%E6%89%93%E3%81%A1%E5%90%88%E3%82%8F%E3%81%9B"/>
-        <updated>2021-05-25T11:02:08Z</updated>
-        <content type="html">&lt;a href=&quot;https://scrapbox.io/Ningensei848/%E8%AA%AD%E3%81%BF%E7%89%A9&quot;&gt;#読み物&lt;/a&gt;&lt;br /&gt;&lt;img src=&quot;https://2.bp.blogspot.com/-hydQL4rheII/WerK6pnAfZI/AAAAAAABHrk/OwgXN1R_Lrk8IW5Q7_IjsgrIHyhFLbwdQCLcBGAs/s400/kaigi_inemuri.png&quot;/&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://diamond.jp/category/s-satokashiwa&quot;&gt;佐藤可士和の打ち合わせ | ダイヤモンド・オンライン&lt;/a&gt;&lt;br /&gt;</content>
       </entry>
 
       <entry>
