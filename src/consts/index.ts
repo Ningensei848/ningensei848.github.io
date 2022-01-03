@@ -3,6 +3,8 @@ export {
   siteAuthor,
   siteName,
   siteUrl,
+  origin,
+  GENERATE_ATOMFEED,
   FILENAME_ATOMFEED,
   FILEPATH_ATOMFEED,
   URL_ATOM,

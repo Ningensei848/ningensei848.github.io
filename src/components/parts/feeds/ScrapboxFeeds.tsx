@@ -31,7 +31,7 @@ export const FeedFromScrapbox = ({ feed }: { feed: ScrapboxFeed }) => {
               rel='noreferer noopener'
             >
               <ListItemText
-                primary={item.title.replace(/\s-\s気合でなんとか.*/i, '')}
+                primary={item.title ? item.title.replace(/\s-\s気合でなんとか.*/i, '') : 'untitled'}
                 primaryTypographyProps={{ color: 'secondary' }}
                 secondary={
                   <Typography

@@ -14,14 +14,18 @@ import {
   Backup as BackupIcon,
   AddCircle as AddCircleIcon,
   QuestionAnswer as IssueIcon,
-  Stars as StarIcon
+  Stars as StarIcon,
+  ForkRight as ForkIcon,
+  HelpOutline as HelpIcon
 } from '@mui/icons-material'
 
 import { GithubFeed, GithubFeedItem } from 'types/feed'
 import Link from 'components/Link'
 
 const getContent = (event: string, list: string[]): string => {
-  if (event.match(/create/i)) {
+  if (event.match(/push/i)) {
+    return `to ${list[3]} branch in ${list[5].replace(/^Ningensei848\//, '')}`
+  } else if (event.match(/create/i)) {
     if (list[3].match(/branch/i)) {
       return `${list[4]} branch in ${list[6].replace(/^Ningensei848\//, '')}`
     } else if (list[3].match(/repository/i)) {
@@ -31,13 +35,24 @@ const getContent = (event: string, list: string[]): string => {
     return `${list[1]} in ${list[5]}`
   } else if (event.match(/watch/i)) {
     return list[2]
+  } else if (event.match(/fork/i)) {
+    return `from ${list.slice(-1)[0]}` // 順序を逆にした上で先頭を取得 → 末尾要素を取得と同義
   }
-
-  return `to ${list[3]} branch in ${list[5].replace(/^Ningensei848\//, '')}`
+  // else ...
+  // 未分類イベント
+  return list.join(' ')
 }
 
+// GitHub event types - GitHub Docs
+// cf. https://docs.github.com/en/developers/webhooks-and-events/events/github-event-types
 const EventDot = ({ event }: { event: string }) => {
-  if (event.match(/create/i)) {
+  if (event.match(/push/i)) {
+    return (
+      <TimelineDot>
+        <BackupIcon />
+      </TimelineDot>
+    )
+  } else if (event.match(/create/i)) {
     return (
       <TimelineDot color='success'>
         <AddCircleIcon />
@@ -55,11 +70,16 @@ const EventDot = ({ event }: { event: string }) => {
         <StarIcon />
       </TimelineDot>
     )
-  } else {
-    // push
+  } else if (event.match(/fork/i)) {
     return (
-      <TimelineDot>
-        <BackupIcon />
+      <TimelineDot color='success'>
+        <ForkIcon />
+      </TimelineDot>
+    )
+  } else {
+    return (
+      <TimelineDot color='info'>
+        <HelpIcon />
       </TimelineDot>
     )
   }
