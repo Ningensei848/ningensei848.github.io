@@ -12,6 +12,7 @@ import {
   siteAuthor,
   siteName,
   origin,
+  GENERATE_ATOMFEED,
   FILENAME_ATOMFEED,
   FILEPATH_ATOMFEED
 } from 'consts'
@@ -129,7 +130,9 @@ export const generateRSSFile = async (feedList: Array<{ feed: ParsedFeedItem }>)
   })
 
   // ファイルに書き込んで保存
-  await writeFile(FILEPATH_ATOMFEED, atomTemplate(entries.join('\n')))
+  if (GENERATE_ATOMFEED) {
+    await writeFile(FILEPATH_ATOMFEED, atomTemplate(entries.join('\n')))
+  }
 }
 
 export const getStaticProps = async () => {
