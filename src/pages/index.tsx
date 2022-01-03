@@ -89,10 +89,10 @@ const Index = () => {
     <Container maxWidth='md'>
       <img
         loading='lazy'
-        src={url('/images/nono4rsibus.jpg')}
+        src={url('/images/nono4rsibus.svg')}
         width='100%'
         height='auto'
-        alt='hero'
+        alt='nono4rsibus'
       />
       <Stack direction={{ xs: 'column', md: 'row' }}>
         <Box width='100%'>

@@ -21,6 +21,9 @@ export const theme = createTheme({
     },
     error: {
       main: colors.red.A400
+    },
+    background: {
+      default: 'F8FAF8'
     }
   }
 })
