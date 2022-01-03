@@ -11,30 +11,44 @@ import {
 } from '@mui/lab'
 import {
   GitHub as GitHubIcon,
-  Backup as BackupIcon,
+  Backup as PushIcon,
+  Merge as MergeIcon,
   AddCircle as AddCircleIcon,
   QuestionAnswer as IssueIcon,
   Stars as StarIcon,
   ForkRight as ForkIcon,
+  DeleteForever as DeleteIcon,
   HelpOutline as HelpIcon
 } from '@mui/icons-material'
 
 import { GithubFeed, GithubFeedItem } from 'types/feed'
 import Link from 'components/Link'
 
+const pattern_user = /^Ningensei848\//
+
 const getContent = (event: string, list: string[]): string => {
   if (event.match(/push/i)) {
-    return `to ${list[3]} branch in ${list[5].replace(/^Ningensei848\//, '')}`
+    return list.length > 5
+      ? `to ${list[3]} branch in ${list[5].replace(pattern_user, '')}`
+      : list.join(' ')
   } else if (event.match(/create/i)) {
     if (list[3].match(/branch/i)) {
-      return `${list[4]} branch in ${list[6].replace(/^Ningensei848\//, '')}`
+      return list.length > 4
+        ? `${list[4]} branch in ${list[6].replace(pattern_user, '')}`
+        : list.join(' ')
     } else if (list[3].match(/repository/i)) {
-      return `a repository ${list[4].replace(/^Ningensei848\//, '')}`
+      return list.length > 4 ? `a repository ${list[4].replace(pattern_user, '')}` : list.join(' ')
     }
+  } else if (event.match(/pull/i)) {
+    return list.length > 6
+      ? `merged in repository ${list[6].replace(pattern_user, '')}`
+      : list.join(' ')
   } else if (event.match(/issue/i)) {
-    return `${list[1]} in ${list[5]}`
+    return list.length > 5 ? `${list[1]} in ${list[5]}` : list.join(' ')
   } else if (event.match(/watch/i)) {
-    return list[2]
+    return list.length > 2 ? list[2] : list.join(' ')
+  } else if (event.match(/delete/i)) {
+    return list.length > 2 ? list.slice(2).join(' ') : list.join(' ')
   } else if (event.match(/fork/i)) {
     return `from ${list.slice(-1)[0]}` // 順序を逆にした上で先頭を取得 → 末尾要素を取得と同義
   }
@@ -49,7 +63,13 @@ const EventDot = ({ event }: { event: string }) => {
   if (event.match(/push/i)) {
     return (
       <TimelineDot>
-        <BackupIcon />
+        <PushIcon />
+      </TimelineDot>
+    )
+  } else if (event.match(/pull/i)) {
+    return (
+      <TimelineDot sx={{ bgcolor: '#9c27b0' }}>
+        <MergeIcon />
       </TimelineDot>
     )
   } else if (event.match(/create/i)) {
@@ -70,15 +90,21 @@ const EventDot = ({ event }: { event: string }) => {
         <StarIcon />
       </TimelineDot>
     )
+  } else if (event.match(/delete/i)) {
+    return (
+      <TimelineDot color='error'>
+        <DeleteIcon />
+      </TimelineDot>
+    )
   } else if (event.match(/fork/i)) {
     return (
-      <TimelineDot color='success'>
+      <TimelineDot color='info'>
         <ForkIcon />
       </TimelineDot>
     )
   } else {
     return (
-      <TimelineDot color='info'>
+      <TimelineDot color='warning'>
         <HelpIcon />
       </TimelineDot>
     )
