@@ -1,4 +1,4 @@
-[![](https://github.com/Ningensei848/ningensei848.github.io/blob/main/public/images/nono4rsibus.jpg)](https://ningensei848.github.io)
+[![](https://github.com/Ningensei848/ningensei848.github.io/blob/main/public/images/nono4rsibus.svg)](https://ningensei848.github.io)
 
 # [ningensei848.github.io](https://ningensei848.github.io)
 
