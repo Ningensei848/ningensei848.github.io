@@ -7,8 +7,65 @@
     </author>
     <link rel="alternate" type="text/html" href="https://ningensei848.github.io/"/>
     <link rel="self" type="application/atom+xml" href="https://ningensei848.github.io/atom.xml"/>
-    <updated>2022-01-04T09:23:31Z</updated>
+    <updated>2022-01-04T11:20:55Z</updated>
     
+      <entry>
+        <title type="html">Ningensei848 pushed to main in Ningensei848/ningensei848.github.io</title>
+        <id>tag:github.com,2008:PushEvent/19572200478/</id>
+        <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/ningensei848.github.io/compare/1ad6e758ae...d0ff569d00"/>
+        <updated>2022-01-04T11:18:27Z</updated>
+        <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- push --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
+    &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div class=&quot;&quot;&gt;
+      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
+      
+      pushed to
+        &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
+        in
+      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/ningensei848.github.io&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/ningensei848.github.io&lt;/a&gt;
+        &lt;span class=&quot;color-fg-muted no-wrap f6 ml-1&quot;&gt;
+          &lt;relative-time datetime=&quot;2022-01-04T11:18:27Z&quot; class=&quot;no-wrap&quot;&gt;Jan 4, 2022&lt;/relative-time&gt;
+        &lt;/span&gt;
+
+        &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
+          &lt;span&gt;1 commit to&lt;/span&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
+
+          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+            &lt;ul class=&quot;list-style-none&quot;&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span title=&quot;Ningensei848&quot;&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/ningensei848.github.io/commit/d0ff569d0065d5bb854f95d439c028ce2973ae35&quot; rel=&quot;noreferrer&quot;&gt;d0ff569&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Fix: fill area for svg image
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+      </entry>
+
+      <entry>
+        <title type="html">Zenn記法でMDXを使いたい（未実装） - 気合でなんとか - Scrapbox</title>
+        <id>https://scrapbox.io/Ningensei848/Zenn%E8%A8%98%E6%B3%95%E3%81%A7MDX%E3%82%92%E4%BD%BF%E3%81%84%E3%81%9F%E3%81%84%EF%BC%88%E6%9C%AA%E5%AE%9F%E8%A3%85%EF%BC%89</id>
+        <link rel="alternate" type="text/html" href="https://scrapbox.io/Ningensei848/Zenn%E8%A8%98%E6%B3%95%E3%81%A7MDX%E3%82%92%E4%BD%BF%E3%81%84%E3%81%9F%E3%81%84%EF%BC%88%E6%9C%AA%E5%AE%9F%E8%A3%85%EF%BC%89"/>
+        <updated>2022-01-04T10:38:02Z</updated>
+        <content type="html">&lt;span&gt;&lt;a href=&quot;https://scrapbox.io/Ningensei848/MDX&quot;&gt;#MDX&lt;/a&gt;&lt;/span&gt;&lt;span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;&lt;a href=&quot;https://scrapbox.io/Ningensei848/Nextjs&quot;&gt;#Nextjs&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://github.com/zenn-dev/zenn-editor/tree/canary/packages/zenn-markdown-html&quot;&gt;https://github.com/zenn-dev/zenn-editor/tree/canary/packages/zenn-markdown-html&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;zenn では markdownit をつかっている　→　MDXとの互換性がない？&lt;br /&gt;&lt;br /&gt;&lt;span&gt;&lt;a href=&quot;https://zenn.dev/zenn/articles/markdown-guide#zenn-独自の記法&quot;&gt;zenn-独自の記法&lt;/a&gt;&lt;/span&gt;&lt;span&gt; さえ処理できれば，ほかは同じか？&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;strike&gt;とりあえずやってみること&lt;/strike&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;まずは記法とか全部無しで，MDXでの変換噛ませて，そこに &lt;/span&gt;&lt;span&gt;zenn-content-css&lt;/span&gt;&lt;span&gt; を当ててみてどうなるか&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;クラスとかの問題もありそうかな？&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span&gt;&lt;a href=&quot;https://zenn.dev/januswel/articles/745787422d425b01e0c1&quot;&gt;unified を使って Markdown を拡張する&lt;/a&gt;&lt;/span&gt;&lt;span&gt; という記事の中で，zenn のメッセージ記法をパースするプラグインを例としてつくっていた&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://zenn.dev/januswel/articles/745787422d425b01e0c1#zenn-のメッセージ記法&quot;&gt;https://zenn.dev/januswel/articles/745787422d425b01e0c1#zenn-のメッセージ記法&lt;/a&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;---&lt;br /&gt;&lt;br /&gt;喪中🌒(@Ningensei848)&lt;br /&gt;たぶん mdx → mdast → md →〈zenn-markdown-html〉→ html → hast → mdast って変換する remark の plugin を書けば良さそう&lt;br /&gt;&lt;br /&gt;つまり，① mdast → md ② html → mdast のアプローチが判明すれば勝ち&lt;br /&gt;&lt;a href=&quot;https://twitter.com/Ningensei848/status/1478312443252461573?s=20&quot;&gt;https://twitter.com/Ningensei848/status/1478312443252461573?s=20&lt;/a&gt;&lt;br /&gt;</content>
+      </entry>
+
       <entry>
         <title type="html">Ningensei848 pushed to main in Ningensei848/ningensei848.github.io</title>
         <id>tag:github.com,2008:PushEvent/19570511005/</id>
@@ -113,14 +170,6 @@
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/div&gt;</content>
-      </entry>
-
-      <entry>
-        <title type="html">Zenn記法でMDXを使いたい（未実装） - 気合でなんとか - Scrapbox</title>
-        <id>https://scrapbox.io/Ningensei848/Zenn%E8%A8%98%E6%B3%95%E3%81%A7MDX%E3%82%92%E4%BD%BF%E3%81%84%E3%81%9F%E3%81%84%EF%BC%88%E6%9C%AA%E5%AE%9F%E8%A3%85%EF%BC%89</id>
-        <link rel="alternate" type="text/html" href="https://scrapbox.io/Ningensei848/Zenn%E8%A8%98%E6%B3%95%E3%81%A7MDX%E3%82%92%E4%BD%BF%E3%81%84%E3%81%9F%E3%81%84%EF%BC%88%E6%9C%AA%E5%AE%9F%E8%A3%85%EF%BC%89"/>
-        <updated>2022-01-03T14:52:19Z</updated>
-        <content type="html">&lt;span&gt;&lt;a href=&quot;https://scrapbox.io/Ningensei848/MDX&quot;&gt;#MDX&lt;/a&gt;&lt;/span&gt;&lt;span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;&lt;a href=&quot;https://scrapbox.io/Ningensei848/Nextjs&quot;&gt;#Nextjs&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://github.com/zenn-dev/zenn-editor/tree/canary/packages/zenn-markdown-html&quot;&gt;https://github.com/zenn-dev/zenn-editor/tree/canary/packages/zenn-markdown-html&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;zenn では markdownit をつかっている　→　MDXとの互換性がない？&lt;br /&gt;&lt;br /&gt;&lt;span&gt;&lt;a href=&quot;https://zenn.dev/zenn/articles/markdown-guide#zenn-独自の記法&quot;&gt;zenn-独自の記法&lt;/a&gt;&lt;/span&gt;&lt;span&gt; さえ処理できれば，ほかは同じか？&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;strike&gt;とりあえずやってみること&lt;/strike&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;まずは記法とか全部無しで，MDXでの変換噛ませて，そこに &lt;/span&gt;&lt;span&gt;zenn-content-css&lt;/span&gt;&lt;span&gt; を当ててみてどうなるか&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;クラスとかの問題もありそうかな？&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span&gt;&lt;a href=&quot;https://zenn.dev/januswel/articles/745787422d425b01e0c1&quot;&gt;unified を使って Markdown を拡張する&lt;/a&gt;&lt;/span&gt;&lt;span&gt; という記事の中で，zenn のメッセージ記法をパースするプラグインを例としてつくっていた&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://zenn.dev/januswel/articles/745787422d425b01e0c1#zenn-のメッセージ記法&quot;&gt;https://zenn.dev/januswel/articles/745787422d425b01e0c1#zenn-のメッセージ記法&lt;/a&gt;&lt;/span&gt;&lt;br /&gt;</content>
       </entry>
 
       <entry>
@@ -1495,55 +1544,6 @@
                   &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
                     &lt;blockquote&gt;
                       Add: hero image
-                    &lt;/blockquote&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-
-
-            &lt;/ul&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-      </entry>
-
-      <entry>
-        <title type="html">Ningensei848 pushed to main in Ningensei848/ningensei848.github.io</title>
-        <id>tag:github.com,2008:PushEvent/19518221419/</id>
-        <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/ningensei848.github.io/compare/691bf8185f...a28b8d07e4"/>
-        <updated>2021-12-29T13:55:30Z</updated>
-        <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;
-&lt;!-- push --&gt;
-&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
-    &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div class=&quot;&quot;&gt;
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
-      
-      pushed to
-        &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-        in
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/ningensei848.github.io&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/ningensei848.github.io&lt;/a&gt;
-        &lt;span class=&quot;color-fg-muted no-wrap f6 ml-1&quot;&gt;
-          &lt;relative-time datetime=&quot;2021-12-29T13:55:30Z&quot; class=&quot;no-wrap&quot;&gt;Dec 29, 2021&lt;/relative-time&gt;
-        &lt;/span&gt;
-
-        &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
-          &lt;span&gt;1 commit to&lt;/span&gt;
-          &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-
-          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
-            &lt;ul class=&quot;list-style-none&quot;&gt;
-                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
-                  &lt;span title=&quot;Ningensei848&quot;&gt;
-                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
-                  &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/ningensei848.github.io/commit/a28b8d07e417fb1b1022071ea597641ae866b84d&quot; rel=&quot;noreferrer&quot;&gt;a28b8d0&lt;/a&gt;&lt;/code&gt;
-                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
-                    &lt;blockquote&gt;
-                      Update: external link behavior
                     &lt;/blockquote&gt;
                   &lt;/div&gt;
                 &lt;/li&gt;
