@@ -20,11 +20,10 @@ import {
   CollectionsBookmark as LinkIcon
 } from '@mui/icons-material'
 
-import { url } from 'libs/util'
+import Nono4rsibus from 'components/Nono4risubs'
 import { TwitterTimeline } from 'components/parts/Twitter'
 import { NextLinkComposed } from 'components/Link'
 import { ScrapboxIcon, ZennIcon } from 'components/parts/icons'
-
 import type { ReactNode } from 'react'
 import type { Theme } from '@mui/material'
 
@@ -87,13 +86,9 @@ const Index = () => {
 
   return (
     <Container maxWidth='md'>
-      <img
-        loading='lazy'
-        src={url('/images/nono4rsibus.svg')}
-        width='100%'
-        height='auto'
-        alt='nono4rsibus'
-      />
+      <Box width='100%'>
+        <Nono4rsibus />
+      </Box>
       <Stack direction={{ xs: 'column', md: 'row' }}>
         <Box width='100%'>
           <List>
