@@ -1,5 +1,3 @@
-type EscapeChar = '&' | "'" | '`' | '"' | '<' | '>'
-
 const replaceChar = (match: string) => {
   if (match == '<') {
     return '&lt;'
