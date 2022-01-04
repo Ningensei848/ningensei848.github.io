@@ -7,8 +7,65 @@
     </author>
     <link rel="alternate" type="text/html" href="https://ningensei848.github.io/"/>
     <link rel="self" type="application/atom+xml" href="https://ningensei848.github.io/atom.xml"/>
-    <updated>2022-01-04T09:13:39Z</updated>
+    <updated>2022-01-04T09:23:31Z</updated>
     
+      <entry>
+        <title type="html">Ningensei848 pushed to main in Ningensei848/ningensei848.github.io</title>
+        <id>tag:github.com,2008:PushEvent/19570511005/</id>
+        <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/ningensei848.github.io/compare/7df2b6f1af...5cf046df8d"/>
+        <updated>2022-01-04T09:20:56Z</updated>
+        <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- push --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
+    &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div class=&quot;&quot;&gt;
+      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
+      
+      pushed to
+        &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
+        in
+      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/ningensei848.github.io&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/ningensei848.github.io&lt;/a&gt;
+        &lt;span class=&quot;color-fg-muted no-wrap f6 ml-1&quot;&gt;
+          &lt;relative-time datetime=&quot;2022-01-04T09:20:56Z&quot; class=&quot;no-wrap&quot;&gt;Jan 4, 2022&lt;/relative-time&gt;
+        &lt;/span&gt;
+
+        &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
+          &lt;span&gt;1 commit to&lt;/span&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
+
+          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+            &lt;ul class=&quot;list-style-none&quot;&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span title=&quot;Ningensei848&quot;&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/ningensei848.github.io/commit/5cf046df8d1c549aa864cbf62b73542a9dc7e415&quot; rel=&quot;noreferrer&quot;&gt;5cf046d&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      tiny fix
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+      </entry>
+
+      <entry>
+        <title type="html">メモするやつ - 気合でなんとか - Scrapbox</title>
+        <id>https://scrapbox.io/Ningensei848/%E3%83%A1%E3%83%A2%E3%81%99%E3%82%8B%E3%82%84%E3%81%A4</id>
+        <link rel="alternate" type="text/html" href="https://scrapbox.io/Ningensei848/%E3%83%A1%E3%83%A2%E3%81%99%E3%82%8B%E3%82%84%E3%81%A4"/>
+        <updated>2022-01-04T09:16:18Z</updated>
+        <content type="html">&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;Dockerfile にoxigraph 入れてttl をマウントしてイメージに焼く&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;ここまではできそうだが，Lambda用に関数を実装するところ，SAMでデプロイするときに template.yaml をどう書くのか？とかがわかっていない&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;今のものをそのまま使うことは多分できない&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;GitHub Actionsでやること&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;ttl ディレクトリに push があったら発動して，oxigraph に関する一連の操作をやってlambda にデプロイ&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;→　２５０ｍｂ制限が発動したので，コンテナイメージに置き換えるようにする&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span&gt;→　ML4Keiba on Lambda: &lt;/span&gt;&lt;span&gt;&lt;a href=&quot;https://1nnoe2ailc.execute-api.us-west-2.amazonaws.com/Prod/&quot;&gt;https://1nnoe2ailc.execute-api.us-west-2.amazonaws.com/Prod/&lt;/a&gt;&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;endpoint: &lt;/span&gt;&lt;span&gt;&lt;a href=&quot;https://1nnoe2ailc.execute-api.us-west-2.amazonaws.com/Prod/sparql&quot;&gt;https://1nnoe2ailc.execute-api.us-west-2.amazonaws.com/Prod/sparql&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://1nnoe2ailc.execute-api.us-west-2.amazonaws.com/Prod/sparql?query=%23%23+endpoint+https%3A%2F%2F1nnoe2ailc.execute-api.us-west-2.amazonaws.com%2FProd%2Fsparql%0D%0Aselect+*+where+{%3Fs+%3Fp+%3Fo}+limit+100&amp;amp;mode=1&quot;&gt;https://1nnoe2ailc.execute-api.us-west-2.amazonaws.com/Prod/sparql?query=%23%23+endpoint+https%3A%2F%2F1nnoe2ailc.execute-api.us-west-2.amazonaws.com%2FProd%2Fsparql%0D%0Aselect+*+where+{%3Fs+%3Fp+%3Fo}+limit+100&amp;amp;mode=1&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;Error: Failed to create/update the stack: ML4Keiba, Waiter StackUpdateComplete failed: Waiter encountered a terminal failure state: For expression &quot;Stacks[].StackStatus&quot; we matched expected path: &quot;UPDATE_ROLLBACK_COMPLETE&quot; at least once&lt;br /&gt;&lt;br /&gt;Resource handler returned message: &quot;Unzipped size must be smaller than 262144000 bytes (Service: Lambda, Status Code: 400, Request ID: ee4db 5c7-b354-4fd7-8296-e66 0be92aa33, Extended Request ID: null)&quot; (RequestToken: 04dceed 0-5cf3-87cc-3c0b-75261 773e771, HandlerErrorCode: InvalidRequest)&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;やるべきことを書き出す&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;すこしずつやる&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;できなかったことは，一日の最後に分解して次の日やる&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;少なくとも少しずつは進める体制を整える&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;日光浴をする　→　散歩しよう！&lt;br /&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;週のスケジュール&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;月のスケジュール&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://scrapbox.io/Ningensei848/Flutter&quot;&gt;Flutter&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;とりあえず手を動かし始められるタスクをつくる　←　ルーティン？&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;</content>
+      </entry>
+
       <entry>
         <title type="html">Ningensei848 pushed to main in Ningensei848/ningensei848.github.io</title>
         <id>tag:github.com,2008:PushEvent/19570379003/</id>
@@ -1502,69 +1559,6 @@
       </entry>
 
       <entry>
-        <title type="html">Ningensei848 pushed to main in Ningensei848/ningensei848.github.io</title>
-        <id>tag:github.com,2008:PushEvent/19518083149/</id>
-        <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/ningensei848.github.io/compare/c7622bf677...691bf8185f"/>
-        <updated>2021-12-29T13:43:12Z</updated>
-        <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;
-&lt;!-- push --&gt;
-&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
-    &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div class=&quot;&quot;&gt;
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
-      
-      pushed to
-        &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-        in
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/ningensei848.github.io&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/ningensei848.github.io&lt;/a&gt;
-        &lt;span class=&quot;color-fg-muted no-wrap f6 ml-1&quot;&gt;
-          &lt;relative-time datetime=&quot;2021-12-29T13:43:12Z&quot; class=&quot;no-wrap&quot;&gt;Dec 29, 2021&lt;/relative-time&gt;
-        &lt;/span&gt;
-
-        &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
-          &lt;span&gt;2 commits to&lt;/span&gt;
-          &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-
-          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
-            &lt;ul class=&quot;list-style-none&quot;&gt;
-                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
-                  &lt;span title=&quot;Ningensei848&quot;&gt;
-                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
-                  &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/ningensei848.github.io/commit/691bf8185fe1c5c7e6cc2c120a84feb7d75b67c3&quot; rel=&quot;noreferrer&quot;&gt;691bf81&lt;/a&gt;&lt;/code&gt;
-                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
-                    &lt;blockquote&gt;
-                      Tiny fix
-                    &lt;/blockquote&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
-                  &lt;span title=&quot;Ningensei848&quot;&gt;
-                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
-                  &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/ningensei848.github.io/commit/216a662b270bfa807b7ca3e0e132557dfb044a98&quot; rel=&quot;noreferrer&quot;&gt;216a662&lt;/a&gt;&lt;/code&gt;
-                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
-                    &lt;blockquote&gt;
-                      Add: Authorized Digital Sellers
-                    &lt;/blockquote&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-
-
-                &lt;li class=&quot;f6 mt-2&quot;&gt;
-                  &lt;a class=&quot;Link--secondary&quot; href=&quot;/Ningensei848/ningensei848.github.io/compare/c7622bf677...691bf8185f&quot; rel=&quot;noreferrer&quot;&gt;1 more commit »&lt;/a&gt;
-                &lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-      </entry>
-
-      <entry>
         <title type="html">馬券の購入履歴 - 気合でなんとか - Scrapbox</title>
         <id>https://scrapbox.io/Ningensei848/%E9%A6%AC%E5%88%B8%E3%81%AE%E8%B3%BC%E5%85%A5%E5%B1%A5%E6%AD%B4</id>
         <link rel="alternate" type="text/html" href="https://scrapbox.io/Ningensei848/%E9%A6%AC%E5%88%B8%E3%81%AE%E8%B3%BC%E5%85%A5%E5%B1%A5%E6%AD%B4"/>
@@ -1845,14 +1839,6 @@ JSON Typed Definition っていう規格を使う；ただし RFC 8927 (Experime
         <link rel="alternate" type="text/html" href="https://scrapbox.io/Ningensei848/LightGBM"/>
         <updated>2021-07-17T05:31:10Z</updated>
         <content type="html">&lt;br /&gt;決定木アルゴリズムに基づいた勾配ブースティング（Gradient Boosting）の機械学習フレームワーク&lt;br /&gt;「決定木」、「アンサンブル学習」、「勾配ブースティング」&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;</content>
-      </entry>
-
-      <entry>
-        <title type="html">宣言駆動制作 - 気合でなんとか - Scrapbox</title>
-        <id>https://scrapbox.io/Ningensei848/%E5%AE%A3%E8%A8%80%E9%A7%86%E5%8B%95%E5%88%B6%E4%BD%9C</id>
-        <link rel="alternate" type="text/html" href="https://scrapbox.io/Ningensei848/%E5%AE%A3%E8%A8%80%E9%A7%86%E5%8B%95%E5%88%B6%E4%BD%9C"/>
-        <updated>2021-06-04T11:39:35Z</updated>
-        <content type="html">&lt;br /&gt;何らかのアウトプットを勉強のためにやるという人は多い．が，最近は初心者が「やってみた」系の記事ばかりで検索汚染になりすぎていると感じる．加えて情報商材屋の台頭もある．学びたいのに，まずその情報が正しいのかどうかという検証から始めなければならない．既に基礎基本ができている人だけが情報を取捨選択でき，そうでない人は濁流に押し流される．それでもなお生き残る強者だけを受け入れるとかいう生存バイアスでもって業界が成り立っている気がしている．この状況は長期的にも良くない．&lt;br /&gt;&lt;br /&gt;根本の原因は，その記事執筆に責任が存在していないことにある．たしかにレビューしてもらうのは難しいし，間違っていたからといって訂正するのも手間だ．自分の内発的動機づけだけを頼りに駄文を書き連ねた程度のものに愛着が湧くはずもなく，ネットを漂うゴミとして放置される．&lt;br /&gt;&lt;br /&gt;せめて対価を与えることで責任感をもたせられないだろうか？「無料で」「時間を惜しんで」「誰かのために」といった自己犠牲のもとに「やってあげているから」別にあとがどうなれど俺に責任はないみたいな感覚があるような気もする．&lt;br /&gt;&lt;br /&gt;-----&lt;br /&gt;&lt;br /&gt;自分の考えをきちんと文章にするべく諸々書いてみたが，うまくまとまらない．&lt;br /&gt;つまり題字にもある通りのやりたいこととは，&lt;br /&gt;１．自分で執筆コストを宣言し，&lt;br /&gt;２．興味を持った出資者に投資してもらい，&lt;br /&gt;３．必要経費が集まったら記事を限定公開する（公開したタイミングで引き落とし・入金される）&lt;br /&gt;&lt;span&gt;４．&lt;/span&gt;&lt;span&gt;&lt;strike&gt;出資者はそれを読んでレビューする&lt;/strike&gt;&lt;/span&gt;&lt;br /&gt;５．出資していない人も読めるように全世界公開される（緩和までの期間は出資者からの投票で決める？）&lt;br /&gt;&lt;br /&gt;執筆者は記事が出来上がるまでのコストだけを気にすれば良い．よくある有料記事や出版などと違い，入ってくる額が固定で，かつ自分で調整ができる．&lt;br /&gt;&lt;br /&gt;ここまでで問題になりそうだな～と思う部分は，&lt;br /&gt;&lt;span&gt;１．&lt;/span&gt;&lt;span&gt;&lt;strong&gt;執筆コストの適正額が不明&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;２．興味を持った出資者に投資してもらい&lt;br /&gt;&lt;span&gt;４．&lt;/span&gt;&lt;span&gt;&lt;strike&gt;レビューのハック？（サクラをたくさんあつめて偽レビューさせられる）&lt;/strike&gt;&lt;/span&gt;&lt;br /&gt;&lt;strike&gt;→でもそこまでしてアピールしたい制作物ッテ，なに・・・？&lt;/strike&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;限定公開期間が終わったタイミングで作品の掲載を取り下げるかもしれないリスク&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;なんらかのペナルティがあって然るべき？&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;その権利も含めてすべては製作者のさじ加減か……？&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;＞興味を持った出資者に投資してもらい&lt;br /&gt;&lt;br /&gt;金が有り余る人ほど影響力を行使できると良くないという話もある．この構図だと，「きっと金持ちパトロンが支援してくれる（だから俺は出資しない）」という作戦が最適になってしまう．漁夫の利を狙うのが最適戦略になってしまうのは避けるべきということだ．ごく僅かな金額であっても，たくさんのひとから支持されたという事実が重要だと考える．．．&lt;br /&gt;&lt;br /&gt;これを解決するのはQuadratic Voting とおもう．一票目が100円のとき，二票目は200円，合計300円を投じないとダメという仕組み&lt;br /&gt;だから目標設定は「金額」ではなくて「興味関心を持ってくれている人の数」にすればいい（金銭的に余裕のある人はQuadratic に予算を投じることで人数を水増しできる）&lt;br /&gt;こうすると，目標得票数に至ったときに金銭的には余剰が発生するかもしれない．でもこれについては特に気にする必要がないとも思う．出資者にとっては了承済みの話だし，製作者にとってはサプライズな投げ銭になる．&lt;br /&gt;&lt;br /&gt;Zenn, Skeb あたりでこの方式が導入されたらだいぶみんな嬉しくなる気がするのだが……&lt;br /&gt;&lt;br /&gt;とりあえず今思うことを文字にしたけどまだまだブラッシュアップすべきところもある，誰か見てたらコメントくれ&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;少額決済が何回も走ると，プラットフォーマーとしては手数料が辛くなる．ポイント制度を導入して，まとまった額の決済が数回あれば済むようにするアプローチも考えられる．あるいは，最低決済額を決めるとか&lt;br /&gt;&lt;br /&gt;製作者は「何を作るか」「最低製作コスト（＝必要投票数）」「製作期間」「限定公開期間」を決める．&lt;br /&gt;出資者は「票を買う」「製作者へ投票する」「限定公開期間へ投票する」&lt;br /&gt;ただし，実際に決済が走るのは製作者が製作期間内に成果物を公開できたとき&lt;br /&gt;（また，寄付・投資の側面が強いので，返金には応じない方針）（制作したことへのリスペクトも含めて）&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;限定公開期間への投票とは，製作者が設定した公開期間を「早める」「現状維持」「延ばす」について投票することである．例えば限定公開期間が約一ヶ月（4週間＝28日）とされていたときに，公共性を鑑みてもっと早く公開するべきだと思ったら，一票を投じて限定公開期間を27日間に変更することができる．情報を独占したいと考えて反対の行動を取ることも考えられる．&lt;br /&gt;&lt;br /&gt;All or Nothing制を考えているが，オールインでもいいのでは？と思うかもしれない．&lt;br /&gt;これにはきちんとした責任が伴わない気がする．はした金でも集めたもんがち．バカでかいコストを設定して価値があるように見せかけ，それを見抜けなかった少数の人々から搾取するような構図があるように感じる．だからこそ成功するかどうかわからないAll or Nothingであるほうが，抑止力的な効果を期待できると思う．&lt;br /&gt;&lt;br /&gt;成果物が公開されたとき，これまで通り公開されただけのものとどのような点で異なり，どのような点で共通するだろうか？&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;一定数から関心を集めているかもしれない（得票数の可視化）&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;投票者＝出資者の性質をもって，その製作者・成果物の質を担保できる可能性&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;「信頼できる人物が信頼した人は，きっと信頼に足る人物であるはず」&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;制作に対し，報酬を得ている&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;まっとうに考えるなら，仕事に対する対価を与えることで，同時に責任を生じさせている&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;対価に見合わないものを制作して不正に報酬を得ようとする場合，信頼を毀損するリスク&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;限定公開期間のあとに公開期間（無期限）がある&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;限定公開の延長・短縮の度合いから，その成果物の価値判断を補助できそうな気もする&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;紙として残るから責任&lt;br /&gt;変えられない，ってところに責任が生じる&lt;br /&gt;windows は郵便局にバグアップデートを置いてた&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;実態がないうちに評価が高まってしまう&lt;br /&gt;何文字残りがあるのか書いてあるのnote.com &lt;br /&gt;&lt;br /&gt;タイトル詐欺できてしまうのが問題！どうやって回避するか？&lt;br /&gt;&lt;br /&gt;支持する人が多いから正しい！っていうのは必ずしもイコールではない&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;エコーチェンバー現象&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;賛同が多いから正しいわけではない&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;いくつかの指標があってあとは読む人ラシに任せsる&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;何したところで信じch買う人は詩人ていしまう&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;何が正しいのかなんて実際のところはわからない&lt;br /&gt;判断材料を提供できるだけ&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;先払い&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;有料お題箱：&lt;br /&gt;&lt;br /&gt;</content>
       </entry>
 
       <entry>
