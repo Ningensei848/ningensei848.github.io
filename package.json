@@ -8,7 +8,7 @@
     "export": "next export",
     "lint": "next lint --cache --ignore-path .gitignore",
     "lint:fix": "yarn lint --fix && yarn format",
-    "format": "prettier --write --ignore-path .gitignore './**/*.{js,jsx,ts,tsx,json,css,md,mdx}'"
+    "format": "prettier --ignore-path .gitignore --write './{src,blogs}/**/*.{js,jsx,ts,tsx,json,css,md,mdx}'"
   },
   "dependencies": {
     "@emotion/react": "^11.7.1",
