@@ -45,9 +45,6 @@ module.exports = {
   rules: {
     // turn on errors for missing imports
     'import/no-unresolved': 'error',
-    '@next/next/no-img-element': 'off',
-    // The syntax "for-await-of" is *too slow* so should not be used. Use "Promise.all" instead.
-    // cf. https://ginpen.com/2018/12/16/for-await-of-statement/
-    'no-restricted-syntax': ['error', 'ForOfStatement[await=true]']
+    '@next/next/no-img-element': 'off'
   }
 }
