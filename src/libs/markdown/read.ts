@@ -14,10 +14,10 @@ import type { Dirent } from 'fs'
 const pattern_markdowns = /\.mdx?$/
 const sep = path.sep
 const isMarkdownFile = (filename: string) => pattern_markdowns.test(filename)
-const asyncFilter = async <T>(array: T[], asyncCallback: (args: T) => Promise<boolean>) => {
-  const bits = await Promise.all(array.map(asyncCallback))
-  return array.filter((_, i) => bits[i])
-}
+// const asyncFilter = async <T>(array: T[], asyncCallback: (args: T) => Promise<boolean>) => {
+//   const bits = await Promise.all(array.map(asyncCallback))
+//   return array.filter((_, i) => bits[i])
+// }
 
 // caution: ネストが深くなりすぎると辛い（が，Blog 用途ならそこまで深くはならないはず）
 const exploreSlugRecursive = async (basePath: string): Promise<string[]> => {
@@ -44,7 +44,9 @@ const exploreSlugRecursive = async (basePath: string): Promise<string[]> => {
 
 export const getAllSlugsAsync = async (basePath: string): Promise<string[]> => {
   const results = await exploreSlugRecursive(basePath)
-  return await asyncFilter(results, async (f: string) => f.length > 0)
+  // TODO: implement sync filtering
+  // return await asyncFilter(results, async (f: string) => f.length > 0)
+  return results.filter((f: string) => f.length > 0)
 }
 
 export const getMarkdownContent = async (slug: string): Promise<string> => {
@@ -64,25 +66,18 @@ export const getMarkdownContent = async (slug: string): Promise<string> => {
 // ----------------------------------------------------------------------------
 // ----------------------------------------------------------------------------
 
-export const isSameFilepaths = async (
-  elderArray: string[],
-  newerArray: string[]
-): Promise<boolean> => {
+export const isSameFilepaths = (elderArray: string[], newerArray: string[]) => {
   // ※どちらもユニークなはずなのでソートは不要
   // 前提として総数が違えば一致しないのでエラー
   if (elderArray.length !== newerArray.length) return false
   // 配列を探索して存在しなかったら Exception
   try {
-    await Promise.all(
-      elderArray.map(
-        async (elem) =>
-          new Promise(() => {
-            if (!newerArray.includes(elem)) {
-              throw new Error('[isSameFilepathList] Different arrays detected')
-            }
-          })
-      )
-    )
+    // TODO: implement sync filtering
+    elderArray.map((elem) => {
+      if (!newerArray.includes(elem)) {
+        throw new Error('[isSameFilepathList] Different arrays detected')
+      }
+    })
     return true
   } catch {
     // 必要なのは一致判断だけで，エラー内容はどうでもいいので引き起こさない
@@ -113,7 +108,7 @@ export const getAllBlogCommitLog = async (
       [key: string]: string[]
     }
 
-    if (await isSameFilepaths(Object.keys(pairs), slugs)) {
+    if (isSameFilepaths(Object.keys(pairs), slugs)) {
       return pairs
     } else {
       throw new Error('[getAllBlogCommitLog] Different arrays detected')
@@ -129,7 +124,7 @@ export const getAllBlogCommitLog = async (
           pairs[slug] = stdout.split('\n')
         } catch (e: unknown) {
           if (e instanceof Error) {
-            console.error(e.message) // stderr ==> "Command failed: git log **.mdx"
+            // console.error(e.message) // stderr ==> "Command failed: git log **.mdx"
             const { stdout } = await promisedExec(gitLog(slug, 'md'))
             pairs[slug] = stdout.split('\n')
           } else {
