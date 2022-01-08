@@ -11,7 +11,7 @@ import {
 } from '@mui/material'
 import { GitHub as GitHubIcon } from '@mui/icons-material'
 
-import { NextLinkComposed } from 'components/Link'
+import { NextLinkComposed } from 'src/components/Link'
 
 const JTDV = () => (
   <Card sx={{ maxWidth: 345 }}>

@@ -21,8 +21,8 @@ import {
   HelpOutline as HelpIcon
 } from '@mui/icons-material'
 
-import { GithubFeed, GithubFeedItem } from 'types/feed'
-import Link from 'components/Link'
+import { GithubFeed, GithubFeedItem } from 'src/types/feed'
+import Link from 'src/components/Link'
 
 const pattern_user = /^Ningensei848\//
 

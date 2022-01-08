@@ -2,11 +2,11 @@ import Script from 'next/script'
 
 import { useMediaQuery, Box, Grid } from '@mui/material'
 
-import { NINJA_ADMAX_ID } from 'consts'
+import { NINJA_ADMAX_ID } from 'src/consts'
 
 // import AppBar from './parts/AppBar'
 import Footer from './parts/Footer'
-import { TwitterTimeline } from 'components/parts/Twitter'
+import { TwitterTimeline } from 'src/components/parts/Twitter'
 
 import type { ReactNode } from 'react'
 import type { Theme } from '@mui/material'

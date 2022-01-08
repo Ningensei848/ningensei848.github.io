@@ -6,8 +6,8 @@ import { exec } from 'child_process'
 import { promisify } from 'util'
 import { readdir, readFile, writeFile } from 'fs/promises'
 
-import { MARKDOWN_DIR, PROJECT_ROOT } from 'consts'
-import { prettifyJSON } from 'libs/util'
+import { MARKDOWN_DIR, PROJECT_ROOT } from 'src/consts'
+import { prettifyJSON } from 'src/libs/util'
 
 import type { Dirent } from 'fs'
 

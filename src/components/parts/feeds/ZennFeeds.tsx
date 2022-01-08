@@ -22,10 +22,10 @@ import {
   CallMade as ExternalLinkIcon
 } from '@mui/icons-material'
 
-import { NextLinkComposed } from 'components/Link'
-import { ZennIcon } from 'components/parts/icons'
+import { NextLinkComposed } from 'src/components/Link'
+import { ZennIcon } from 'src/components/parts/icons'
 
-import type { ZennFeedItem } from 'types/feed'
+import type { ZennFeedItem } from 'src/types/feed'
 
 export const ZennArticles = ({ items }: { items: ZennFeedItem[] }) => {
   const [expanded, setExpanded] = useState<string | false>(items[0].guid)

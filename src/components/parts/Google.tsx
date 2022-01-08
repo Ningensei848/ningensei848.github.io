@@ -1,7 +1,7 @@
 /* eslint-disable eslint-comments/disable-enable-pair */
 /* eslint-disable @next/next/next-script-for-ga */
 // import Script from 'next/script'
-import { Ad_ID, GTM_ID } from 'libs/google'
+import { Ad_ID, GTM_ID } from 'src/libs/google'
 
 export const GoogleTagManager = (): JSX.Element => (
   // <Script

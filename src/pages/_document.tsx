@@ -1,13 +1,13 @@
 import { Children } from 'react'
 import NextDocument, { Html, Head, Main, NextScript } from 'next/document'
 import createEmotionServer from '@emotion/server/create-instance'
-import { theme, createEmotionCache } from 'styles/theme'
-import { siteName, URL_ATOM } from 'consts'
-import { GoogleTagManagerAlt } from 'components/parts/Google'
+import { theme, createEmotionCache } from 'src/styles/theme'
+import { siteName, URL_ATOM } from 'src/consts'
+import { GoogleTagManagerAlt } from 'src/components/parts/Google'
 
 import type { DocumentContext } from 'next/document'
 import type { EmotionCriticalToChunks } from '@emotion/server/create-instance'
-import Favicons from 'components/parts/Favicons'
+import Favicons from 'src/components/parts/Favicons'
 
 const cache = createEmotionCache()
 

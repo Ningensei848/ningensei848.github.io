@@ -1,7 +1,7 @@
 import { Box } from '@mui/material'
 
-import { mdxCompile } from 'libs/markdown'
-import MDXContent from 'components/MDXContent'
+import { mdxCompile } from 'src/libs/markdown'
+import MDXContent from 'src/components/MDXContent'
 
 import type { InferGetStaticPropsType } from 'next'
 

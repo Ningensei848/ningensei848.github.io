@@ -21,9 +21,9 @@ Index page に必要なもの
 */
 
 import { Container, List, ListItem, ListItemButton, ListItemText } from '@mui/material'
-import { NextLinkComposed } from 'components/Link'
-import { BLOG_BASEPATH, MARKDOWN_PAGE_PATH } from 'consts'
-import { getAllBlogCommitLog } from 'libs/markdown'
+import { NextLinkComposed } from 'src/components/Link'
+import { BLOG_BASEPATH, MARKDOWN_PAGE_PATH } from 'src/consts'
+import { getAllBlogCommitLog } from 'src/libs/markdown'
 import type { InferGetStaticPropsType } from 'next'
 
 export const getStaticProps = async () => {

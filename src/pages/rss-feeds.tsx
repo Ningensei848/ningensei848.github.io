@@ -15,7 +15,7 @@ import {
   GENERATE_ATOMFEED,
   FILENAME_ATOMFEED,
   FILEPATH_ATOMFEED
-} from 'consts'
+} from 'src/consts'
 
 import {
   zennFeedValidator as isValidZenn,
@@ -24,16 +24,21 @@ import {
   ScrapboxFeedItemValidator as isValidScraoboxFeed,
   GithubFeedValidator as isValidGithub,
   GithubFeedItemValidator as isValidGithubFeed
-} from 'libs/validator'
-import { escapeHTML } from 'libs/escape'
-import { url } from 'libs/util'
-import Link, { NextLinkComposed } from 'components/Link'
-import { FeedFromScrapbox, FeedFromGithub, ZennArticles, ZennScraps } from 'components/parts/feeds'
+} from 'src/libs/validator'
+import { escapeHTML } from 'src/libs/escape'
+import { url } from 'src/libs/util'
+import Link, { NextLinkComposed } from 'src/components/Link'
+import {
+  FeedFromScrapbox,
+  FeedFromGithub,
+  ZennArticles,
+  ZennScraps
+} from 'src/components/parts/feeds'
 
 // Next.js の InferGetStaticPropsType が便利 @catnose99 | zenn.dev
 // cf. https://zenn.dev/catnose99/articles/7201a6c56d3c88
 import type { InferGetStaticPropsType } from 'next'
-import type { MyFeedItem, ZennFeedItem } from 'types/feed'
+import type { MyFeedItem, ZennFeedItem } from 'src/types/feed'
 
 /*
   静的サイトでも自前で RSS (Atom) フィードを配信する - Neo's World
