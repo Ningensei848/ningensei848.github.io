@@ -3,7 +3,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "rm -f .next/*.json ; next build",
+    "server:port": "grep -Po '((?<=,PORT_SERVER=)|(?<=^PORT_SERVER=))(.+?)(?=(,|$))' .env",
+    "zenn": "PORT=$(yarn server:port) ; cd server && yarn start",
     "start": "next start",
     "export": "next export",
     "lint": "next lint --cache --ignore-path .gitignore",
