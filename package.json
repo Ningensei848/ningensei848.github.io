@@ -53,6 +53,6 @@
   },
   "eslintIgnore": [
     ".eslintrc.js",
-    "next.config.js"
+    "next.config.mjs"
   ]
 }

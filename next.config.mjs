@@ -8,8 +8,8 @@ const assetPrefix = process.env.BASE_PATH ? `/${process.env.BASE_PATH}` : ''
 
 /**
  * @type {import('next').NextConfig}
- **/
-module.exports = {
+ */
+const nextConfig = {
   // cf. https://nextjs.org/docs/basic-features/typescript#type-checking-nextconfigjs
   reactStrictMode: true,
   swcMinify: true,
@@ -31,3 +31,5 @@ module.exports = {
     return buildId
   }
 }
+
+export default nextConfig

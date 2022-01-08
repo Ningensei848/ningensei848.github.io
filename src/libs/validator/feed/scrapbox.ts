@@ -1,6 +1,6 @@
-import { ajv } from 'consts'
-import { ScrapboxFeedSchema, ScrapboxContentMetaSchema } from 'types/schemas/feeds/scrapbox'
-import type { ScrapboxFeed, ScrapboxFeedItem } from 'types/feed'
+import { ajv } from 'src/consts'
+import { ScrapboxFeedSchema, ScrapboxContentMetaSchema } from 'src/types/schemas/feeds/scrapbox'
+import type { ScrapboxFeed, ScrapboxFeedItem } from 'src/types/feed'
 
 // type inference is not supported for JTDDataType yet
 export const ScrapboxFeedValidator = ajv.compile<ScrapboxFeed>(ScrapboxFeedSchema)

@@ -6,14 +6,14 @@ import { CacheProvider, EmotionCache } from '@emotion/react'
 
 // cf. https://nextjs.org/docs/basic-features/built-in-css-support#import-styles-from-node_modules
 import 'github-markdown-css'
-import 'styles/global.css'
+import 'src/styles/global.css'
 
-import { siteName } from 'consts'
-import { theme, createEmotionCache } from 'styles/theme'
+import { siteName } from 'src/consts'
+import { theme, createEmotionCache } from 'src/styles/theme'
 // import { store } from 'stores'
-import { usePageView } from 'libs/google'
-import Layout from 'components/Layout'
-import { GoogleTagManager, GoogleAdsense } from 'components/parts/Google'
+import { usePageView } from 'src/libs/google'
+import Layout from 'src/components/Layout'
+import { GoogleTagManager, GoogleAdsense } from 'src/components/parts/Google'
 
 // Client-side cache, shared for the whole session of the user in the browser.
 const clientSideEmotionCache = createEmotionCache()

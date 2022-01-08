@@ -1,6 +1,6 @@
-import { ajv } from 'consts'
-import { GithubFeedSchema, GithubContentMetaSchema } from 'types/schemas/feeds/github'
-import type { GithubFeed, GithubFeedItem } from 'types/feed'
+import { ajv } from 'src/consts'
+import { GithubFeedSchema, GithubContentMetaSchema } from 'src/types/schemas/feeds/github'
+import type { GithubFeed, GithubFeedItem } from 'src/types/feed'
 
 // type inference is not supported for JTDDataType yet
 export const GithubFeedValidator = ajv.compile<GithubFeed>(GithubFeedSchema)

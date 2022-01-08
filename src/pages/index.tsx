@@ -20,10 +20,10 @@ import {
   CollectionsBookmark as LinkIcon
 } from '@mui/icons-material'
 
-import Nono4rsibus from 'components/Nono4risubs'
-import { TwitterTimeline } from 'components/parts/Twitter'
-import { NextLinkComposed } from 'components/Link'
-import { ScrapboxIcon, ZennIcon } from 'components/parts/icons'
+import Nono4rsibus from 'src/components/Nono4risubs'
+import { TwitterTimeline } from 'src/components/parts/Twitter'
+import { NextLinkComposed } from 'src/components/Link'
+import { ScrapboxIcon, ZennIcon } from 'src/components/parts/icons'
 import type { ReactNode } from 'react'
 import type { Theme } from '@mui/material'
 

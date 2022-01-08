@@ -1,4 +1,4 @@
-import { siteName } from 'consts'
+import { siteName } from 'src/consts'
 
 const Favicons = (): JSX.Element => {
   return (

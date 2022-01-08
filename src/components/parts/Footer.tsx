@@ -1,6 +1,6 @@
 import { Box, Container, Typography } from '@mui/material'
 
-import Link from 'components/Link'
+import Link from 'src/components/Link'
 
 const Copyright = () => {
   return (

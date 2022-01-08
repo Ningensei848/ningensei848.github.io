@@ -1,9 +1,9 @@
 import { Typography, List, ListItem, ListItemText, ListItemButton } from '@mui/material'
 import { OpenInNew as OpenInNewIcon, Update as UpdateIcon } from '@mui/icons-material'
 
-import { ScrapboxFeed, ScrapboxFeedItem } from 'types/feed'
-import { NextLinkComposed } from 'components/Link'
-import { ScrapboxIcon } from 'components/parts/icons'
+import { ScrapboxFeed, ScrapboxFeedItem } from 'src/types/feed'
+import { NextLinkComposed } from 'src/components/Link'
+import { ScrapboxIcon } from 'src/components/parts/icons'
 
 export const FeedFromScrapbox = ({ feed }: { feed: ScrapboxFeed }) => {
   const { items } = feed // feedUrl, lastBuildDate

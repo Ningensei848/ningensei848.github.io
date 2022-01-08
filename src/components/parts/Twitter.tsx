@@ -1,5 +1,5 @@
 import Script from 'next/script'
-import { NextLinkComposed } from 'components/Link'
+import { NextLinkComposed } from 'src/components/Link'
 
 interface TLProps {
   width: number | string

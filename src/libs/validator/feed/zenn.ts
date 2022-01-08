@@ -1,6 +1,6 @@
-import { ajv } from 'consts'
-import { ZennFeedSchema, ZennContentMetaSchema } from 'types/schemas/feeds/zenn'
-import type { ZennFeed, ZennFeedItem } from 'types/feed'
+import { ajv } from 'src/consts'
+import { ZennFeedSchema, ZennContentMetaSchema } from 'src/types/schemas/feeds/zenn'
+import type { ZennFeed, ZennFeedItem } from 'src/types/feed'
 
 // type inference is not supported for JTDDataType yet
 export const zennFeedValidator = ajv.compile<ZennFeed>(ZennFeedSchema)
