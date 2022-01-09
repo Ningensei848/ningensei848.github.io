@@ -21,6 +21,7 @@ const JTDV = () => (
           aria-label='github'
           component={NextLinkComposed}
           to='https://github.com/Ningensei848/jtd-validator'
+          prefetch={false}
           target='_blank'
           rel='noopener noreferrer'
         >
@@ -39,6 +40,7 @@ const JTDV = () => (
       <Button
         size='small'
         component={NextLinkComposed}
+        prefetch={false}
         to='/jtd-validator'
         target='_blank'
         rel='noopener noreferrer'
@@ -57,6 +59,7 @@ const Eyjatto = () => (
           aria-label='github'
           component={NextLinkComposed}
           to='https://github.com/Ningensei848/Eyjatto'
+          prefetch={false}
           target='_blank'
           rel='noopener noreferrer'
         >
@@ -77,6 +80,7 @@ const Eyjatto = () => (
         size='small'
         component={NextLinkComposed}
         to='/Eyjatto'
+        prefetch={false}
         target='_blank'
         rel='noopener noreferrer'
       >

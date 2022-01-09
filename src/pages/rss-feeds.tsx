@@ -189,6 +189,7 @@ const RSSFeeds = ({ feedList }: InferGetStaticPropsType<typeof getStaticProps>) 
             aria-label='atom-feed'
             component={NextLinkComposed}
             to={url(`/${FILENAME_ATOMFEED}`)}
+            prefetch={false}
             target='_blank'
             rel='noopener noreferrer'
           >
@@ -197,7 +198,12 @@ const RSSFeeds = ({ feedList }: InferGetStaticPropsType<typeof getStaticProps>) 
           RSS Feeds from My Activity
         </Typography>
         <Typography component='p' variant='body1' ml={5} my={3}>
-          <Link href={url(`/${FILENAME_ATOMFEED}`)} target='_blank' rel='noopener noreferrer'>
+          <Link
+            href={url(`/${FILENAME_ATOMFEED}`)}
+            prefetch={false}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             Subscribe
           </Link>{' '}
           for more great contents.

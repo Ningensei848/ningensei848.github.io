@@ -42,6 +42,7 @@ const Item = ({
     <ListItemButton
       component={NextLinkComposed}
       to={`/${name.replaceAll(/\s/g, '-').toLowerCase()}`}
+      prefetch={false}
     >
       <ListItemIcon>{children}</ListItemIcon>
       <ListItemText primary={name} secondary={desc} />
@@ -69,7 +70,13 @@ const ExternalItem = ({
   isViewportMedium: boolean
 }) => (
   <ListItem disablePadding>
-    <ListItemButton component={NextLinkComposed} to={url} target='_blank' rel='noopener noreferrer'>
+    <ListItemButton
+      component={NextLinkComposed}
+      to={url}
+      prefetch={false}
+      target='_blank'
+      rel='noopener noreferrer'
+    >
       <ListItemIcon>{children}</ListItemIcon>
       <ListItemText primary={name} secondary={desc} />
       {isViewportMedium || (

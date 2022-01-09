@@ -40,7 +40,11 @@ const Blog = (props: InferGetStaticPropsType<typeof getStaticProps>) => {
   const slugs = Object.keys(commits)
   const listItems = slugs.map((slug) => (
     <ListItem key={slug} disablePadding>
-      <ListItemButton component={NextLinkComposed} to={`/${MARKDOWN_PAGE_PATH}/${slug}`}>
+      <ListItemButton
+        component={NextLinkComposed}
+        to={`/${MARKDOWN_PAGE_PATH}/${slug}`}
+        prefetch={false}
+      >
         <ListItemText primary={slug} secondary={commits[slug][0]} />
       </ListItemButton>
     </ListItem>
