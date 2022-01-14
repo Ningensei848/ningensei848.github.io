@@ -7,8 +7,880 @@
     </author>
     <link rel="alternate" type="text/html" href="https://ningensei848.github.io/"/>
     <link rel="self" type="application/atom+xml" href="https://ningensei848.github.io/atom.xml"/>
-    <updated>2022-01-07T07:48:10Z</updated>
+    <updated>2022-01-14T14:49:13Z</updated>
     
+      <entry>
+        <title type="html">Ningensei848 pushed to main in Ningensei848/ningensei848.github.io</title>
+        <id>tag:github.com,2008:PushEvent/19741696921/</id>
+        <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/ningensei848.github.io/compare/767cdb3267...ab0df6415e"/>
+        <updated>2022-01-14T14:46:57Z</updated>
+        <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- push --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
+    &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div class=&quot;&quot;&gt;
+      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
+      
+      pushed to
+        &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
+        in
+      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/ningensei848.github.io&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/ningensei848.github.io&lt;/a&gt;
+        &lt;span class=&quot;color-fg-muted no-wrap f6 ml-1&quot;&gt;
+          &lt;relative-time datetime=&quot;2022-01-14T14:46:57Z&quot; class=&quot;no-wrap&quot;&gt;Jan 14, 2022&lt;/relative-time&gt;
+        &lt;/span&gt;
+
+        &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
+          &lt;span&gt;1 commit to&lt;/span&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
+
+          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+            &lt;ul class=&quot;list-style-none&quot;&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span title=&quot;Ningensei848&quot;&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/ningensei848.github.io/commit/ab0df6415ef9e2a8794506ddbd4fd8a2012a9456&quot; rel=&quot;noreferrer&quot;&gt;ab0df64&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Add: my blog
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+      </entry>
+
+      <entry>
+        <title type="html">Ningensei848 starred bvaughn/react-error-boundary</title>
+        <id>tag:github.com,2008:WatchEvent/19737620025/</id>
+        <link rel="alternate" type="text/html" href="https://github.com/bvaughn/react-error-boundary"/>
+        <updated>2022-01-14T10:38:05Z</updated>
+        <content type="html">&lt;div class=&quot;watch_started&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- watch --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
+      &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+      &lt;div&gt;
+        &lt;div class=&quot;d-flex flex-items-baseline&quot;&gt;
+          &lt;div class=&quot;&quot;&gt;
+            &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
+            starred
+            &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/bvaughn/react-error-boundary&quot; rel=&quot;noreferrer&quot;&gt;bvaughn/react-error-boundary&lt;/a&gt;
+              &lt;span class=&quot;f6 color-fg-muted no-wrap ml-1&quot;&gt;
+                &lt;relative-time datetime=&quot;2022-01-14T10:38:05Z&quot; class=&quot;no-wrap&quot;&gt;Jan 14, 2022&lt;/relative-time&gt;
+              &lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
+        &lt;div&gt;
+          &lt;div class=&quot;f4 lh-condensed text-bold color-fg-default&quot;&gt;
+            &lt;a class=&quot;Link--primary text-bold no-underline wb-break-all d-inline-block&quot; href=&quot;/bvaughn/react-error-boundary&quot; rel=&quot;noreferrer&quot;&gt;bvaughn/react-error-boundary&lt;/a&gt;
+          &lt;/div&gt;
+          &lt;div class=&quot;dashboard-break-word color-fg-muted mt-1 mb-0 repo-description&quot;&gt;
+            &lt;p&gt;Simple reusable React error boundary component&lt;/p&gt;
+          &lt;/div&gt;
+
+          &lt;p class=&quot;f6 color-fg-muted mt-2 mb-0&quot;&gt;
+              &lt;span class=&quot;d-inline-block color-fg-muted mr-3&quot;&gt;
+                &lt;span class=&quot;ml-0&quot;&gt;
+  &lt;span class=&quot;repo-language-color&quot; style=&quot;background-color: #2b7489&quot;&gt;&lt;/span&gt;
+  &lt;span itemprop=&quot;programmingLanguage&quot;&gt;TypeScript&lt;/span&gt;
+&lt;/span&gt;
+
+              &lt;/span&gt;
+
+              &lt;span class=&quot;d-inline-block mr-3&quot;&gt;
+                  &lt;a class=&quot;Link--muted&quot; href=&quot;/bvaughn/react-error-boundary/stargazers&quot; rel=&quot;noreferrer&quot;&gt;&lt;svg class=&quot;octicon octicon-star mr-1&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;3.4k&lt;/a&gt;
+              &lt;/span&gt;
+
+
+              &lt;span&gt;Updated Oct 29&lt;/span&gt;
+          &lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+      </entry>
+
+      <entry>
+        <title type="html">Ningensei848 created a branch blog in Ningensei848/ningensei848.github.io</title>
+        <id>tag:github.com,2008:CreateEvent/19733601953/</id>
+        <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/ningensei848.github.io/compare/blog"/>
+        <updated>2022-01-14T06:10:38Z</updated>
+        <content type="html">&lt;div class=&quot;git-branch&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- create --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
+      &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+        &lt;div class=&quot;d-flex flex-items-baseline&quot;&gt;
+          &lt;div class=&quot;&quot;&gt;
+              &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
+              
+              created a
+              branch
+              in
+              &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/ningensei848.github.io&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/ningensei848.github.io&lt;/a&gt;
+
+              &lt;span class=&quot;f6 color-fg-muted no-wrap ml-1&quot;&gt;
+                &lt;relative-time datetime=&quot;2022-01-14T06:10:38Z&quot; class=&quot;no-wrap&quot;&gt;Jan 14, 2022&lt;/relative-time&gt;
+              &lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+    &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
+      &lt;div&gt;
+        &lt;div class=&quot;f4 lh-condensed text-bold color-fg-default&quot;&gt;
+              &lt;a class=&quot;css-truncate css-truncate-target branch-name v-align-middle&quot; title=&quot;blog&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/blog&quot; rel=&quot;noreferrer&quot;&gt;blog&lt;/a&gt; in &lt;a class=&quot;Link--primary text-bold no-underline wb-break-all d-inline-block&quot; href=&quot;/Ningensei848/ningensei848.github.io&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/ningensei848.github.io&lt;/a&gt;
+        &lt;/div&gt;
+
+
+          &lt;p class=&quot;f6 color-fg-muted mt-2 mb-0&quot;&gt;
+            &lt;span&gt;Updated Jan 14&lt;/span&gt;
+          &lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+      </entry>
+
+      <entry>
+        <title type="html">Ningensei848 pushed to remote-container in Ningensei848/zenn-editor</title>
+        <id>tag:github.com,2008:PushEvent/19674652137/</id>
+        <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/zenn-editor/compare/e3d3de8a42...619ce1bf5e"/>
+        <updated>2022-01-11T11:01:10Z</updated>
+        <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- push --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
+    &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div class=&quot;&quot;&gt;
+      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
+      
+      pushed to
+        &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/zenn-editor/tree/remote-container&quot; rel=&quot;noreferrer&quot;&gt;remote-container&lt;/a&gt;
+        in
+      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/zenn-editor&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/zenn-editor&lt;/a&gt;
+        &lt;span class=&quot;color-fg-muted no-wrap f6 ml-1&quot;&gt;
+          &lt;relative-time datetime=&quot;2022-01-11T11:01:10Z&quot; class=&quot;no-wrap&quot;&gt;Jan 11, 2022&lt;/relative-time&gt;
+        &lt;/span&gt;
+
+        &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
+          &lt;span&gt;2 commits to&lt;/span&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/zenn-editor/tree/remote-container&quot; rel=&quot;noreferrer&quot;&gt;remote-container&lt;/a&gt;
+
+          &lt;div class=&quot;commits &quot;&gt;
+            &lt;ul class=&quot;list-style-none&quot;&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span title=&quot;Ningensei848&quot;&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/zenn-editor/commit/619ce1bf5ed3a7a0932a7e129d3fca7e85bab546&quot; rel=&quot;noreferrer&quot;&gt;619ce1b&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Merge branch &#x27;zenn-dev:canary&#x27; into remote-container
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span title=&quot;github-actions&quot;&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/apps/github-actions&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1&quot; src=&quot;https://avatars.githubusercontent.com/in/15368?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@github-actions&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/zenn-editor/commit/9713490577e00d1dc2dd710d7a0eb32b12b15436&quot; rel=&quot;noreferrer&quot;&gt;9713490&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      v0.1.101
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+
+                &lt;li class=&quot;f6 mt-2&quot;&gt;
+                  &lt;a class=&quot;Link--secondary&quot; href=&quot;/Ningensei848/zenn-editor/compare/e3d3de8a42...619ce1bf5e&quot; rel=&quot;noreferrer&quot;&gt;4 more commits »&lt;/a&gt;
+                &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+      </entry>
+
+      <entry>
+        <title type="html">Ningensei848 pushed to vscode-extension in Ningensei848/zenn-editor</title>
+        <id>tag:github.com,2008:PushEvent/19669332835/</id>
+        <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/zenn-editor/compare/18605fc14e...a8a4c10f0e"/>
+        <updated>2022-01-11T04:26:14Z</updated>
+        <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- push --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
+    &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div class=&quot;&quot;&gt;
+      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
+      
+      pushed to
+        &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/zenn-editor/tree/vscode-extension&quot; rel=&quot;noreferrer&quot;&gt;vscode-extension&lt;/a&gt;
+        in
+      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/zenn-editor&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/zenn-editor&lt;/a&gt;
+        &lt;span class=&quot;color-fg-muted no-wrap f6 ml-1&quot;&gt;
+          &lt;relative-time datetime=&quot;2022-01-11T04:26:14Z&quot; class=&quot;no-wrap&quot;&gt;Jan 11, 2022&lt;/relative-time&gt;
+        &lt;/span&gt;
+
+        &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
+          &lt;span&gt;2 commits to&lt;/span&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/zenn-editor/tree/vscode-extension&quot; rel=&quot;noreferrer&quot;&gt;vscode-extension&lt;/a&gt;
+
+          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+            &lt;ul class=&quot;list-style-none&quot;&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span title=&quot;Ningensei848&quot;&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/zenn-editor/commit/a8a4c10f0ea0b4f7859433685191f060ad6ad79c&quot; rel=&quot;noreferrer&quot;&gt;a8a4c10&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Add: plugin &#x60;markdown-it-zenn&#x60;
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span title=&quot;Ningensei848&quot;&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/zenn-editor/commit/19f54a05f6c4e455036c03c1b52de53d1150ab95&quot; rel=&quot;noreferrer&quot;&gt;19f54a0&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Init: fork from &#x60;zenn-markdown-html&#x60; v0.1.100
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+      </entry>
+
+      <entry>
+        <title type="html">Ningensei848 pushed to vscode-extension in Ningensei848/zenn-editor</title>
+        <id>tag:github.com,2008:PushEvent/19669295338/</id>
+        <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/zenn-editor/compare/558c7bfc57...18605fc14e"/>
+        <updated>2022-01-11T04:22:02Z</updated>
+        <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- push --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
+    &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div class=&quot;&quot;&gt;
+      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
+      
+      pushed to
+        &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/zenn-editor/tree/vscode-extension&quot; rel=&quot;noreferrer&quot;&gt;vscode-extension&lt;/a&gt;
+        in
+      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/zenn-editor&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/zenn-editor&lt;/a&gt;
+        &lt;span class=&quot;color-fg-muted no-wrap f6 ml-1&quot;&gt;
+          &lt;relative-time datetime=&quot;2022-01-11T04:22:02Z&quot; class=&quot;no-wrap&quot;&gt;Jan 11, 2022&lt;/relative-time&gt;
+        &lt;/span&gt;
+
+        &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
+          &lt;span&gt;1 commit to&lt;/span&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/zenn-editor/tree/vscode-extension&quot; rel=&quot;noreferrer&quot;&gt;vscode-extension&lt;/a&gt;
+
+          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+            &lt;ul class=&quot;list-style-none&quot;&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span title=&quot;Ningensei848&quot;&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/zenn-editor/commit/18605fc14ec7386e759e8c6a3013983d8f7067d8&quot; rel=&quot;noreferrer&quot;&gt;18605fc&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Add: extension
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+      </entry>
+
+      <entry>
+        <title type="html">Ningensei848 pushed to canary in Ningensei848/zenn-editor</title>
+        <id>tag:github.com,2008:PushEvent/19656869476/</id>
+        <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/zenn-editor/compare/f46822c9e3...9713490577"/>
+        <updated>2022-01-10T13:25:40Z</updated>
+        <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- push --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
+    &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div class=&quot;&quot;&gt;
+      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
+      
+      pushed to
+        &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/zenn-editor/tree/canary&quot; rel=&quot;noreferrer&quot;&gt;canary&lt;/a&gt;
+        in
+      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/zenn-editor&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/zenn-editor&lt;/a&gt;
+        &lt;span class=&quot;color-fg-muted no-wrap f6 ml-1&quot;&gt;
+          &lt;relative-time datetime=&quot;2022-01-10T13:25:40Z&quot; class=&quot;no-wrap&quot;&gt;Jan 10, 2022&lt;/relative-time&gt;
+        &lt;/span&gt;
+
+        &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
+          &lt;span&gt;2 commits to&lt;/span&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/zenn-editor/tree/canary&quot; rel=&quot;noreferrer&quot;&gt;canary&lt;/a&gt;
+
+          &lt;div class=&quot;commits &quot;&gt;
+            &lt;ul class=&quot;list-style-none&quot;&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span title=&quot;github-actions&quot;&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/apps/github-actions&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1&quot; src=&quot;https://avatars.githubusercontent.com/in/15368?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@github-actions&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/zenn-editor/commit/9713490577e00d1dc2dd710d7a0eb32b12b15436&quot; rel=&quot;noreferrer&quot;&gt;9713490&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      v0.1.101
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span title=&quot;catnose99&quot;&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/catnose99&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/34590683?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@catnose99&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/zenn-editor/commit/273873d29ba5601af7188649e318cdfc8655804d&quot; rel=&quot;noreferrer&quot;&gt;273873d&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Merge pull request &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;1097567830&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/zenn-dev/zenn-editor/issues/232&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/zenn-dev/zenn-editor/pull/232/hovercard&quot; href=&quot;https://github.com/zenn-dev/zenn-editor/pull/232&quot; rel=&quot;noreferrer&quot;&gt;zenn-dev#232&lt;/a&gt; from zenn-dev/canary
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+
+                &lt;li class=&quot;f6 mt-2&quot;&gt;
+                  &lt;a class=&quot;Link--secondary&quot; href=&quot;/Ningensei848/zenn-editor/compare/f46822c9e3...9713490577&quot; rel=&quot;noreferrer&quot;&gt;3 more commits »&lt;/a&gt;
+                &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+      </entry>
+
+      <entry>
+        <title type="html">Ningensei848 created a branch plugin-markdown-it in Ningensei848/zenn-editor</title>
+        <id>tag:github.com,2008:CreateEvent/19654047766/</id>
+        <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/zenn-editor/compare/plugin-markdown-it"/>
+        <updated>2022-01-10T10:34:30Z</updated>
+        <content type="html">&lt;div class=&quot;git-branch&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- create --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
+      &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+        &lt;div class=&quot;d-flex flex-items-baseline&quot;&gt;
+          &lt;div class=&quot;&quot;&gt;
+              &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
+              
+              created a
+              branch
+              in
+              &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/zenn-editor&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/zenn-editor&lt;/a&gt;
+
+              &lt;span class=&quot;f6 color-fg-muted no-wrap ml-1&quot;&gt;
+                &lt;relative-time datetime=&quot;2022-01-10T10:34:30Z&quot; class=&quot;no-wrap&quot;&gt;Jan 10, 2022&lt;/relative-time&gt;
+              &lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+    &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
+      &lt;div&gt;
+        &lt;div class=&quot;f4 lh-condensed text-bold color-fg-default&quot;&gt;
+              &lt;a class=&quot;css-truncate css-truncate-target branch-name v-align-middle&quot; title=&quot;plugin-markdown-it&quot; href=&quot;/Ningensei848/zenn-editor/tree/plugin-markdown-it&quot; rel=&quot;noreferrer&quot;&gt;plugin-markdown-it&lt;/a&gt; in &lt;a class=&quot;Link--primary text-bold no-underline wb-break-all d-inline-block&quot; href=&quot;/Ningensei848/zenn-editor&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/zenn-editor&lt;/a&gt;
+        &lt;/div&gt;
+
+
+          &lt;p class=&quot;f6 color-fg-muted mt-2 mb-0&quot;&gt;
+            &lt;span&gt;Updated Jan 11&lt;/span&gt;
+          &lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+      </entry>
+
+      <entry>
+        <title type="html">Ningensei848 created a branch vscode-extension in Ningensei848/zenn-editor</title>
+        <id>tag:github.com,2008:CreateEvent/19650884225/</id>
+        <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/zenn-editor/compare/vscode-extension"/>
+        <updated>2022-01-10T06:54:22Z</updated>
+        <content type="html">&lt;div class=&quot;git-branch&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- create --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
+      &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+        &lt;div class=&quot;d-flex flex-items-baseline&quot;&gt;
+          &lt;div class=&quot;&quot;&gt;
+              &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
+              
+              created a
+              branch
+              in
+              &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/zenn-editor&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/zenn-editor&lt;/a&gt;
+
+              &lt;span class=&quot;f6 color-fg-muted no-wrap ml-1&quot;&gt;
+                &lt;relative-time datetime=&quot;2022-01-10T06:54:22Z&quot; class=&quot;no-wrap&quot;&gt;Jan 10, 2022&lt;/relative-time&gt;
+              &lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+    &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
+      &lt;div&gt;
+        &lt;div class=&quot;f4 lh-condensed text-bold color-fg-default&quot;&gt;
+              &lt;a class=&quot;css-truncate css-truncate-target branch-name v-align-middle&quot; title=&quot;vscode-extension&quot; href=&quot;/Ningensei848/zenn-editor/tree/vscode-extension&quot; rel=&quot;noreferrer&quot;&gt;vscode-extension&lt;/a&gt; in &lt;a class=&quot;Link--primary text-bold no-underline wb-break-all d-inline-block&quot; href=&quot;/Ningensei848/zenn-editor&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/zenn-editor&lt;/a&gt;
+        &lt;/div&gt;
+
+
+          &lt;p class=&quot;f6 color-fg-muted mt-2 mb-0&quot;&gt;
+            &lt;span&gt;Updated Jan 11&lt;/span&gt;
+          &lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+      </entry>
+
+      <entry>
+        <title type="html">Ningensei848 created a branch remote-container in Ningensei848/zenn-editor</title>
+        <id>tag:github.com,2008:CreateEvent/19650024065/</id>
+        <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/zenn-editor/compare/remote-container"/>
+        <updated>2022-01-10T05:15:55Z</updated>
+        <content type="html">&lt;div class=&quot;git-branch&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- create --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
+      &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+        &lt;div class=&quot;d-flex flex-items-baseline&quot;&gt;
+          &lt;div class=&quot;&quot;&gt;
+              &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
+              
+              created a
+              branch
+              in
+              &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/zenn-editor&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/zenn-editor&lt;/a&gt;
+
+              &lt;span class=&quot;f6 color-fg-muted no-wrap ml-1&quot;&gt;
+                &lt;relative-time datetime=&quot;2022-01-10T05:15:55Z&quot; class=&quot;no-wrap&quot;&gt;Jan 10, 2022&lt;/relative-time&gt;
+              &lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+    &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
+      &lt;div&gt;
+        &lt;div class=&quot;f4 lh-condensed text-bold color-fg-default&quot;&gt;
+              &lt;a class=&quot;css-truncate css-truncate-target branch-name v-align-middle&quot; title=&quot;remote-container&quot; href=&quot;/Ningensei848/zenn-editor/tree/remote-container&quot; rel=&quot;noreferrer&quot;&gt;remote-container&lt;/a&gt; in &lt;a class=&quot;Link--primary text-bold no-underline wb-break-all d-inline-block&quot; href=&quot;/Ningensei848/zenn-editor&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/zenn-editor&lt;/a&gt;
+        &lt;/div&gt;
+
+
+          &lt;p class=&quot;f6 color-fg-muted mt-2 mb-0&quot;&gt;
+            &lt;span&gt;Updated Jan 11&lt;/span&gt;
+          &lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+      </entry>
+
+      <entry>
+        <title type="html">VSCode+Docker - 気合でなんとか - Scrapbox</title>
+        <id>https://scrapbox.io/Ningensei848/VSCode+Docker</id>
+        <link rel="alternate" type="text/html" href="https://scrapbox.io/Ningensei848/VSCode+Docker"/>
+        <updated>2022-01-10T04:57:31Z</updated>
+        <content type="html">&lt;span&gt;&lt;a href=&quot;https://scrapbox.io/Ningensei848/docker&quot;&gt;#docker&lt;/a&gt;&lt;/span&gt;&lt;span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;&lt;a href=&quot;https://scrapbox.io/Ningensei848/vscode&quot;&gt;#vscode&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;img src=&quot;https://code.visualstudio.com/assets/docs/remote/containers/architecture-containers.png&quot;/&gt;&lt;br /&gt;&lt;br /&gt;Remote Development というVSCode Extension を使えば，手元の Docker 環境を使って任意の開発環境コンテナをつくり，その中で作業できる&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack&quot;&gt;Remote Development - Visual Studio Marketplace&lt;/a&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;WSL 2 が使える場合であっても，その環境を汚したくない場合はこちらを使ったほうがいいかも？（localhost 周りの解決はどうなってるんだろう？まだ使用感はわからないが，大きな利点がありそうだ）&lt;br /&gt;&lt;br /&gt;&lt;span&gt;cf. &lt;/span&gt;&lt;span&gt;&lt;a href=&quot;https://code.visualstudio.com/docs/remote/containers&quot;&gt;Developing inside a Container using Visual Studio Code Remote Development&lt;/a&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;---&lt;br /&gt;&lt;br /&gt;Node.js + Typescript で v16 (bullseye) に Git + Python を入れて始めてみたが，いまんところコンテナの立ち上げに10分弱かかっている．通信速度の問題なのか？マシン性能は結構いいはずなのだが……&lt;br /&gt;&lt;br /&gt;&lt;span&gt;まぁ立ち上げは仕方がないとして，lerna 入れるのもちょっと考えたほうがいい（yarn じゃなくて &lt;/span&gt;&lt;span&gt;npm i -g lerna&lt;/span&gt;&lt;span&gt; したほうが安全？yarn だと lerna コマンドは使えなかったので）&lt;/span&gt;&lt;br /&gt;</content>
+      </entry>
+
+      <entry>
+        <title type="html">Ningensei848 commented on issue zenn-dev/zenn-community#364</title>
+        <id>tag:github.com,2008:IssueCommentEvent/19648922713/</id>
+        <link rel="alternate" type="text/html" href="https://github.com/zenn-dev/zenn-community/issues/364#issuecomment-1008501923"/>
+        <updated>2022-01-10T02:52:56Z</updated>
+        <content type="html">&lt;div class=&quot;issues_comment&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- issue_comment --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
+      &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+      &lt;div class=&quot;d-flex flex-items-baseline mb-2&quot;&gt;
+        &lt;div class=&quot;&quot;&gt;
+          &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
+          
+          commented on
+          &lt;a class=&quot;Link--primary text-bold&quot; title=&quot;[VSCode Extensions] Zenn 用の Markdown プレビュー拡張がほしい&quot; href=&quot;/zenn-dev/zenn-community/issues/364#issuecomment-1008501923&quot; rel=&quot;noreferrer&quot;&gt;zenn-dev/zenn-community#364&lt;/a&gt;
+            &lt;span class=&quot;f6 color-fg-muted ml-1&quot;&gt;
+              &lt;relative-time datetime=&quot;2022-01-10T02:52:56Z&quot; class=&quot;no-wrap&quot;&gt;Jan 10, 2022&lt;/relative-time&gt;
+            &lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;div class=&quot;message markdown-body Box p-3 wb-break-all &quot;&gt;
+      &lt;div class=&quot;f6 mb-1&quot;&gt;
+        &lt;a title=&quot;[VSCode Extensions] Zenn 用の Markdown プレビュー拡張がほしい&quot; class=&quot;Link--secondary&quot; href=&quot;/zenn-dev/zenn-community/issues/364#issuecomment-1008501923&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt; &lt;span class=&quot;Link--primary text-bold&quot;&gt;Ningensei848&lt;/span&gt; commented &lt;relative-time datetime=&quot;2022-01-10T02:52:56Z&quot; class=&quot;no-wrap&quot;&gt;Jan 10, 2022&lt;/relative-time&gt;&lt;/a&gt;
+      &lt;/div&gt;
+        &lt;p&gt;&lt;a href=&quot;https://zenn.dev/ningensei848/scraps/7d2f0e4367eadb&quot; rel=&quot;nofollow noreferrer&quot;&gt;VSCode Web Extension for Zenn Preview がほしい - Zenn.dev&lt;/a&gt; にも経過を書き残した．自分でも実装の道を探ったところ，以下の課題があることがわかった．
+
+&lt;code&gt;zenn-markdown-html&lt;/code&gt; 内部で使っている &lt;code&gt;markdown-it&lt;/code&gt; の処理を，専用プ…&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+      </entry>
+
+      <entry>
+        <title type="html">VSCode Web Extension for Zenn Preview がほしい</title>
+        <id>https://zenn.dev/ningensei848/scraps/7d2f0e4367eadb</id>
+        <link rel="alternate" type="text/html" href="https://zenn.dev/ningensei848/scraps/7d2f0e4367eadb"/>
+        <updated>2022-01-09T03:41:05Z</updated>
+        <content type="text">VSCode Web Extension for Zenn Preview がほしい | scrap from Zenn.dev</content>
+      </entry>
+
+      <entry>
+        <title type="html">Zenn記法でMDXを使いたい（未実装） - 気合でなんとか - Scrapbox</title>
+        <id>https://scrapbox.io/Ningensei848/Zenn%E8%A8%98%E6%B3%95%E3%81%A7MDX%E3%82%92%E4%BD%BF%E3%81%84%E3%81%9F%E3%81%84%EF%BC%88%E6%9C%AA%E5%AE%9F%E8%A3%85%EF%BC%89</id>
+        <link rel="alternate" type="text/html" href="https://scrapbox.io/Ningensei848/Zenn%E8%A8%98%E6%B3%95%E3%81%A7MDX%E3%82%92%E4%BD%BF%E3%81%84%E3%81%9F%E3%81%84%EF%BC%88%E6%9C%AA%E5%AE%9F%E8%A3%85%EF%BC%89"/>
+        <updated>2022-01-09T03:39:12Z</updated>
+        <content type="html">&lt;span&gt;&lt;a href=&quot;https://scrapbox.io/Ningensei848/MDX&quot;&gt;#MDX&lt;/a&gt;&lt;/span&gt;&lt;span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;&lt;a href=&quot;https://scrapbox.io/Ningensei848/Nextjs&quot;&gt;#Nextjs&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;2022/1/9：&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;potential-robot-server&lt;/span&gt;&lt;span&gt;くんがESMの罠にハメられて死んだので，おとなしく Next.js の API Route を使いましょう&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;どうせDevにしか使わんしSSG前提ならそれでよかよか&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;明日（今日）こそブログ書き始めたい，MDXに関する知見はまだまだ遠いけども&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;github.dev をつかうとブラウザ上でリポジトリにアクセスしてcommit/pushができる&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;拡張機能を組み合わせて，最強の zenn 執筆環境が作れそう&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;というか，zenn-cli を前提とした拡張機能はあった　&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=negokaz.zenn-editor&quot;&gt;https://marketplace.visualstudio.com/items?itemName=negokaz.zenn-editor&lt;/a&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=LunaChevalier.vs-zenn&quot;&gt;https://marketplace.visualstudio.com/items?itemName=LunaChevalier.vs-zenn&lt;/a&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;ので，CLIを前提としない拡張機能をつくるとみんな幸せ&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;既存の markdown preview extension&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://github.com/mjbvz/vscode-github-markdown-preview-style#readme&quot;&gt;mjbvz/vscode-github-markdown-preview-style: VS Code extension that changes the built-in markdown preview to match Github&amp;#x27;s styling&lt;/a&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;extendMarkdownIt(md)&lt;/span&gt;&lt;span&gt; ってのでなんかしとるな……で調べたら下記の記事が出てきた&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://blog.mahoroi.com/posts/2019/12/vscode-markdown-preview/&quot;&gt;Visual Studio CodeのMarkdown Previewを拡張する | blog.mahoroi.com&lt;/a&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://qiita.com/transnano/items/135b0e3ea6f6861c1117&quot;&gt;Visual Studio Code Extension を作る - Qiita&lt;/a&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span&gt;VSCodeはなんと都合よく zenn でも採用している &lt;/span&gt;&lt;span&gt;markdown-it&lt;/span&gt;&lt;span&gt; ベースでやればいいらしい，最高か？&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;ついでに Feature request 出しておいた　↓&lt;br /&gt;&lt;a href=&quot;https://github.com/zenn-dev/zenn-community/issues/364&quot;&gt;［VSCode Extensions］Zenn 用の Markdown プレビュー拡張がほしい · Issue #364 · zenn-dev/zenn-community&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;span&gt;&lt;a href=&quot;https://code.visualstudio.com/api/extension-guides/markdown-extension&quot;&gt;Markdown Extension&lt;/a&gt;&lt;/span&gt;&lt;span&gt; と &lt;/span&gt;&lt;span&gt;&lt;a href=&quot;https://code.visualstudio.com/api/extension-guides/web-extensions&quot;&gt;Web Extensions&lt;/a&gt;&lt;/span&gt;&lt;span&gt; が競合しなければ（Nodeランタイムがなんちゃら～という懸念あり），いい感じに動かせる気がする……？&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;2022/1/8：&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;@mdx/mdx-loader&lt;/span&gt;&lt;span&gt; で next.config.js に追記してやれば，諸々全部解決してくれるので &lt;/span&gt;&lt;span&gt;&lt;i&gt;Dynamic import&lt;/i&gt;&lt;/span&gt;&lt;span&gt; が使える&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;ファイル数が少ない現状としては，申し分ない速度；多くなってきたときにどうなるか？&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;ただし mdx 形式な文字列をコンパイルするのは，おそらくサーバ側でしかできない（コンパイル済みの文字列を受け取って Run する方式）ので，サーバ側で云々という話なら，そのサーバ内にMDXを仕込む必要性あり&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;どっちがいいのか……？確実に負担にならないのはサーバ加工済み文字列をuseSWRだろうか？&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;content をもらうときに，compiledContent であるようにすればよい→クライアント側で run()&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;await は？って思ったけどそれも fetcher 内部で処理すればよさそう&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;そもそも&lt;/strong&gt;&lt;br /&gt;なぜこんなにも苦労しているのか？&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;zenn-editor は md にしか対応していない　→　MDX が使いたい&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;ローカルで執筆時にクソ重い（getStatic*）　→　zenn-editor は軽くて良いのに……&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;zenn-editor の &lt;/span&gt;&lt;span&gt;markdownToHTML&lt;/span&gt;&lt;span&gt; をMDXにも対応させればいいのでは　→　ディレクトリ構造が &lt;/span&gt;&lt;span&gt;article&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;book&lt;/span&gt;&lt;span&gt; しか許されていない……（カスタマイズ性が制限されている）（zeroconfigとのトレードオフ関係なので仕方がない）&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span&gt;１．&lt;/span&gt;&lt;span&gt;pages/blog/[id].tsx&lt;/span&gt;&lt;span&gt; で getStaticPath してルートは確保する（map file を用意しておけば読み取り一回の手間で済む）&lt;/span&gt;&lt;br /&gt;２．getStaticProps では，process.env.NODE_ENV で 必要な props を分岐&lt;br /&gt;３．ページコンポーネントにおいても，process.env.NODE_ENV で利用するコンポネントを分岐&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;dev: useSWR → &lt;/span&gt;&lt;span&gt;/api/blog/[id]&lt;/span&gt;&lt;span&gt; を叩いてクライアント側で差分管理&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;prod: props を受け取って &lt;/span&gt;&lt;span&gt;dangerouslySetInnerHTML&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;これは嫌だ！（嫌というだけで駄目というわけではない）&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;もし駄目なら，①MDXを捨てるか，②remark-zenn-plugin を作ることになる（さらに茨の道）&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;どちらかで解決しても，執筆時重すぎ問題は解決しないので，どちらにせよzenn-editor をカスタマイズすることになりそう？&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;フォルダカスタマイズだけできればなぁ………&lt;/span&gt;&lt;br /&gt;---&lt;br /&gt;&lt;br /&gt;フォルダカスタマイズや remark-zenn-plugin は，常に開発最先端から遅れることになる（し，追いつくのは完全に自分の責任になる）　←　頑張りすぎるよりはタダ乗りしたい&lt;br /&gt;&lt;br /&gt;&lt;span&gt;別解法として，&lt;/span&gt;&lt;span&gt;Blog&lt;/span&gt;&lt;span&gt; ブランチで書いて，&lt;/span&gt;&lt;span&gt;main&lt;/span&gt;&lt;span&gt; にマージするとかどうだろう？&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;執筆時は dev 構成の &lt;/span&gt;&lt;span&gt;Blog&lt;/span&gt;&lt;span&gt; ブランチで useSWR&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;いちいちcommitとPRするのダルいので，commit API（？）みたいなの探して，そこへのリンクを作るボタンを設置するとか&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;deploy 時は prod 構成の main ブランチでgetStatic*&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;SSGからISR等に移行することも見据えて，dev 時のAPI Routeは next dev server ではなく，zenn-cli/src/server を流用すべき&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;と思ったら express.js でつくってた，イケそう&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;→　重さの問題を解決できそう（ビルドは遅くなるけどファイルが増えれば仕方がない）&lt;br /&gt;&lt;br /&gt;&lt;span&gt;やっぱりまずは MDX → MD → HTML というプロセスが，&lt;/span&gt;&lt;span&gt;zenn-markdownhtml&lt;/span&gt;&lt;span&gt; + &lt;/span&gt;&lt;span&gt;zenn-content-css&lt;/span&gt;&lt;span&gt; + &lt;/span&gt;&lt;span&gt;zenn-embed-elements&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;&lt;strike&gt;をつかってタダ乗りできるかどうか確かめるのが先決！！&lt;/strike&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;↓&lt;br /&gt;@mdx-js/mdx is a unified pipeline — wrapped so that most folks don’t need to know about unified: core.js#L65. The processor goes through these steps:&lt;br /&gt;&lt;br /&gt;1. Parse MDX (serialized markdown with embedded JSX, ESM, and expressions) to mdast (markdown syntax tree)&lt;br /&gt;2. Transform through remark (markdown ecosystem)&lt;br /&gt;3. Transform mdast to hast (HTML syntax tree)&lt;br /&gt;4. Transform through rehype (HTML ecosystem)&lt;br /&gt;5. Transform hast to esast (JS syntax tree)&lt;br /&gt;5. Do the work needed to get a component&lt;br /&gt;6. Transform through recma (JS ecosystem)&lt;br /&gt;7. Serialize esast as JavaScript&lt;br /&gt;&lt;br /&gt;というわけで，最終的にJSになってしまう（ plain text が途中でしか得られない？）&lt;br /&gt;&lt;br /&gt;→　MDX変換がすべて完了してから markdown に先祖返りさせるのはかなり不毛（というかJSが含まれてしまうので無理かも）&lt;br /&gt;&lt;br /&gt;&lt;span&gt;でも &lt;/span&gt;&lt;span&gt;&lt;a href=&quot;https://zenn.dev/januswel/articles/745787422d425b01e0c1#mdast-%E3%82%92%E7%A2%BA%E8%AA%8D%E3%81%99%E3%82%8B&quot;&gt;unified を使って Markdown を拡張する&lt;/a&gt;&lt;/span&gt;&lt;span&gt;記事を見ると，&lt;/span&gt;&lt;span&gt;mdast&lt;/span&gt;&lt;span&gt; の &lt;/span&gt;&lt;span&gt;paragraph &amp;gt; text&lt;/span&gt;&lt;span&gt; を見ると，markdownとして処理させなかった部分は素の文字列として得られている&lt;/span&gt;&lt;br /&gt;&lt;span&gt;→　ここに &lt;/span&gt;&lt;span&gt;zenn-markdown-html&lt;/span&gt;&lt;span&gt; を仕込む＝ &lt;/span&gt;&lt;span&gt;&lt;i&gt;remark-zenn-plugin&lt;/i&gt;&lt;/span&gt;&lt;span&gt; を書く？&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;mdast　について：&lt;/span&gt;&lt;span&gt;&lt;a href=&quot;https://github.com/syntax-tree/mdast&quot;&gt;https://github.com/syntax-tree/mdast&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;あ～～でも text が htmlText になるわけだから，単にかませるだけでは駄目で，mdast の構造をイジる必要はありそう&lt;br /&gt;&lt;br /&gt;&lt;span&gt;ちょっとまって！もしかして Admonition って名前だった気がする　→　あった &lt;/span&gt;&lt;span&gt;&lt;a href=&quot;https://github.com/elviswolcott/remark-admonitions&quot;&gt;remark-admonitions&lt;/a&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;---&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://github.com/zenn-dev/zenn-editor/tree/canary/packages/zenn-markdown-html&quot;&gt;https://github.com/zenn-dev/zenn-editor/tree/canary/packages/zenn-markdown-html&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;zenn では markdownit をつかっている　→　MDXとの互換性がない？&lt;br /&gt;&lt;br /&gt;&lt;span&gt;&lt;a href=&quot;https://zenn.dev/zenn/articles/markdown-guide#zenn-独自の記法&quot;&gt;zenn-独自の記法&lt;/a&gt;&lt;/span&gt;&lt;span&gt; さえ処理できれば，ほかは同じか？&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;strike&gt;とりあえずやってみること&lt;/strike&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;まずは記法とか全部無しで，MDXでの変換噛ませて，そこに &lt;/span&gt;&lt;span&gt;zenn-content-css&lt;/span&gt;&lt;span&gt; を当ててみてどうなるか&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;クラスとかの問題もありそうかな？&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span&gt;&lt;a href=&quot;https://zenn.dev/januswel/articles/745787422d425b01e0c1&quot;&gt;unified を使って Markdown を拡張する&lt;/a&gt;&lt;/span&gt;&lt;span&gt; という記事の中で，zenn のメッセージ記法をパースするプラグインを例としてつくっていた&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://zenn.dev/januswel/articles/745787422d425b01e0c1#zenn-のメッセージ記法&quot;&gt;https://zenn.dev/januswel/articles/745787422d425b01e0c1#zenn-のメッセージ記法&lt;/a&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;---&lt;br /&gt;&lt;br /&gt;&lt;span&gt;MDX のアーキテクチャを見るに，mdast → hast の変換途中に &lt;/span&gt;&lt;span&gt;&lt;a href=&quot;https://github.com/zenn-dev/zenn-editor/tree/canary/packages/zenn-markdown-html&quot;&gt;zenn-markdown-html&lt;/a&gt;&lt;/span&gt;&lt;span&gt; を仕込むことはできなさそう&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;MDX に含まれる js 関連の文字列が stringfy されてしまうため&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;MDX → html →（html から md に戻す処理）→ md → 〈zenn-markdown-html〉→ html という流れになりそう&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;html → md → html とかいう内部的二度手間を嫌うなら，自分でremark プラグインを書くことになる&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;どれくらい重い処理になるのか（またその処理は期待するものなのか）という点で判断したい&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;zenn-editor は 負荷分散のために内部APIを利用している&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;pages/blog/[id].tsx&lt;/span&gt;&lt;span&gt; で &lt;/span&gt;&lt;span&gt;getStaticPath&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;getStaticProps&lt;/span&gt;&lt;span&gt; をするとハチャメチャに重くなってしまう&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;代わりに，&lt;/span&gt;&lt;span&gt;pages/api/blog/[id].tsx&lt;/span&gt;&lt;span&gt; にファイル読み込み等の処理を任せている&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;client - server でわかれてたのはそういう意図があったのか～～～～～&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://github.com/zenn-dev/zenn-editor/blob/canary/packages/zenn-cli/src/server/preview/app.ts&quot;&gt;https://github.com/zenn-dev/zenn-editor/blob/canary/packages/zenn-cli/src/server/preview/app.ts&lt;/a&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;ここから考えられる方針&lt;br /&gt;&lt;span&gt;１．同様にServerをローカル開発のときだけ用意する（&lt;/span&gt;&lt;span&gt;yarn dev&lt;/span&gt;&lt;span&gt; にコマンドを仕込む＆getStatic* 内部で処理分岐）&lt;/span&gt;&lt;br /&gt;２．本番環境では SSG しか使わない前提で，ローカル時のみ API Routes を活用する構成（getStatic* 内部で処理分岐）&lt;br /&gt;&lt;br /&gt;でもif分岐で使われないほうが本番コードでも残るんじゃない？（美しくない）&lt;br /&gt;</content>
+      </entry>
+
+      <entry>
+        <title type="html">Ningensei848 opened an issue in zenn-dev/zenn-community</title>
+        <id>tag:github.com,2008:IssuesEvent/19641089448/</id>
+        <link rel="alternate" type="text/html" href="https://github.com/zenn-dev/zenn-community/issues/364"/>
+        <updated>2022-01-09T02:57:41Z</updated>
+        <content type="html">&lt;div class=&quot;issues_opened&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- issues --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
+    &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div class=&quot;d-flex flex-items-baseline mb-2&quot;&gt;
+      &lt;div class=&quot;&quot;&gt;
+          &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
+          
+          opened
+          an issue in
+          &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/zenn-dev/zenn-community&quot; rel=&quot;noreferrer&quot;&gt;zenn-dev/zenn-community&lt;/a&gt;
+          &lt;span class=&quot;f6 color-fg-muted no-wrap ml-1&quot;&gt;
+            &lt;relative-time datetime=&quot;2022-01-09T02:57:41Z&quot; class=&quot;no-wrap&quot;&gt;Jan 9, 2022&lt;/relative-time&gt;
+          &lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;Box p-3 wb-break-all &quot;&gt;
+      &lt;svg height=&quot;16&quot; aria-label=&quot;Issue&quot; class=&quot;octicon octicon-issue-opened open d-inline-block mt-1 float-left&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; role=&quot;img&quot;&gt;&lt;path d=&quot;M8 9.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z&quot;&gt;&lt;/path&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M8 0a8 8 0 100 16A8 8 0 008 0zM1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
+      &lt;div class=&quot;ml-4&quot;&gt;
+        &lt;span class=&quot;f4 lh-condensed text-bold color-fg-default&quot;&gt;
+          &lt;a title=&quot;[VSCode Extensions] Zenn 用の Markdown プレビュー拡張がほしい&quot; class=&quot;color-fg-default&quot; aria-label=&quot;[VSCode Extensions] Zenn 用の Markdown プレビュー拡張がほしい&quot; href=&quot;/zenn-dev/zenn-community/issues/364&quot; rel=&quot;noreferrer&quot;&gt;[VSCode Extensions] Zenn 用の Markdown プレビュー拡張がほしい&lt;/a&gt;
+        &lt;/span&gt;
+        &lt;span class=&quot;f4 color-fg-muted ml-1&quot;&gt;#364&lt;/span&gt;
+          &lt;div class=&quot;dashboard-break-word lh-condensed mb-2 mt-1&quot;&gt;
+            &lt;p&gt;提案・要望 Visual Studio Code で使える Zenn 用の Markdown プレビュー拡張がほしい
+
+&lt;code&gt;zenn-cli&lt;/code&gt; を起動することなく，VSCode だけで完結させたい
+↑ これが実現すると，&lt;code&gt;github.dev&lt;/code&gt; でもプレビューができるようになり，&lt;strong&gt;執筆開始までのラグが最小化&lt;/strong&gt;で…&lt;/p&gt;
+          &lt;/div&gt;
+
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+      </entry>
+
+      <entry>
+        <title type="html">Ningensei848 pushed to main in Ningensei848/ningensei848.github.io</title>
+        <id>tag:github.com,2008:PushEvent/19640703448/</id>
+        <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/ningensei848.github.io/compare/48d9c1be36...767cdb3267"/>
+        <updated>2022-01-09T01:21:07Z</updated>
+        <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- push --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
+    &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div class=&quot;&quot;&gt;
+      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
+      
+      pushed to
+        &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
+        in
+      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/ningensei848.github.io&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/ningensei848.github.io&lt;/a&gt;
+        &lt;span class=&quot;color-fg-muted no-wrap f6 ml-1&quot;&gt;
+          &lt;relative-time datetime=&quot;2022-01-09T01:21:07Z&quot; class=&quot;no-wrap&quot;&gt;Jan 9, 2022&lt;/relative-time&gt;
+        &lt;/span&gt;
+
+        &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
+          &lt;span&gt;1 commit to&lt;/span&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
+
+          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+            &lt;ul class=&quot;list-style-none&quot;&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span title=&quot;Ningensei848&quot;&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/ningensei848.github.io/commit/767cdb3267afadcf049070954efcfbb3fe6f6827&quot; rel=&quot;noreferrer&quot;&gt;767cdb3&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Add: &#x60;prefetch={false}&#x60; to &#x60;NextLinkComposed&#x60; component
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+      </entry>
+
+      <entry>
+        <title type="html">Ningensei848 pushed to main in Ningensei848/ningensei848.github.io</title>
+        <id>tag:github.com,2008:PushEvent/19637178184/</id>
+        <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/ningensei848.github.io/compare/c844cdcb39...48d9c1be36"/>
+        <updated>2022-01-08T13:40:14Z</updated>
+        <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- push --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
+    &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div class=&quot;&quot;&gt;
+      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
+      
+      pushed to
+        &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
+        in
+      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/ningensei848.github.io&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/ningensei848.github.io&lt;/a&gt;
+        &lt;span class=&quot;color-fg-muted no-wrap f6 ml-1&quot;&gt;
+          &lt;relative-time datetime=&quot;2022-01-08T13:40:14Z&quot; class=&quot;no-wrap&quot;&gt;Jan 8, 2022&lt;/relative-time&gt;
+        &lt;/span&gt;
+
+        &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
+          &lt;span&gt;1 commit to&lt;/span&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
+
+          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+            &lt;ul class=&quot;list-style-none&quot;&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span title=&quot;Ningensei848&quot;&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/ningensei848.github.io/commit/48d9c1be36ab47b5dff9bb7c3310a1087d910dbd&quot; rel=&quot;noreferrer&quot;&gt;48d9c1b&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Fix: path resolve
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+      </entry>
+
+      <entry>
+        <title type="html">Ningensei848 created a branch pathfix in Ningensei848/ningensei848.github.io</title>
+        <id>tag:github.com,2008:CreateEvent/19637132454/</id>
+        <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/ningensei848.github.io/compare/pathfix"/>
+        <updated>2022-01-08T13:31:44Z</updated>
+        <content type="html">&lt;div class=&quot;git-branch&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- create --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
+      &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+        &lt;div class=&quot;d-flex flex-items-baseline&quot;&gt;
+          &lt;div class=&quot;&quot;&gt;
+              &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
+              
+              created a
+              branch
+              in
+              &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/ningensei848.github.io&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/ningensei848.github.io&lt;/a&gt;
+
+              &lt;span class=&quot;f6 color-fg-muted no-wrap ml-1&quot;&gt;
+                &lt;relative-time datetime=&quot;2022-01-08T13:31:44Z&quot; class=&quot;no-wrap&quot;&gt;Jan 8, 2022&lt;/relative-time&gt;
+              &lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+    &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
+      &lt;div&gt;
+        &lt;div class=&quot;f4 lh-condensed text-bold color-fg-default&quot;&gt;
+              &lt;a class=&quot;css-truncate css-truncate-target branch-name v-align-middle&quot; title=&quot;pathfix&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/pathfix&quot; rel=&quot;noreferrer&quot;&gt;pathfix&lt;/a&gt; in &lt;a class=&quot;Link--primary text-bold no-underline wb-break-all d-inline-block&quot; href=&quot;/Ningensei848/ningensei848.github.io&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/ningensei848.github.io&lt;/a&gt;
+        &lt;/div&gt;
+
+
+          &lt;p class=&quot;f6 color-fg-muted mt-2 mb-0&quot;&gt;
+            &lt;span&gt;Updated Jan 14&lt;/span&gt;
+          &lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+      </entry>
+
+      <entry>
+        <title type="html">Ningensei848 pushed to main in Ningensei848/ningensei848.github.io</title>
+        <id>tag:github.com,2008:PushEvent/19636201898/</id>
+        <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/ningensei848.github.io/compare/db89edc7bb...c844cdcb39"/>
+        <updated>2022-01-08T10:22:50Z</updated>
+        <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- push --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
+    &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div class=&quot;&quot;&gt;
+      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
+      
+      pushed to
+        &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
+        in
+      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/ningensei848.github.io&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/ningensei848.github.io&lt;/a&gt;
+        &lt;span class=&quot;color-fg-muted no-wrap f6 ml-1&quot;&gt;
+          &lt;relative-time datetime=&quot;2022-01-08T10:22:50Z&quot; class=&quot;no-wrap&quot;&gt;Jan 8, 2022&lt;/relative-time&gt;
+        &lt;/span&gt;
+
+        &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
+          &lt;span&gt;2 commits to&lt;/span&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
+
+          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+            &lt;ul class=&quot;list-style-none&quot;&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span title=&quot;Ningensei848&quot;&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/ningensei848.github.io/commit/c844cdcb393417967f22ecd92b3b409a067ec66a&quot; rel=&quot;noreferrer&quot;&gt;c844cdc&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Add: &#x60;Backdrop&#x60; component
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span title=&quot;Ningensei848&quot;&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/ningensei848.github.io/commit/ae7c4a5509368793feac6817bb2232ebce3228c5&quot; rel=&quot;noreferrer&quot;&gt;ae7c4a5&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Update: async function
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+      </entry>
+
+      <entry>
+        <title type="html">PageTemplate.tsx - 気合でなんとか - Scrapbox</title>
+        <id>https://scrapbox.io/Ningensei848/PageTemplate.tsx</id>
+        <link rel="alternate" type="text/html" href="https://scrapbox.io/Ningensei848/PageTemplate.tsx"/>
+        <updated>2022-01-07T16:09:55Z</updated>
+        <content type="html">&lt;span&gt;&lt;a href=&quot;https://scrapbox.io/Ningensei848/nextjs&quot;&gt;#nextjs&lt;/a&gt;&lt;/span&gt;&lt;span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;&lt;a href=&quot;https://scrapbox.io/Ningensei848/Typescript&quot;&gt;#Typescript&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;img src=&quot;https://github.githubassets.com/pinned-octocat.svg&quot;/&gt;&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://gist.github.com/Ningensei848/882e27fb8f0f02bde390e85f9606a537#ssg-pagetemplatetsx-for-nextjs&quot;&gt;https://gist.github.com/Ningensei848/882e27fb8f0f02bde390e85f9606a537#ssg-pagetemplatetsx-for-nextjs&lt;/a&gt;&lt;br /&gt;</content>
+      </entry>
+
+      <entry>
+        <title type="html">Ningensei848 pushed to main in Ningensei848/ningensei848.github.io</title>
+        <id>tag:github.com,2008:PushEvent/19625655838/</id>
+        <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/ningensei848.github.io/compare/20829a9617...db89edc7bb"/>
+        <updated>2022-01-07T13:06:44Z</updated>
+        <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- push --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
+    &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div class=&quot;&quot;&gt;
+      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
+      
+      pushed to
+        &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
+        in
+      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/ningensei848.github.io&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/ningensei848.github.io&lt;/a&gt;
+        &lt;span class=&quot;color-fg-muted no-wrap f6 ml-1&quot;&gt;
+          &lt;relative-time datetime=&quot;2022-01-07T13:06:44Z&quot; class=&quot;no-wrap&quot;&gt;Jan 7, 2022&lt;/relative-time&gt;
+        &lt;/span&gt;
+
+        &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
+          &lt;span&gt;1 commit to&lt;/span&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
+
+          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+            &lt;ul class=&quot;list-style-none&quot;&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span title=&quot;Ningensei848&quot;&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/ningensei848.github.io/commit/db89edc7bbe992004c213d2b34058d27c3c2d7d1&quot; rel=&quot;noreferrer&quot;&gt;db89edc&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Add: Preliminary arrangements for blog
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+      </entry>
+
       <entry>
         <title type="html">Ningensei848 pushed to main in Ningensei848/ningensei848.github.io</title>
         <id>tag:github.com,2008:PushEvent/19621716580/</id>
@@ -113,25 +985,17 @@
               &lt;/span&gt;
 
               &lt;span class=&quot;d-inline-block mr-3&quot;&gt;
-                  &lt;a class=&quot;Link--muted&quot; href=&quot;/ljlm0402/typescript-express-starter/stargazers&quot; rel=&quot;noreferrer&quot;&gt;&lt;svg class=&quot;octicon octicon-star mr-1&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;963&lt;/a&gt;
+                  &lt;a class=&quot;Link--muted&quot; href=&quot;/ljlm0402/typescript-express-starter/stargazers&quot; rel=&quot;noreferrer&quot;&gt;&lt;svg class=&quot;octicon octicon-star mr-1&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;1k&lt;/a&gt;
               &lt;/span&gt;
 
 
-              &lt;span&gt;Updated Jan 3&lt;/span&gt;
+              &lt;span&gt;Updated Jan 12&lt;/span&gt;
           &lt;/p&gt;
         &lt;/div&gt;
       &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;/div&gt;</content>
-      </entry>
-
-      <entry>
-        <title type="html">Zenn記法でMDXを使いたい（未実装） - 気合でなんとか - Scrapbox</title>
-        <id>https://scrapbox.io/Ningensei848/Zenn%E8%A8%98%E6%B3%95%E3%81%A7MDX%E3%82%92%E4%BD%BF%E3%81%84%E3%81%9F%E3%81%84%EF%BC%88%E6%9C%AA%E5%AE%9F%E8%A3%85%EF%BC%89</id>
-        <link rel="alternate" type="text/html" href="https://scrapbox.io/Ningensei848/Zenn%E8%A8%98%E6%B3%95%E3%81%A7MDX%E3%82%92%E4%BD%BF%E3%81%84%E3%81%9F%E3%81%84%EF%BC%88%E6%9C%AA%E5%AE%9F%E8%A3%85%EF%BC%89"/>
-        <updated>2022-01-06T06:44:32Z</updated>
-        <content type="html">&lt;span&gt;&lt;a href=&quot;https://scrapbox.io/Ningensei848/MDX&quot;&gt;#MDX&lt;/a&gt;&lt;/span&gt;&lt;span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;&lt;a href=&quot;https://scrapbox.io/Ningensei848/Nextjs&quot;&gt;#Nextjs&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;そもそも&lt;/strong&gt;&lt;br /&gt;なぜこんなにも苦労しているのか？&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;zenn-editor は md にしか対応していない　→　MDX が使いたい&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;ローカルで執筆時にクソ重い（getStatic*）　→　zenn-editor は軽くて良いのに……&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;zenn-editor の &lt;/span&gt;&lt;span&gt;markdownToHTML&lt;/span&gt;&lt;span&gt; をMDXにも対応させればいいのでは　→　ディレクトリ構造が &lt;/span&gt;&lt;span&gt;article&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;book&lt;/span&gt;&lt;span&gt; しか許されていない……（カスタマイズ性が制限されている）（zeroconfigとのトレードオフ関係なので仕方がない）&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span&gt;１．&lt;/span&gt;&lt;span&gt;pages/blog/[id].tsx&lt;/span&gt;&lt;span&gt; で getStaticPath してルートは確保する（map file を用意しておけば読み取り一回の手間で済む）&lt;/span&gt;&lt;br /&gt;２．getStaticProps では，process.env.NODE_ENV で 必要な props を分岐&lt;br /&gt;３．ページコンポーネントにおいても，process.env.NODE_ENV で利用するコンポネントを分岐&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;dev: useSWR → &lt;/span&gt;&lt;span&gt;/api/blog/[id]&lt;/span&gt;&lt;span&gt; を叩いてクライアント側で差分管理&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;prod: props を受け取って &lt;/span&gt;&lt;span&gt;dangerouslySetInnerHTML&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;これは嫌だ！（嫌というだけで駄目というわけではない）&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;もし駄目なら，①MDXを捨てるか，②remark-zenn-plugin を作ることになる（さらに茨の道）&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;どちらかで解決しても，執筆時重すぎ問題は解決しないので，どちらにせよzenn-editor をカスタマイズすることになりそう？&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;フォルダカスタマイズだけできればなぁ………&lt;/span&gt;&lt;br /&gt;---&lt;br /&gt;&lt;br /&gt;フォルダカスタマイズや remark-zenn-plugin は，常に開発最先端から遅れることになる（し，追いつくのは完全に自分の責任になる）　←　頑張りすぎるよりはタダ乗りしたい&lt;br /&gt;&lt;br /&gt;&lt;span&gt;別解法として，&lt;/span&gt;&lt;span&gt;Blog&lt;/span&gt;&lt;span&gt; ブランチで書いて，&lt;/span&gt;&lt;span&gt;main&lt;/span&gt;&lt;span&gt; にマージするとかどうだろう？&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;執筆時は dev 構成の &lt;/span&gt;&lt;span&gt;Blog&lt;/span&gt;&lt;span&gt; ブランチで useSWR&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;いちいちcommitとPRするのダルいので，commit API（？）みたいなの探して，そこへのリンクを作るボタンを設置するとか&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;deploy 時は prod 構成の main ブランチでgetStatic*&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;SSGからISR等に移行することも見据えて，dev 時のAPI Routeは next dev server ではなく，zenn-cli/src/server を流用すべき&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;と思ったら express.js でつくってた，イケそう&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;→　重さの問題を解決できそう（ビルドは遅くなるけどファイルが増えれば仕方がない）&lt;br /&gt;&lt;br /&gt;&lt;span&gt;やっぱりまずは MDX → MD → HTML というプロセスが，&lt;/span&gt;&lt;span&gt;zenn-markdownhtml&lt;/span&gt;&lt;span&gt; + &lt;/span&gt;&lt;span&gt;zenn-content-css&lt;/span&gt;&lt;span&gt; + &lt;/span&gt;&lt;span&gt;zenn-embed-elements&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;&lt;strike&gt;をつかってタダ乗りできるかどうか確かめるのが先決！！&lt;/strike&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;↓&lt;br /&gt;@mdx-js/mdx is a unified pipeline — wrapped so that most folks don’t need to know about unified: core.js#L65. The processor goes through these steps:&lt;br /&gt;&lt;br /&gt;1. Parse MDX (serialized markdown with embedded JSX, ESM, and expressions) to mdast (markdown syntax tree)&lt;br /&gt;2. Transform through remark (markdown ecosystem)&lt;br /&gt;3. Transform mdast to hast (HTML syntax tree)&lt;br /&gt;4. Transform through rehype (HTML ecosystem)&lt;br /&gt;5. Transform hast to esast (JS syntax tree)&lt;br /&gt;5. Do the work needed to get a component&lt;br /&gt;6. Transform through recma (JS ecosystem)&lt;br /&gt;7. Serialize esast as JavaScript&lt;br /&gt;&lt;br /&gt;というわけで，最終的にJSになってしまう（ plain text が途中でしか得られない？）&lt;br /&gt;&lt;br /&gt;→　MDX変換がすべて完了してから markdown に先祖返りさせるのはかなり不毛（というかJSが含まれてしまうので無理かも）&lt;br /&gt;&lt;br /&gt;&lt;span&gt;でも &lt;/span&gt;&lt;span&gt;&lt;a href=&quot;https://zenn.dev/januswel/articles/745787422d425b01e0c1#mdast-%E3%82%92%E7%A2%BA%E8%AA%8D%E3%81%99%E3%82%8B&quot;&gt;unified を使って Markdown を拡張する&lt;/a&gt;&lt;/span&gt;&lt;span&gt;記事を見ると，&lt;/span&gt;&lt;span&gt;mdast&lt;/span&gt;&lt;span&gt; の &lt;/span&gt;&lt;span&gt;paragraph &amp;gt; text&lt;/span&gt;&lt;span&gt; を見ると，markdownとして処理させなかった部分は素の文字列として得られている&lt;/span&gt;&lt;br /&gt;&lt;span&gt;→　ここに &lt;/span&gt;&lt;span&gt;zenn-markdown-html&lt;/span&gt;&lt;span&gt; を仕込む＝ &lt;/span&gt;&lt;span&gt;&lt;i&gt;remark-zenn-plugin&lt;/i&gt;&lt;/span&gt;&lt;span&gt; を書く？&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;mdast　について：&lt;/span&gt;&lt;span&gt;&lt;a href=&quot;https://github.com/syntax-tree/mdast&quot;&gt;https://github.com/syntax-tree/mdast&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;あ～～でも text が htmlText になるわけだから，単にかませるだけでは駄目で，mdast の構造をイジる必要はありそう&lt;br /&gt;&lt;br /&gt;&lt;span&gt;ちょっとまって！もしかして Admonition って名前だった気がする　→　あった &lt;/span&gt;&lt;span&gt;&lt;a href=&quot;https://github.com/elviswolcott/remark-admonitions&quot;&gt;remark-admonitions&lt;/a&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;---&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://github.com/zenn-dev/zenn-editor/tree/canary/packages/zenn-markdown-html&quot;&gt;https://github.com/zenn-dev/zenn-editor/tree/canary/packages/zenn-markdown-html&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;zenn では markdownit をつかっている　→　MDXとの互換性がない？&lt;br /&gt;&lt;br /&gt;&lt;span&gt;&lt;a href=&quot;https://zenn.dev/zenn/articles/markdown-guide#zenn-独自の記法&quot;&gt;zenn-独自の記法&lt;/a&gt;&lt;/span&gt;&lt;span&gt; さえ処理できれば，ほかは同じか？&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;strike&gt;とりあえずやってみること&lt;/strike&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;まずは記法とか全部無しで，MDXでの変換噛ませて，そこに &lt;/span&gt;&lt;span&gt;zenn-content-css&lt;/span&gt;&lt;span&gt; を当ててみてどうなるか&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;クラスとかの問題もありそうかな？&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span&gt;&lt;a href=&quot;https://zenn.dev/januswel/articles/745787422d425b01e0c1&quot;&gt;unified を使って Markdown を拡張する&lt;/a&gt;&lt;/span&gt;&lt;span&gt; という記事の中で，zenn のメッセージ記法をパースするプラグインを例としてつくっていた&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://zenn.dev/januswel/articles/745787422d425b01e0c1#zenn-のメッセージ記法&quot;&gt;https://zenn.dev/januswel/articles/745787422d425b01e0c1#zenn-のメッセージ記法&lt;/a&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;---&lt;br /&gt;&lt;br /&gt;&lt;span&gt;MDX のアーキテクチャを見るに，mdast → hast の変換途中に &lt;/span&gt;&lt;span&gt;&lt;a href=&quot;https://github.com/zenn-dev/zenn-editor/tree/canary/packages/zenn-markdown-html&quot;&gt;zenn-markdown-html&lt;/a&gt;&lt;/span&gt;&lt;span&gt; を仕込むことはできなさそう&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;MDX に含まれる js 関連の文字列が stringfy されてしまうため&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;MDX → html →（html から md に戻す処理）→ md → 〈zenn-markdown-html〉→ html という流れになりそう&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;html → md → html とかいう内部的二度手間を嫌うなら，自分でremark プラグインを書くことになる&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;どれくらい重い処理になるのか（またその処理は期待するものなのか）という点で判断したい&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;zenn-editor は 負荷分散のために内部APIを利用している&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;pages/blog/[id].tsx&lt;/span&gt;&lt;span&gt; で &lt;/span&gt;&lt;span&gt;getStaticPath&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;getStaticProps&lt;/span&gt;&lt;span&gt; をするとハチャメチャに重くなってしまう&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;代わりに，&lt;/span&gt;&lt;span&gt;pages/api/blog/[id].tsx&lt;/span&gt;&lt;span&gt; にファイル読み込み等の処理を任せている&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;client - server でわかれてたのはそういう意図があったのか～～～～～&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://github.com/zenn-dev/zenn-editor/blob/canary/packages/zenn-cli/src/server/preview/app.ts&quot;&gt;https://github.com/zenn-dev/zenn-editor/blob/canary/packages/zenn-cli/src/server/preview/app.ts&lt;/a&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;ここから考えられる方針&lt;br /&gt;&lt;span&gt;１．同様にServerをローカル開発のときだけ用意する（&lt;/span&gt;&lt;span&gt;yarn dev&lt;/span&gt;&lt;span&gt; にコマンドを仕込む＆getStatic* 内部で処理分岐）&lt;/span&gt;&lt;br /&gt;２．本番環境では SSG しか使わない前提で，ローカル時のみ API Routes を活用する構成（getStatic* 内部で処理分岐）&lt;br /&gt;&lt;br /&gt;でもif分岐で使われないほうが本番コードでも残るんじゃない？（美しくない）&lt;br /&gt;</content>
       </entry>
 
       <entry>
@@ -441,7 +1305,7 @@
 
 
             &lt;p class=&quot;f6 color-fg-muted mt-2 mb-0&quot;&gt;
-              &lt;span&gt;Updated Jan 7&lt;/span&gt;
+              &lt;span&gt;Updated Jan 14&lt;/span&gt;
             &lt;/p&gt;
         &lt;/div&gt;
       &lt;/div&gt;
@@ -689,7 +1553,7 @@
 
 
           &lt;p class=&quot;f6 color-fg-muted mt-2 mb-0&quot;&gt;
-            &lt;span&gt;Updated Jan 7&lt;/span&gt;
+            &lt;span&gt;Updated Jan 14&lt;/span&gt;
           &lt;/p&gt;
       &lt;/div&gt;
     &lt;/div&gt;
@@ -723,164 +1587,6 @@
       </entry>
 
       <entry>
-        <title type="html">Ningensei848 pushed to main in Ningensei848/ningensei848.github.io</title>
-        <id>tag:github.com,2008:PushEvent/19554068186/</id>
-        <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/ningensei848.github.io/compare/5d9c1a6e03...76cd34b000"/>
-        <updated>2022-01-03T05:57:06Z</updated>
-        <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;
-&lt;!-- push --&gt;
-&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
-    &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div class=&quot;&quot;&gt;
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
-      
-      pushed to
-        &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-        in
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/ningensei848.github.io&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/ningensei848.github.io&lt;/a&gt;
-        &lt;span class=&quot;color-fg-muted no-wrap f6 ml-1&quot;&gt;
-          &lt;relative-time datetime=&quot;2022-01-03T05:57:06Z&quot; class=&quot;no-wrap&quot;&gt;Jan 3, 2022&lt;/relative-time&gt;
-        &lt;/span&gt;
-
-        &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
-          &lt;span&gt;1 commit to&lt;/span&gt;
-          &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-
-          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
-            &lt;ul class=&quot;list-style-none&quot;&gt;
-                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
-                  &lt;span title=&quot;Ningensei848&quot;&gt;
-                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
-                  &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/ningensei848.github.io/commit/76cd34b00062d52e13835827ec3a7f23f969b71a&quot; rel=&quot;noreferrer&quot;&gt;76cd34b&lt;/a&gt;&lt;/code&gt;
-                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
-                    &lt;blockquote&gt;
-                      Update: Hero image and its styles
-                    &lt;/blockquote&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-
-
-            &lt;/ul&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-      </entry>
-
-      <entry>
-        <title type="html">Ningensei848 forked Ningensei848/zenn-editor from zenn-dev/zenn-editor</title>
-        <id>tag:github.com,2008:ForkEvent/19553200719/</id>
-        <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/zenn-editor"/>
-        <updated>2022-01-03T03:16:17Z</updated>
-        <content type="html">&lt;div class=&quot;fork&quot;&gt;&lt;div class=&quot;body&quot;&gt;
-&lt;!-- fork --&gt;
-&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
-      &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-      &lt;div class=&quot;d-flex flex-items-baseline&quot;&gt;
-        &lt;div class=&quot;&quot;&gt;
-          &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
-          
-          forked
-          &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; title=&quot;Ningensei848/zenn-editor&quot; href=&quot;/Ningensei848/zenn-editor&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/zenn-editor&lt;/a&gt;
-          from
-          &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/zenn-dev/zenn-editor&quot; rel=&quot;noreferrer&quot;&gt;zenn-dev/zenn-editor&lt;/a&gt;
-            &lt;span class=&quot;f6 color-fg-muted no-wrap ml-1&quot;&gt;
-              &lt;relative-time datetime=&quot;2022-01-03T03:16:17Z&quot; class=&quot;no-wrap&quot;&gt;Jan 3, 2022&lt;/relative-time&gt;
-            &lt;/span&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-
-      &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
-
-        &lt;div&gt;
-          &lt;div class=&quot;f4 lh-condensed text-bold color-fg-default&quot;&gt;
-            &lt;a class=&quot;Link--primary text-bold no-underline wb-break-all d-inline-block&quot; href=&quot;/zenn-dev/zenn-editor&quot; rel=&quot;noreferrer&quot;&gt;zenn-dev/zenn-editor&lt;/a&gt;
-          &lt;/div&gt;
-          &lt;div class=&quot;dashboard-break-word color-fg-muted mt-1 repo-description&quot;&gt;
-            &lt;p&gt;Convert markdown to html in Zenn format&lt;/p&gt;
-          &lt;/div&gt;
-
-          &lt;p class=&quot;f6 color-fg-muted mt-2 mb-0&quot;&gt;
-              &lt;span class=&quot;d-inline-block color-fg-muted mr-3&quot;&gt;
-                &lt;span class=&quot;ml-0&quot;&gt;
-  &lt;span class=&quot;repo-language-color&quot; style=&quot;background-color: #2b7489&quot;&gt;&lt;/span&gt;
-  &lt;span itemprop=&quot;programmingLanguage&quot;&gt;TypeScript&lt;/span&gt;
-&lt;/span&gt;
-
-              &lt;/span&gt;
-
-              &lt;span class=&quot;d-inline-block mr-3&quot;&gt;
-                  &lt;a class=&quot;Link--muted&quot; href=&quot;/zenn-dev/zenn-editor/stargazers&quot; rel=&quot;noreferrer&quot;&gt;
-                    &lt;svg aria-hidden=&quot;true&quot; height=&quot;16&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; data-view-component=&quot;true&quot; class=&quot;octicon octicon-star mr-1&quot;&gt;
-    &lt;path fill-rule=&quot;evenodd&quot; d=&quot;M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z&quot;&gt;&lt;/path&gt;
-&lt;/svg&gt;317
-&lt;/a&gt;              &lt;/span&gt;
-
-
-              &lt;span&gt;Updated Dec 15&lt;/span&gt;
-          &lt;/p&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-      </entry>
-
-      <entry>
-        <title type="html">Ningensei848 pushed to main in Ningensei848/ningensei848.github.io</title>
-        <id>tag:github.com,2008:PushEvent/19552938509/</id>
-        <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/ningensei848.github.io/compare/e2945cc9ff...0200f82120"/>
-        <updated>2022-01-03T02:24:26Z</updated>
-        <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;
-&lt;!-- push --&gt;
-&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
-    &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div class=&quot;&quot;&gt;
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
-      
-      pushed to
-        &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-        in
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/ningensei848.github.io&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/ningensei848.github.io&lt;/a&gt;
-        &lt;span class=&quot;color-fg-muted no-wrap f6 ml-1&quot;&gt;
-          &lt;relative-time datetime=&quot;2022-01-03T02:24:26Z&quot; class=&quot;no-wrap&quot;&gt;Jan 3, 2022&lt;/relative-time&gt;
-        &lt;/span&gt;
-
-        &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
-          &lt;span&gt;1 commit to&lt;/span&gt;
-          &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-
-          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
-            &lt;ul class=&quot;list-style-none&quot;&gt;
-                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
-                  &lt;span title=&quot;Ningensei848&quot;&gt;
-                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
-                  &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/ningensei848.github.io/commit/0200f82120af531d35541dc35b4317b442fb7e60&quot; rel=&quot;noreferrer&quot;&gt;0200f82&lt;/a&gt;&lt;/code&gt;
-                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
-                    &lt;blockquote&gt;
-                      Fix: Activate tracking &#x60;atom.xml&#x60; again
-                    &lt;/blockquote&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-
-
-            &lt;/ul&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-      </entry>
-
-      <entry>
         <title type="html">favicon generator - 気合でなんとか - Scrapbox</title>
         <id>https://scrapbox.io/Ningensei848/favicon_generator</id>
         <link rel="alternate" type="text/html" href="https://scrapbox.io/Ningensei848/favicon_generator"/>
@@ -889,708 +1595,11 @@
       </entry>
 
       <entry>
-        <title type="html">Ningensei848 pushed to main in Ningensei848/ningensei848.github.io</title>
-        <id>tag:github.com,2008:PushEvent/19550400764/</id>
-        <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/ningensei848.github.io/compare/edbcacaa24...e0b6917d7e"/>
-        <updated>2022-01-02T16:59:22Z</updated>
-        <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;
-&lt;!-- push --&gt;
-&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
-    &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div class=&quot;&quot;&gt;
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
-      
-      pushed to
-        &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-        in
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/ningensei848.github.io&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/ningensei848.github.io&lt;/a&gt;
-        &lt;span class=&quot;color-fg-muted no-wrap f6 ml-1&quot;&gt;
-          &lt;relative-time datetime=&quot;2022-01-02T16:59:22Z&quot; class=&quot;no-wrap&quot;&gt;Jan 2, 2022&lt;/relative-time&gt;
-        &lt;/span&gt;
-
-        &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
-          &lt;span&gt;2 commits to&lt;/span&gt;
-          &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-
-          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
-            &lt;ul class=&quot;list-style-none&quot;&gt;
-                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
-                  &lt;span title=&quot;Ningensei848&quot;&gt;
-                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
-                  &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/ningensei848.github.io/commit/e0b6917d7e7dd8334ef4617ba73c2dc841ffb605&quot; rel=&quot;noreferrer&quot;&gt;e0b6917&lt;/a&gt;&lt;/code&gt;
-                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
-                    &lt;blockquote&gt;
-                      Add: favicons
-                    &lt;/blockquote&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
-                  &lt;span title=&quot;Ningensei848&quot;&gt;
-                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
-                  &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/ningensei848.github.io/commit/94995e2c4d992af6568aa3f0d13928a8a2ca9eb0&quot; rel=&quot;noreferrer&quot;&gt;94995e2&lt;/a&gt;&lt;/code&gt;
-                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
-                    &lt;blockquote&gt;
-                      Update: force commit of ignored file &#x60;public/atom.xml&#x60;
-                    &lt;/blockquote&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-
-
-            &lt;/ul&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-      </entry>
-
-      <entry>
-        <title type="html">Ningensei848 pushed to main in Ningensei848/ningensei848.github.io</title>
-        <id>tag:github.com,2008:PushEvent/19550182726/</id>
-        <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/ningensei848.github.io/compare/d65aa6d7f0...e40e136272"/>
-        <updated>2022-01-02T16:14:14Z</updated>
-        <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;
-&lt;!-- push --&gt;
-&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
-    &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div class=&quot;&quot;&gt;
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
-      
-      pushed to
-        &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-        in
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/ningensei848.github.io&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/ningensei848.github.io&lt;/a&gt;
-        &lt;span class=&quot;color-fg-muted no-wrap f6 ml-1&quot;&gt;
-          &lt;relative-time datetime=&quot;2022-01-02T16:14:14Z&quot; class=&quot;no-wrap&quot;&gt;Jan 2, 2022&lt;/relative-time&gt;
-        &lt;/span&gt;
-
-        &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
-          &lt;span&gt;1 commit to&lt;/span&gt;
-          &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-
-          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
-            &lt;ul class=&quot;list-style-none&quot;&gt;
-                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
-                  &lt;span title=&quot;Ningensei848&quot;&gt;
-                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
-                  &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/ningensei848.github.io/commit/e40e1362720c6cb4c36f2158451ab3af7bf0465d&quot; rel=&quot;noreferrer&quot;&gt;e40e136&lt;/a&gt;&lt;/code&gt;
-                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
-                    &lt;blockquote&gt;
-                      Add: &#x60;-f&#x60; option to avoid throwing an error
-                    &lt;/blockquote&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-
-
-            &lt;/ul&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-      </entry>
-
-      <entry>
-        <title type="html">Ningensei848 pushed to main in Ningensei848/ningensei848.github.io</title>
-        <id>tag:github.com,2008:PushEvent/19550141456/</id>
-        <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/ningensei848.github.io/compare/2f3366825c...d65aa6d7f0"/>
-        <updated>2022-01-02T16:06:28Z</updated>
-        <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;
-&lt;!-- push --&gt;
-&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
-    &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div class=&quot;&quot;&gt;
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
-      
-      pushed to
-        &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-        in
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/ningensei848.github.io&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/ningensei848.github.io&lt;/a&gt;
-        &lt;span class=&quot;color-fg-muted no-wrap f6 ml-1&quot;&gt;
-          &lt;relative-time datetime=&quot;2022-01-02T16:06:28Z&quot; class=&quot;no-wrap&quot;&gt;Jan 2, 2022&lt;/relative-time&gt;
-        &lt;/span&gt;
-
-        &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
-          &lt;span&gt;1 commit to&lt;/span&gt;
-          &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-
-          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
-            &lt;ul class=&quot;list-style-none&quot;&gt;
-                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
-                  &lt;span title=&quot;Ningensei848&quot;&gt;
-                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
-                  &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/ningensei848.github.io/commit/d65aa6d7f0664b8db6834cc7263534b181e340d7&quot; rel=&quot;noreferrer&quot;&gt;d65aa6d&lt;/a&gt;&lt;/code&gt;
-                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
-                    &lt;blockquote&gt;
-                      tinyfix
-                    &lt;/blockquote&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-
-
-            &lt;/ul&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-      </entry>
-
-      <entry>
-        <title type="html">Ningensei848 pushed to main in Ningensei848/ningensei848.github.io</title>
-        <id>tag:github.com,2008:PushEvent/19550104857/</id>
-        <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/ningensei848.github.io/compare/3a8ba6d59f...fe0eee7742"/>
-        <updated>2022-01-02T15:59:22Z</updated>
-        <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;
-&lt;!-- push --&gt;
-&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
-    &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div class=&quot;&quot;&gt;
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
-      
-      pushed to
-        &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-        in
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/ningensei848.github.io&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/ningensei848.github.io&lt;/a&gt;
-        &lt;span class=&quot;color-fg-muted no-wrap f6 ml-1&quot;&gt;
-          &lt;relative-time datetime=&quot;2022-01-02T15:59:22Z&quot; class=&quot;no-wrap&quot;&gt;Jan 2, 2022&lt;/relative-time&gt;
-        &lt;/span&gt;
-
-        &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
-          &lt;span&gt;1 commit to&lt;/span&gt;
-          &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-
-          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
-            &lt;ul class=&quot;list-style-none&quot;&gt;
-                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
-                  &lt;span title=&quot;Ningensei848&quot;&gt;
-                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
-                  &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/ningensei848.github.io/commit/fe0eee7742965775a92d6b2e95fc7402b0fe8dfc&quot; rel=&quot;noreferrer&quot;&gt;fe0eee7&lt;/a&gt;&lt;/code&gt;
-                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
-                    &lt;blockquote&gt;
-                      Fix: Remove existed files
-                    &lt;/blockquote&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-
-
-            &lt;/ul&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-      </entry>
-
-      <entry>
-        <title type="html">Ningensei848 pushed to main in Ningensei848/ningensei848.github.io</title>
-        <id>tag:github.com,2008:PushEvent/19550080047/</id>
-        <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/ningensei848.github.io/compare/e9a1b41f66...3a8ba6d59f"/>
-        <updated>2022-01-02T15:54:07Z</updated>
-        <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;
-&lt;!-- push --&gt;
-&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
-    &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div class=&quot;&quot;&gt;
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
-      
-      pushed to
-        &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-        in
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/ningensei848.github.io&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/ningensei848.github.io&lt;/a&gt;
-        &lt;span class=&quot;color-fg-muted no-wrap f6 ml-1&quot;&gt;
-          &lt;relative-time datetime=&quot;2022-01-02T15:54:07Z&quot; class=&quot;no-wrap&quot;&gt;Jan 2, 2022&lt;/relative-time&gt;
-        &lt;/span&gt;
-
-        &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
-          &lt;span&gt;1 commit to&lt;/span&gt;
-          &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-
-          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
-            &lt;ul class=&quot;list-style-none&quot;&gt;
-                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
-                  &lt;span title=&quot;Ningensei848&quot;&gt;
-                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
-                  &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/ningensei848.github.io/commit/3a8ba6d59f56aa57f316a5592427c9a469735310&quot; rel=&quot;noreferrer&quot;&gt;3a8ba6d&lt;/a&gt;&lt;/code&gt;
-                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
-                    &lt;blockquote&gt;
-                      Fix: specify path on &#x60;download-artifact@v2&#x60;
-                    &lt;/blockquote&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-
-
-            &lt;/ul&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-      </entry>
-
-      <entry>
-        <title type="html">Ningensei848 pushed to main in Ningensei848/ningensei848.github.io</title>
-        <id>tag:github.com,2008:PushEvent/19550022448/</id>
-        <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/ningensei848.github.io/compare/9950fd6858...e9a1b41f66"/>
-        <updated>2022-01-02T15:42:08Z</updated>
-        <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;
-&lt;!-- push --&gt;
-&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
-    &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div class=&quot;&quot;&gt;
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
-      
-      pushed to
-        &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-        in
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/ningensei848.github.io&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/ningensei848.github.io&lt;/a&gt;
-        &lt;span class=&quot;color-fg-muted no-wrap f6 ml-1&quot;&gt;
-          &lt;relative-time datetime=&quot;2022-01-02T15:42:08Z&quot; class=&quot;no-wrap&quot;&gt;Jan 2, 2022&lt;/relative-time&gt;
-        &lt;/span&gt;
-
-        &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
-          &lt;span&gt;1 commit to&lt;/span&gt;
-          &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-
-          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
-            &lt;ul class=&quot;list-style-none&quot;&gt;
-                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
-                  &lt;span title=&quot;Ningensei848&quot;&gt;
-                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
-                  &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/ningensei848.github.io/commit/e9a1b41f6667a0f64f82f3cc188a907ba6d6ce99&quot; rel=&quot;noreferrer&quot;&gt;e9a1b41&lt;/a&gt;&lt;/code&gt;
-                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
-                    &lt;blockquote&gt;
-                      Update: use &#x60;artifact&#x60; on workflow
-                    &lt;/blockquote&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-
-
-            &lt;/ul&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-      </entry>
-
-      <entry>
-        <title type="html">Ningensei848 pushed to main in Ningensei848/ningensei848.github.io</title>
-        <id>tag:github.com,2008:PushEvent/19549880945/</id>
-        <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/ningensei848.github.io/compare/951895f6b3...9950fd6858"/>
-        <updated>2022-01-02T15:13:32Z</updated>
-        <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;
-&lt;!-- push --&gt;
-&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
-    &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div class=&quot;&quot;&gt;
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
-      
-      pushed to
-        &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-        in
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/ningensei848.github.io&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/ningensei848.github.io&lt;/a&gt;
-        &lt;span class=&quot;color-fg-muted no-wrap f6 ml-1&quot;&gt;
-          &lt;relative-time datetime=&quot;2022-01-02T15:13:32Z&quot; class=&quot;no-wrap&quot;&gt;Jan 2, 2022&lt;/relative-time&gt;
-        &lt;/span&gt;
-
-        &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
-          &lt;span&gt;1 commit to&lt;/span&gt;
-          &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-
-          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
-            &lt;ul class=&quot;list-style-none&quot;&gt;
-                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
-                  &lt;span title=&quot;Ningensei848&quot;&gt;
-                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
-                  &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/ningensei848.github.io/commit/9950fd6858772395baf32fce611964aca77cd06d&quot; rel=&quot;noreferrer&quot;&gt;9950fd6&lt;/a&gt;&lt;/code&gt;
-                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
-                    &lt;blockquote&gt;
-                      tinyfix
-                    &lt;/blockquote&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-
-
-            &lt;/ul&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-      </entry>
-
-      <entry>
-        <title type="html">Ningensei848 pushed to main in Ningensei848/ningensei848.github.io</title>
-        <id>tag:github.com,2008:PushEvent/19549835872/</id>
-        <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/ningensei848.github.io/compare/1f6afe5c55...951895f6b3"/>
-        <updated>2022-01-02T15:04:40Z</updated>
-        <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;
-&lt;!-- push --&gt;
-&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
-    &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div class=&quot;&quot;&gt;
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
-      
-      pushed to
-        &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-        in
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/ningensei848.github.io&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/ningensei848.github.io&lt;/a&gt;
-        &lt;span class=&quot;color-fg-muted no-wrap f6 ml-1&quot;&gt;
-          &lt;relative-time datetime=&quot;2022-01-02T15:04:40Z&quot; class=&quot;no-wrap&quot;&gt;Jan 2, 2022&lt;/relative-time&gt;
-        &lt;/span&gt;
-
-        &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
-          &lt;span&gt;1 commit to&lt;/span&gt;
-          &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-
-          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
-            &lt;ul class=&quot;list-style-none&quot;&gt;
-                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
-                  &lt;span title=&quot;Ningensei848&quot;&gt;
-                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
-                  &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/ningensei848.github.io/commit/951895f6b3ae7af8a9ca7f80267a3fafd0181ca0&quot; rel=&quot;noreferrer&quot;&gt;951895f&lt;/a&gt;&lt;/code&gt;
-                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
-                    &lt;blockquote&gt;
-                      Fix: the order in which jobs are executed
-                    &lt;/blockquote&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-
-
-            &lt;/ul&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-      </entry>
-
-      <entry>
-        <title type="html">Ningensei848 pushed to main in Ningensei848/ningensei848.github.io</title>
-        <id>tag:github.com,2008:PushEvent/19549803435/</id>
-        <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/ningensei848.github.io/compare/ed8b378c17...1f6afe5c55"/>
-        <updated>2022-01-02T14:58:23Z</updated>
-        <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;
-&lt;!-- push --&gt;
-&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
-    &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div class=&quot;&quot;&gt;
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
-      
-      pushed to
-        &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-        in
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/ningensei848.github.io&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/ningensei848.github.io&lt;/a&gt;
-        &lt;span class=&quot;color-fg-muted no-wrap f6 ml-1&quot;&gt;
-          &lt;relative-time datetime=&quot;2022-01-02T14:58:23Z&quot; class=&quot;no-wrap&quot;&gt;Jan 2, 2022&lt;/relative-time&gt;
-        &lt;/span&gt;
-
-        &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
-          &lt;span&gt;1 commit to&lt;/span&gt;
-          &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-
-          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
-            &lt;ul class=&quot;list-style-none&quot;&gt;
-                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
-                  &lt;span title=&quot;Ningensei848&quot;&gt;
-                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
-                  &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/ningensei848.github.io/commit/1f6afe5c552100a47644b8e1329fc2cc2568d987&quot; rel=&quot;noreferrer&quot;&gt;1f6afe5&lt;/a&gt;&lt;/code&gt;
-                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
-                    &lt;blockquote&gt;
-                      Update: my feeds
-                    &lt;/blockquote&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-
-
-            &lt;/ul&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-      </entry>
-
-      <entry>
         <title type="html">crontab - 気合でなんとか - Scrapbox</title>
         <id>https://scrapbox.io/Ningensei848/crontab</id>
         <link rel="alternate" type="text/html" href="https://scrapbox.io/Ningensei848/crontab"/>
         <updated>2022-01-02T13:54:45Z</updated>
         <content type="html">&lt;a href=&quot;https://gyazo.com/8a2f3bb24d85a17799ea772efa41a641&quot;&gt;&lt;img src=&quot;https://gyazo.com/8a2f3bb24d85a17799ea772efa41a641/raw&quot;/&gt;&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;便利っぽい&lt;br /&gt;&lt;span&gt;cf. &lt;/span&gt;&lt;span&gt;&lt;a href=&quot;https://crontab.guru/&quot;&gt;https://crontab.guru/&lt;/a&gt;&lt;/span&gt;&lt;br /&gt;</content>
-      </entry>
-
-      <entry>
-        <title type="html">Ningensei848 pushed to main in Ningensei848/ningensei848.github.io</title>
-        <id>tag:github.com,2008:PushEvent/19541976855/</id>
-        <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/ningensei848.github.io/compare/2f78c133fc...ed8b378c17"/>
-        <updated>2022-01-01T03:57:01Z</updated>
-        <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;
-&lt;!-- push --&gt;
-&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
-    &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div class=&quot;&quot;&gt;
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
-      
-      pushed to
-        &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-        in
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/ningensei848.github.io&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/ningensei848.github.io&lt;/a&gt;
-        &lt;span class=&quot;color-fg-muted no-wrap f6 ml-1&quot;&gt;
-          &lt;relative-time datetime=&quot;2022-01-01T03:57:01Z&quot; class=&quot;no-wrap&quot;&gt;Jan 1, 2022&lt;/relative-time&gt;
-        &lt;/span&gt;
-
-        &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
-          &lt;span&gt;1 commit to&lt;/span&gt;
-          &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-
-          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
-            &lt;ul class=&quot;list-style-none&quot;&gt;
-                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
-                  &lt;span title=&quot;Ningensei848&quot;&gt;
-                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
-                  &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/ningensei848.github.io/commit/ed8b378c1770afd32c0a024ce38e7e4d0df81020&quot; rel=&quot;noreferrer&quot;&gt;ed8b378&lt;/a&gt;&lt;/code&gt;
-                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
-                    &lt;blockquote&gt;
-                      Update README.md
-                    &lt;/blockquote&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-
-
-            &lt;/ul&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-      </entry>
-
-      <entry>
-        <title type="html">Ningensei848 pushed to main in Ningensei848/ningensei848.github.io</title>
-        <id>tag:github.com,2008:PushEvent/19538520525/</id>
-        <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/ningensei848.github.io/compare/271f3bfd9f...2f78c133fc"/>
-        <updated>2021-12-31T13:45:57Z</updated>
-        <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;
-&lt;!-- push --&gt;
-&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
-    &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div class=&quot;&quot;&gt;
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
-      
-      pushed to
-        &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-        in
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/ningensei848.github.io&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/ningensei848.github.io&lt;/a&gt;
-        &lt;span class=&quot;color-fg-muted no-wrap f6 ml-1&quot;&gt;
-          &lt;relative-time datetime=&quot;2021-12-31T13:45:57Z&quot; class=&quot;no-wrap&quot;&gt;Dec 31, 2021&lt;/relative-time&gt;
-        &lt;/span&gt;
-
-        &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
-          &lt;span&gt;1 commit to&lt;/span&gt;
-          &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-
-          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
-            &lt;ul class=&quot;list-style-none&quot;&gt;
-                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
-                  &lt;span title=&quot;Ningensei848&quot;&gt;
-                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
-                  &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/ningensei848.github.io/commit/2f78c133fc9903aa98c5d1b5d3ab138360e48919&quot; rel=&quot;noreferrer&quot;&gt;2f78c13&lt;/a&gt;&lt;/code&gt;
-                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
-                    &lt;blockquote&gt;
-                      Update: feeds / &#x60;Scrapbox&#x60; and &#x60;GitHub&#x60;
-                    &lt;/blockquote&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-
-
-            &lt;/ul&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-      </entry>
-
-      <entry>
-        <title type="html">Ningensei848 pushed to main in Ningensei848/ningensei848.github.io</title>
-        <id>tag:github.com,2008:PushEvent/19536499018/</id>
-        <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/ningensei848.github.io/compare/b2f627e73a...271f3bfd9f"/>
-        <updated>2021-12-31T08:25:22Z</updated>
-        <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;
-&lt;!-- push --&gt;
-&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
-    &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div class=&quot;&quot;&gt;
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
-      
-      pushed to
-        &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-        in
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/ningensei848.github.io&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/ningensei848.github.io&lt;/a&gt;
-        &lt;span class=&quot;color-fg-muted no-wrap f6 ml-1&quot;&gt;
-          &lt;relative-time datetime=&quot;2021-12-31T08:25:22Z&quot; class=&quot;no-wrap&quot;&gt;Dec 31, 2021&lt;/relative-time&gt;
-        &lt;/span&gt;
-
-        &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
-          &lt;span&gt;1 commit to&lt;/span&gt;
-          &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-
-          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
-            &lt;ul class=&quot;list-style-none&quot;&gt;
-                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
-                  &lt;span title=&quot;Ningensei848&quot;&gt;
-                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
-                  &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/ningensei848.github.io/commit/271f3bfd9f0656f2f3eec3ae72c6120490d0ddde&quot; rel=&quot;noreferrer&quot;&gt;271f3bf&lt;/a&gt;&lt;/code&gt;
-                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
-                    &lt;blockquote&gt;
-                      Add: my activity feeds
-                    &lt;/blockquote&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-
-
-            &lt;/ul&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-      </entry>
-
-      <entry>
-        <title type="html">Ningensei848 pushed to main in Ningensei848/ningensei848.github.io</title>
-        <id>tag:github.com,2008:PushEvent/19535024358/</id>
-        <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/ningensei848.github.io/compare/42a2a9b87e...b2f627e73a"/>
-        <updated>2021-12-31T03:45:47Z</updated>
-        <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;
-&lt;!-- push --&gt;
-&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
-    &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div class=&quot;&quot;&gt;
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
-      
-      pushed to
-        &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-        in
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/ningensei848.github.io&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/ningensei848.github.io&lt;/a&gt;
-        &lt;span class=&quot;color-fg-muted no-wrap f6 ml-1&quot;&gt;
-          &lt;relative-time datetime=&quot;2021-12-31T03:45:47Z&quot; class=&quot;no-wrap&quot;&gt;Dec 31, 2021&lt;/relative-time&gt;
-        &lt;/span&gt;
-
-        &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
-          &lt;span&gt;1 commit to&lt;/span&gt;
-          &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-
-          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
-            &lt;ul class=&quot;list-style-none&quot;&gt;
-                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
-                  &lt;span title=&quot;Ningensei848&quot;&gt;
-                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
-                  &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/ningensei848.github.io/commit/b2f627e73a7229903307ac773baa6f05c92db86d&quot; rel=&quot;noreferrer&quot;&gt;b2f627e&lt;/a&gt;&lt;/code&gt;
-                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
-                    &lt;blockquote&gt;
-                      Update: Twitter widget parameter
-                    &lt;/blockquote&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-
-
-            &lt;/ul&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-      </entry>
-
-      <entry>
-        <title type="html">Ningensei848 pushed to main in Ningensei848/ningensei848.github.io</title>
-        <id>tag:github.com,2008:PushEvent/19528718828/</id>
-        <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/ningensei848.github.io/compare/2b97b6b18d...42a2a9b87e"/>
-        <updated>2021-12-30T12:52:26Z</updated>
-        <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;
-&lt;!-- push --&gt;
-&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
-    &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div class=&quot;&quot;&gt;
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
-      
-      pushed to
-        &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-        in
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/ningensei848.github.io&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/ningensei848.github.io&lt;/a&gt;
-        &lt;span class=&quot;color-fg-muted no-wrap f6 ml-1&quot;&gt;
-          &lt;relative-time datetime=&quot;2021-12-30T12:52:26Z&quot; class=&quot;no-wrap&quot;&gt;Dec 30, 2021&lt;/relative-time&gt;
-        &lt;/span&gt;
-
-        &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
-          &lt;span&gt;1 commit to&lt;/span&gt;
-          &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-
-          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
-            &lt;ul class=&quot;list-style-none&quot;&gt;
-                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
-                  &lt;span title=&quot;Ningensei848&quot;&gt;
-                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
-                  &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/ningensei848.github.io/commit/42a2a9b87e7c06a36d2bfa84e108ada4d220792f&quot; rel=&quot;noreferrer&quot;&gt;42a2a9b&lt;/a&gt;&lt;/code&gt;
-                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
-                    &lt;blockquote&gt;
-                      Add: external links
-                    &lt;/blockquote&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-
-
-            &lt;/ul&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
       </entry>
 
       <entry>
@@ -1842,22 +1851,6 @@ JSON Typed Definition っていう規格を使う；ただし RFC 8927 (Experime
         <link rel="alternate" type="text/html" href="https://scrapbox.io/Ningensei848/Step_2:_Set_up_Prisma_and_connect_your_PostgreSQL_database"/>
         <updated>2021-09-11T11:11:08Z</updated>
         <content type="html">&lt;br /&gt;code:terminal&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;$ npm install prisma --save-dev&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;$ npx prisma init&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span&gt;カレントディレクトリに &lt;/span&gt;&lt;span&gt;prisma&lt;/span&gt;&lt;span&gt; をインストールする．その後，初期化してやる．&lt;/span&gt;&lt;br /&gt;こうして，PostgreSQL に接続する準備が整う．以下のファイルがあるはずだ．&lt;br /&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;schema.prisma&lt;/span&gt;&lt;span&gt; : prisma の設定ファイル；DBのスキーマ設計も含まれる&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;.env&lt;/span&gt;&lt;span&gt; : データベースとつなぐ際のセンシティブ情報等を置く&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;code:.env&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;// .env&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;DATABASE_URL=&amp;quot;postgresql://giwuzwpdnrgtzv:d003c6a604bb400ea955c3abd8c16cc98f2d909283c322ebd8e9164b33ccdb75@ec2-54-170-123-247.eu-west-1.compute.amazonaws.com:5432/d6ajekcigbuca9&amp;quot;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://scrapbox.io/Ningensei848/Step_3._Create_your_database_schema_with_Prisma&quot;&gt;Step 3. Create your database schema with Prisma&lt;/a&gt;&lt;br /&gt;</content>
-      </entry>
-
-      <entry>
-        <title type="html">Step 1: Set up your Next.js starter project - 気合でなんとか - Scrapbox</title>
-        <id>https://scrapbox.io/Ningensei848/Step_1:_Set_up_your_Next.js_starter_project</id>
-        <link rel="alternate" type="text/html" href="https://scrapbox.io/Ningensei848/Step_1:_Set_up_your_Next.js_starter_project"/>
-        <updated>2021-09-11T11:03:19Z</updated>
-        <content type="html">&lt;br /&gt;code:terminal&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;$ npx create-next-app --example &lt;/span&gt;&lt;span&gt;&lt;a href=&quot;https://github.com/nikolasburk/blogr-nextjs-prisma/tree/main&quot;&gt;https://github.com/nikolasburk/blogr-nextjs-prisma/tree/main&lt;/a&gt;&lt;/span&gt;&lt;span&gt; blogr-nextjs-prisma&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;$ cd blogr-nextjs-prisma &amp;amp;&amp;amp; npm run dev&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span&gt;npx&lt;/span&gt;&lt;span&gt; を利用して &lt;/span&gt;&lt;span&gt;blogr-nextjs-prisma&lt;/span&gt;&lt;span&gt; というアプリを持ってきてセットアップしている&lt;/span&gt;&lt;br /&gt;ディレクトリ内に移動してサーバを起動するとアプリにアクセスできる&lt;br /&gt;&lt;br /&gt;&lt;img src=&quot;https://vercel.com/docs-proxy/static/guides/nextjs-prisma-postgres/1.png&quot;/&gt;&lt;br /&gt;&lt;br /&gt;&lt;span&gt;現段階では &lt;/span&gt;&lt;span&gt;getStaticProps&lt;/span&gt;&lt;span&gt; でデータをハードコーディングしている．次以降のステップでデータベースとつないで改善する．&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://scrapbox.io/Ningensei848/Step_2:_Set_up_Prisma_and_connect_your_PostgreSQL_database&quot;&gt;Step 2: Set up Prisma and connect your PostgreSQL database&lt;/a&gt;&lt;br /&gt;</content>
-      </entry>
-
-      <entry>
-        <title type="html">競馬と機械学習 - 気合でなんとか - Scrapbox</title>
-        <id>https://scrapbox.io/Ningensei848/%E7%AB%B6%E9%A6%AC%E3%81%A8%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92</id>
-        <link rel="alternate" type="text/html" href="https://scrapbox.io/Ningensei848/%E7%AB%B6%E9%A6%AC%E3%81%A8%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92"/>
-        <updated>2021-08-03T06:26:27Z</updated>
-        <content type="html">&lt;a href=&quot;https://scrapbox.io/Ningensei848/%E7%AB%B6%E9%A6%AC&quot;&gt;#競馬&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;span&gt;&lt;a href=&quot;https://github.com/Ningensei848/ML4Keiba&quot;&gt;ML4Keiba&lt;/a&gt;&lt;/span&gt;&lt;span&gt; →　リポジトリは作成して，いい感じにデータを集めている&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;strike&gt;&lt;span&gt;&lt;a href=&quot;https://scrapbox.io/Ningensei848/netkeiba%E3%81%8B%E3%82%89HTML%E8%87%AA%E4%BD%93%E3%82%92%E5%8F%96%E5%BE%97&quot;&gt;netkeibaからHTML自体を取得&lt;/a&gt;&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;/strike&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;別途プログラムを作成してクローラを作成して収集中&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;目的関数の設定&lt;/strong&gt;&lt;br /&gt;考えられる困難点：&lt;br /&gt;・馬の数がとても多い(2万以上)が、それぞれの馬のレース数は少ない（〜46）&lt;br /&gt;・勝負事である（絶対評価で求められたデータでは無く、相対評価のセット）&lt;br /&gt;・その時々の調子とかがある、馬も成長する（時系列的データ）&lt;br /&gt;・騎手、競馬場の特徴、天候、馬場状態などにも結果が左右される&lt;br /&gt;&lt;span&gt;cf. &lt;/span&gt;&lt;span&gt;&lt;a href=&quot;https://cocon-corporation.com/cocontoco/horseraceprediction_ai/&quot;&gt;https://cocon-corporation.com/cocontoco/horseraceprediction_ai/&lt;/a&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;過去すべてをさかのぼってレーティングを定めるのは不可能に近い&lt;br /&gt;→1970年以前はすべて先祖の勝敗だけでレートを決めうちとする？&lt;br /&gt;&lt;br /&gt;各ウマが持つレートの変動を保存するテーブルが必要&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;例：&lt;br /&gt;2018101626&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;上4桁をスライス&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;data/csv/horse/2018.tsvから「基本情報」「血統情報」「race_history」を得る&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;（race_historyを index としてレート変化のDFが作れそう？）&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;ローカルDBつくってSQL吐く？&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;horse&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;bms&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;sire&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;result&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;JRA &amp;amp; NAR&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;stats&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;JRA &amp;amp; NAR&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;DataFrameからSQLiteに吐き出すことができる&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;CSVをTurtle形式のRDFファイルに変換&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;virtuoso + sparqlist で API サーバを建てる方法は確立した&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;必要なのはvirtuoso に入れるデータとそれに対するSPARQLクエリ&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;手元のCSVをTurtleにすればいいのでは&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;馬のラップタイム　→　予測可能だが，&lt;/span&gt;&lt;span&gt;&lt;strong&gt;他の馬との競争&lt;/strong&gt;&lt;/span&gt;&lt;span&gt; という要素がまるっきり抜け落ちる&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;出走馬間の優劣のモデル化が必要？？&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;前日と当日のオッズ変化による予測？＞集合知的なアプローチ&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;レース場は何年かごとに改修工事が入る　→　過去のレースデータは10年程度までにとどめる？&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;内枠・外枠の有利不利は？&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;調教師・騎手はどの程度影響するのか&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;得意・不得意は確実にあるはず&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;解く問題は1つである必要は無い　→　予測モデルを複数作って組み合わせていく？&lt;br /&gt;&lt;br /&gt;練習その１：種牡馬になれるかどうか？（血統的に価値がある馬かどうか二値分類するタスク）&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;LightGBMでなんとなくできそうなことがわかった&lt;/span&gt;&lt;br /&gt;練習その２：血統を分散表現で表してみる&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;cf. &lt;/span&gt;&lt;span&gt;&lt;a href=&quot;https://gotutiyan.hatenablog.com/entry/2020/09/02/200144&quot;&gt;https://gotutiyan.hatenablog.com/entry/2020/09/02/200144&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span&gt;&lt;a href=&quot;https://scrapbox.io/Ningensei848/%E3%83%AC%E3%83%BC%E3%82%B9%E5%86%85%E6%A8%99%E6%BA%96%E5%8C%96&quot;&gt;レース内標準化&lt;/a&gt;&lt;/span&gt;&lt;span&gt;？&lt;/span&gt;&lt;br /&gt;特徴量の標準化？&lt;br /&gt;交差検証&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://scrapbox.io/Ningensei848/SHAP&quot;&gt;SHAP&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://scrapbox.io/Ningensei848/optuna&quot;&gt;optuna&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;過去10年分のデータセットで予測&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;血統はそれ以前まで遡る&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;レース場が改修工事等で変わることを考えて，過去10年とした&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;もちろんダメそうならもっと遡ることになる&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;train: 2011年~2018年, validation: 2019年, test: 2020年&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;出走馬情報を入力してどの順位になるか出力される分類問題として考える？&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;問題：血統がどの程度寄与するのかわかっていない&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;血統だけで予測した場合　VS　過去Nレースの成績で予測した場合　VS　組み合わせた場合&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;学習手法の検討：&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;&lt;a href=&quot;https://scrapbox.io/Ningensei848/LightGBM&quot;&gt;LightGBM&lt;/a&gt;&lt;/span&gt;&lt;span&gt; ってやつをつかうアプローチ&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;ランキング学習&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;ListNet？&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;ウマはただのカテゴリ変数ではなく，なんらかの意味を持ったデータ集合であるはず&lt;/span&gt;&lt;br /&gt;→　どうにかして数値化して扱えるようにしたい&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;血統&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;＋親のレース履歴&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;騎手&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;レース履歴&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;レーティング設定&lt;/strong&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;マルゼンスキー（1974年）以前の馬は一律レーティングを付与する（1500？）&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;PyTorchでカテゴリ変数を扱うやり方がよくわからずつらい&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;単に整数値を割り当てるだけだと，情報が落ちる？&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;Entity Embedding というやりかたがあるらしいが……今度はそれがわからん&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;今手元にあるやり方は３つ&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;単に割当る&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;Entity Embeding&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;LightGBM&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;予測モデル：&lt;/strong&gt;&lt;br /&gt;入力：レース情報（馬場，頭数など），出走馬，斤量，騎手，調教師，（馬体重，オッズ変化）&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;レース情報はスクレイピングで取れる&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://race.netkeiba.com/race/shutuba.html?race_id=YYYYXXZZZZZZ&quot;&gt;https://race.netkeiba.com/race/shutuba.html?race_id=YYYYXXZZZZZZ&lt;/a&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;出走馬・騎手・調教師情報は，それまでのスクレイピングでDB化してある前提&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;オッズや体重変化は考慮しない？（馬体重は出走60分前にならないと発表されない）&lt;/span&gt;&lt;br /&gt;出力：上位3頭（5頭？）の組み合わせ　を確率順にいくつか&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;単勝（1頭），馬連（2頭），連複（3頭），入着（5頭）&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;購入モデル：&lt;/strong&gt;&lt;br /&gt;入力：現在のオッズ，上位3頭（5頭？）の組み合わせをNパターン&lt;br /&gt;出力：買うべき馬券&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;そもそものデータ収集の方法は？&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;スクレイピング以外はお金かかりそう&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;HTMLを吸って，手元に持ってきてから解析&lt;/span&gt;&lt;br /&gt;どういうデータを集める？&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;YYYYMMDD WeekDay times/year place 連日　発走時刻：15時35分	天候　芝状態&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;ナンバリング　レース名　グレード　年齢制限　クラス制限　レース種別（特指）	コース：2,000メートル（芝・右）&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;着順	枠	馬番	馬名	性齢	負担重量	騎手名	タイム	着差	コーナー　通過順位　推定上り	馬体重&lt;/span&gt;&lt;br /&gt;（増減）　調教師名	単勝人気&lt;br /&gt;&lt;br /&gt;どういう手法を用いる？&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;その馬のステータスを推測する　←　ウマ娘方式を採用する&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;大事なのは着順ではなく時計のはず&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;天気・地形・馬場状態との関連も考慮&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;同様にして，騎手・調教師・馬主（生産者）の成績も数値化すべき&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;レース結果が殆どない馬もいる……これを予想するために血統から初期値・潜在能力等を予測する&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;事前のオッズではなく，当日の変化（パドックの状態を見て直前の変化）が取れるといいかも？&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;TODO:&lt;/strong&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;競馬にまつわるいろんな評価指標&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;複勝圏内率，前回のレースから何日経っているか（ローテーション）&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;レースごとの難易度推定：条件，標準タイム，天候などの補正&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;レースは血統と違い独立しているので算出しやすいはず&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;騎手や調教師のレーティングもほしい（が，レース情報の分析から引っ張ってくるのがよさそう）&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;まずはレース情報のリスト化？&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;Oputuna の利用検討&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;血統による初期レートの補正&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;（外国産馬の場合など）競走成績が存在しない場合がある　→　レート推定が困難&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;このとき，産駒成績からレートを逆算する？&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;パフォーマンスがどのように変化していくのか&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;どこかを最盛期として，後は緩やかに落ちていくはず&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;sire&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;bms&lt;/span&gt;&lt;span&gt; についてカラムのズレをなおす&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;パッチを当てるのはクローラが停止してから&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;パドックの映像解析？？？？？無理では&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;参考文献&lt;/strong&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://qiita.com/Mshimia/items/6c54d82b3792925b8199&quot;&gt;機械学習で競馬の回収率100%超えを達成した話 - Qiita&lt;/a&gt;&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://qiita.com/penguinz222/items/6a30d026ede2e822e245&quot;&gt;クローリング&amp;amp;スクレイピング 競馬情報抜き出してみた - Qiita&lt;/a&gt;&lt;/span&gt;&lt;br /&gt;</content>
       </entry>
 
       <entry>
