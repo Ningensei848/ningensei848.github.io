@@ -1,2 +1,2 @@
 export { mdxCompile } from './convert'
-export { getAllBlogCommitLog } from './read'
+export { getAllBlogCommitLog, getMarkdownContent } from './read'

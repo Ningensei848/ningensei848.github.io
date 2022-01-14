@@ -1,8 +1,9 @@
-import { Fragment, useEffect, useState } from 'react'
 import * as runtime from 'react/jsx-runtime.js'
+import { Fragment, useEffect, useState } from 'react'
 import { run } from '@mdx-js/mdx'
+import { Box, CircularProgress } from '@mui/material'
+
 import type { MDXModule } from 'mdx/types'
-import { Box } from '@mui/material'
 
 // cf. https://mdxjs.com/guides/mdx-on-demand/#nextjs-example
 
@@ -18,20 +19,21 @@ const MDXContent = (props: { content: string }) => {
     })()
   }, [content])
 
-  return (
-    <Box
-      component='article'
-      className='markdown-body'
-      // cf. https://github.com/sindresorhus/github-markdown-css#usage
-      boxSizing='border-box'
-      minWidth='200px'
-      maxWidth='980px'
-      margin='0 auto'
-      padding={{ sm: 1 }}
-    >
-      <Content />
-    </Box>
-  )
+  if (!mdxModule) {
+    return <CircularProgress color='primary' />
+  } else {
+    return (
+      <Box
+        component='article'
+        className='znc'
+        boxSizing='border-box'
+        margin='0 auto'
+        padding={{ sm: 1 }}
+      >
+        <Content />
+      </Box>
+    )
+  }
 }
 
 export default MDXContent

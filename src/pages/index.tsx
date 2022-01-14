@@ -14,7 +14,7 @@ import {
   CallMade as ExternalLinkIcon,
   East as InternalLinkIcon,
   // Timeline as TimelineIcon,
-  // LocalLibrary as NoteIcon,  // for markdown
+  LocalLibrary as NoteIcon, // for markdown
   AccountCircle as ProfileIcon,
   RssFeed as RssFeedIcon,
   CollectionsBookmark as LinkIcon
@@ -102,10 +102,6 @@ const Index = () => {
             {/* <Item name='Timeline'>
             <TimelineIcon />
           </Item> */}
-            {/* for markdown pages */}
-            {/* <Item name='Note'>
-            <NoteIcon />
-          </Item> */}
             <Item
               name='About'
               desc='brief introduction about me'
@@ -127,6 +123,9 @@ const Index = () => {
         </Box>
         <Box width='100%'>
           <List>
+            <Item name='Blog' desc='my ideas and diary' isViewportMedium={isViewportMedium}>
+              <NoteIcon />
+            </Item>
             <ExternalItem
               name='Zenn.dev'
               url='https://zenn.dev/ningensei848'

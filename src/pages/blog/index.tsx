@@ -20,7 +20,16 @@ Index page に必要なもの
 - gen/tagmap.json からタグ一覧を表示
 */
 
-import { Container, List, ListItem, ListItemButton, ListItemText } from '@mui/material'
+import {
+  Box,
+  Paper,
+  Container,
+  List,
+  ListItem,
+  ListItemButton,
+  ListItemText,
+  Typography
+} from '@mui/material'
 import { NextLinkComposed } from 'src/components/Link'
 import { BLOG_BASEPATH, MARKDOWN_PAGE_PATH } from 'src/consts'
 import { getAllBlogCommitLog } from 'src/libs/markdown'
@@ -52,7 +61,16 @@ const Blog = (props: InferGetStaticPropsType<typeof getStaticProps>) => {
 
   return (
     <Container maxWidth='md'>
-      <List>{listItems}</List>
+      <Paper elevation={0}>
+        <Box mx={3} pt={3}>
+          <Typography component='h1' variant='h3'>
+            my posts
+          </Typography>
+        </Box>
+        <Box mx={1} mt={2}>
+          <List>{listItems}</List>
+        </Box>
+      </Paper>
     </Container>
   )
 }
