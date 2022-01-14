@@ -40,7 +40,16 @@ export const getStaticProps = async () => {
 
 const MyProfile = ({ content }: InferGetStaticPropsType<typeof getStaticProps>): JSX.Element => {
   return (
-    <Box m={2}>
+    <Box
+      component='article'
+      className='markdown-body'
+      // cf. https://github.com/sindresorhus/github-markdown-css#usage
+      boxSizing='border-box'
+      minWidth='200px'
+      maxWidth='980px'
+      margin='0 auto'
+      padding={{ sm: 1 }}
+    >
       <MDXContent content={content} />
     </Box>
   )

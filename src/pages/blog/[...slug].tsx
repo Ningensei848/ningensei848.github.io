@@ -44,7 +44,16 @@ const BlogPage: NextPage<Props> = (props) => {
   return (
     <Container maxWidth='md'>
       <Paper elevation={3}>
-        <Box mx={2} my={2}>
+        <Box
+          component='article'
+          className='znc'
+          boxSizing='border-box'
+          margin='0 auto'
+          padding={{ sm: 1 }}
+          marginX={{ sm: 1, md: 2 }}
+          my={2}
+          minHeight='70vh'
+        >
           <MDXContent content={content} />
         </Box>
       </Paper>

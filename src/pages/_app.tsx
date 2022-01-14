@@ -5,7 +5,7 @@ import { CssBaseline, ThemeProvider } from '@mui/material'
 import { CacheProvider, EmotionCache } from '@emotion/react'
 
 // cf. https://nextjs.org/docs/basic-features/built-in-css-support#import-styles-from-node_modules
-// import 'github-markdown-css'
+import 'github-markdown-css'
 import 'zenn-content-css'
 import 'src/styles/global.css'
 

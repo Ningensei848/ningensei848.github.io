@@ -67,7 +67,7 @@ const Blog = (props: InferGetStaticPropsType<typeof getStaticProps>) => {
             my posts
           </Typography>
         </Box>
-        <Box mx={1} mt={2}>
+        <Box mx={1} mt={2} minHeight='70vh'>
           <List>{listItems}</List>
         </Box>
       </Paper>

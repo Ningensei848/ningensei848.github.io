@@ -1,7 +1,7 @@
 import * as runtime from 'react/jsx-runtime.js'
 import { Fragment, useEffect, useState } from 'react'
 import { run } from '@mdx-js/mdx'
-import { Box, CircularProgress } from '@mui/material'
+import { CircularProgress } from '@mui/material'
 
 import type { MDXModule } from 'mdx/types'
 
@@ -22,17 +22,7 @@ const MDXContent = (props: { content: string }) => {
   if (!mdxModule) {
     return <CircularProgress color='primary' />
   } else {
-    return (
-      <Box
-        component='article'
-        className='znc'
-        boxSizing='border-box'
-        margin='0 auto'
-        padding={{ sm: 1 }}
-      >
-        <Content />
-      </Box>
-    )
+    return <Content />
   }
 }
 
