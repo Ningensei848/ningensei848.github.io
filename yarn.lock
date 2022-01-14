@@ -5006,6 +5006,7 @@ __metadata:
     rss-parser: ^3.12.0
     swr: ^1.1.1
     typescript: ^4.5.3
+    zenn-content-css: ^0.1.100
   languageName: unknown
   linkType: soft
 
@@ -6984,6 +6985,13 @@ __metadata:
   version: 0.1.0
   resolution: "yocto-queue@npm:0.1.0"
   checksum: f77b3d8d00310def622123df93d4ee654fc6a0096182af8bd60679ddcdfb3474c56c6c7190817c84a2785648cdee9d721c0154eb45698c62176c322fb46fc700
+  languageName: node
+  linkType: hard
+
+"zenn-content-css@npm:^0.1.100":
+  version: 0.1.100
+  resolution: "zenn-content-css@npm:0.1.100"
+  checksum: 63c2b271e2a71bd039ad87f86e1802ead484ee83f6293e0f202b2c615867678585f156e3cab38769028a44e3f6fc583c83b4172811c2f340a1a19669739b58a2
   languageName: node
   linkType: hard
 
