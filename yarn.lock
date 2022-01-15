@@ -109,6 +109,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@corex/deepmerge@npm:^2.6.148":
+  version: 2.6.148
+  resolution: "@corex/deepmerge@npm:2.6.148"
+  checksum: b80b6b3e408901151de26e27b519a43cda1771a81e5390ff10cd6b47add0139bb315ca44112ff076d68ac887d7cfe237c9fb33868efb04839c4afb7c38864385
+  languageName: node
+  linkType: hard
+
 "@date-io/core@npm:^2.11.0":
   version: 2.11.0
   resolution: "@date-io/core@npm:2.11.0"
@@ -368,7 +375,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mdx-js/mdx@npm:next":
+"@mdx-js/mdx@npm:2.0.0-rc.2":
   version: 2.0.0-rc.2
   resolution: "@mdx-js/mdx@npm:2.0.0-rc.2"
   dependencies:
@@ -3567,7 +3574,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimist@npm:^1.2.0, minimist@npm:~1.2.5":
+"minimist@npm:^1.2.0, minimist@npm:^1.2.5, minimist@npm:~1.2.5":
   version: 1.2.5
   resolution: "minimist@npm:1.2.5"
   checksum: 86706ce5b36c16bfc35c5fe3dbb01d5acdc9a22f2b6cc810b6680656a1d2c0e44a0159c9a3ba51fb072bb5c203e49e10b51dcd0eec39c481f4c42086719bae52
@@ -3625,6 +3632,20 @@ __metadata:
   version: 1.4.0
   resolution: "natural-compare@npm:1.4.0"
   checksum: 23ad088b08f898fc9b53011d7bb78ec48e79de7627e01ab5518e806033861bef68d5b0cd0e2205c2f36690ac9571ff6bcb05eb777ced2eeda8d4ac5b44592c3d
+  languageName: node
+  linkType: hard
+
+"next-sitemap@npm:^1.9.9":
+  version: 1.9.9
+  resolution: "next-sitemap@npm:1.9.9"
+  dependencies:
+    "@corex/deepmerge": ^2.6.148
+    minimist: ^1.2.5
+  peerDependencies:
+    next: "*"
+  bin:
+    next-sitemap: bin/next-sitemap
+  checksum: 31937a48833c664912703d85b591ae67c9759fdc6831cd683322762e74ab4b779307ea79d43fe77483498c406e5ce9918661c3e3b463818666139819cff55c9f
   languageName: node
   linkType: hard
 
@@ -3703,7 +3724,7 @@ __metadata:
     "@emotion/react": ^11.7.1
     "@emotion/server": ^11.4.0
     "@emotion/styled": ^11.6.0
-    "@mdx-js/mdx": next
+    "@mdx-js/mdx": 2.0.0-rc.2
     "@mui/icons-material": ^5.2.1
     "@mui/lab": ^5.0.0-alpha.62
     "@mui/material": ^5.2.3
@@ -3721,6 +3742,7 @@ __metadata:
     github-markdown-css: ^5.1.0
     gray-matter: ^4.0.3
     next: ^12.0.8
+    next-sitemap: ^1.9.9
     prettier: ^2.5.1
     react: ^17.0.2
     react-dom: ^17.0.2

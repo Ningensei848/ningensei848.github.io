@@ -8,7 +8,8 @@
     "export": "next export",
     "lint": "next lint --cache --ignore-path .gitignore",
     "lint:fix": "yarn lint --fix && yarn format",
-    "format": "prettier --ignore-path .gitignore --write './{src,blogs}/**/*.{js,jsx,ts,tsx,json,css,md,mdx}'"
+    "format": "prettier --ignore-path .gitignore --write './{src,blogs}/**/*.{js,jsx,ts,tsx,json,css,md,mdx}'",
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
     "@emotion/react": "^11.7.1",
@@ -41,6 +42,7 @@
     "eslint-config-next": "12.0.7",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
+    "next-sitemap": "^1.9.9",
     "prettier": "^2.5.1",
     "typescript": "^4.5.3"
   },
@@ -54,6 +56,7 @@
   },
   "eslintIgnore": [
     ".eslintrc.js",
-    "next.config.mjs"
+    "next.config.mjs",
+    "next-sitemap.js"
   ]
 }
