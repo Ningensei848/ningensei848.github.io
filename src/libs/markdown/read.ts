@@ -91,7 +91,7 @@ const gitLog = (slug: string, ext: string) => {
   const filepath = [MARKDOWN_DIR, `${slug}.${ext.replaceAll(/\./g, '')}`].join(sep)
   // Note: GitHub Actions の `actions/checkout@v2` は fetch.depth = 1 である
   // 方針：最新の履歴だけでなく，リモートリポジトリ内の過去 10 件の履歴も得る
-  return `git log origin/main -n 10 --pretty=oneline --pretty=format:"[%H] %ad (%ar) || %s" ${filepath}`
+  return `git log --remotes=origin -n 10 --pretty=oneline --pretty=format:"[%H] %ad (%ar) || %s" ${filepath}`
 }
 
 /* blogs/ 以下を再帰的に走査し，md および mdx のファイルパス一覧を得る
