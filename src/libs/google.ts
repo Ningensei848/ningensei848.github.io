@@ -1,16 +1,16 @@
 import { useRouter } from 'next/router'
 import { useEffect } from 'react'
 
-export const GTM_ID = process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID || ''
-export const Ad_ID = process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_ID || ''
-
 // cf. https://dev.classmethod.jp/articles/typings-of-window-object/#toc-11
-interface Window {
-  dataLayer: any
+declare global {
+  interface Window {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    dataLayer: Record<string, any>[]
+  }
 }
-declare var window: Window
 
 const pageview = (url: string) => {
+  // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-call
   window.dataLayer.push({
     event: 'pageview',
     page: url

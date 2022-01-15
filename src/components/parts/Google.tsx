@@ -1,7 +1,9 @@
 /* eslint-disable eslint-comments/disable-enable-pair */
 /* eslint-disable @next/next/next-script-for-ga */
-// import Script from 'next/script'
-import { Ad_ID, GTM_ID } from 'src/libs/google'
+
+import { useRouter } from 'next/router'
+import { useEffect } from 'react'
+import { GTM_ID, Ad_ID, Ad_Sidebar_ID } from 'src/consts'
 
 export const GoogleTagManager = (): JSX.Element => (
   // <Script
@@ -45,3 +47,38 @@ export const GoogleAdsense = (): JSX.Element => (
     src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${Ad_ID}`}
   />
 )
+
+declare global {
+  interface Window {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    adsbygoogle: any
+  }
+}
+
+export const SidebarAds = (): JSX.Element => {
+  const { asPath } = useRouter()
+
+  useEffect(() => {
+    try {
+      if (!window) return // SSR 処理中は skip
+      // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
+      window.adsbygoogle = window.adsbygoogle || []
+      // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-call
+      window.adsbygoogle.push({})
+    } catch (err) {
+      console.log(err)
+    }
+  }, [asPath])
+
+  return (
+    <ins
+      key={asPath}
+      className='adsbygoogle'
+      style={{ display: 'block' }}
+      data-ad-client={Ad_ID}
+      data-ad-slot={Ad_Sidebar_ID} // 広告ユニット ID || cf. https://support.google.com/admob/answer/3016009?hl=ja
+      data-ad-format='auto'
+      data-full-width-responsive='true'
+    />
+  )
+}

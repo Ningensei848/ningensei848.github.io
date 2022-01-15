@@ -16,8 +16,6 @@ export const FILENAME_ATOMFEED = 'atom.xml'
 export const FILEPATH_ATOMFEED = `${PROJECT_ROOT}/public/${FILENAME_ATOMFEED}`
 export const URL_ATOM = origin + '/' + FILENAME_ATOMFEED
 
-export const NINJA_ADMAX_ID = process.env.NEXT_PUBLIC_NINJA_ADMAX_ID || 'XXXXXXXXX'
-
 export const FEEDS: string[] = [
   'https://github.com/Ningensei848.atom', // GitHub
   'https://scrapbox.io/api/feed/Ningensei848', // scrapbox

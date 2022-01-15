@@ -10,7 +10,9 @@ export {
   PROJECT_ROOT,
   URL_ATOM,
   ajv,
-  FEEDS,
-  NINJA_ADMAX_ID
+  FEEDS
 } from './global'
+
 export { MDXCompileOptions, MARKDOWN_DIR, MARKDOWN_PAGE_PATH, BLOG_BASEPATH } from './markdown'
+
+export { GTM_ID, Ad_ID, Ad_Sidebar_ID } from './google'

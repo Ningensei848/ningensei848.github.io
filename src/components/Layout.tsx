@@ -1,12 +1,8 @@
-import Script from 'next/script'
-
 import { useMediaQuery, Box, Grid } from '@mui/material'
 
-import { NINJA_ADMAX_ID } from 'src/consts'
-
-// import AppBar from './parts/AppBar'
 import Footer from './parts/Footer'
 import { TwitterTimeline } from 'src/components/parts/Twitter'
+import { SidebarAds } from 'src/components/parts/Google'
 
 import type { ReactNode } from 'react'
 import type { Theme } from '@mui/material'
@@ -26,12 +22,10 @@ const Layout = ({ children }: { children: ReactNode }) => {
       {/* <AppBar /> */}
       <Grid container>
         <Grid item sm={2} display={isViewportSmall ? undefined : 'none'}>
-          {/* 広告枠 */}
-          <Script
-            src={`https://adm.shinobi.jp/s/${NINJA_ADMAX_ID}`}
-            strategy='lazyOnload'
-            charSet='utf-8'
-          />
+          <Box width='100%' minHeight='70vh'>
+            {/* 広告枠 */}
+            <SidebarAds />
+          </Box>
         </Grid>
         <Grid item xs={12} sm={10} md={7}>
           <main>{children}</main>
