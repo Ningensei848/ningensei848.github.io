@@ -47,8 +47,9 @@ const MyProfile = ({ content }: InferGetStaticPropsType<typeof getStaticProps>):
       boxSizing='border-box'
       minWidth='200px'
       maxWidth='980px'
-      margin='0 auto'
-      padding={{ sm: 1 }}
+      padding={{ xs: 1 }}
+      marginX={{ xs: 2, md: 3 }}
+      marginY={{ xs: 3, md: 4 }}
     >
       <MDXContent content={content} />
     </Box>

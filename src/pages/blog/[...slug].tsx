@@ -48,10 +48,9 @@ const BlogPage: NextPage<Props> = (props) => {
           component='article'
           className='znc'
           boxSizing='border-box'
-          margin='0 auto'
-          padding={{ sm: 1 }}
-          marginX={{ sm: 1, md: 2 }}
-          my={2}
+          padding={{ xs: 1 }}
+          marginX={{ xs: 2, md: 3 }}
+          marginY={{ xs: 3, md: 4 }}
           minHeight='70vh'
         >
           <MDXContent content={content} />
