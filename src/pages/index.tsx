@@ -88,6 +88,94 @@ const ExternalItem = ({
   </ListItem>
 )
 
+const PageList = ({ isViewportMedium }: { isViewportMedium: boolean }) => {
+  if (isViewportMedium) {
+    return (
+      <Stack direction='row'>
+        <List sx={{ width: '100%' }}>
+          {/* <Item name='Timeline'>
+              <TimelineIcon />
+            </Item> */}
+          <Item name='About' desc='brief introduction about me' isViewportMedium={isViewportMedium}>
+            <ProfileIcon />
+          </Item>
+          <Item
+            name='RSS Feeds'
+            desc='my feeds in various services'
+            isViewportMedium={isViewportMedium}
+          >
+            <RssFeedIcon />
+          </Item>
+          <Item name='My Works' desc='' isViewportMedium={isViewportMedium}>
+            <LinkIcon />
+          </Item>
+        </List>
+        <List sx={{ width: '100%' }}>
+          <Item name='Blog' desc='my ideas and diary' isViewportMedium={isViewportMedium}>
+            <NoteIcon />
+          </Item>
+          <ExternalItem
+            name='Zenn.dev'
+            url='https://zenn.dev/ningensei848'
+            desc='tech blog'
+            isViewportMedium={isViewportMedium}
+          >
+            <ZennIcon fontSize='small' />
+          </ExternalItem>
+          <ExternalItem
+            name='Scrapbox'
+            url='https://scrapbox.io/Ningensei848'
+            desc='idea connection pool in my mind'
+            isViewportMedium={isViewportMedium}
+          >
+            <ScrapboxIcon fontSize='small' />
+          </ExternalItem>
+        </List>
+      </Stack>
+    )
+  } else {
+    return (
+      <List>
+        {/* <Item name='Timeline'>
+            <TimelineIcon />
+          </Item> */}
+        <Item name='About' desc='brief introduction about me' isViewportMedium={isViewportMedium}>
+          <ProfileIcon />
+        </Item>
+        <Item
+          name='RSS Feeds'
+          desc='my feeds in various services'
+          isViewportMedium={isViewportMedium}
+        >
+          <RssFeedIcon />
+        </Item>
+        <Item name='My Works' desc='' isViewportMedium={isViewportMedium}>
+          <LinkIcon />
+        </Item>
+
+        <Item name='Blog' desc='my ideas and diary' isViewportMedium={isViewportMedium}>
+          <NoteIcon />
+        </Item>
+        <ExternalItem
+          name='Zenn.dev'
+          url='https://zenn.dev/ningensei848'
+          desc='tech blog'
+          isViewportMedium={isViewportMedium}
+        >
+          <ZennIcon fontSize='small' />
+        </ExternalItem>
+        <ExternalItem
+          name='Scrapbox'
+          url='https://scrapbox.io/Ningensei848'
+          desc='idea connection pool in my mind'
+          isViewportMedium={isViewportMedium}
+        >
+          <ScrapboxIcon fontSize='small' />
+        </ExternalItem>
+      </List>
+    )
+  }
+}
 const Index = () => {
   const isViewportMedium = useMediaQuery((theme: Theme) => theme.breakpoints.up('md'))
 
@@ -96,55 +184,9 @@ const Index = () => {
       <Box width='100%'>
         <Nono4rsibus />
       </Box>
-      <Stack direction={{ xs: 'column', md: 'row' }}>
-        <Box width='100%'>
-          <List>
-            {/* <Item name='Timeline'>
-            <TimelineIcon />
-          </Item> */}
-            <Item
-              name='About'
-              desc='brief introduction about me'
-              isViewportMedium={isViewportMedium}
-            >
-              <ProfileIcon />
-            </Item>
-            <Item
-              name='RSS Feeds'
-              desc='my feeds in various services'
-              isViewportMedium={isViewportMedium}
-            >
-              <RssFeedIcon />
-            </Item>
-            <Item name='My Works' desc='' isViewportMedium={isViewportMedium}>
-              <LinkIcon />
-            </Item>
-          </List>
-        </Box>
-        <Box width='100%'>
-          <List>
-            <Item name='Blog' desc='my ideas and diary' isViewportMedium={isViewportMedium}>
-              <NoteIcon />
-            </Item>
-            <ExternalItem
-              name='Zenn.dev'
-              url='https://zenn.dev/ningensei848'
-              desc='tech blog'
-              isViewportMedium={isViewportMedium}
-            >
-              <ZennIcon fontSize='small' />
-            </ExternalItem>
-            <ExternalItem
-              name='Scrapbox'
-              url='https://scrapbox.io/Ningensei848'
-              desc='idea connection pool in my mind'
-              isViewportMedium={isViewportMedium}
-            >
-              <ScrapboxIcon fontSize='small' />
-            </ExternalItem>
-          </List>
-        </Box>
-      </Stack>
+      <Box width='100%'>
+        <PageList isViewportMedium={isViewportMedium} />
+      </Box>
       <Box display={isViewportMedium ? 'none' : undefined}>
         <TwitterTimeline width='100%' height={420} theme='light' username='Ningensei848' />
       </Box>
