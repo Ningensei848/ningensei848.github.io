@@ -7,8 +7,68 @@
     </author>
     <link rel="alternate" type="text/html" href="https://ningensei848.github.io/"/>
     <link rel="self" type="application/atom+xml" href="https://ningensei848.github.io/atom.xml"/>
-    <updated>2022-01-15T10:03:44Z</updated>
+    <updated>2022-01-15T10:27:40Z</updated>
     
+      <entry>
+        <title type="html">Ningensei848 pushed to main in Ningensei848/ningensei848.github.io</title>
+        <id>tag:github.com,2008:PushEvent/19753480076/</id>
+        <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/ningensei848.github.io/compare/3ee627ee78...b175be7d86"/>
+        <updated>2022-01-15T10:25:26Z</updated>
+        <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- push --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
+    &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div class=&quot;&quot;&gt;
+      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
+      
+      pushed to
+        &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
+        in
+      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/ningensei848.github.io&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/ningensei848.github.io&lt;/a&gt;
+        &lt;span class=&quot;color-fg-muted no-wrap f6 ml-1&quot;&gt;
+          &lt;relative-time datetime=&quot;2022-01-15T10:25:26Z&quot; class=&quot;no-wrap&quot;&gt;Jan 15, 2022&lt;/relative-time&gt;
+        &lt;/span&gt;
+
+        &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
+          &lt;span&gt;2 commits to&lt;/span&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
+
+          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+            &lt;ul class=&quot;list-style-none&quot;&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span title=&quot;Ningensei848&quot;&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/ningensei848.github.io/commit/b175be7d86a95db0b6c852f271196211c99cdb77&quot; rel=&quot;noreferrer&quot;&gt;b175be7&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Fix: an option for &#x60;git log&#x60;
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span title=&quot;Ningensei848&quot;&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/ningensei848.github.io/commit/7f505f941f99e9273a494338dfa0b28dfc1fe399&quot; rel=&quot;noreferrer&quot;&gt;7f505f9&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Update: sidebar ads style
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+      </entry>
+
       <entry>
         <title type="html">Ningensei848 pushed to main in Ningensei848/ningensei848.github.io</title>
         <id>tag:github.com,2008:PushEvent/19753357271/</id>
@@ -1527,69 +1587,6 @@
             &lt;/p&gt;
         &lt;/div&gt;
       &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-      </entry>
-
-      <entry>
-        <title type="html">Ningensei848 pushed to main in Ningensei848/ningensei848.github.io</title>
-        <id>tag:github.com,2008:PushEvent/19557290365/</id>
-        <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/ningensei848.github.io/compare/76cd34b000...a5a89233ba"/>
-        <updated>2022-01-03T11:26:01Z</updated>
-        <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;
-&lt;!-- push --&gt;
-&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
-    &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div class=&quot;&quot;&gt;
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
-      
-      pushed to
-        &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-        in
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/ningensei848.github.io&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/ningensei848.github.io&lt;/a&gt;
-        &lt;span class=&quot;color-fg-muted no-wrap f6 ml-1&quot;&gt;
-          &lt;relative-time datetime=&quot;2022-01-03T11:26:01Z&quot; class=&quot;no-wrap&quot;&gt;Jan 3, 2022&lt;/relative-time&gt;
-        &lt;/span&gt;
-
-        &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
-          &lt;span&gt;2 commits to&lt;/span&gt;
-          &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-
-          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
-            &lt;ul class=&quot;list-style-none&quot;&gt;
-                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
-                  &lt;span title=&quot;Ningensei848&quot;&gt;
-                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
-                  &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/ningensei848.github.io/commit/a5a89233ba881dd1e6ecc78402048a8d5b89e1aa&quot; rel=&quot;noreferrer&quot;&gt;a5a8923&lt;/a&gt;&lt;/code&gt;
-                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
-                    &lt;blockquote&gt;
-                      Merge pull request &lt;a class=&quot;issue-link js-issue-link&quot; data-error-text=&quot;Failed to load title&quot; data-id=&quot;1092430864&quot; data-permission-text=&quot;Title is private&quot; data-url=&quot;https://github.com/Ningensei848/ningensei848.github.io/issues/1&quot; data-hovercard-type=&quot;pull_request&quot; data-hovercard-url=&quot;/Ningensei848/ningensei848.github.io/pull/1/hovercard&quot; href=&quot;https://github.com/Ningensei848/ningensei848.github.io/pull/1&quot; rel=&quot;noreferrer&quot;&gt;#1&lt;/a&gt; from Ningensei848/blog
-                    &lt;/blockquote&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
-                  &lt;span title=&quot;Ningensei848&quot;&gt;
-                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
-                  &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/ningensei848.github.io/commit/ab2be9148ea0543a7aa3ec4289d580d1c55537b6&quot; rel=&quot;noreferrer&quot;&gt;ab2be91&lt;/a&gt;&lt;/code&gt;
-                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
-                    &lt;blockquote&gt;
-                      Update: Approach to generate &#x60;atom.xml&#x60;
-                    &lt;/blockquote&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-
-
-                &lt;li class=&quot;f6 mt-2&quot;&gt;
-                  &lt;a class=&quot;Link--secondary&quot; href=&quot;/Ningensei848/ningensei848.github.io/compare/76cd34b000...a5a89233ba&quot; rel=&quot;noreferrer&quot;&gt;1 more commit »&lt;/a&gt;
-                &lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
