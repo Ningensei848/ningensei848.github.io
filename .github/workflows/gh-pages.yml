@@ -19,8 +19,18 @@ jobs:
       # varName: ${{ steps.<id>.outputs.<name> }}
       atomFeed: ${{ steps.shareData.outputs.atom }}
     steps:
+      - name: Extract branch name
+        shell: bash
+        run: echo "::set-output name=branch::${GITHUB_REF#refs/heads/}"
+        id: extract_branch
+        # cf. http://web.archive.org/web/20211216132447/https://qiita.com/iery/items/43b72813c394050b8bbc
+
       - name: Checkout repository
         uses: actions/checkout@v2
+        env:
+          BRANCH_NAME: ${{ steps.extract_branch.outputs.branch }}
+        run: git fetch origin $BRANCH_NAME:$BRANCH_NAME
+        # cf. http://web.archive.org/web/20211228150242/https://stackoverflow.com/questions/3216360/merge-update-and-pull-git-branches-without-using-checkouts
 
       - name: Setup Node
         uses: actions/setup-node@v2
