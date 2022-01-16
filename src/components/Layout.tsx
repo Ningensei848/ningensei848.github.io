@@ -21,8 +21,8 @@ const Layout = ({ children }: { children: ReactNode }) => {
     >
       {/* <AppBar /> */}
       <Grid container>
-        <Grid item sm={2} display={isViewportSmall ? undefined : 'none'}>
-          <Box width='100%' mx={2} mt={6} sx={{ boxShadow: 2 }}>
+        <Grid item sm={2} m={2} display={isViewportSmall ? undefined : 'none'}>
+          <Box mx={2} mt={4} sx={{ boxShadow: 2 }}>
             {/* 広告枠 */}
             <SidebarAds />
           </Box>
