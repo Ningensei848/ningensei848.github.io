@@ -7,8 +7,57 @@
     </author>
     <link rel="alternate" type="text/html" href="https://ningensei848.github.io/"/>
     <link rel="self" type="application/atom+xml" href="https://ningensei848.github.io/atom.xml"/>
-    <updated>2022-01-16T03:45:25Z</updated>
+    <updated>2022-01-16T05:35:17Z</updated>
     
+      <entry>
+        <title type="html">Ningensei848 pushed to main in Ningensei848/ningensei848.github.io</title>
+        <id>tag:github.com,2008:PushEvent/19759258829/</id>
+        <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/ningensei848.github.io/compare/181fc61f51...d6e7478bb1"/>
+        <updated>2022-01-16T05:33:14Z</updated>
+        <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- push --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
+    &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div class=&quot;&quot;&gt;
+      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
+      
+      pushed to
+        &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
+        in
+      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/ningensei848.github.io&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/ningensei848.github.io&lt;/a&gt;
+        &lt;span class=&quot;color-fg-muted no-wrap f6 ml-1&quot;&gt;
+          &lt;relative-time datetime=&quot;2022-01-16T05:33:14Z&quot; class=&quot;no-wrap&quot;&gt;Jan 16, 2022&lt;/relative-time&gt;
+        &lt;/span&gt;
+
+        &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
+          &lt;span&gt;1 commit to&lt;/span&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
+
+          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+            &lt;ul class=&quot;list-style-none&quot;&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span title=&quot;Ningensei848&quot;&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/ningensei848.github.io/commit/d6e7478bb1b665e3f721f71faef29904a7598ade&quot; rel=&quot;noreferrer&quot;&gt;d6e7478&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Add: generate sitemap
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+      </entry>
+
       <entry>
         <title type="html">Ningensei848 pushed to main in Ningensei848/ningensei848.github.io</title>
         <id>tag:github.com,2008:PushEvent/19753755308/</id>
@@ -583,7 +632,7 @@
 
 
           &lt;p class=&quot;f6 color-fg-muted mt-2 mb-0&quot;&gt;
-            &lt;span&gt;Updated Jan 15&lt;/span&gt;
+            &lt;span&gt;Updated Jan 16&lt;/span&gt;
           &lt;/p&gt;
       &lt;/div&gt;
     &lt;/div&gt;
@@ -1190,7 +1239,7 @@
 
 
           &lt;p class=&quot;f6 color-fg-muted mt-2 mb-0&quot;&gt;
-            &lt;span&gt;Updated Jan 15&lt;/span&gt;
+            &lt;span&gt;Updated Jan 16&lt;/span&gt;
           &lt;/p&gt;
       &lt;/div&gt;
     &lt;/div&gt;
@@ -1553,55 +1602,6 @@
         <link rel="alternate" type="text/html" href="https://scrapbox.io/Ningensei848/%E3%83%A1%E3%83%A2%E3%81%99%E3%82%8B%E3%82%84%E3%81%A4"/>
         <updated>2022-01-04T09:16:18Z</updated>
         <content type="html">&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;Dockerfile にoxigraph 入れてttl をマウントしてイメージに焼く&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;ここまではできそうだが，Lambda用に関数を実装するところ，SAMでデプロイするときに template.yaml をどう書くのか？とかがわかっていない&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;今のものをそのまま使うことは多分できない&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;GitHub Actionsでやること&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;ttl ディレクトリに push があったら発動して，oxigraph に関する一連の操作をやってlambda にデプロイ&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;→　２５０ｍｂ制限が発動したので，コンテナイメージに置き換えるようにする&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span&gt;→　ML4Keiba on Lambda: &lt;/span&gt;&lt;span&gt;&lt;a href=&quot;https://1nnoe2ailc.execute-api.us-west-2.amazonaws.com/Prod/&quot;&gt;https://1nnoe2ailc.execute-api.us-west-2.amazonaws.com/Prod/&lt;/a&gt;&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;span&gt;endpoint: &lt;/span&gt;&lt;span&gt;&lt;a href=&quot;https://1nnoe2ailc.execute-api.us-west-2.amazonaws.com/Prod/sparql&quot;&gt;https://1nnoe2ailc.execute-api.us-west-2.amazonaws.com/Prod/sparql&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://1nnoe2ailc.execute-api.us-west-2.amazonaws.com/Prod/sparql?query=%23%23+endpoint+https%3A%2F%2F1nnoe2ailc.execute-api.us-west-2.amazonaws.com%2FProd%2Fsparql%0D%0Aselect+*+where+{%3Fs+%3Fp+%3Fo}+limit+100&amp;amp;mode=1&quot;&gt;https://1nnoe2ailc.execute-api.us-west-2.amazonaws.com/Prod/sparql?query=%23%23+endpoint+https%3A%2F%2F1nnoe2ailc.execute-api.us-west-2.amazonaws.com%2FProd%2Fsparql%0D%0Aselect+*+where+{%3Fs+%3Fp+%3Fo}+limit+100&amp;amp;mode=1&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;Error: Failed to create/update the stack: ML4Keiba, Waiter StackUpdateComplete failed: Waiter encountered a terminal failure state: For expression &quot;Stacks[].StackStatus&quot; we matched expected path: &quot;UPDATE_ROLLBACK_COMPLETE&quot; at least once&lt;br /&gt;&lt;br /&gt;Resource handler returned message: &quot;Unzipped size must be smaller than 262144000 bytes (Service: Lambda, Status Code: 400, Request ID: ee4db 5c7-b354-4fd7-8296-e66 0be92aa33, Extended Request ID: null)&quot; (RequestToken: 04dceed 0-5cf3-87cc-3c0b-75261 773e771, HandlerErrorCode: InvalidRequest)&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;やるべきことを書き出す&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;すこしずつやる&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;できなかったことは，一日の最後に分解して次の日やる&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;少なくとも少しずつは進める体制を整える&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;日光浴をする　→　散歩しよう！&lt;br /&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;週のスケジュール&lt;/span&gt;&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;月のスケジュール&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://scrapbox.io/Ningensei848/Flutter&quot;&gt;Flutter&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;とりあえず手を動かし始められるタスクをつくる　←　ルーティン？&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;</content>
-      </entry>
-
-      <entry>
-        <title type="html">Ningensei848 pushed to main in Ningensei848/ningensei848.github.io</title>
-        <id>tag:github.com,2008:PushEvent/19570379003/</id>
-        <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/ningensei848.github.io/compare/b2e1f8168a...4a1c97da2e"/>
-        <updated>2022-01-04T09:11:38Z</updated>
-        <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;
-&lt;!-- push --&gt;
-&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
-    &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div class=&quot;&quot;&gt;
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
-      
-      pushed to
-        &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-        in
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/ningensei848.github.io&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/ningensei848.github.io&lt;/a&gt;
-        &lt;span class=&quot;color-fg-muted no-wrap f6 ml-1&quot;&gt;
-          &lt;relative-time datetime=&quot;2022-01-04T09:11:38Z&quot; class=&quot;no-wrap&quot;&gt;Jan 4, 2022&lt;/relative-time&gt;
-        &lt;/span&gt;
-
-        &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
-          &lt;span&gt;1 commit to&lt;/span&gt;
-          &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-
-          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
-            &lt;ul class=&quot;list-style-none&quot;&gt;
-                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
-                  &lt;span title=&quot;Ningensei848&quot;&gt;
-                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
-                  &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/ningensei848.github.io/commit/4a1c97da2eab904d8a9890dc2b789408257f5c7b&quot; rel=&quot;noreferrer&quot;&gt;4a1c97d&lt;/a&gt;&lt;/code&gt;
-                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
-                    &lt;blockquote&gt;
-                      Update: replaced svg image with component
-                    &lt;/blockquote&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-
-
-            &lt;/ul&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
       </entry>
 
       <entry>
