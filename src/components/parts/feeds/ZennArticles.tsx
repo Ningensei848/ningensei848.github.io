@@ -10,24 +10,16 @@ import {
   CardContent,
   CardActions,
   CardActionArea,
-  Typography,
-  List,
-  ListItem,
-  ListItemText,
-  ListItemButton
+  Typography
 } from '@mui/material'
-import {
-  OpenInNew as OpenInNewIcon,
-  ExpandMore as ExpandMoreIcon,
-  CallMade as ExternalLinkIcon
-} from '@mui/icons-material'
+import { ExpandMore as ExpandMoreIcon, CallMade as ExternalLinkIcon } from '@mui/icons-material'
 
 import { NextLinkComposed } from 'src/components/Link'
 import { ZennIcon } from 'src/components/parts/icons'
 
 import type { ZennFeedItem } from 'src/types/feed'
 
-export const ZennArticles = ({ items }: { items: ZennFeedItem[] }) => {
+const ZennArticles = ({ items }: { items: ZennFeedItem[] }) => {
   const [expanded, setExpanded] = useState<string | false>(items[0].guid)
 
   const handleChange = (panel: string) => (event: React.SyntheticEvent, isExpanded: boolean) => {
@@ -91,29 +83,4 @@ export const ZennArticles = ({ items }: { items: ZennFeedItem[] }) => {
   )
 }
 
-export const ZennScraps = ({ items }: { items: ZennFeedItem[] }) => (
-  <>
-    <Typography component='h3' variant='h4'>
-      <ZennIcon fontSize='small' /> Zenn Scraps
-    </Typography>
-    <List>
-      {items.map((item) => (
-        <ListItem key={item.guid} disablePadding>
-          <ListItemButton
-            component={NextLinkComposed}
-            to={item.link}
-            target='_blank'
-            rel='noreferer noopener'
-          >
-            <ListItemText
-              primary={item.title}
-              primaryTypographyProps={{ color: 'secondary' }}
-              secondary={`update at: ${item.pubDate}`}
-            />
-            <OpenInNewIcon fontSize='small' color='action' />
-          </ListItemButton>
-        </ListItem>
-      ))}
-    </List>
-  </>
-)
+export default ZennArticles

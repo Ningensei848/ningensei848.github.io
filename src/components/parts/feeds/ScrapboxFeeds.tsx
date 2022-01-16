@@ -5,7 +5,7 @@ import { ScrapboxFeed, ScrapboxFeedItem } from 'src/types/feed'
 import { NextLinkComposed } from 'src/components/Link'
 import { ScrapboxIcon } from 'src/components/parts/icons'
 
-export const FeedFromScrapbox = ({ feed }: { feed: ScrapboxFeed }) => {
+const FeedFromScrapbox = ({ feed }: { feed: ScrapboxFeed }) => {
   const { items } = feed // feedUrl, lastBuildDate
 
   // title: string;
@@ -51,3 +51,5 @@ export const FeedFromScrapbox = ({ feed }: { feed: ScrapboxFeed }) => {
     </>
   )
 }
+
+export default FeedFromScrapbox

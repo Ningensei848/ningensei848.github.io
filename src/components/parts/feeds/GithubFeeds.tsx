@@ -110,7 +110,7 @@ const EventDot = ({ event }: { event: string }) => {
     )
   }
 }
-export const FeedFromGithub = ({ feed }: { feed: GithubFeed }) => {
+const FeedFromGithub = ({ feed }: { feed: GithubFeed }) => {
   const { items } = feed // link, feedUrl, title, lastBuildDate
   //   link: string;
   //   feedUrl: string;
@@ -166,3 +166,5 @@ export const FeedFromGithub = ({ feed }: { feed: GithubFeed }) => {
     </>
   )
 }
+
+export default FeedFromGithub

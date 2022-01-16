@@ -16,3 +16,9 @@ export {
   GithubFeedItemParser,
   GithubFeedItemSerializer
 } from './validator/feed/github'
+
+export { usePageView } from './google'
+
+export { escapeHTML } from './escape'
+
+export { generateRSSFile } from './rss'
