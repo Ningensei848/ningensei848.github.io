@@ -11,7 +11,7 @@ const LeftSide = () => {
   const isViewportSmall = useMediaQuery((theme: Theme) => theme.breakpoints.up('sm'))
   return (
     <Grid item sm={2} display={isViewportSmall ? undefined : 'none'}>
-      <Box mx={2} mt={4} boxShadow={2}>
+      <Box mx={2} mt={4}>
         {/* 広告枠 */}
         <SidebarAds />
       </Box>
@@ -32,7 +32,7 @@ const RightSide = () => {
 }
 
 const MainContainer = ({ children }: { children: ReactNode }) => (
-  <Grid container>
+  <Grid container flex={1}>
     <LeftSide />
     {/* --------- main content ------------- */}
     <Grid item xs={12} sm={10} md={7}>
@@ -45,7 +45,7 @@ const MainContainer = ({ children }: { children: ReactNode }) => (
 
 const Layout = ({ children }: { children: ReactNode }) => {
   return (
-    <Box display='flex' flexDirection='column' minHeight='100vh'>
+    <Box display='flex' flexDirection='column' width='100vw' minHeight='100vh'>
       {/* <AppBar /> */}
       <MainContainer>{children}</MainContainer>
       <Footer />
