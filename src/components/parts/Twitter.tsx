@@ -8,7 +8,7 @@ interface TLProps {
   username: string
 }
 
-export const TwitterTimeline = (props: TLProps) => {
+const TwitterTimeline = (props: TLProps) => {
   const { width, height, theme, username } = props
   return (
     <>
@@ -19,8 +19,10 @@ export const TwitterTimeline = (props: TLProps) => {
         data-theme={theme}
         data-chrome='noscrollbar noborders nofooter'
         to={`https://twitter.com/${username}?ref_src=twsrc%5Etfw`}
+        prefetch={false}
       />
       <Script strategy='lazyOnload' src='https://platform.twitter.com/widgets.js' charSet='utf-8' />
     </>
   )
 }
+export default TwitterTimeline

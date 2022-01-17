@@ -17,6 +17,7 @@ const ZennScraps = ({ items }: { items: ZennFeedItem[] }) => (
           <ListItemButton
             component={NextLinkComposed}
             to={item.link}
+            prefetch={false}
             target='_blank'
             rel='noreferer noopener'
           >

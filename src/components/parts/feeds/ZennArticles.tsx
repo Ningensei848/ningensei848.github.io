@@ -36,6 +36,7 @@ const ZennArticles = ({ items }: { items: ZennFeedItem[] }) => {
           const linkProps = {
             component: NextLinkComposed,
             to: item.link,
+            prefetch: false,
             target: '_blank',
             rel: 'noreferer noopener'
           }

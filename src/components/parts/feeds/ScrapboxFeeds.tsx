@@ -27,6 +27,7 @@ const FeedFromScrapbox = ({ feed }: { feed: ScrapboxFeed }) => {
             <ListItemButton
               component={NextLinkComposed}
               to={item.link}
+              prefetch={false}
               target='_blank'
               rel='noreferer noopener'
             >

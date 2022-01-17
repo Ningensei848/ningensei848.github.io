@@ -1,34 +1,54 @@
-import { useMediaQuery, Box, Grid } from '@mui/material'
+import dynamic from 'next/dynamic'
+import { useMediaQuery, Box, Grid, CircularProgress } from '@mui/material'
 
-import Footer from './parts/Footer'
-import { TwitterTimeline } from 'src/components/parts/Twitter'
-import { SidebarAds } from 'src/components/parts/Google'
+import Footer from 'src/components/parts/Footer'
 
 import type { ReactNode } from 'react'
 import type { Theme } from '@mui/material'
 
-const LeftSide = () => {
+// eslint-disable-next-line @typescript-eslint/ban-types
+const SidebarAds = dynamic<{}>(
+  () => import('src/components/parts/Google').then((mod) => mod.SidebarAds),
+  {
+    loading: () => <CircularProgress color='primary' />
+  }
+)
+
+const LeftSide = (): JSX.Element => {
   const isViewportSmall = useMediaQuery((theme: Theme) => theme.breakpoints.up('sm'))
-  return (
-    <Grid item sm={2} display={isViewportSmall ? undefined : 'none'}>
-      <Box mx={2} mt={4}>
-        {/* 広告枠 */}
-        <SidebarAds />
-      </Box>
-    </Grid>
-  )
+
+  if (!isViewportSmall) {
+    return <></>
+  } else {
+    return (
+      <Grid item sm={2}>
+        <Box mx={2} mt={4}>
+          {/* 広告枠 */}
+          <SidebarAds />
+        </Box>
+      </Grid>
+    )
+  }
 }
 
-const RightSide = () => {
+const TwitterTimeline = dynamic(() => import('src/components/parts/Twitter'), {
+  loading: () => <CircularProgress color='primary' />
+})
+
+const RightSide = (): JSX.Element => {
   const isViewportMedium = useMediaQuery((theme: Theme) => theme.breakpoints.up('md'))
 
-  return (
-    <Grid item md={3} display={isViewportMedium ? undefined : 'none'}>
-      <Box mx={2} height='100%' minHeight='50vh'>
-        <TwitterTimeline width='100%' height='100%' theme='light' username='Ningensei848' />
-      </Box>
-    </Grid>
-  )
+  if (!isViewportMedium) {
+    return <></>
+  } else {
+    return (
+      <Grid item md={3}>
+        <Box mx={2} height='100%' minHeight='50vh'>
+          <TwitterTimeline width='100%' height='100%' theme='light' username='Ningensei848' />
+        </Box>
+      </Grid>
+    )
+  }
 }
 
 const MainContainer = ({ children }: { children: ReactNode }) => (

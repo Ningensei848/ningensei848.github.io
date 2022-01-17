@@ -1,4 +1,6 @@
+import dynamic from 'next/dynamic'
 import {
+  CircularProgress,
   useMediaQuery,
   Stack,
   Container,
@@ -21,7 +23,6 @@ import {
 } from '@mui/icons-material'
 
 import Nono4rsibus from 'src/components/Nono4risubs'
-import { TwitterTimeline } from 'src/components/parts/Twitter'
 import { NextLinkComposed } from 'src/components/Link'
 import { ScrapboxIcon, ZennIcon } from 'src/components/parts/icons'
 import type { ReactNode } from 'react'
@@ -176,6 +177,11 @@ const PageList = ({ isViewportMedium }: { isViewportMedium: boolean }) => {
     )
   }
 }
+
+const TwitterTimeline = dynamic(() => import('src/components/parts/Twitter'), {
+  loading: () => <CircularProgress color='primary' />
+})
+
 const Index = () => {
   const isViewportMedium = useMediaQuery((theme: Theme) => theme.breakpoints.up('md'))
 
@@ -187,9 +193,9 @@ const Index = () => {
       <Box width='100%'>
         <PageList isViewportMedium={isViewportMedium} />
       </Box>
-      <Box display={isViewportMedium ? 'none' : undefined}>
+      {!isViewportMedium && (
         <TwitterTimeline width='100%' height={420} theme='light' username='Ningensei848' />
-      </Box>
+      )}
     </Container>
   )
 }
