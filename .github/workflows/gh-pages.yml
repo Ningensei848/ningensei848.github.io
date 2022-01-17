@@ -29,7 +29,7 @@ jobs:
         uses: actions/checkout@v2
         env:
           BRANCH_NAME: ${{ steps.extract_branch.outputs.branch }}
-        run: git fetch origin $BRANCH_NAME:$BRANCH_NAME
+      - run: git fetch origin $BRANCH_NAME:$BRANCH_NAME
         # cf. http://web.archive.org/web/20211228150242/https://stackoverflow.com/questions/3216360/merge-update-and-pull-git-branches-without-using-checkouts
 
       - name: Setup Node
