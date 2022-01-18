@@ -65,7 +65,7 @@ const MainContainer = ({ children }: { children: ReactNode }) => (
 
 const Layout = ({ children }: { children: ReactNode }) => {
   return (
-    <Box display='flex' flexDirection='column' width='100vw' minHeight='100vh'>
+    <Box display='flex' flexDirection='column' minHeight='100vh'>
       {/* <AppBar /> */}
       <MainContainer>{children}</MainContainer>
       <Footer />

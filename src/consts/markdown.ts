@@ -12,6 +12,7 @@ export const MARKDOWN_PAGE_PATH = !process.env.MARKDOWN_PAGE_PATH
 
 export const MDXCompileOptions: CompileOptions = {
   useDynamicImport: true,
+  baseUrl: 'src', // cf. https://mdxjs.com/packages/mdx/#optionsbaseurl
   // list-of-plugins
   // cf. https://github.com/remarkjs/remark/blob/main/doc/plugins.md#list-of-plugins
   remarkPlugins: [remarkGfm]
