@@ -7,7 +7,7 @@ import type { ReactNode } from 'react'
 import type { Theme } from '@mui/material'
 
 // eslint-disable-next-line @typescript-eslint/ban-types
-const SidebarAds = dynamic<{}>(
+const SidebarAds = dynamic<{ display: boolean }>(
   () => import('src/components/parts/Google').then((mod) => mod.SidebarAds),
   { loading: () => <CircularProgress color='primary' /> }
 )
@@ -19,7 +19,7 @@ const LeftSide = (): JSX.Element => {
     <Grid item sm={2} display={isViewportSmall ? undefined : 'none'}>
       <Box mx={2} mt={4}>
         {/* 広告枠 */}
-        <SidebarAds />
+        <SidebarAds display={isViewportSmall} />
       </Box>
     </Grid>
   )

@@ -55,12 +55,12 @@ declare global {
   }
 }
 
-export const SidebarAds = (): JSX.Element => {
+export const SidebarAds = ({ display }: { display: boolean }): JSX.Element => {
   const { asPath } = useRouter()
 
   useEffect(() => {
     try {
-      if (!window) return // SSR 処理中は skip
+      if (!window || !display) return // SSR 処理中は skip
       // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
       window.adsbygoogle = window.adsbygoogle || []
       // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-unsafe-call
@@ -68,6 +68,7 @@ export const SidebarAds = (): JSX.Element => {
     } catch (err) {
       console.log(err)
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [asPath])
 
   return (
