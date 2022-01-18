@@ -17,7 +17,7 @@ const LeftSide = (): JSX.Element => {
 
   return (
     <Grid item sm={2} display={isViewportSmall ? undefined : 'none'}>
-      <Box mx={2} mt={4}>
+      <Box mx={2} mt={4} width='100%'>
         {/* 広告枠 */}
         <SidebarAds display={isViewportSmall} />
       </Box>
