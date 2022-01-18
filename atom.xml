@@ -7,8 +7,57 @@
       </author>
       <link rel="alternate" type="text/html" href="https://ningensei848.github.io/"/>
       <link rel="self" type="application/atom+xml" href="https://ningensei848.github.io/atom.xml"/>
-      <updated>2022-01-18T16:18:42Z</updated>
+      <updated>2022-01-18T16:28:42Z</updated>
       
+        <entry>
+          <title type="html">Ningensei848 pushed to main in Ningensei848/ningensei848.github.io</title>
+          <id>tag:github.com,2008:PushEvent/19795792616/</id>
+          <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/ningensei848.github.io/compare/9a368684d6...c84404972f"/>
+          <updated>2022-01-18T16:25:46Z</updated>
+          <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- push --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
+    &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div class=&quot;&quot;&gt;
+      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
+      
+      pushed to
+        &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
+        in
+      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/ningensei848.github.io&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/ningensei848.github.io&lt;/a&gt;
+        &lt;span class=&quot;color-fg-muted no-wrap f6 ml-1&quot;&gt;
+          &lt;relative-time datetime=&quot;2022-01-18T16:25:46Z&quot; class=&quot;no-wrap&quot;&gt;Jan 18, 2022&lt;/relative-time&gt;
+        &lt;/span&gt;
+
+        &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
+          &lt;span&gt;1 commit to&lt;/span&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/ningensei848.github.io/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
+
+          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+            &lt;ul class=&quot;list-style-none&quot;&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span title=&quot;Ningensei848&quot;&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/ningensei848.github.io/commit/c84404972f497baaba06a9be4a8a734466c0ce5d&quot; rel=&quot;noreferrer&quot;&gt;c844049&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Add: ads width
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+        </entry>
+
         <entry>
           <title type="html">Ningensei848 pushed to main in Ningensei848/ningensei848.github.io</title>
           <id>tag:github.com,2008:PushEvent/19795609571/</id>
@@ -1540,40 +1589,6 @@
           <link rel="alternate" type="text/html" href="https://scrapbox.io/Ningensei848/VSCode+Docker"/>
           <updated>2022-01-10T04:57:31Z</updated>
           <content type="html">&lt;span&gt;&lt;a href=&quot;https://scrapbox.io/Ningensei848/docker&quot;&gt;#docker&lt;/a&gt;&lt;/span&gt;&lt;span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;&lt;a href=&quot;https://scrapbox.io/Ningensei848/vscode&quot;&gt;#vscode&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;img src=&quot;https://code.visualstudio.com/assets/docs/remote/containers/architecture-containers.png&quot;/&gt;&lt;br /&gt;&lt;br /&gt;Remote Development というVSCode Extension を使えば，手元の Docker 環境を使って任意の開発環境コンテナをつくり，その中で作業できる&lt;br /&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack&quot;&gt;Remote Development - Visual Studio Marketplace&lt;/a&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;WSL 2 が使える場合であっても，その環境を汚したくない場合はこちらを使ったほうがいいかも？（localhost 周りの解決はどうなってるんだろう？まだ使用感はわからないが，大きな利点がありそうだ）&lt;br /&gt;&lt;br /&gt;&lt;span&gt;cf. &lt;/span&gt;&lt;span&gt;&lt;a href=&quot;https://code.visualstudio.com/docs/remote/containers&quot;&gt;Developing inside a Container using Visual Studio Code Remote Development&lt;/a&gt;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;---&lt;br /&gt;&lt;br /&gt;Node.js + Typescript で v16 (bullseye) に Git + Python を入れて始めてみたが，いまんところコンテナの立ち上げに10分弱かかっている．通信速度の問題なのか？マシン性能は結構いいはずなのだが……&lt;br /&gt;&lt;br /&gt;&lt;span&gt;まぁ立ち上げは仕方がないとして，lerna 入れるのもちょっと考えたほうがいい（yarn じゃなくて &lt;/span&gt;&lt;span&gt;npm i -g lerna&lt;/span&gt;&lt;span&gt; したほうが安全？yarn だと lerna コマンドは使えなかったので）&lt;/span&gt;&lt;br /&gt;</content>
-        </entry>
-
-        <entry>
-          <title type="html">Ningensei848 commented on issue zenn-dev/zenn-community#364</title>
-          <id>tag:github.com,2008:IssueCommentEvent/19648922713/</id>
-          <link rel="alternate" type="text/html" href="https://github.com/zenn-dev/zenn-community/issues/364#issuecomment-1008501923"/>
-          <updated>2022-01-10T02:52:56Z</updated>
-          <content type="html">&lt;div class=&quot;issues_comment&quot;&gt;&lt;div class=&quot;body&quot;&gt;
-&lt;!-- issue_comment --&gt;
-&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
-      &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-      &lt;div class=&quot;d-flex flex-items-baseline mb-2&quot;&gt;
-        &lt;div class=&quot;&quot;&gt;
-          &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
-          
-          commented on
-          &lt;a class=&quot;Link--primary text-bold&quot; title=&quot;[VSCode Extensions] Zenn 用の Markdown プレビュー拡張がほしい&quot; href=&quot;/zenn-dev/zenn-community/issues/364#issuecomment-1008501923&quot; rel=&quot;noreferrer&quot;&gt;zenn-dev/zenn-community#364&lt;/a&gt;
-            &lt;span class=&quot;f6 color-fg-muted ml-1&quot;&gt;
-              &lt;relative-time datetime=&quot;2022-01-10T02:52:56Z&quot; class=&quot;no-wrap&quot;&gt;Jan 10, 2022&lt;/relative-time&gt;
-            &lt;/span&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;div class=&quot;message markdown-body Box p-3 wb-break-all &quot;&gt;
-      &lt;div class=&quot;f6 mb-1&quot;&gt;
-        &lt;a title=&quot;[VSCode Extensions] Zenn 用の Markdown プレビュー拡張がほしい&quot; class=&quot;Link--secondary&quot; href=&quot;/zenn-dev/zenn-community/issues/364#issuecomment-1008501923&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt; &lt;span class=&quot;Link--primary text-bold&quot;&gt;Ningensei848&lt;/span&gt; commented &lt;relative-time datetime=&quot;2022-01-10T02:52:56Z&quot; class=&quot;no-wrap&quot;&gt;Jan 10, 2022&lt;/relative-time&gt;&lt;/a&gt;
-      &lt;/div&gt;
-        &lt;p&gt;&lt;a href=&quot;https://zenn.dev/ningensei848/scraps/7d2f0e4367eadb&quot; rel=&quot;nofollow noreferrer&quot;&gt;VSCode Web Extension for Zenn Preview がほしい - Zenn.dev&lt;/a&gt; にも経過を書き残した．自分でも実装の道を探ったところ，以下の課題があることがわかった．
-
-&lt;code&gt;zenn-markdown-html&lt;/code&gt; 内部で使っている &lt;code&gt;markdown-it&lt;/code&gt; の処理を，専用プ…&lt;/p&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
         </entry>
 
         <entry>
