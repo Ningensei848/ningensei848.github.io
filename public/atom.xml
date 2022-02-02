@@ -7,8 +7,55 @@
       </author>
       <link rel="alternate" type="text/html" href="https://ningensei848.github.io/"/>
       <link rel="self" type="application/atom+xml" href="https://ningensei848.github.io/atom.xml"/>
-      <updated>2022-02-02T03:44:34Z</updated>
+      <updated>2022-02-02T15:52:56Z</updated>
       
+        <entry>
+          <title type="html">Ningensei848 created a repository Ningensei848/open-letters</title>
+          <id>tag:github.com,2008:CreateEvent/20031992749/</id>
+          <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/open-letters//"/>
+          <updated>2022-02-02T07:36:31Z</updated>
+          <content type="html">&lt;div class=&quot;repo&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- create --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
+      &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+        &lt;div class=&quot;d-flex flex-items-baseline&quot;&gt;
+          &lt;div class=&quot;&quot;&gt;
+              &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
+              
+              created a
+              repository
+              
+              &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/open-letters&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/open-letters&lt;/a&gt;
+
+              &lt;span class=&quot;f6 color-fg-muted no-wrap ml-1&quot;&gt;
+                &lt;relative-time datetime=&quot;2022-02-02T07:36:31Z&quot; class=&quot;no-wrap&quot;&gt;Feb 2, 2022&lt;/relative-time&gt;
+              &lt;/span&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+    &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
+      &lt;div&gt;
+        &lt;div class=&quot;f4 lh-condensed text-bold color-fg-default&quot;&gt;
+              &lt;a class=&quot;Link--primary text-bold no-underline wb-break-all d-inline-block&quot; href=&quot;/Ningensei848/open-letters&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/open-letters&lt;/a&gt;
+        &lt;/div&gt;
+
+          &lt;div class=&quot;dashboard-break-word color-fg-muted mt-1 repo-description&quot;&gt;
+            &lt;p&gt;cf. &lt;a href=&quot;https://archive.is/2PmkN&quot; rel=&quot;nofollow noreferrer&quot;&gt;https://archive.is/2PmkN&lt;/a&gt;
+&lt;/p&gt;
+          &lt;/div&gt;
+
+          &lt;p class=&quot;f6 color-fg-muted mt-2 mb-0&quot;&gt;
+            &lt;span&gt;Updated Feb 2&lt;/span&gt;
+          &lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+        </entry>
+
         <entry>
           <title type="html">Ningensei848 starred mrzmmr/rehype-wrap</title>
           <id>tag:github.com,2008:WatchEvent/19975689005/</id>
@@ -913,7 +960,7 @@
               &lt;/span&gt;
 
 
-              &lt;span&gt;Updated Jan 31&lt;/span&gt;
+              &lt;span&gt;Updated Feb 2&lt;/span&gt;
           &lt;/p&gt;
         &lt;/div&gt;
       &lt;/div&gt;
@@ -1339,7 +1386,7 @@
 
 
           &lt;p class=&quot;f6 color-fg-muted mt-2 mb-0&quot;&gt;
-            &lt;span&gt;Updated Feb 1&lt;/span&gt;
+            &lt;span&gt;Updated Feb 2&lt;/span&gt;
           &lt;/p&gt;
       &lt;/div&gt;
     &lt;/div&gt;
@@ -1577,49 +1624,6 @@
             &lt;/ul&gt;
           &lt;/div&gt;
         &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-        </entry>
-
-        <entry>
-          <title type="html">Ningensei848 created a branch plugin-markdown-it in Ningensei848/zenn-editor</title>
-          <id>tag:github.com,2008:CreateEvent/19654047766/</id>
-          <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/zenn-editor/compare/plugin-markdown-it"/>
-          <updated>2022-01-10T10:34:30Z</updated>
-          <content type="html">&lt;div class=&quot;git-branch&quot;&gt;&lt;div class=&quot;body&quot;&gt;
-&lt;!-- create --&gt;
-&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
-      &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
-
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-        &lt;div class=&quot;d-flex flex-items-baseline&quot;&gt;
-          &lt;div class=&quot;&quot;&gt;
-              &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
-              
-              created a
-              branch
-              in
-              &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/zenn-editor&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/zenn-editor&lt;/a&gt;
-
-              &lt;span class=&quot;f6 color-fg-muted no-wrap ml-1&quot;&gt;
-                &lt;relative-time datetime=&quot;2022-01-10T10:34:30Z&quot; class=&quot;no-wrap&quot;&gt;Jan 10, 2022&lt;/relative-time&gt;
-              &lt;/span&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-
-    &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
-      &lt;div&gt;
-        &lt;div class=&quot;f4 lh-condensed text-bold color-fg-default&quot;&gt;
-              &lt;a class=&quot;css-truncate css-truncate-target branch-name v-align-middle&quot; title=&quot;plugin-markdown-it&quot; href=&quot;/Ningensei848/zenn-editor/tree/plugin-markdown-it&quot; rel=&quot;noreferrer&quot;&gt;plugin-markdown-it&lt;/a&gt; in &lt;a class=&quot;Link--primary text-bold no-underline wb-break-all d-inline-block&quot; href=&quot;/Ningensei848/zenn-editor&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/zenn-editor&lt;/a&gt;
-        &lt;/div&gt;
-
-
-          &lt;p class=&quot;f6 color-fg-muted mt-2 mb-0&quot;&gt;
-            &lt;span&gt;Updated Jan 11&lt;/span&gt;
-          &lt;/p&gt;
-      &lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
