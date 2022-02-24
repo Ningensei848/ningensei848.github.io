@@ -7,8 +7,90 @@
       </author>
       <link rel="alternate" type="text/html" href="https://ningensei848.github.io/"/>
       <link rel="self" type="application/atom+xml" href="https://ningensei848.github.io/atom.xml"/>
-      <updated>2022-02-23T15:49:23Z</updated>
+      <updated>2022-02-24T03:45:44Z</updated>
       
+        <entry>
+          <title type="html">Docusaurus 活用のための Tips (2022年2月版)</title>
+          <id>https://zenn.dev/ningensei848/articles/docusaurus-tips-2022-02</id>
+          <link rel="alternate" type="text/html" href="https://zenn.dev/ningensei848/articles/docusaurus-tips-2022-02"/>
+          <updated>2022-02-23T23:12:23Z</updated>
+          <content type="text">
+（初心者向け情報）この記事は『ドキュメント作成ツールの決定版！Markdown + React の体験を Docusaurus で』を先に読んでおくと理解がしやすい内容となっています
+
+
+Docusaurus Keytar くんをすこれ，そして崇めよ
+
+ はじめに
+Docusaurus，みなさま使いこなされているでしょうか？
+まさかもう令和４年にもなってまだ Sphinx を使って奴隷労働に勤しむ人類はいないかと思いますが，各位いかがお過ごしでしょう？
+
+現代の「奴隷」に救いはあるのか
+約一年前に『ドキュメント作成ツールの決定版！Markdown + React の体験を Docusa...</content>
+        </entry>
+
+        <entry>
+          <title type="html">Ningensei848 pushed to zenn in Ningensei848/lifelog</title>
+          <id>tag:github.com,2008:PushEvent/20423180760/</id>
+          <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/lifelog/compare/2d37131cbd...baa0449c20"/>
+          <updated>2022-02-23T23:12:22Z</updated>
+          <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- push --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
+    &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div class=&quot;&quot;&gt;
+      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
+      
+      pushed to
+        &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/lifelog/tree/zenn&quot; rel=&quot;noreferrer&quot;&gt;zenn&lt;/a&gt;
+        in
+      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/lifelog&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/lifelog&lt;/a&gt;
+        &lt;span class=&quot;color-fg-muted no-wrap f6 ml-1&quot;&gt;
+          &lt;relative-time datetime=&quot;2022-02-23T23:12:22Z&quot; class=&quot;no-wrap&quot;&gt;Feb 23, 2022&lt;/relative-time&gt;
+        &lt;/span&gt;
+
+        &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
+          &lt;span&gt;2 commits to&lt;/span&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/lifelog/tree/zenn&quot; rel=&quot;noreferrer&quot;&gt;zenn&lt;/a&gt;
+
+          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+            &lt;ul class=&quot;list-style-none&quot;&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span title=&quot;Ningensei848&quot;&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/lifelog/commit/baa0449c200ca02a94c6abae22146ed6e1a87256&quot; rel=&quot;noreferrer&quot;&gt;baa0449&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Add: new article
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span title=&quot;Ningensei848&quot;&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/lifelog/commit/081922ffe4f365f07fb55668c44c9aeb1ee072b1&quot; rel=&quot;noreferrer&quot;&gt;081922f&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Update: articles
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+
+                &lt;li class=&quot;f6 mt-2&quot;&gt;
+                  &lt;a class=&quot;Link--secondary&quot; href=&quot;/Ningensei848/lifelog/compare/2d37131cbd...baa0449c20&quot; rel=&quot;noreferrer&quot;&gt;1 more commit »&lt;/a&gt;
+                &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+        </entry>
+
         <entry>
           <title type="html">Ningensei848 opened an issue in Ningensei848/againstc</title>
           <id>tag:github.com,2008:IssuesEvent/20409851695/</id>
@@ -1089,7 +1171,7 @@
               &lt;/span&gt;
 
               &lt;span class=&quot;d-inline-block mr-3&quot;&gt;
-                  &lt;a class=&quot;Link--muted&quot; href=&quot;/nfl/react-helmet/stargazers&quot; rel=&quot;noreferrer&quot;&gt;&lt;svg class=&quot;octicon octicon-star mr-1&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;16k&lt;/a&gt;
+                  &lt;a class=&quot;Link--muted&quot; href=&quot;/nfl/react-helmet/stargazers&quot; rel=&quot;noreferrer&quot;&gt;&lt;svg class=&quot;octicon octicon-star mr-1&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;16.1k&lt;/a&gt;
               &lt;/span&gt;
 
               &lt;span class=&quot;mr-3&quot;&gt;
@@ -1534,55 +1616,6 @@
         </entry>
 
         <entry>
-          <title type="html">Ningensei848 pushed to plugin-transpile in Ningensei848/open-letters</title>
-          <id>tag:github.com,2008:PushEvent/20324994398/</id>
-          <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/open-letters/compare/d94de5071d...ef2c28d476"/>
-          <updated>2022-02-18T04:20:34Z</updated>
-          <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;
-&lt;!-- push --&gt;
-&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
-    &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div class=&quot;&quot;&gt;
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
-      
-      pushed to
-        &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/open-letters/tree/plugin-transpile&quot; rel=&quot;noreferrer&quot;&gt;plugin-transpile&lt;/a&gt;
-        in
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/open-letters&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/open-letters&lt;/a&gt;
-        &lt;span class=&quot;color-fg-muted no-wrap f6 ml-1&quot;&gt;
-          &lt;relative-time datetime=&quot;2022-02-18T04:20:34Z&quot; class=&quot;no-wrap&quot;&gt;Feb 18, 2022&lt;/relative-time&gt;
-        &lt;/span&gt;
-
-        &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
-          &lt;span&gt;1 commit to&lt;/span&gt;
-          &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/open-letters/tree/plugin-transpile&quot; rel=&quot;noreferrer&quot;&gt;plugin-transpile&lt;/a&gt;
-
-          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
-            &lt;ul class=&quot;list-style-none&quot;&gt;
-                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
-                  &lt;span title=&quot;Ningensei848&quot;&gt;
-                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
-                  &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/open-letters/commit/ef2c28d47633e84612116af230fc6ebe2d7c61e8&quot; rel=&quot;noreferrer&quot;&gt;ef2c28d&lt;/a&gt;&lt;/code&gt;
-                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
-                    &lt;blockquote&gt;
-                      Try fix
-                    &lt;/blockquote&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-
-
-            &lt;/ul&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-        </entry>
-
-        <entry>
           <title type="html">非技術系言論人こそ GitHub を使えるようにするための検討</title>
           <id>https://zenn.dev/ningensei848/scraps/ed4ba7469fcc85</id>
           <link rel="alternate" type="text/html" href="https://zenn.dev/ningensei848/scraps/ed4ba7469fcc85"/>
@@ -1726,10 +1759,11 @@
           <content type="text">
 この記事は Linked Open Data Challenge 2021 (LOD チャレンジ 2021) の データ活用部門 にエントリーしています
 
+追記（2022/02/23）：LOD プロモーション賞 を頂きました～～ありがとうございます！
+
 
  はじめに
-自前のオープンデータでエンドポイントを建てよう！と考えたときに，意外と難しいし手間がかかるという問題があります．これを解決しようと取り組んだのが 林 正洋さん（公共オープンデータ利活用研究室 mirko） の "Google Cloud Platform の無期限無料枠を利用した Virtuoso の構築方法 - Qiita" でした[1]．
-https://qiita.com/mirkohm/items/30991f...</content>
+自前のオープンデータでエンドポイントを建てよう！と考えたときに，意外と難しいし手間がかかるという問題があります．これを解決しようと取り組んだのが 林 正洋さん（公共オープンデータ利活用研究室 mirko） の "Google Cloud Platform の無期限無料枠を利用した Virtuoso の構築方法 - Qiit...</content>
         </entry>
 
         <entry>
@@ -1967,15 +2001,12 @@ JSON Typed Definition っていう規格を使う；ただし RFC 8927 (Experime
           <link rel="alternate" type="text/html" href="https://zenn.dev/ningensei848/articles/docusaurus_intro"/>
           <updated>2021-02-14T11:14:02Z</updated>
           <content type="text">
+（経験者向け情報）チュートリアルじゃなくてカスタマイズ方法が知りたい！って方は『Docusaurus 活用のための Tips (2022 年 2 月版)』を参照してください
+
+
  What is Docusaurus ?
 Build optimized websites quickly, focus on your content - Docusaurus Keytar
-Docusaurus とは "最適化されたウェブサイトを迅速に構築し，本質に集中させる" というスローガンのもと Facebook 傘下のチームが開発している 静的サイトジェネレータです．特徴として，次の五つが挙げられています．
-
-Powered by Markdown
-Built Using React
-Content Search
-Ready for Translations
-Docume...</content>
+Docusaurus とは "最適化されたウェブサイトを迅速に構築し，本質に集中させる" というスローガンのもと Facebook 傘下のチームが開発している 静的サイトジェネレータです．特徴として，次の五つが挙げられ...</content>
         </entry>
 
         <entry>
