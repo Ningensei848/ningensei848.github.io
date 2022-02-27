@@ -7,8 +7,71 @@
       </author>
       <link rel="alternate" type="text/html" href="https://ningensei848.github.io/"/>
       <link rel="self" type="application/atom+xml" href="https://ningensei848.github.io/atom.xml"/>
-      <updated>2022-02-26T15:46:54Z</updated>
+      <updated>2022-02-27T03:47:34Z</updated>
       
+        <entry>
+          <title type="html">Ningensei848 pushed to main in Ningensei848/againstc</title>
+          <id>tag:github.com,2008:PushEvent/20472813348/</id>
+          <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/againstc/compare/84bc9100a0...3945ae35ea"/>
+          <updated>2022-02-26T18:21:50Z</updated>
+          <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;
+&lt;!-- push --&gt;
+&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
+    &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
+  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
+    &lt;div class=&quot;&quot;&gt;
+      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
+      
+      pushed to
+        &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/againstc/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
+        in
+      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/againstc&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/againstc&lt;/a&gt;
+        &lt;span class=&quot;color-fg-muted no-wrap f6 ml-1&quot;&gt;
+          &lt;relative-time datetime=&quot;2022-02-26T18:21:50Z&quot; class=&quot;no-wrap&quot;&gt;Feb 26, 2022&lt;/relative-time&gt;
+        &lt;/span&gt;
+
+        &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
+          &lt;span&gt;2 commits to&lt;/span&gt;
+          &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/againstc/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
+
+          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+            &lt;ul class=&quot;list-style-none&quot;&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span title=&quot;Ningensei848&quot;&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/againstc/commit/3945ae35ea27eca5198ddc24eb10a164a10b5372&quot; rel=&quot;noreferrer&quot;&gt;3945ae3&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Add: article in Jan 2022
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
+                  &lt;span title=&quot;Ningensei848&quot;&gt;
+                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
+                  &lt;/span&gt;
+                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/againstc/commit/521a7af3cc65e74257d2962da6c133ec91d1bb36&quot; rel=&quot;noreferrer&quot;&gt;521a7af&lt;/a&gt;&lt;/code&gt;
+                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
+                    &lt;blockquote&gt;
+                      Add: Google adsense
+                    &lt;/blockquote&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+
+
+                &lt;li class=&quot;f6 mt-2&quot;&gt;
+                  &lt;a class=&quot;Link--secondary&quot; href=&quot;/Ningensei848/againstc/compare/84bc9100a0...3945ae35ea&quot; rel=&quot;noreferrer&quot;&gt;2 more commits »&lt;/a&gt;
+                &lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;</content>
+        </entry>
+
         <entry>
           <title type="html">Ningensei848 pushed to main in Ningensei848/againstc</title>
           <id>tag:github.com,2008:PushEvent/20463494031/</id>
@@ -185,7 +248,7 @@
                 &lt;a class=&quot;Link--muted&quot; href=&quot;/motdotla/dotenv/issues?q=label%3A%22help+wanted%22+is%3Aopen+is%3Aissue&quot; rel=&quot;noreferrer&quot;&gt;1 issue needs help&lt;/a&gt;
               &lt;/span&gt;
 
-              &lt;span&gt;Updated Feb 23&lt;/span&gt;
+              &lt;span&gt;Updated Feb 27&lt;/span&gt;
           &lt;/p&gt;
         &lt;/div&gt;
       &lt;/div&gt;
@@ -1590,55 +1653,6 @@ Docusaurus，みなさま使いこなされているでしょうか？
                   &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
                     &lt;blockquote&gt;
                       Update: Logo, Navbar and Fotter
-                    &lt;/blockquote&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-
-
-            &lt;/ul&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</content>
-        </entry>
-
-        <entry>
-          <title type="html">Ningensei848 pushed to main in Ningensei848/open-letters</title>
-          <id>tag:github.com,2008:PushEvent/20325878758/</id>
-          <link rel="alternate" type="text/html" href="https://github.com/Ningensei848/open-letters/compare/8dbb531213...eba188424f"/>
-          <updated>2022-02-18T05:38:49Z</updated>
-          <content type="html">&lt;div class=&quot;push&quot;&gt;&lt;div class=&quot;body&quot;&gt;
-&lt;!-- push --&gt;
-&lt;div class=&quot;d-flex flex-items-baseline border-bottom color-border-muted py-3&quot;&gt;
-    &lt;span class=&quot;mr-2&quot;&gt;&lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;avatar avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=64&amp;amp;v=4&quot; width=&quot;32&quot; height=&quot;32&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;&lt;/span&gt;
-  &lt;div class=&quot;d-flex flex-column width-full&quot;&gt;
-    &lt;div class=&quot;&quot;&gt;
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848&lt;/a&gt;
-      
-      pushed to
-        &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/open-letters/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-        in
-      &lt;a class=&quot;Link--primary no-underline wb-break-all text-bold d-inline-block&quot; href=&quot;/Ningensei848/open-letters&quot; rel=&quot;noreferrer&quot;&gt;Ningensei848/open-letters&lt;/a&gt;
-        &lt;span class=&quot;color-fg-muted no-wrap f6 ml-1&quot;&gt;
-          &lt;relative-time datetime=&quot;2022-02-18T05:38:49Z&quot; class=&quot;no-wrap&quot;&gt;Feb 18, 2022&lt;/relative-time&gt;
-        &lt;/span&gt;
-
-        &lt;div class=&quot;Box p-3 mt-2 &quot;&gt;
-          &lt;span&gt;1 commit to&lt;/span&gt;
-          &lt;a class=&quot;branch-name&quot; href=&quot;/Ningensei848/open-letters/tree/main&quot; rel=&quot;noreferrer&quot;&gt;main&lt;/a&gt;
-
-          &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
-            &lt;ul class=&quot;list-style-none&quot;&gt;
-                &lt;li class=&quot;d-flex flex-items-baseline&quot;&gt;
-                  &lt;span title=&quot;Ningensei848&quot;&gt;
-                    &lt;a class=&quot;d-inline-block&quot; href=&quot;/Ningensei848&quot; rel=&quot;noreferrer&quot;&gt;&lt;img class=&quot;mr-1 avatar-user&quot; src=&quot;https://avatars.githubusercontent.com/u/20794309?s=32&amp;amp;v=4&quot; width=&quot;16&quot; height=&quot;16&quot; alt=&quot;@Ningensei848&quot;&gt;&lt;/a&gt;
-                  &lt;/span&gt;
-                  &lt;code&gt;&lt;a class=&quot;mr-1&quot; href=&quot;/Ningensei848/open-letters/commit/eba188424f877bebed65fa8480d1e8bb4544cdc4&quot; rel=&quot;noreferrer&quot;&gt;eba1884&lt;/a&gt;&lt;/code&gt;
-                  &lt;div class=&quot;dashboard-break-word lh-condensed&quot;&gt;
-                    &lt;blockquote&gt;
-                      Add: disable vercel BOT
                     &lt;/blockquote&gt;
                   &lt;/div&gt;
                 &lt;/li&gt;
