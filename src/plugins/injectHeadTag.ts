@@ -4,8 +4,8 @@ import type { LoadContext } from '@docusaurus/types'
 import type { PluginOptions } from '@docusaurus/plugin-content-pages'
 
 type CustomOptions = PluginOptions & {
-    AD_ID: string
-    GTM_ID: string
+  AD_ID: string
+  GTM_ID: string
 }
 
 // Set up Twitter for Websites | Docs | Twitter Developer Platform
@@ -30,9 +30,9 @@ window.twttr = (function(d, s, id) {
 }(document, "script", "twitter-wjs"));
 </script>
 `
-    .split('\n')
-    .map((line) => line.trim())
-    .join('')
+  .split('\n')
+  .map((line) => line.trim())
+  .join('')
 
 const gtm = (id: string) => `
 <!-- Google Tag Manager -->
@@ -52,33 +52,32 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 `
 
 const adsense = (id: string) => {
-    return {
-        tagName: 'script',
-        attributes: {
-            async: true,
-            src: `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${id}`,
-            crossorigin: 'anonymous',
-        }
+  return {
+    tagName: 'script',
+    attributes: {
+      async: true,
+      src: `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${id}`,
+      crossorigin: 'anonymous'
     }
+  }
 }
 
 // options は `docusaurus.config.js` にてオプション引数として指定する
 const plugin = async (context: LoadContext, options: CustomOptions) => {
-    return {
-        name: 'docusaurus-plugin-inject-html-tags',
-        injectHtmlTags() {
-            return {
-                headTags: [
-                    `<link rel='preconnect' href='//fonts.gstatic.com' crossOrigin='anonymous' />`,
-                    adsense(options.AD_ID),
-                    gtm(options.GTM_ID),
-                    twttr
-                ],
-                postBodyTags: [gtm_noscript(options.GTM_ID)]
-            }
-        }
+  return {
+    name: 'docusaurus-plugin-inject-html-tags',
+    injectHtmlTags() {
+      return {
+        headTags: [
+          `<link rel='preconnect' href='//fonts.gstatic.com' crossOrigin='anonymous' />`,
+          adsense(options.AD_ID),
+          gtm(options.GTM_ID),
+          twttr
+        ],
+        postBodyTags: [gtm_noscript(options.GTM_ID)]
+      }
     }
+  }
 }
 
 export default plugin
-

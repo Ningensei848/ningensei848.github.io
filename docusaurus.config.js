@@ -4,8 +4,8 @@
 // load `.env` file under the current dirctory
 require('dotenv').config()
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require('prism-react-renderer/themes/github')
+const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 const { default: remarkEmbedder } = require('@remark-embedder/core')
 const { default: oembedTransformer } = require('@remark-embedder/transformer-oembed')
 const pattern_twitter = /^https:\/\/twitter\.com\/[a-zA-Z0-9_-]+\/status\/[a-zA-Z0-9?=&]+$/
@@ -51,13 +51,74 @@ const remarkOembedderPlugin = [
   }
 ]
 
+const pwaHead = [
+  {
+    tagName: 'link',
+    rel: 'apple-touch-icon',
+    sizes: '180x180',
+    href: '/img/apple-touch-icon.png'
+  },
+  {
+    tagName: 'link',
+    rel: 'icon',
+    sizes: '32x32',
+    href: '/img/favicon-32x32.png'
+  },
+  {
+    tagName: 'link',
+    rel: 'icon',
+    sizes: '16x16',
+    href: '/img/favicon-16x16.png'
+  },
+  {
+    tagName: 'link',
+    rel: 'manifest',
+    href: '/site.webmanifest'
+  },
+  {
+    tagName: 'link',
+    rel: 'mask-icon',
+    href: '/img/safari-pinned-tab.svg',
+    color: 'rgb(25, 150, 4)'
+  },
+  {
+    tagName: 'meta',
+    rel: 'apple-mobile-web-app-title',
+    content: '気合でなんとか'
+  },
+  {
+    tagName: 'meta',
+    rel: 'application-name',
+    content: '気合でなんとか'
+  },
+  {
+    tagName: 'meta',
+    name: 'theme-color',
+    content: 'rgb(25, 150, 4)'
+  },
+  {
+    tagName: 'meta',
+    name: 'apple-mobile-web-app-capable',
+    content: 'yes'
+  },
+  {
+    tagName: 'meta',
+    name: 'msapplication-TileImage',
+    content: '/img/mstile-150x150.png'
+  },
+  {
+    tagName: 'meta',
+    name: 'msapplication-TileColor',
+    content: '#199604'
+  }
+]
+
 const username = process.env.USERNAME || 'Ningensei848'
 const domainName = process.env.DOMAIN_NAME || 'ningensei848.github.io'
 const repositoryName = process.env.REPOSITORY_NAME || 'laom' // Usually your repo name.
 
 const protocol = process.env.FORCE_HTTP ? 'http' : 'https'
 const siteUrl = `${protocol}://${domainName}`
-
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -107,14 +168,14 @@ const config = {
           }
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-        },
-      }),
-    ],
+          customCss: require.resolve('./src/css/custom.css')
+        }
+      })
+    ]
   ],
 
   stylesheets: [
-    'https://fonts.googleapis.com/css?family=Noto+Sans+JP',
+    'https://fonts.googleapis.com/css?family=Noto+Sans+JP'
     // 'https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c',
     // 'https://fonts.googleapis.com/css?family=Sawarabi+Mincho'
   ],
@@ -126,7 +187,7 @@ const config = {
         title: process.env.LOGO_TITLE || process.env.SITE_TITLE || 'My Site',
         logo: {
           alt: process.env.LOGO_TITLE || process.env.SITE_TITLE || 'My Site Logo',
-          src: (() => `img/logo.${process.env.LOGO_EXTENSION || 'svg'}`)(),  // IIFE
+          src: (() => `img/logo.${process.env.LOGO_EXTENSION || 'svg'}`)(), // IIFE
           srcDark: (() => `img/logo_dark.${process.env.LOGO_EXTENSION || 'svg'}`)()
         },
         items: [
@@ -138,11 +199,24 @@ const config = {
           // },
           // { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: `https://github.com/${username}/${repositoryName}`,
-            label: 'GitHub',
+            href: 'https://zenn.dev/ningensei848',
             position: 'right',
+            className: 'header-zenn-link',
+            'aria-label': 'Zenn.dev Articles'
           },
-        ],
+          {
+            href: 'https://twitter.com/Ningensei848',
+            position: 'right',
+            className: 'header-twitter-link',
+            'aria-label': 'Author on Twitter'
+          },
+          {
+            href: `https://github.com/${username}/${repositoryName}`,
+            position: 'right',
+            className: 'header-github-link',
+            'aria-label': 'GitHub repository'
+          }
+        ]
       },
       footer: {
         style: 'dark',
@@ -190,24 +264,23 @@ const config = {
 
         logo: {
           alt: process.env.LOGO_TITLE || process.env.SITE_TITLE || 'My Site Logo',
-          src: (() => `img/logo.${process.env.LOGO_EXTENSION || 'svg'}`)(),  // IIFE
-          srcDark: (() => `img/logo_dark.${process.env.LOGO_EXTENSION || 'svg'}`)(),  // IIFE
+          src: (() => `img/logo.${process.env.LOGO_EXTENSION || 'svg'}`)(), // IIFE
+          srcDark: (() => `img/logo_dark.${process.env.LOGO_EXTENSION || 'svg'}`)() // IIFE
           // Logo URL is set to base URL of your site by default (siteConfig.baseUrl).
           // Although you can specify your own URL for the logo,
           // if it is an external link, it will open in a new tab.
           // href: `${siteUrl}/${repositoryName}`,
-          width: 50,
-          height: 50
+          // width: 100,
+          // height: 100
         },
-        copyright: process.env.FEED_COPYRIGHT || `Copyright © ${new Date().getFullYear()} ${username}, Built with Docusaurus.`,
+        copyright:
+          process.env.FEED_COPYRIGHT || `Copyright © ${new Date().getFullYear()} ${username}, Built with Docusaurus.`
       },
       prism: {
         theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        darkTheme: darkCodeTheme
       },
-      metadata: [
-        { name: 'twitter:title', content: process.env.SITE_TITLE }
-      ]
+      metadata: [{ name: 'twitter:title', content: process.env.SITE_TITLE }]
     }),
   plugins: [
     // [
@@ -216,6 +289,13 @@ const config = {
     //     language: ['ja', 'en']
     //   }
     // ],
+    [
+      '@docusaurus/plugin-pwa',
+      {
+        pwaHead,
+        offlineModeActivationStrategies: ['appInstalled', 'standalone', 'queryString']
+      }
+    ],
     // local plugins ----------------------------------------------------------
     [
       // load GTM, Adsense, Twitter widget
@@ -224,8 +304,8 @@ const config = {
         GTM_ID: process.env.GOOGLE_TAG_MANAGER_ID || 'GTM-XXXXXX',
         AD_ID: process.env.GOOGLE_ADSENSE_ID || 'ca-pub-xxxxxxxxxx'
       }
-    ],
+    ]
   ]
-};
+}
 
-module.exports = config;
+module.exports = config
