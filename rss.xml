@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>気合でなんとか</title>
+        <link>https://ningensei848.github.io/</link>
+        <description>Kiai (@ningensei848) が日々を生きた証</description>
+        <lastBuildDate>Fri, 04 Mar 2022 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>ja-JP</language>
+        <copyright>Copyright © ningensei848, 2022</copyright>
+        <item>
+            <title><![CDATA[個人ブログを Docusaurus で再始動する]]></title>
+            <link>https://ningensei848.github.io/2022/03/03/</link>
+            <guid>/2022/03/03/</guid>
+            <pubDate>Fri, 04 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[もともとは Next.js の知見を貯めるために vercel では普通のアプリとして，GitHub Pages では SSG としてブログをつくる予定だった．が， Docusaurus で全然いいしむしろデザイン対応の手間を考えたら Next.js で全部自分でやるのは（無限にこだわり続けてしまって）完成しない！という結論を得た．]]></description>
+            <content:encoded><![CDATA[<p>もともとは Next.js の知見を貯めるために vercel では普通のアプリとして，GitHub Pages では SSG としてブログをつくる予定だった．が， Docusaurus で全然いいしむしろデザイン対応の手間を考えたら Next.js で全部自分でやるのは（無限にこだわり続けてしまって）完成しない！という結論を得た．</p><h2 class="anchor anchorWithStickyNavbar_mojV" id="そもそも">そもそも<a class="hash-link" href="#そもそも" title="Direct link to heading">​</a></h2><p>Docusaurus もこれまで $\alpha$ 版には触れてきたが，Next.js における <code>getStaticProps</code> がないからローカルのファイルデータのやり取りができなくて辛い，と思い込んでしまっていた．しかし，実際にはプラグインを時前実装することで実現できることがわかった（それも正直どうなのって感じだが）</p><p>Docusaurus と Next.js のハイブリッドも検討したが，あまり親和性がないと言うか，そこまでしてやるメリットがないとは感じていた．</p><p>改めて，Next.js を使うのは ISR をやれるからという利点があるときだけで，そうでないときは Docusaurus を使ったほうが後々の拡張性が高いように感じた（特にレイアウトやらダークモードなどデザイン苦手マンには）</p><p>で，この GitHub Pages は，その性質上今後も SSG のみ対応すると思われる．じゃあ Next.js に縋り付く意味なくない？よって Docusaurus への移行を決意した．</p><h2 class="anchor anchorWithStickyNavbar_mojV" id="今後">今後<a class="hash-link" href="#今後" title="Direct link to heading">​</a></h2><p>なにかしらフィーチャーすべきものについては，「ドキュメント」をつくってまとめる．幸い「Multi Sidebar」なるものはすでにある（上部バーのドロップダウンがすぐに作れてアド）</p><p>ブログは，ルーティングをもう少し留意する必要はあると思いつつも，まぁこれでいいかという妥協点を保っている．そんなに何度も何度も更新するわけではないし……</p><h2 class="anchor anchorWithStickyNavbar_mojV" id="最後に">最後に<a class="hash-link" href="#最後に" title="Direct link to heading">​</a></h2><p>はやいとこいくつか記事作って Google Adsense 通るようにしたいね</p><hr><p>↓ 　これは URL 貼り付けるだけでツイートが埋め込み表示されて便利ね～というデモンストレーションです</p><blockquote class="twitter-tweet" align="center" data-width="550" data-lang="ja" data-dnt="true"><p lang="ja" dir="ltr">余裕をもってバスに乗る🚌</p>— ありがとう上木敬🌒 (@Ningensei848) <a href="https://twitter.com/Ningensei848/status/1477068019612659712?ref_src=twsrc%5Etfw" target="_blank" rel="noopener noreferrer">2022年1月1日</a></blockquote><p>↓ 　あとこの辺に SNS 向けの共有ボタンがいくつか設置されてるはず</p>]]></content:encoded>
+            <author>k.kubokawa@klis.tsukuba.ac.jp (Kiai)</author>
+            <category>日記</category>
+        </item>
+    </channel>
+</rss>
