@@ -280,7 +280,10 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme
       },
-      metadata: [{ name: 'twitter:title', content: process.env.SITE_TITLE }]
+      metadata: [
+        { name: 'twitter:title', content: process.env.SITE_TITLE },
+        { 'http-equiv': "content-language", content: "ja" }
+      ]
     }),
   plugins: [
     // [
