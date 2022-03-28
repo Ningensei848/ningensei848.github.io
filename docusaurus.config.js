@@ -282,7 +282,7 @@ const config = {
       },
       metadata: [
         { name: 'twitter:title', content: process.env.SITE_TITLE },
-        { 'http-equiv': "content-language", content: "ja" }
+        { 'http-equiv': 'content-language', content: 'ja' }
       ]
     }),
   plugins: [
