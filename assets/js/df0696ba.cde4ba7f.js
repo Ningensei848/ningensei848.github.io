@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklaom=self.webpackChunklaom||[]).push([[903],{8271:function(a){a.exports=JSON.parse('{"allTagsPath":"/tags","name":"\u596e\u95d8\u8a18","count":1,"permalink":"/tags/\u596e\u95d8\u8a18"}')}}]);
