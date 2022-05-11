@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklaom=self.webpackChunklaom||[]).push([[8085],{2367:function(a){a.exports=JSON.parse('{"label":"\u7af6\u99ac","permalink":"/tags/\u7af6\u99ac","allTagsPath":"/tags","count":5}')}}]);
