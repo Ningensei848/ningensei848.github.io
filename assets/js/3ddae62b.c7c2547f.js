@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklaom=self.webpackChunklaom||[]).push([[3398],{602:function(a){a.exports=JSON.parse('{"label":"GitHub","permalink":"/tags/git-hub","allTagsPath":"/tags","count":1}')}}]);

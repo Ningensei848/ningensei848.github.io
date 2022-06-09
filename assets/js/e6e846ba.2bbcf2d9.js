@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklaom=self.webpackChunklaom||[]).push([[8293],{8239:function(a){a.exports=JSON.parse('{"label":"Codespaces","permalink":"/tags/codespaces","allTagsPath":"/tags","count":1}')}}]);

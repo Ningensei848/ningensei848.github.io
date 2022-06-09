@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklaom=self.webpackChunklaom||[]).push([[479],{4007:function(a){a.exports=JSON.parse('{"label":"ml4keiba","permalink":"/tags/ml-4-keiba","allTagsPath":"/tags","count":1}')}}]);
