@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklaom=self.webpackChunklaom||[]).push([[5419],{5552:function(a){a.exports=JSON.parse('{"label":"hcomp","permalink":"/tags/hcomp","allTagsPath":"/tags","count":1}')}}]);
