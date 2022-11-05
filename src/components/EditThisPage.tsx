@@ -8,7 +8,7 @@
 import React from 'react'
 // import Translate from "@docusaurus/Translate";
 
-import IconEdit from '@theme/IconEdit'
+import IconEdit from '@theme/Icon/Edit'
 import { ThemeClassNames } from '@docusaurus/theme-common'
 
 import type { Props } from '@theme/EditThisPage'
