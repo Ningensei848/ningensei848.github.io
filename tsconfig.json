@@ -1,8 +1,13 @@
 {
-  // This file is not used in compilation. It is here just for a nice editor experience.
-  "extends": "@tsconfig/docusaurus/tsconfig.json",
-  "compilerOptions": {
-    "baseUrl": "."
-  },
-  "include": ["src/**/*", "docs/**/*"]
+    // This file is not used in compilation. It is here just for a nice editor experience.
+    "$schema": "https://json.schemastore.org/tsconfig.json",
+    "extends": "@tsconfig/docusaurus/tsconfig.json",
+    "compilerOptions": {
+        "baseUrl": ".",
+        // Add Options --------------------------------
+        "moduleResolution": "node16"
+        // --------------------------------------------
+    },
+    // Tips: src 以下のファイルだけを TypeScript の監視対象とする
+    "include": ["src/**/*"]
 }

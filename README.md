@@ -14,9 +14,9 @@ LAOM は，発言の場を確保するために，個々人が自前のブログ
 
 ## Requirements
 
-- エディタを用意する（VSCode を推奨）
-- Node.js  v16.x の実行環境を整える
-- Git の環境および基礎知識
+-   エディタを用意する（VSCode を推奨）
+-   Node.js v16.x の実行環境を整える
+-   Git の環境および基礎知識
 
 ```shell
 $ git clone https://github.com/Ningensei848/laom.git
@@ -26,14 +26,14 @@ $ yarn install
 
 ## Deploy your own
 
-- 文書を書く
-  - `content/blogs` ディレクトリ以下に Markdown で記述する
-  - `yarn dev` を実行すると新たにタブが開く → それでプレビューしながら書いてみるべし
-- デプロイ準備
-  - `yarn build` してローカルで問題が出ないことを確認する
-  - `.github/workflows/gh-pages.yml` に必要事項を追記する
-- リポジトリを GitHub に push する
-  - 無事に push されれば，自動的に GitHub Pages でデプロイまで行われる
+-   文書を書く
+    -   `content/blogs` ディレクトリ以下に Markdown で記述する
+    -   `yarn dev` を実行すると新たにタブが開く → それでプレビューしながら書いてみるべし
+-   デプロイ準備
+    -   `yarn build` してローカルで問題が出ないことを確認する
+    -   `.github/workflows/gh-pages.yml` に必要事項を追記する
+-   リポジトリを GitHub に push する
+    -   無事に push されれば，自動的に GitHub Pages でデプロイまで行われる
 
 ## Author
 
@@ -44,3 +44,8 @@ $ yarn install
 ## License
 
 _This software is released under the [MIT License](LICENSE)._
+
+### TODO:
+
+-   prettier, eslint, pre-commit の導入
+-   余裕があれば、jest を触りたい

@@ -1,10 +1,10 @@
 {
+    "$schema": "https://json.schemastore.org/swcrc",
     "minify": true,
     "module": {
         "type": "commonjs",
         "strict": true,
-        "noInterop": true,
-        "ignoreDynamic": true
+        "noInterop": true
     },
     "exclude": [
         ".*.js$",

@@ -27,7 +27,7 @@ authors: kiai  # @see authors.yml
 
 [Markdown front matter on Docusaurus Blog](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog#markdown-front-matter):
 
-- https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog#markdown-front-matter
+-   https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog#markdown-front-matter
 
 :::
 
@@ -56,8 +56,8 @@ heading 3
 console.log('This is code block text');
 ```
 
-- list item
-  - nested item
+-   list item
+    -   nested item
 
 <!-- `---` is Divider -->
 
@@ -129,11 +129,11 @@ console.log('code block');
 
 （末尾のパラメタの有無で表示は変化しないが，GitHub リポジトリに残すことを考えると**不要なパラメタは極力削除したほうが良い**だろう）
 
-- パラメタあり
+-   パラメタあり
 
 https://twitter.com/joncipriano/status/701826082513616896?ref_src=twsrc%5Etfw
 
-- パラメタなし
+-   パラメタなし
 
 https://twitter.com/joncipriano/status/701826082513616896
 
