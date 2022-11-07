@@ -16,7 +16,9 @@
         "typecheck": "tsc",
         "emit": "swc src/plugins -d src --config-file src/plugins/.swcrc",
         "dev": "yarn start",
+        "postinstall": "husky install",
         "lint": "eslint \"{src,tests}/**/*.ts\"",
+        "lint-staged": "lint-staged",
         "format": "prettier --ignore-path .gitignore --write './**/*.{js,jsx,ts,tsx,json,css,md,mdx}'"
     },
     "dependencies": {
@@ -45,6 +47,8 @@
         "eslint-config-prettier": "8.5.0",
         "eslint-plugin-react": "7.31.10",
         "eslint-plugin-react-hooks": "4.6.0",
+        "husky": "^8.0.0",
+        "lint-staged": "^13.0.3",
         "prettier": "2.7.1",
         "remark": "14.0.2",
         "typescript": "4.8.4"
@@ -58,10 +62,16 @@
         "trailingComma": "none",
         "embeddedLanguageFormatting": "off"
     },
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged",
+            "pre-push": "yarn lint"
+        }
+    },
     "lint-staged": {
         "**/*": [
             "eslint \"{src,tests}/**/*.ts\"",
-            "prettier --ignore-path .gitignore --write \"./**/*.{js,jsx,ts,tsx,json,css,md,mdx}\""
+            "prettier --ignore-unknown --ignore-path .gitignore --write \"./**/*.{js,jsx,ts,tsx,json,css,md,mdx}\""
         ]
     },
     "browserslist": {
