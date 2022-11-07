@@ -15,18 +15,18 @@ import type { Props } from '@theme/EditThisPage'
 
 // 交差型 cf. https://typescriptbook.jp/reference/object-oriented/interface/interface-vs-type-alias
 type CustomProps = Props & {
-  text: string
+    text: string
 }
 
 export default function EditThisPage({ editUrl, text = 'Edit Request' }: CustomProps): JSX.Element {
-  return (
-    <a href={editUrl} target='_blank' rel='noreferrer noopener' className={ThemeClassNames.common.editThisPage}>
-      <IconEdit />
-      <wbr />
-      {/* <Translate id="theme.common.editThisPage" description="The link label to edit the current page">
-        Request for editing
-      </Translate> */}
-      {text}
-    </a>
-  )
+    return (
+        <a href={editUrl} target='_blank' rel='noreferrer noopener' className={ThemeClassNames.common.editThisPage}>
+            <IconEdit />
+            <wbr />
+            {/* <Translate id="theme.common.editThisPage" description="The link label to edit the current page">
+         Request for editing
+       </Translate> */}
+            {text}
+        </a>
+    )
 }
