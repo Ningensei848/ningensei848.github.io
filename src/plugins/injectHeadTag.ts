@@ -57,8 +57,8 @@ const adsense = (id: string) => {
         attributes: {
             async: true,
             src: `https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${id}`,
-            crossorigin: 'anonymous'
-        }
+            crossorigin: 'anonymous',
+        },
     }
 }
 
@@ -74,11 +74,11 @@ const plugin = async (context: LoadContext, options: CustomOptions) => {
                     `<link rel='preconnect' href='//fonts.gstatic.com' crossOrigin='anonymous' />`,
                     adsense(options.AD_ID),
                     gtm(options.GTM_ID),
-                    twttr
+                    twttr,
                 ],
-                postBodyTags: [gtm_noscript(options.GTM_ID)]
+                postBodyTags: [gtm_noscript(options.GTM_ID)],
             }
-        }
+        },
     }
 }
 

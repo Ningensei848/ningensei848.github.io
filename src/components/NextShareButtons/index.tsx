@@ -17,7 +17,7 @@ import {
     RedditShareButton,
     RedditIcon,
     TelegramShareButton,
-    TelegramIcon
+    TelegramIcon,
 } from 'next-share'
 
 import styles from '@site/src/css/NextShareButtons.module.css'
@@ -41,7 +41,7 @@ const HashTag = 'againstc'
 
 const IconProps = {
     size: 32,
-    round: true
+    round: true,
 }
 
 const Facebook = (props: CommonProps): JSX.Element => (
@@ -95,7 +95,7 @@ const Telegram = (props: CommonProps): JSX.Element => (
 const MomoizedSocialButtons = React.memo(function SocialButtons({
     href,
     title,
-    onHover: handleEvent
+    onHover: handleEvent,
 }: SocialButtonsProps) {
     const common = { url: href, title }
 
@@ -131,6 +131,7 @@ const NextShareButtons = ({ href = '', title = '' }: NextShareButtonProps): JSX.
         if (document && !title.length) {
             setSubject(document.title)
         }
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [url])
 
     return <MomoizedSocialButtons href={url} title={subject} onHover={handleEvent} />

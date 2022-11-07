@@ -12,7 +12,7 @@ export default function BlogPostPaginator(props: Props): JSX.Element {
             aria-label={translate({
                 id: 'theme.blog.post.paginator.navAriaLabel',
                 message: 'Blog post page navigation',
-                description: 'The ARIA label for the blog posts pagination'
+                description: 'The ARIA label for the blog posts pagination',
             })}
         >
             {nextItem && (

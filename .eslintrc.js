@@ -8,19 +8,19 @@ module.exports = {
         tsconfigRootDir: __dirname,
         project: ['./tsconfig.json'],
         ecmaFeatures: {
-            jsx: true
+            jsx: true,
         },
         ecmaVersion: 'latest',
-        sourceType: 'module'
+        sourceType: 'module',
     },
     env: {
         browser: true,
-        es2022: true
+        es2022: true,
     },
     plugins: [
         'react',
         // cf. https://github.com/typescript-eslint/typescript-eslint/tree/main/packages/eslint-plugin
-        '@typescript-eslint'
+        '@typescript-eslint',
     ],
     extends: [
         'eslint:recommended',
@@ -28,7 +28,7 @@ module.exports = {
         'plugin:react-hooks/recommended',
         'plugin:@typescript-eslint/recommended',
         'plugin:@typescript-eslint/recommended-requiring-type-checking',
-        'prettier'
+        'prettier',
     ],
-    rules: {}
+    rules: {},
 }

@@ -46,11 +46,11 @@ const remarkOembedderPlugin = [
             [
                 oembedTransformer,
                 // cf. https://developer.twitter.com/en/docs/twitter-api/v1/tweets/post-and-engage/api-reference/get-statuses-oembed
-                { params: { maxwidth: 550, omit_script: true, align: 'center', lang: 'ja', dnt: true } }
-            ]
+                { params: { maxwidth: 550, omit_script: true, align: 'center', lang: 'ja', dnt: true } },
+            ],
         ],
-        handleError: handleEmbedError
-    }
+        handleError: handleEmbedError,
+    },
 ]
 
 const pwaHead = [
@@ -58,61 +58,61 @@ const pwaHead = [
         tagName: 'link',
         rel: 'apple-touch-icon',
         sizes: '180x180',
-        href: '/img/apple-touch-icon.png'
+        href: '/img/apple-touch-icon.png',
     },
     {
         tagName: 'link',
         rel: 'icon',
         sizes: '32x32',
-        href: '/img/favicon-32x32.png'
+        href: '/img/favicon-32x32.png',
     },
     {
         tagName: 'link',
         rel: 'icon',
         sizes: '16x16',
-        href: '/img/favicon-16x16.png'
+        href: '/img/favicon-16x16.png',
     },
     {
         tagName: 'link',
         rel: 'manifest',
-        href: '/site.webmanifest'
+        href: '/site.webmanifest',
     },
     {
         tagName: 'link',
         rel: 'mask-icon',
         href: '/img/safari-pinned-tab.svg',
-        color: 'rgb(25, 150, 4)'
+        color: 'rgb(25, 150, 4)',
     },
     {
         tagName: 'meta',
         rel: 'apple-mobile-web-app-title',
-        content: '気合でなんとか'
+        content: '気合でなんとか',
     },
     {
         tagName: 'meta',
         rel: 'application-name',
-        content: '気合でなんとか'
+        content: '気合でなんとか',
     },
     {
         tagName: 'meta',
         name: 'theme-color',
-        content: 'rgb(25, 150, 4)'
+        content: 'rgb(25, 150, 4)',
     },
     {
         tagName: 'meta',
         name: 'apple-mobile-web-app-capable',
-        content: 'yes'
+        content: 'yes',
     },
     {
         tagName: 'meta',
         name: 'msapplication-TileImage',
-        content: '/img/mstile-150x150.png'
+        content: '/img/mstile-150x150.png',
     },
     {
         tagName: 'meta',
         name: 'msapplication-TileColor',
-        content: '#199604'
-    }
+        content: '#199604',
+    },
 ]
 
 const username = process.env.USERNAME || 'Ningensei848'
@@ -177,14 +177,14 @@ const config = {
                         description:
                             process.env.FEED_DESCRIPTION || process.env.BLOG_DESCRIPTION || `${username}'s Blog`,
                         copyright: process.env.FEED_COPYRIGHT || `Copyright © ${username}, ${new Date().getFullYear()}`,
-                        language: process.env.FEED_LANGUAGE || 'ja-JP'
-                    }
+                        language: process.env.FEED_LANGUAGE || 'ja-JP',
+                    },
                 },
                 theme: {
-                    customCss: require.resolve('./src/css/custom.css')
-                }
-            })
-        ]
+                    customCss: require.resolve('./src/css/custom.css'),
+                },
+            }),
+        ],
     ],
 
     themeConfig:
@@ -195,7 +195,7 @@ const config = {
                 logo: {
                     alt: process.env.LOGO_TITLE || process.env.SITE_TITLE || 'My Site Logo',
                     src: (() => `img/logo.${process.env.LOGO_EXTENSION || 'svg'}`)(), // IIFE
-                    srcDark: (() => `img/logo_dark.${process.env.LOGO_EXTENSION || 'svg'}`)()
+                    srcDark: (() => `img/logo_dark.${process.env.LOGO_EXTENSION || 'svg'}`)(),
                 },
                 items: [
                     // {
@@ -209,21 +209,21 @@ const config = {
                         href: 'https://zenn.dev/ningensei848',
                         position: 'right',
                         className: 'header-zenn-link',
-                        'aria-label': 'Zenn.dev Articles'
+                        'aria-label': 'Zenn.dev Articles',
                     },
                     {
                         href: 'https://twitter.com/Ningensei848',
                         position: 'right',
                         className: 'header-twitter-link',
-                        'aria-label': 'Author on Twitter'
+                        'aria-label': 'Author on Twitter',
                     },
                     {
                         href: `https://github.com/${username}/${repositoryName}`,
                         position: 'right',
                         className: 'header-github-link',
-                        'aria-label': 'GitHub repository'
-                    }
-                ]
+                        'aria-label': 'GitHub repository',
+                    },
+                ],
             },
             footer: {
                 style: 'dark',
@@ -272,7 +272,7 @@ const config = {
                 logo: {
                     alt: process.env.LOGO_TITLE || process.env.SITE_TITLE || 'My Site Logo',
                     src: (() => `img/logo.${process.env.LOGO_EXTENSION || 'svg'}`)(), // IIFE
-                    srcDark: (() => `img/logo_dark.${process.env.LOGO_EXTENSION || 'svg'}`)() // IIFE
+                    srcDark: (() => `img/logo_dark.${process.env.LOGO_EXTENSION || 'svg'}`)(), // IIFE
                     // Logo URL is set to base URL of your site by default (siteConfig.baseUrl).
                     // Although you can specify your own URL for the logo,
                     // if it is an external link, it will open in a new tab.
@@ -282,16 +282,16 @@ const config = {
                 },
                 copyright:
                     process.env.FEED_COPYRIGHT ||
-                    `Copyright © ${new Date().getFullYear()} ${username}, Built with Docusaurus.`
+                    `Copyright © ${new Date().getFullYear()} ${username}, Built with Docusaurus.`,
             },
             prism: {
                 theme: lightCodeTheme,
-                darkTheme: darkCodeTheme
+                darkTheme: darkCodeTheme,
             },
             metadata: [
                 { name: 'twitter:title', content: process.env.SITE_TITLE },
-                { 'http-equiv': 'content-language', content: 'ja' }
-            ]
+                { 'http-equiv': 'content-language', content: 'ja' },
+            ],
         }),
     plugins: [
         // [
@@ -304,8 +304,8 @@ const config = {
             '@docusaurus/plugin-pwa',
             {
                 pwaHead,
-                offlineModeActivationStrategies: ['appInstalled', 'standalone', 'queryString']
-            }
+                offlineModeActivationStrategies: ['appInstalled', 'standalone', 'queryString'],
+            },
         ],
         // local plugins ----------------------------------------------------------
         [
@@ -313,10 +313,10 @@ const config = {
             `${__dirname}/src/plugins/injectHeadTag`,
             {
                 GTM_ID: process.env.GOOGLE_TAG_MANAGER_ID || 'GTM-XXXXXX',
-                AD_ID: process.env.GOOGLE_ADSENSE_ID || 'ca-pub-xxxxxxxxxx'
-            }
-        ]
-    ]
+                AD_ID: process.env.GOOGLE_ADSENSE_ID || 'ca-pub-xxxxxxxxxx',
+            },
+        ],
+    ],
 }
 
 module.exports = config

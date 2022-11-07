@@ -42,8 +42,8 @@ const processTweetsAsync = async (blockquotes: HTMLCollectionOf<Element>) => {
                     } catch (e) {
                         reject(e)
                     }
-                })
-        )
+                }),
+        ),
     )
 
     return data.filter(isFulfilled).map((r) => r.value)

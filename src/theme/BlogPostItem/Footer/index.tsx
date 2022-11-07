@@ -50,7 +50,7 @@ export default function BlogPostItemFooter(): JSX.Element | null {
             {truncatedPost && (
                 <div
                     className={clsx('col text--right', {
-                        'col--3': tagsExists
+                        'col--3': tagsExists,
                     })}
                 >
                     <ReadMoreLink blogPostTitle={title} to={metadata.permalink} />
