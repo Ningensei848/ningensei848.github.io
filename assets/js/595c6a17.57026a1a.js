@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunklaom=self.webpackChunklaom||[]).push([[6086],{5750:function(t){t.exports=JSON.parse('{"label":"Twitter","permalink":"/tags/twitter","allTagsPath":"/tags","count":2}')}}]);
