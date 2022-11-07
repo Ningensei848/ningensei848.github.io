@@ -1,4 +1,5 @@
 {
+    "$schema": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainer.schema.json",
     "name": "Node.js & TypeScript",
     "image": "mcr.microsoft.com/devcontainers/typescript-node:18-bullseye",
 
@@ -13,5 +14,21 @@
     "features": {
         "ghcr.io/devcontainers/features/git:1": {},
         "ghcr.io/devcontainers/features/node:1": {}
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "eamodio.gitlens",
+                "dbaeumer.vscode-eslint",
+                "esbenp.prettier-vscode",
+                "bierner.github-markdown-preview",
+                "PKief.material-icon-theme",
+                "redhat.vscode-yaml",
+                "tamasfe.even-better-toml",
+                "shardulm94.trailing-spaces",
+                "formulahendry.auto-close-tag",
+                "formulahendry.auto-rename-tag"
+            ]
+        }
     }
 }

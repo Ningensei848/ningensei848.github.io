@@ -70,7 +70,7 @@
     },
     "lint-staged": {
         "*.@(ts|tsx)": [
-            "yarn lint --debug",
+            "yarn lint",
             "yarn format --ignore-unknown"
         ],
         "**/*": [

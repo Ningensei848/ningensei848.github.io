@@ -1,0 +1,14 @@
+{
+    "recommendations": [
+        "eamodio.gitlens",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "bierner.github-markdown-preview",
+        "PKief.material-icon-theme",
+        "redhat.vscode-yaml",
+        "tamasfe.even-better-toml",
+        "shardulm94.trailing-spaces",
+        "formulahendry.auto-close-tag",
+        "formulahendry.auto-rename-tag"
+    ]
+}
