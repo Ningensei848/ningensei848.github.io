@@ -47,5 +47,7 @@ _This software is released under the [MIT License](LICENSE)._
 
 ### TODO:
 
--   prettier, eslint, pre-commit の導入
+-   [x] prettier, eslint, pre-commit の導入
 -   余裕があれば、jest を触りたい
+
+※node v18 にすると、ポートフォワーディングのときにうまく動作しないので、現状１６のままとする
