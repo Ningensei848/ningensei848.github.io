@@ -17,7 +17,7 @@
         "emit": "swc src/plugins -d src --config-file src/plugins/.swcrc",
         "dev": "yarn start",
         "postinstall": "node --eval 'process.exit(process.env.NODE_ENV === `production` ? 0 : 1)' || husky install",
-        "lint": "eslint \"{src,tests}/**/*.ts\"",
+        "lint": "eslint \"{src,tests}/**/*.{ts,tsx}\"",
         "lint-staged": "lint-staged",
         "format": "prettier --ignore-path .gitignore --write './**/*.{js,jsx,ts,tsx,json,css,md,mdx}'"
     },
@@ -40,7 +40,7 @@
     "devDependencies": {
         "@docusaurus/module-type-aliases": "2.2.0",
         "@docusaurus/theme-common": "2.2.0",
-        "@tsconfig/docusaurus": "1.0.5",
+        "@tsconfig/docusaurus": "1.0.6",
         "@typescript-eslint/eslint-plugin": "5.42.0",
         "@typescript-eslint/parser": "5.42.0",
         "eslint": "8.27.0",
@@ -59,7 +59,7 @@
         "semi": false,
         "singleQuote": true,
         "jsxSingleQuote": true,
-        "trailingComma": "none",
+        "trailingComma": "all",
         "embeddedLanguageFormatting": "off"
     },
     "husky": {
@@ -69,9 +69,12 @@
         }
     },
     "lint-staged": {
+        "*.@(ts|tsx)": [
+            "yarn lint --debug",
+            "yarn format --ignore-unknown"
+        ],
         "**/*": [
-            "eslint \"{src,tests}/**/*.ts\"",
-            "prettier --ignore-unknown --ignore-path .gitignore --write \"./**/*.{js,jsx,ts,tsx,json,css,md,mdx}\""
+            "yarn format --ignore-unknown"
         ]
     },
     "browserslist": {
@@ -87,6 +90,6 @@
         ]
     },
     "engines": {
-        "node": ">=16.14"
+        "node": ">=18.12.1"
     }
 }

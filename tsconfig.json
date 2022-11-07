@@ -5,7 +5,8 @@
     "compilerOptions": {
         "baseUrl": ".",
         // Add Options --------------------------------
-        "moduleResolution": "node16"
+        "moduleResolution": "NodeNext",
+        "esModuleInterop": true
         // --------------------------------------------
     },
     // Tips: src 以下のファイルだけを TypeScript の監視対象とする

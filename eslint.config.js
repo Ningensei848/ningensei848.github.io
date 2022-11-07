@@ -29,15 +29,15 @@ const typescriptParserOptions = {
         tsconfigRootDir: __dirname,
         project: ['./tsconfig.json'],
         ecmaFeatures: {
-            jsx: true
+            jsx: true,
         },
-        ecmaVersion: 2022
+        ecmaVersion: 2022,
     },
     sourceType: 'module',
     globals: {
         React: true,
-        JSX: true
-    }
+        JSX: true,
+    },
 }
 
 // CAUTION: Cascading configuration objects
@@ -60,7 +60,7 @@ const flatConfig = [
     // cf. https://eslint.org/docs/latest/user-guide/configuring/configuration-files-new#globally-ignoring-files-with-ignores
     // Note: "**/node_modules/**", ".git/**" are default patterns　 (No need to specify)
     {
-        ignores: ['.docusaurus/*', 'build/*', 'src/**/*.js']
+        ignores: ['.docusaurus/*', 'build/*', 'src/**/*.js'],
     },
 
     /** ------------------------------------------------------------------------------------------------------------ */
@@ -68,8 +68,8 @@ const flatConfig = [
     // cf. https://eslint.org/docs/latest/user-guide/configuring/configuration-files-new#configuring-rules
     {
         rules: {
-            semi: ['error', 'never'] // semi coron は使わない
-        }
+            semi: ['error', 'never'], // semi coron は使わない
+        },
     },
     /** ------------------------------------------------------------------------------------------------------------ */
     /** languageOptions -------------------------------------------------------------------------------------------- */
@@ -84,23 +84,23 @@ const flatConfig = [
             // cf. https://github.com/jsx-eslint/eslint-plugin-react
             react: react,
             // cf. https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks
-            'react-hooks': reactHooks
+            'react-hooks': reactHooks,
         },
         rules: {
             /** Spread Syntax */
             // cf. https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Operators/Spread_syntax
-            ...typescriptESlintPlugin.configs['eslint-recommended'].overrides.shift().rules,
+            ...typescriptESlintPlugin.configs['eslint-recommended'].overrides[0].rules,
             ...typescriptESlintPlugin.configs.recommended.rules,
             ...typescriptESlintPlugin.configs['recommended-requiring-type-checking'].rules,
             ...react.configs.recommended.rules,
-            ...reactHooks.configs.recommended.rules
+            ...reactHooks.configs.recommended.rules,
         },
         settings: {
             react: {
-                version: '17.0'
-            }
-        }
-    }
+                version: '17.0',
+            },
+        },
+    },
     /** ------------------------------------------------------------------------------------------------------------ */
 ]
 
