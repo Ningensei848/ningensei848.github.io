@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkningensei_848_github_io=self.webpackChunkningensei_848_github_io||[]).push([[479],{4007:e=>{e.exports=JSON.parse('{"label":"ml4keiba","permalink":"/tags/ml-4-keiba","allTagsPath":"/tags","count":2}')}}]);
