@@ -1,3 +1,5 @@
+import { writeFile } from 'node:fs/promises'
+
 import type { LoadContext } from '@docusaurus/types'
 import type { PluginOptions } from '@docusaurus/plugin-content-pages'
 
@@ -56,6 +58,18 @@ const plugin = async (context: LoadContext, options: CustomOptions) => {
                     twttr,
                 ],
             }
+        },
+        async postBuild({ outDir }) {
+            // generate `ads.txt`
+            const pulisherId = options.AD_ID.replace('ca-', '')
+            const snipet = `google.com, ${pulisherId}, DIRECT, f08c47fec0942fa0\n`
+            // eslint-disable-next-line @typescript-eslint/restrict-template-expressions
+            await writeFile(`${outDir}/ads.txt`, snipet, (e: unknown) => {
+                if (e instanceof Error) {
+                    console.error(e.message)
+                }
+            })
+            return // complete
         },
     }
 }
