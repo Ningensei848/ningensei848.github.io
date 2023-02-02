@@ -307,12 +307,17 @@ const config = {
                 offlineModeActivationStrategies: ['appInstalled', 'standalone', 'queryString'],
             },
         ],
+        [
+            '@docusaurus/plugin-google-tag-manager',
+            {
+                containerId: process.env.GOOGLE_TAG_MANAGER_ID || 'GTM-XXXXXX',
+            },
+        ],
         // local plugins ----------------------------------------------------------
         [
-            // load GTM, Adsense, Twitter widget
+            // load Adsense, Twitter widget
             `${__dirname}/src/plugins/injectHeadTag`,
             {
-                GTM_ID: process.env.GOOGLE_TAG_MANAGER_ID || 'GTM-XXXXXX',
                 AD_ID: process.env.GOOGLE_ADSENSE_ID || 'ca-pub-xxxxxxxxxx',
             },
         ],
