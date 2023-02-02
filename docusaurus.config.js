@@ -319,6 +319,7 @@ const config = {
             `${__dirname}/src/plugins/injectHeadTag`,
             {
                 AD_ID: process.env.GOOGLE_ADSENSE_ID || 'ca-pub-xxxxxxxxxx',
+                SITE_VERIFY_ID: process.env.GOOGLE_SITE_VERIFICATION || 'googleXXXXXXXXXXXX',
             },
         ],
     ],

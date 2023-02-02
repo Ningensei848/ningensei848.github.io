@@ -5,6 +5,7 @@ import type { PluginOptions } from '@docusaurus/plugin-content-pages'
 
 type CustomOptions = PluginOptions & {
     AD_ID: string
+    SITE_VERIFY_ID: string
 }
 
 // Set up Twitter for Websites | Docs | Twitter Developer Platform
@@ -63,12 +64,10 @@ const plugin = async (context: LoadContext, options: CustomOptions) => {
             // generate `ads.txt`
             const pulisherId = options.AD_ID.replace('ca-', '')
             const snipet = `google.com, ${pulisherId}, DIRECT, f08c47fec0942fa0\n`
-            // eslint-disable-next-line @typescript-eslint/restrict-template-expressions
-            await writeFile(`${outDir}/ads.txt`, snipet, (e: unknown) => {
-                if (e instanceof Error) {
-                    console.error(e.message)
-                }
-            })
+            await writeFile(`${outDir as string}/ads.txt`, snipet)
+
+            const htmlContent = `google-site-verification: ${options.SITE_VERIFY_ID}.html\n`
+            await writeFile(`${outDir as string}/${options.SITE_VERIFY_ID}.html`, htmlContent)
             return // complete
         },
     }

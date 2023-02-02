@@ -38,6 +38,7 @@ jobs:
                   BASE_PATH: ${{ secrets.BASE_PATH }}
                   GOOGLE_TAG_MANAGER_ID: ${{ secrets.GOOGLE_TAG_MANAGER_ID }}
                   GOOGLE_ADSENSE_ID: ${{ secrets.GOOGLE_ADSENSE_ID }}
+                  GOOGLE_SITE_VERIFICATION: ${{ secrets.GOOGLE_SITE_VERIFICATION }}
                   # SIDEBAR_COUNT: ''
                   # SIDEBAR_TITLE: ''
                   # }}}
