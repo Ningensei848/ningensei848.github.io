@@ -22,10 +22,10 @@
         "format": "prettier --ignore-path .gitignore --write './**/*.{js,jsx,ts,tsx,json,css,md,mdx}'"
     },
     "dependencies": {
-        "@docusaurus/core": "2.3.0",
-        "@docusaurus/plugin-google-tag-manager": "2.3.0",
-        "@docusaurus/plugin-pwa": "2.3.0",
-        "@docusaurus/preset-classic": "2.3.0",
+        "@docusaurus/core": "2.3.1",
+        "@docusaurus/plugin-google-tag-manager": "2.3.1",
+        "@docusaurus/plugin-pwa": "2.3.1",
+        "@docusaurus/preset-classic": "2.3.1",
         "@mdx-js/react": "1.6.22",
         "@remark-embedder/core": "3.0.1",
         "@remark-embedder/transformer-oembed": "3.0.0",
@@ -39,8 +39,8 @@
         "react-dom": "18.2.0"
     },
     "devDependencies": {
-        "@docusaurus/module-type-aliases": "2.3.0",
-        "@docusaurus/theme-common": "2.3.0",
+        "@docusaurus/module-type-aliases": "2.3.1",
+        "@docusaurus/theme-common": "2.3.1",
         "@tsconfig/docusaurus": "1.0.6",
         "@typescript-eslint/eslint-plugin": "5.50.0",
         "@typescript-eslint/parser": "5.50.0",
