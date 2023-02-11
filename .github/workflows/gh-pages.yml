@@ -17,7 +17,7 @@ jobs:
             - uses: actions/checkout@v3
             - uses: actions/setup-node@v3
               with:
-                  node-version: 16
+                  node-version: 18
                   cache: yarn
 
             - name: Install dependencies
@@ -29,7 +29,7 @@ jobs:
                   USERNAME: 'ningensei848'
                   DOMAIN_NAME: 'ningensei848.github.io'
                   REPOSITORY_NAME: 'ningensei848.github.io'
-                  SITE_TITLE: '気合でなんとか'
+                  SITE_TITLE: 'Kiai de Nantoka'
                   LOGO_TITLE: 'Kiai de Nantoka'
                   BLOG_TITLE: '気合でなんとか'
                   BLOG_DESCRIPTION: 'Kiai (@ningensei848) が日々を生きた証'
