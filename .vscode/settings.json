@@ -3,6 +3,9 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.rulers": [88, 119],
     "files.eol": "\n",
+    "files.associations": {
+        "*.mdx": "markdown"
+    },
     "files.exclude": {
         "**/.docusaurus": true,
         "**/.DS_Store": true,
