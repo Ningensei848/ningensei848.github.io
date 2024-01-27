@@ -5,8 +5,8 @@
 require('dotenv').config()
 // ----------------------------------------------------------------------------
 
-const lightCodeTheme = require('prism-react-renderer/themes/github')
-const darkCodeTheme = require('prism-react-renderer/themes/dracula')
+const lightCodeTheme = require('prism-react-renderer').themes.github
+const darkCodeTheme = require('prism-react-renderer').themes.dracula
 
 const { default: remarkEmbedder } = require('@remark-embedder/core')
 const { default: oembedTransformer } = require('@remark-embedder/transformer-oembed')
@@ -176,7 +176,8 @@ const config = {
                         title: process.env.FEED_TITLE || process.env.BLOG_TITLE || 'Blog',
                         description:
                             process.env.FEED_DESCRIPTION || process.env.BLOG_DESCRIPTION || `${username}'s Blog`,
-                        copyright: process.env.FEED_COPYRIGHT || `Copyright © ${username}, ${new Date().getFullYear()}`,
+                        copyright:
+                            process.env.FEED_COPYRIGHT || `Copyright © ${username}, ${new Date().getFullYear()}`,
                         language: process.env.FEED_LANGUAGE || 'ja-JP',
                     },
                 },
