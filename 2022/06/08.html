@@ -26,7 +26,7 @@
 <link rel="preconnect" href="//fonts.gstatic.com" crossorigin="anonymous">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7857289120965920" crossorigin="anonymous"></script>
 <script>window.twttr=function(t,e,r){var n,i=t.getElementsByTagName(e)[0],w=window.twttr||{};return t.getElementById(r)||((n=t.createElement(e)).id=r,n.src="https://platform.twitter.com/widgets.js",i.parentNode.insertBefore(n,i),w._e=[],w.ready=function(t){w._e.push(t)}),w}(document,"script","twitter-wjs")</script><link rel="stylesheet" href="/assets/css/styles.19fee9e4.css">
-<script src="/assets/js/runtime~main.d7d7f9e7.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.e9bb83bd.js" defer="defer"></script>
 <script src="/assets/js/main.cc987acb.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -45,7 +45,7 @@
 <p>痒いところに手が届かなかった <a href="https://vscode.dev/" target="_blank" rel="noopener noreferrer">vscode.dev</a> から一転、これらの問題を解決できたことでほぼ VSCode 同然の使い心地となった。</p>
 <p>今後リソース調節が可能になれば、単なるデスクトップ版よりもずっと素晴らしいものになるだろう。</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="前提codespaces-ってなに">前提：codespaces ってなに？<a href="#前提codespaces-ってなに" class="hash-link" aria-label="Direct link to 前提：codespaces ってなに？" title="Direct link to 前提：codespaces ってなに？">​</a></h2>
-<iframe width="356" height="200" src="https://www.youtube.com/embed/j5VQ8OlwbqI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" title="Welcome to Codespaces - GitHub Universe 2020"></iframe>
+<iframe width="356" height="200" src="https://www.youtube.com/embed/j5VQ8OlwbqI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="" title="Welcome to Codespaces - GitHub Universe 2020"></iframe>
 <blockquote>
 <p><strong>短時間で構築できる開発環境</strong></p>
 <p>GitHub から離れることなく、Visual Studio Code を利用できます。</p>
@@ -61,7 +61,7 @@ Chrome 等のブラウザから利用する制約上、多少はショートカ�
 <p><img decoding="async" loading="lazy" alt="現在開けているポートに関する、右下にホップした通知" src="/assets/images/codespaces_portforwarding-e59be5d66f39a032185bfe285c8a757f.png" width="473" height="165" class="img_ev3q"></p>
 <p>codespaces とは別に、直接 repository を開いて編集できる vscode.dev という仕組みがすでにあり、こちらは申請しなくとも GitHub ユーザであれば誰でも利用可能である。
 ただし、こちらにはそれなりの制約もある。
-例えば、一時的にファイル編集ができるというだけなので、「コミットした」という状態を  保持できない。
+例えば、一時的にファイル編集ができるというだけなの で、「コミットした」という状態を保持できない。
 すなわち、コミットしたらすぐプッシュという運用になる（コミット自体はできるものの、それの取り消しやら種々の git 操作に制約がある）</p>
 <p>この問題についても、 codespaces は解決している。
 ブラウザのみで完結するのではなく、一度 space を create すると、その作業記録がリモートサーバ側に保存されるからだ。
@@ -72,7 +72,7 @@ Chrome 等のブラウザから利用する制約上、多少はショートカ�
 <p><del>例えばマークダウンで記事を書いたときに、その変更を反映する HMR がうまく機能していない気がする（要検討）</del></p>
 <p><del>ターミナル側では爆速でコンパイルしてくれている感じがするのだが、一方でフォワーディングしたブラウザからはうまく見えなかった。</del></p>
 <p><del>これについては、技術云々と言うより筆者の環境の問題な可能性もある。</del></p>
-<p>ローカルでサーバを動かしているときは、サーバ側でコンテンツの変更を検知してリロードをかけていた（？）のだが、ポートフォワーディングでは  そこまで面倒は見てくれないため、逐次手動でページ更新する必要がある。
+<p>ローカルでサーバを動かしているときは、サーバ側でコンテンツの変更を検知してリロードをかけていた（？）の  だが、ポートフォワーディングではそこまで面倒は見てくれないため、逐次手動でページ更新する必要がある。
 また、ポート番号は同じでも、サーバを起動するたびにフォワーディングした URL は別物として再設定される仕組みなようだ。</p>
 <p>（「うまく機能していない気がする」と感じたのは、開発サーバを再起動してしまいページが変わっていたから）</p>
 <p>流石にこの問題はフォワーディングされているリモートサーバの側からどうこうできそうにないため、適宜手動でやっていくか、定期的にページ更新をかけるスクリプトやら拡張機能やらをローカルに仕込むしかないだろう。</p>
