@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkningensei_848_github_io=self.webpackChunkningensei_848_github_io||[]).push([[7393],{6521:e=>{e.exports=JSON.parse('{"label":"\u596e\u95d8\u8a18","permalink":"/tags/\u596e\u95d8\u8a18","allTagsPath":"/tags","count":1,"unlisted":false}')}}]);
