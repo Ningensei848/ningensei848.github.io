@@ -6,9 +6,9 @@
         "baseUrl": ".",
         // Add Options --------------------------------
         "moduleResolution": "NodeNext",
-        "esModuleInterop": true,
+        "esModuleInterop": true
         // --------------------------------------------
     },
     // Tips: src 以下のファイルだけを TypeScript の監視対象とする
-    "include": ["src/**/*"],
+    "include": ["src/**/*"]
 }

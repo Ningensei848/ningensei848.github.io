@@ -60,7 +60,6 @@
         "semi": false,
         "singleQuote": true,
         "jsxSingleQuote": true,
-        "trailingComma": "all",
         "embeddedLanguageFormatting": "off"
     },
     "husky": {
