@@ -83,11 +83,11 @@ Pub/Sub のようなプロダクトがない場合、データの「送信元」
 #### ML4Keiba では
 
 1. Pub/Sub でトピックを作成する
-    - ただ作成するだけ
-    - 処理を仲介するインスタンスを定義するイメージが近い
+   - ただ作成するだけ
+   - 処理を仲介するインスタンスを定義するイメージが近い
 2. このトピックを指定して Cloud Functions 関数をデプロイ
-    - 購読する（Subscript する）のがこの関数
-    - 言い換えれば、指定トピックのサブスクライバーの一つとしてこの関数を指定する
+   - 購読する（Subscript する）のがこの関数
+   - 言い換えれば、指定トピックのサブスクライバーの一つとしてこの関数を指定する
 3. Cloud Scheduler から毎日定時に事前設定したメッセージを **Pub/Sub のトピックに向けてパブリッシュ**する
 
 こうして、Pub/Sub 上の指定トピックが受け取ったペイロードを、そのままサブスクライバーたちに送信することができた
@@ -278,8 +278,8 @@ GCP 側に対して、どの関数を実行するのかを明確に伝えてや�
 
 Python の場合には [`functions-framework==3.*`](https://github.com/GoogleCloudPlatform/functions-framework-python) が含まれた _requirements.txt_ を、Node.js の場合には `dependencies` に `"@google-cloud/functions-framework": "^3.0.0"` が含まれた _package.json_ をディレクトリ内に設置する必要がある。
 
--   [Python での依存関係の指定  |  Google Cloud Functions に関するドキュメント](https://cloud.google.com/functions/docs/writing/specifying-dependencies-python)
--   [Node.js での依存関係の指定  |  Google Cloud Functions に関するドキュメント](https://cloud.google.com/functions/docs/writing/specifying-dependencies-nodejs)
+- [Python での依存関係の指定  |  Google Cloud Functions に関するドキュメント](https://cloud.google.com/functions/docs/writing/specifying-dependencies-python)
+- [Node.js での依存関係の指定  |  Google Cloud Functions に関するドキュメント](https://cloud.google.com/functions/docs/writing/specifying-dependencies-nodejs)
 
 ### 最終的なデプロイコマンド
 
@@ -307,19 +307,19 @@ gcloud functions deploy YOUR_FUNCTION_NAME \
 
 `gcloud functions deploy` には、他にも様々なオプション設定を渡すことができる。
 
--   `--memory` ... 実行時のメモリサイズを指定する
-    -   いくつかの中から選ばなければならない
-        -   cf. https://cloud.google.com/functions/docs/configuring/memory
-    -   どれを選んだかによって、どのくらい [vCPU](https://cloud.google.com/compute/docs/cpu-platforms) が割り当てられるか変動する
--   `--service-account` ... サービスアカウントを指定する
-    -   CF 関数が他のプロダクトと連携する場合、適切な IAM を付与したサービスアカウントを割り当てる必要がある
-    -   指定しない場合、Cloud Functions のデフォルトサービスアカウントが割り当てられる
--   `--timeout` ... 最大実行時間を設定する
-    -   max は 3600s だが、CloudEvent をトリガーとする場合には 540s に制限されるとか
--   `--set-env-vars` ... 環境変数を指定する
-    -   秘密情報は `--set-secrets` で渡すとよい
--   `--update-labels` ... ラベルを付与する
-    -   多数の関数をデプロイする際に、コンソール側においてはラベルごとフィルタできると便利
+- `--memory` ... 実行時のメモリサイズを指定する
+  - いくつかの中から選ばなければならない
+    - cf. https://cloud.google.com/functions/docs/configuring/memory
+  - どれを選んだかによって、どのくらい [vCPU](https://cloud.google.com/compute/docs/cpu-platforms) が割り当てられるか変動する
+- `--service-account` ... サービスアカウントを指定する
+  - CF 関数が他のプロダクトと連携する場合、適切な IAM を付与したサービスアカウントを割り当てる必要がある
+  - 指定しない場合、Cloud Functions のデフォルトサービスアカウントが割り当てられる
+- `--timeout` ... 最大実行時間を設定する
+  - max は 3600s だが、CloudEvent をトリガーとする場合には 540s に制限されるとか
+- `--set-env-vars` ... 環境変数を指定する
+  - 秘密情報は `--set-secrets` で渡すとよい
+- `--update-labels` ... ラベルを付与する
+  - 多数の関数をデプロイする際に、コンソール側においてはラベルごとフィルタできると便利
 
 cf. [`gcloud functions deploy` | Google Cloud CLI Documentation](https://cloud.google.com/sdk/gcloud/reference/functions/deploy)
 
@@ -394,11 +394,11 @@ CSV なら、ヘッダーに含まれるカラム数の分だけ一対一対応�
 
 料金の内訳はｍおおよそ以下の通り：
 
--   Cloud Scheduler ... ¥0
--   Cloud Pub/Sub ... ¥0
--   Cloud Storage ... ¥100
--   Cloud Functions ... ¥900
--   BigQuery ... ¥0
+- Cloud Scheduler ... ¥0
+- Cloud Pub/Sub ... ¥0
+- Cloud Storage ... ¥100
+- Cloud Functions ... ¥900
+- BigQuery ... ¥0
 
 Cloud Functions を読んでリクエストしまくったから結構行くかな〜と思っていたら 1000 円そこらで収まってしまった。
 あまりにも激安で心配になるレベルである。

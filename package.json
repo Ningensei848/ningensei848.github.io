@@ -60,7 +60,15 @@
         "semi": false,
         "singleQuote": true,
         "jsxSingleQuote": true,
-        "embeddedLanguageFormatting": "off"
+        "embeddedLanguageFormatting": "off",
+        "overrides": [
+            {
+                "files": "*.{md,mdx}",
+                "options": {
+                    "tabWidth": 2
+                }
+            }
+        ]
     },
     "husky": {
         "hooks": {
