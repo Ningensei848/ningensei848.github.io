@@ -2,12 +2,198 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ningensei848.github.io</id>
     <title>気合でなんとか</title>
-    <updated>2024-04-21T00:00:00.000Z</updated>
+    <updated>2024-04-29T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ningensei848.github.io"/>
     <subtitle>Kiai (@ningensei848) が日々を生きた証</subtitle>
     <icon>https://ningensei848.github.io/img/favicon.ico</icon>
     <rights>Copyright © ningensei848, 2024</rights>
+    <entry>
+        <title type="html"><![CDATA[.dotfiles で管理したい]]></title>
+        <id>https://ningensei848.github.io/2024/04/29</id>
+        <link href="https://ningensei848.github.io/2024/04/29"/>
+        <updated>2024-04-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[新生活に浮かれてこういう私用ノートPCを買ってしまった。]]></summary>
+        <content type="html"><![CDATA[<p>新生活に浮かれて<a href="https://dynabook.com/direct/mobile-note-pc/xz-series/xz-hw.html" target="_blank" rel="noopener noreferrer">こういう私用ノートPC</a>を買ってしまった。
+ので、色々と設定していかないといけない。</p>
+<p>ここ最近はバ先に貸与された Mac Book Pro だったので何も考えていなかったが、いざwin11に触れると進化がすごい。
+そしてそれはそれとしてコマンドプロンプトがクソ、PowerShellは我が道を行きすぎィ！
+という経緯もあり、早々に諦めてWSL2(Ubuntu)に手を出すこととする。
+もちろんまっさらはじめから、ということで、作業記録を残しつつ「どうすればPCの式年遷宮を乗り越えていくか」という視点で考えたい。</p>
+<p><img decoding="async" loading="lazy" src="https://res.cloudinary.com/canonical/image/fetch/f_auto,q_auto,fl_sanitize,c_fill,w_720/https://assets.ubuntu.com/v1/c5414d0e-Numbat.png" alt="The numbat is a testament that those from humble beginnings can make their mark on the world." class="img_ev3q"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="必要なものを考える">必要なものを考える<a href="https://ningensei848.github.io/2024/04/29#%E5%BF%85%E8%A6%81%E3%81%AA%E3%82%82%E3%81%AE%E3%82%92%E8%80%83%E3%81%88%E3%82%8B" class="hash-link" aria-label="Direct link to 必要なものを考える" title="Direct link to 必要なものを考える">​</a></h2>
+<p>Windows Terminal も使えて楽し～～という気分はさておき、WSL2 (Ubuntu 24.04 LTS<sup><a href="https://ningensei848.github.io/2024/04/29#user-content-fn-1-a4e273" id="user-content-fnref-1-a4e273" data-footnote-ref="true" aria-describedby="footnote-label">1</a></sup>) までは導入済みという前提で進める。</p>
+<p>まず、shell をどうするかについて、これは特にこだわりなければ zsh を導入するのがいいと考えている。
+面倒なら bash のままでもいいのだが、カスタマイズせにゃあな～～という気持ちもあり、どうせやるなら zsh の波に乗ったほうがいいと考えた。</p>
+<p>他には、当然 <code>git</code>, <code>python</code>, <code>node</code> あたりが必要になるが、<code>git</code> は Ubuntu 備え付けだし、ほか2つは管理ツールを使いたい……
+という事情もあり、話題の <code>rye</code> と <code>volta</code> （奇しくも両方が Rust 製）を扱ってみることとする。</p>
+<p>あと現時点で考えうるのは Rust や Docker の実行環境とか、GCP, AWS, Azure あたりの CLI とか、CUI Editor とか、そのへんだろうか。</p>
+<p>（書きつつ思い出したが、大学時代の Google Workspace を GW 中に引っ越しせねばならないのであった……
+容量制限をあとから課す措置を下す行為になんらかの罰則を制定してほしい……）</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="zsh-with-oh-my-zsh"><code>Zsh</code> (with <em>Oh my Zsh</em>)<sup><a href="https://ningensei848.github.io/2024/04/29#user-content-fn-2-a4e273" id="user-content-fnref-2-a4e273" data-footnote-ref="true" aria-describedby="footnote-label">2</a></sup><a href="https://ningensei848.github.io/2024/04/29#zsh-with-oh-my-zsh" class="hash-link" aria-label="Direct link to zsh-with-oh-my-zsh" title="Direct link to zsh-with-oh-my-zsh">​</a></h3>
+<p align="center"><img src="https://ohmyzsh.s3.amazonaws.com/omz-ansi-github.png" alt="Oh My Zsh" width="50%"></p>
+<p>Ubuntu の場合、 <code>apt</code> ないし <code>apt-get</code> でどうにかするのがいいようだ。
+前者はインタラクティヴ、後者はスクリプト向けということで、ワンライナーで書くと以下の通り：</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sudo apt-get -y update &amp;&amp; \</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">sudo apt-get -y upgrade &amp;&amp; \</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">sudo apt-get -y install zsh &amp;&amp; \</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">zsh --version &amp;&amp; chsh -s $(which zsh) &amp;&amp; \</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">echo $SHELL &amp;&amp; $SHELL --version</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>再度シェルを起動し直すと、 <code>bash</code> ではなく <code>zsh</code> に切り替わっている。
+初回起動時には色々設定をする必要があるが、内容をよく見て選択すること。</p>
+<hr>
+<p>zsh をカスタマイズしやすくするフレームワークとして <em>Oh my Zsh</em> がある。
+これもついでに入れてみる。</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>だいぶ見栄えと雰囲気が良くなった気がする。
+これをいい感じにカスタマイズしていくのだが、今は取り敢えず放置。
+一旦区切りにして次へ行こう。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="rye"><code>rye</code><a href="https://ningensei848.github.io/2024/04/29#rye" class="hash-link" aria-label="Direct link to rye" title="Direct link to rye">​</a></h3>
+<p align="center"><img src="https://rye-up.com/static/logo-auto.svg" alt="Rye: a Hassle-Free Python Experience" width="40%"></p>
+<blockquote>
+<p>Rye is a comprehensive project and package management solution for Python.
+Born from its creator's desire to establish a one-stop-shop for all Python users,
+Rye provides a unified experience to install and manages Python installations,
+pyproject.toml based projects, dependencies and virtualenvs seamlessly.
+It's designed to accommodate complex projects,
+monorepos and to facilitate global tool installations.</p>
+</blockquote>
+<p>cf. <a href="https://rye-up.com/guide/installation/" target="_blank" rel="noopener noreferrer">https://rye-up.com/guide/installation/</a></p>
+<p><code>pyenv</code>, <code>virtualenv</code>, <code>venv</code>, <code>conda</code>, <code>pipenv</code>, <code>poetry</code> 等々、Python の仮想環境を管理しようとする試みは多々あったが、現状の最新＆最速<sup><a href="https://ningensei848.github.io/2024/04/29#user-content-fn-3-a4e273" id="user-content-fnref-3-a4e273" data-footnote-ref="true" aria-describedby="footnote-label">3</a></sup>のツールは <code>rye</code> であるらしい<sup><a href="https://ningensei848.github.io/2024/04/29#user-content-fn-4-a4e273" id="user-content-fnref-4-a4e273" data-footnote-ref="true" aria-describedby="footnote-label">4</a></sup>。
+これも簡単にインスコできるし、"zsh completion" （自動補完）もついてくるようなのでサクッと入れてしまおう。</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">curl -sSf https://rye-up.com/get | bash &amp;&amp; \</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">echo 'source "$HOME/.rye/env"' &gt;&gt; ~/.zprofile &amp;&amp; \</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">source ~/.zprofile &amp;&amp; \</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">echo $ZSH_CUSTOM &amp;&amp; \</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">mkdir $ZSH_CUSTOM/plugins/rye &amp;&amp; \</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">rye self completion -s zsh &gt; $ZSH_CUSTOM/plugins/rye/_rye</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>取り敢えず使えるようにはなったはずだが、いかんせん使い方がまだまだよくわからない。
+設定方法等も踏まえて再度備忘録的な記事を書いておく必要がありそうだ（GW中に書くかな？）。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="volta"><code>volta</code><a href="https://ningensei848.github.io/2024/04/29#volta" class="hash-link" aria-label="Direct link to volta" title="Direct link to volta">​</a></h3>
+<p align="center"><img src="https://volta.sh/assets/wordmark.jpg" alt="The Hassle-Free JavaScript Tool Manager" width="40%"></p>
+<blockquote>
+<p>⚡ Fast<br>
+Install and run any JS tool quickly and seamlessly! Volta is built in Rust and ships as a snappy static binary.</p>
+<p>⚡ Reliable<br>
+Ensure everyone in your project has the same tools—without interfering with their workflow.</p>
+<p>⚡ Universal<br>
+No matter the package manager, Node runtime, or OS, one command is all you need: volta install.</p>
+</blockquote>
+<p>cf. <a href="https://volta.sh/" target="_blank" rel="noopener noreferrer">https://volta.sh/</a></p>
+<p><code>nvm</code>, <code>nodenv</code>, <code>nodebrew</code>, <code>n</code>, <code>fem</code> 等々、 <code>node.js</code> を管理しようとする試みはたくさんある。
+この中だと <code>nvm</code> が昨今だと強いかもしれない。
+だが、<code>volta</code> はそんな状況に一石を投じる管理ツールだ。
+Rust 製なのでかなり速いし、OS の差異を意識しなくていいし、何より <code>package.json</code> 一つで <code>npm</code> / <code>yarn</code> 等も含めて管理できてしまう。</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">curl https://get.volta.sh | bash &amp;&amp; \</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">source ~/.zshrc &amp;&amp; \</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">echo $ZSH_CUSTOM &amp;&amp; \</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">mkdir $ZSH_CUSTOM/plugins/volta &amp;&amp; \</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">volta completions zsh -o $ZSH_CUSTOM/plugins/volta/_volta</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>……まぁまだ触れる機会が少ないので他人の受け売りなのだが。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="dotfiles-という概念"><code>.dotfiles</code> という概念<a href="https://ningensei848.github.io/2024/04/29#dotfiles-%E3%81%A8%E3%81%84%E3%81%86%E6%A6%82%E5%BF%B5" class="hash-link" aria-label="Direct link to dotfiles-という概念" title="Direct link to dotfiles-という概念">​</a></h2>
+<p>そもそもとして、「実は理解が甘いのでは？」と考えたので、一応拙速に調べ直してみた。</p>
+<ul>
+<li><a href="https://qiita.com/yutkat/items/c6c7584d9795799ee164" target="_blank" rel="noopener noreferrer">ようこそdotfilesの世界へ #Vim - Qiita</a>
+<ul>
+<li>検索結果の一番上に出てくるし、Qiita でもかなりの評価を得ている記事（概要がつかみやすい）</li>
+</ul>
+</li>
+<li><a href="https://zenn.dev/yutakatay/articles/try-dotfiles-01" target="_blank" rel="noopener noreferrer">GitHubでスター数の多いdotfilesを使ってみた</a>
+<ul>
+<li>実際に調べてみた系の記事 → '20年時点でのよさげな dotfiles の先人たちの例を挙げている</li>
+<li>調査方針はこれを読みつつ固めることにする</li>
+</ul>
+</li>
+<li><a href="https://qiita.com/reireias/items/b33b5c824a56dc89e1f7" target="_blank" rel="noopener noreferrer">dotfilesの育て方 #Linux - Qiita</a>
+<ul>
+<li>dotfiles をリポジトリとして捉えたときに、どうやって継続的に運用するかという視点で書かれた記事</li>
+<li>実際に自分のを作ったら、これを参考にして続けられるようにしよう</li>
+</ul>
+</li>
+<li><a href="https://www.m3tech.blog/entry/dotfiles-bonsai" target="_blank" rel="noopener noreferrer">dotfilesのこだわりを晒す - エムスリーテックブログ</a>
+<ul>
+<li>つよつよエンジニアのこだわりレシピ、zsh 等のカスタマイズ面でも参考にできそう</li>
+</ul>
+</li>
+<li><a href="https://zenn.dev/5ei74r0/articles/create-dotfiles" target="_blank" rel="noopener noreferrer">Rust製ツールまみれのdotfilesを始めた</a>
+<ul>
+<li>他の開発についても言えることだが、1. <strong>Auto Sync</strong> 2. <strong>Continuous Integration</strong> 3. <strong>Installer</strong> を用意するのはとても大切</li>
+<li>なぜなら我々は「いつだって怠惰」なので……</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p>まとめると、以下の３点が <code>.dotfiles</code> を作成する上で重要な要素となる：</p>
+<ol>
+<li><strong>リポジトリとして管理する</strong></li>
+<li><strong>育てる！ ＝ 継続的に運用する</strong></li>
+<li><strong>再利用しやすくしておく</strong></li>
+</ol>
+<p>これらの観点を意識して、自分だけのカスタマイズをやってみよう。
+作業の記録を次の章から残しておくこととする。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="やってみよう">やってみよう<a href="https://ningensei848.github.io/2024/04/29#%E3%82%84%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%88%E3%81%86" class="hash-link" aria-label="Direct link to やってみよう" title="Direct link to やってみよう">​</a></h2>
+<p>色々と探してみたが、上記３点をもっとも満たしやすそうなのは一つだけだった。
+すなわち、dotfiles の管理ツールとして Go-lang 製の <a href="https://www.chezmoi.io/" target="_blank" rel="noopener noreferrer"><code>chezmoi</code></a> を採用する。
+いちいちシンボリックリンクを貼るとかインストールスクリプトを書くとかやってられないからだ。
+そのへんを全部サポートしてくれることを期待して、次のようにインストールする：</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sh -c "$(curl -fsLS get.chezmoi.io)" -- -b $HOME/bin &amp;&amp; \</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">echo '# chezmoi\npath+=("$HOME/bin")\n' &gt;&gt; ~/.zshrc &amp;&amp; \</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">source ~/.zshrc &amp;&amp; which chezmoi &amp;&amp; chezmoi --version &amp;&amp; \</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">echo $ZSH_CUSTOM &amp;&amp; mkdir $ZSH_CUSTOM/plugins/chezmoi &amp;&amp; \</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">chezmoi completion zsh --output=$ZSH_CUSTOM/plugins/chezmoi/_chezmoi</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<p>こうして chezmoi をダウンロードし、ついでに PATH も通した（<code>~/.zshrc</code> に追記した）。
+次に、<code>chezmoi init</code> することで <code>~/.local/share/chezmoi</code> 直下に dotfiles を管理するためのリポジトリが作られる。</p>
+<p>ここで注意したいのは、既に <code>dotfiles</code> リポジトリが存在している場合、それを引き継げるということだ。
+例えば、俺はすでに５年前に<a href="https://github.com/Ningensei848/dotfiles" target="_blank" rel="noopener noreferrer">自分用の dotfiles</a> を作成していた。
+（全く記憶にないが……）
+今回はこれを引き継ぐ形で（ほぼぶっ壊しだろうが）進めていくこととする。</p>
+<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">export GITHUB_USERNAME="Ningensei848" &amp;&amp; \</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">chezmoi init $GITHUB_USERNAME --ssh</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<hr>
+<p><a href="https://www.chezmoi.io/quick-start/" target="_blank" rel="noopener noreferrer">Quick Start</a> にもある通り、おおよその流れは以下の通り：</p>
+<ol>
+<li><code>chezmoi add $FILE_NAME</code> ... ファイルをコピーして管理下に置く</li>
+<li><code>chezmoi edit $FILE_NAME</code> ... リポジトリ下にあるファイルを開く</li>
+<li><code>chezmoi -v apply</code> ... 変更を元のファイルに反映する</li>
+</ol>
+<p><code>chezmoi add</code> したファイルは、Prefix として <code>dot_</code> が付与される。
+vscode 等のエディタで開いたときは、この名前のファイルを編集すればいい。
+いくつかファイルを編集したら、その変更をリポジトリにコミットせねばならない。
+このとき、<code>chezmoi cd</code> とすることで <code>~/.local/share/chezmoi</code> に移動できる。
+そのまま <code>chezmoi diff</code> 等で変更点を確認したら、<code>chezmoi git --add</code> して <code>chezmoi git --commit</code> した後に、<code>chezmoi git --push</code> してやればよい。</p>
+<p>（これは「もしコマンドでやるなら」という話であって、ファイルの編集や Git の操作等は VSCode から GUI 経由でやっても構わない。
+最終的に、変更履歴を元ファイル、つまり <code>dot_file</code> ではなく <code>.file</code> に反映するために、
+<code>chezmoi -v apply</code> というコマンドを実行せねばならないというだけの話である）</p>
+<p>また、困ったときは <code>chezmoi help</code> とか、 <code>chezmoi doctor</code> あるいは <code>chezmoi status</code> とやればよい。
+自ずと何をどうすればいいかわかるだろう。</p>
+<p><a href="https://www.chezmoi.io/user-guide/command-overview/#daily-commands" target="_blank" rel="noopener noreferrer"><img decoding="async" loading="lazy" alt="Chezmoi Daily commands" src="https://ningensei848.github.io/assets/images/chezmoi_daily_commands-dfc7f529ab734ccfcc1dbc526fb57ccf.png" width="806" height="379" class="img_ev3q"></a></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="できた">できた<a href="https://ningensei848.github.io/2024/04/29#%E3%81%A7%E3%81%8D%E3%81%9F" class="hash-link" aria-label="Direct link to できた" title="Direct link to できた">​</a></h2>
+<p>というわけで、実際に作成したのが <a href="https://github.com/ningensei848/dotfiles" target="_blank" rel="noopener noreferrer"><strong>こちら</strong></a> ↓</p>
+<blockquote class="twitter-tweet" align="center" data-width="550" data-lang="ja" data-dnt="true"><p lang="ja" dir="ltr">ちょっとずつやっていきましょう<a href="https://t.co/owPuaDedOW" target="_blank" rel="noopener noreferrer">https://t.co/owPuaDedOW</a></p>— JAK阻害剤が効かないと後が無い🌗 (@Ningensei848) <a href="https://twitter.com/Ningensei848/status/1784934787314291026?ref_src=twsrc%5Etfw" target="_blank" rel="noopener noreferrer">2024年4月29日</a></blockquote>
+<p>まだ慣れていない＋そもそも全然カスタマイズしていないというのもあり、「継続的に運用する」という目標は未達となった…… 😿
+とはいいつつ、GitHub Actions 上で異なる OS ごとに実行できるか確認するような CI/CD 処理を書けばいいだけだ。
+余裕が生まれてからサクッと追記したい。</p>
+<p>それに乗せらられば、最後の「再利用しやすく」という目標も自然とクリアできることになる。
+どんな環境であれ、<code>Chezmoi</code> がインストールできれば、<code>chezmoi init --apply $GITHUB_USERNAME</code> で即座に使い始められるはずだ。
+もっとも、OS ごとに使えるシェルの差異を埋めるためにもう一捻り必要になるかもしれないが（や窓ク）。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="おわりに">おわりに<a href="https://ningensei848.github.io/2024/04/29#%E3%81%8A%E3%82%8F%E3%82%8A%E3%81%AB" class="hash-link" aria-label="Direct link to おわりに" title="Direct link to おわりに">​</a></h2>
+<p>気づけば GW も３日過ぎてしまった。
+３月～４月とほとんどこういう稼働ができなかったことでそこかしこが錆びついている感じだ。</p>
+<p>他にも GW 中に済ませねばならないことがたくさんある。
+具体的には Google Project の式年遷宮とか……
+（組織に紐づいているものを別の組織に移す；頭が痛い作業が残っている）</p>
+<p>明日は平日ということで、本来は仕事があるはずのところ、年次休暇を頂いている
+（というか強制的に３日分取得させられている；教育の日程上仕方ないのだが）。
+明日こそはもっと有意義に時間を過ごせるようにしたい…</p>
+<p>やっていきましょう、気合でなんとかします</p>
+<!-- -->
+<section data-footnotes="true" class="footnotes"><h2 class="anchor anchorWithStickyNavbar_LWe7 sr-only" id="footnote-label">Footnotes<a href="https://ningensei848.github.io/2024/04/29#footnote-label" class="hash-link" aria-label="Direct link to Footnotes" title="Direct link to Footnotes">​</a></h2>
+<ol>
+<li id="user-content-fn-1-a4e273">
+<p><a href="https://ubuntu.com/blog/the-coronation-of-a-new-mascot-noble-numbat" target="_blank" rel="noopener noreferrer">The Coronation of a New Mascot: Noble Numbat | Ubuntu</a> <a href="https://ningensei848.github.io/2024/04/29#user-content-fnref-1-a4e273" data-footnote-backref="" aria-label="Back to reference 1" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-2-a4e273">
+<p>cf. <a href="https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH" target="_blank" rel="noopener noreferrer">https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH</a> <a href="https://ningensei848.github.io/2024/04/29#user-content-fnref-2-a4e273" data-footnote-backref="" aria-label="Back to reference 2" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-3-a4e273">
+<p><a href="https://zenn.dev/link/comments/3538b859f8b7d7" target="_blank" rel="noopener noreferrer">uvとpipの仮想環境構築速度の比較</a> <a href="https://ningensei848.github.io/2024/04/29#user-content-fnref-3-a4e273" data-footnote-backref="" aria-label="Back to reference 3" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-4-a4e273">
+<p><a href="https://zenn.dev/tkm/articles/rye-uv-202403" target="_blank" rel="noopener noreferrer">Rye uv おっかけ 202403</a> <a href="https://ningensei848.github.io/2024/04/29#user-content-fnref-4-a4e273" data-footnote-backref="" aria-label="Back to reference 4" class="data-footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>]]></content>
+        <author>
+            <name>Kiai</name>
+            <email>k.kubokawa@klis.tsukuba.ac.jp</email>
+            <uri>https://twitter.com/Ningensei848</uri>
+        </author>
+        <category label="2024GW" term="2024GW"/>
+        <category label="dev" term="dev"/>
+        <category label="dotfiles" term="dotfiles"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[（最近の動きと）４月からの話]]></title>
         <id>https://ningensei848.github.io/2024/04/21</id>
@@ -267,7 +453,7 @@
 </ul>
 <p>採用枠が多い順に検討していこう（業務説明会の前に予約締切になるところもあるので）：</p>
 <h1>各省庁の検討</h1>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="経済産業省-本省30">経済産業省 本省(30)<a href="https://ningensei848.github.io/2023/07/05#%E7%B5%8C%E6%B8%88%E7%94%A3%E6%A5%AD%E7%9C%81-%E6%9C%AC%E7%9C%8130" class="hash-link" aria-label="Direct link to 経済産業省 本省(30)" title="Direct link to 経済産業省 本省(30)">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="経済産業省-本省30">経済産業省 本省(30)<a href="https://ningensei848.github.io/2023/07/05#%E7%B5%8C%E6%B8%88%E7%94%A3%E6%A5%AD%E7%9C%81-%E6%9C%AC%E7%9C%8130" class="hash-link" aria-label="Direct link to �経済産業省 本省(30)" title="Direct link to 経済産業省 本省(30)">​</a></h2>
 <ul>
 <li><a href="https://www.meti.go.jp/information/recruit/kanchohomon/06.html" target="_blank" rel="noopener noreferrer">2023 年度版 一般職＜大卒程度・技術系＞官庁訪問 （METI/経済産業省）</a></li>
 </ul>
@@ -874,7 +1060,7 @@ BigQuery を使いこなして、座りしままに餅を食いたいねぇ…�
 <p>仕事の内容についてはここに書くことはできないが、おおよその方向性と内容、進め方についても話をすることができた。
 あとはその量についてだが、それを確定させるにはどの程度の時間働けるのかについてある程度明確にせねばならない、当然ながら。</p>
 <p>というわけで現在は、まず入院療養しつつどれくらい時間を確保できるのか測定して報告するというところから始めている。</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="副業">副業<a href="https://ningensei848.github.io/2023/02/01#%E5%89%AF%E6%A5%AD" class="hash-link" aria-label="Direct link to 副業" title="Direct link to 副��業">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="副業">副業<a href="https://ningensei848.github.io/2023/02/01#%E5%89%AF%E6%A5%AD" class="hash-link" aria-label="Direct link to 副業" title="Direct link to 副業">​</a></h3>
 <p>メインとは別に、サブとして資金源を確保したいという野望がある。</p>
 <ol>
 <li>ウェブ系プログラマーなら誰しも志すように、自分でサービスを作ってお金が稼げるようになりたい。</li>
@@ -1010,7 +1196,7 @@ BigQuery を使いこなして、座りしままに餅を食いたいねぇ…�
         <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" src="https://docusaurus.io/img/docusaurus.svg" alt="docusaurus keytar" class="img_ev3q"></p>
 <p>半年近く放置してしまったが、どうにかして本ブログの諸々を更新した</p>
 <p>特に、<a href="https://docusaurus.io/" target="_blank" rel="noopener noreferrer"><code>docusaurus</code></a> を v2.2 まで上げられたのは快挙であろう</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="感想">感想<a href="https://ningensei848.github.io/2022/11/07#%E6%84%9F%E6%83%B3" class="hash-link" aria-label="Direct link to 感想" title="Direct link to 感想">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="�感想">感想<a href="https://ningensei848.github.io/2022/11/07#%E6%84%9F%E6%83%B3" class="hash-link" aria-label="Direct link to 感想" title="Direct link to 感想">​</a></h2>
 <p>思えば、 swizzling がうまく機能しなかったり（ theme 側の実装構造に破壊的変更があったのでしかたがない）、ESLint の flat-config を採用すると決めたり、なかなか骨が折れる仕事であった。。。</p>
 <p><a href="https://github.com/facebook/docusaurus/tree/main/packages/docusaurus-theme-classic" target="_blank" rel="noopener noreferrer"><code>theme-classic</code></a> にはコンポネント構造が大幅に見直されており、カスタマイズするのがだいぶ楽になりそうだという印象を受けた</p>
 <p>実際、これまでは諦めていた「ページネーションの向き」をあっさりと変更できるようになっていたので感激した
@@ -1089,7 +1275,7 @@ BigQuery を使いこなして、座りしままに餅を食いたいねぇ…�
 <p>検索はもとより、ワードクラウドで頻出単語群を見やすくしたり、リプライを交わす仲の良いアカウントが誰なのか人目でわかるようにしたり、いいねしがちなツイートの傾向を探ったりできる。
 本来であれば自分のアカウントで連携サービスに許可を出した上で自分のアカウントに対してしか実行できなかった操作を、他人についてもできるとなればかなり魅力的ではないだろうか。</p>
 <p>……といったところで、規約的な問題が発生しそうなことにも気がついた。</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="懸念シェアしたい">懸念：シェアしたい<a href="https://ningensei848.github.io/2022/06/17#%E6%87%B8%E5%BF%B5%E3%82%B7%E3%82%A7%E3%82%A2%E3%81%97%E3%81%9F%E3%81%84" class="hash-link" aria-label="Direct link to 懸念：シェアしたい" title="Direct link to 懸念：シェアしたい">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="懸念シェアしたい">懸念：シェアしたい<a href="https://ningensei848.github.io/2022/06/17#%E6%87%B8%E5%BF%B5%E3%82%B7%E3%82%A7%E3%82%A2%E3%81%97%E3%81%9F%E3%81%84" class="hash-link" aria-label="Direct link to 懸念：シ�ェアしたい" title="Direct link to 懸念：シェアしたい">​</a></h3>
 <p>「結果をシェアしたい！」という要望が多く生まれると想定されるが、1⃣ 他人のデータを勝手に抜いて 2⃣ 分析ツールに突っ込み 3⃣ 結果を広く公衆に掲示する　という場合、どこかでなにかしら引っかかりそうだ。</p>
 <p>現状の感覚として、1⃣2⃣ は問題なく行えそうだが、3⃣ については Twitter 側の規約に違反していそうな気がする。</p>
 <p>一方で、あくまで二次的なデータだけであれば、そこについてツイート主体が権利侵害を訴えることはできない（なんの権利も侵害していないため）。</p>
@@ -1191,7 +1377,7 @@ BigQuery を使いこなして、座りしままに餅を食いたいねぇ…�
 <p>馬が本来の力を発揮できたか否かによって順位は変わるはず。
 絶好調ならここまで、絶不調でも最低ここまで、という目安は需要ありそう。</p>
 <p>うまく行ければ一着、もしだめでも３着という馬がいれば、買い目はかなり変わってくるだろう。</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="体重による結果の変化">体重による結果の変化<a href="https://ningensei848.github.io/2022/06/09#%E4%BD%93%E9%87%8D%E3%81%AB%E3%82%88%E3%82%8B%E7%B5%90%E6%9E%9C%E3%81%AE%E5%A4%89%E5%8C%96" class="hash-link" aria-label="Direct link to 体重による結果の変化" title="Direct link to 体重による結果の変化">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="体重による結果の変化">体重による結果の変化<a href="https://ningensei848.github.io/2022/06/09#%E4%BD%93%E9%87%8D%E3%81%AB%E3%82%88%E3%82%8B%E7%B5%90%E6%9E%9C%EF%BF%BD%EF%BF%BD%E3%81%AE%E5%A4%89%E5%8C%96" class="hash-link" aria-label="Direct link to 体重による結果の変化" title="Direct link to 体重による結果の変化">​</a></h2>
 <p>インタラクティブにやるべきものとして、前走と体重が同じ場合と比較してどのように結果が変動するのか？を知りたい。
 (馬体重は直前にしか知ることができない、事前にシミュレーションできるツールは現時点ではなさそう)</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="サービスとしてローンチする前に">サービスとしてローンチする前に<a href="https://ningensei848.github.io/2022/06/09#%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%A8%E3%81%97%E3%81%A6%E3%83%AD%E3%83%BC%E3%83%B3%E3%83%81%E3%81%99%E3%82%8B%E5%89%8D%E3%81%AB" class="hash-link" aria-label="Direct link to サービスとしてローンチする前に" title="Direct link to サービスとしてローンチする前に">​</a></h2>
@@ -1230,7 +1416,7 @@ BigQuery を使いこなして、座りしままに餅を食いたいねぇ…�
 </ul>
 <p>痒いところに手が届かなかった <a href="https://vscode.dev/" target="_blank" rel="noopener noreferrer">vscode.dev</a> から一転、これらの問題を解決できたことでほぼ VSCode 同然の使い心地となった。</p>
 <p>今後リソース調節が可能になれば、単なるデスクトップ版よりもずっと素晴らしいものになるだろう。</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="前提codespaces-ってなに">前提：codespaces ってなに？<a href="https://ningensei848.github.io/2022/06/08#%E5%89%8D%E6%8F%90codespaces-%E3%81%A3%E3%81%A6%E3%81%AA%EF%BF%BD%EF%BF%BD%E3%81%AB" class="hash-link" aria-label="Direct link to 前提：codespaces ってなに？" title="Direct link to 前提：codespaces ってなに？">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="前提codespaces-ってなに">前提：codespaces ってなに？<a href="https://ningensei848.github.io/2022/06/08#%E5%89%8D%E6%8F%90codespaces-%E3%81%A3%E3%81%A6%E3%81%AA%E3%81%AB" class="hash-link" aria-label="Direct link to 前提：codespaces ってなに？" title="Direct link to 前提：codespaces ってなに？">​</a></h2>
 <iframe width="356" height="200" src="https://www.youtube.com/embed/j5VQ8OlwbqI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="" title="Welcome to Codespaces - GitHub Universe 2020"></iframe>
 <blockquote>
 <p><strong>短時間で構築できる開発環境</strong></p>
@@ -1488,7 +1674,7 @@ Elevated だとこれが 200 万、 Academic だと 1000 万まで緩和され�
         <summary type="html"><![CDATA[まだ zenn.dev に記事としてまとめることは出来ていないが，着々と自動化処理が作成できてきた．]]></summary>
         <content type="html"><![CDATA[<p>まだ zenn.dev に記事としてまとめることは出来ていないが，着々と自動化処理が作成できてきた．</p>
 <p>一方で，エラーに関してもエッジケースが現れたのでその例外処理もプチプチやっていく．</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="自動化処理">自動化処理<a href="https://ningensei848.github.io/2022/03/30#%E8%87%AA%E5%8B%95%E5%8C%96%EF%BF%BD%E5%87%A6%E7%90%86" class="hash-link" aria-label="Direct link to 自動化処理" title="Direct link to 自動化処理">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="自動化処理">自動化処理<a href="https://ningensei848.github.io/2022/03/30#%E8%87%AA%E5%8B%95%E5%8C%96%E5%87%A6%E7%90%86" class="hash-link" aria-label="Direct link to 自動化処理" title="Direct link to 自動化処理">​</a></h2>
 <p><code>dailyUpdate.py</code> をメインプログラムとして実行するのではなく，反復処理の一部として実行する．
 すなわち，<del>元日から大晦日まで一日ずつ</del> 大晦日から元日まで一日ずつ<sup><a href="https://ningensei848.github.io/2022/03/30#user-content-fn-1-2d8924" id="user-content-fnref-1-2d8924" data-footnote-ref="true" aria-describedby="footnote-label">1</a></sup> <code>dailyUpdate.py</code> に渡して 365 日処理ができるようにする．</p>
 <div class="language-python codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-python codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">firstDay </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> date</span><span class="token punctuation" style="color:#393A34">(</span><span class="token number" style="color:#36acaa">2021</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">12</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">31</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">today </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> firstDay</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">loop_size </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">365</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token keyword" style="color:#00009f">for</span><span class="token plain"> loop </span><span class="token keyword" style="color:#00009f">in</span><span class="token plain"> </span><span class="token builtin">range</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">loop_size</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    </span><span class="token keyword" style="color:#00009f">print</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">"now is "</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> today</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    targetDate </span><span class="token operator" style="color:#393A34">=</span><span class="token plain"> </span><span class="token builtin">sum</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">[</span><span class="token plain">today</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">year </span><span class="token operator" style="color:#393A34">*</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">10</span><span class="token plain"> </span><span class="token operator" style="color:#393A34">**</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">4</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> today</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">month </span><span class="token operator" style="color:#393A34">*</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">10</span><span class="token plain"> </span><span class="token operator" style="color:#393A34">**</span><span class="token plain"> </span><span class="token number" style="color:#36acaa">2</span><span class="token punctuation" style="color:#393A34">,</span><span class="token plain"> today</span><span class="token punctuation" style="color:#393A34">.</span><span class="token plain">day</span><span class="token punctuation" style="color:#393A34">]</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    updateDaily</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">targetDate</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain">  </span><span class="token comment" style="color:#999988;font-style:italic"># int(YYYYMMDD) を渡す</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    today </span><span class="token operator" style="color:#393A34">-=</span><span class="token plain"> timedelta</span><span class="token punctuation" style="color:#393A34">(</span><span class="token plain">days</span><span class="token operator" style="color:#393A34">=</span><span class="token number" style="color:#36acaa">1</span><span class="token punctuation" style="color:#393A34">)</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
@@ -1718,72 +1904,5 @@ GitHub のリポジトリ容量制限に引っかかるかもしれないな～�
         </author>
         <category label="LOD" term="LOD"/>
         <category label="オープンデータ" term="オープンデータ"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[netkeiba のデータをスクレイピングして LOD 化する（２）]]></title>
-        <id>https://ningensei848.github.io/2022/03/12</id>
-        <link href="https://ningensei848.github.io/2022/03/12"/>
-        <updated>2022-03-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[python でデータを扱うにあたり，Notebook を使わない選択肢はないだろう．]]></summary>
-        <content type="html"><![CDATA[<p>python でデータを扱うにあたり，Notebook を使わない選択肢はないだろう．
-Google が提供する <a href="https://colab.research.google.com/" target="_blank" rel="noopener noreferrer">Colaboratory</a> を使って，「下書き」的にコードを書いていく．</p>
-<p><a href="https://colab.research.google.com/" target="_blank" rel="noopener noreferrer">https://colab.research.google.com/</a></p>
-<p>まずは，木曜の夕方には確定する出走馬情報を得るアプローチを考える．
-netkeiba.com においては，開催レースの一覧が <code>/top/race_list.html</code> で提供されている．
-ただし，これをそのまま cURL 等でページ取得しても，各日程ごとの情報は得られない．
-なぜなら，jQuery で Ajax を頑張っているからだ（DevTool で調べてみるとわかるだろう）．</p>
-<p>サーバクライアントモデルよろしく，API エンドポイントにリクエストを投げてデータだけを得てクライアント側で出力しているのかと思いきや，HTML コードの断片を貰って埋め込んでいるような方式のように見える．
-同じく DevTool でネットワークを監視してみると，<code>/top/race_list_sub.html</code> に対して <code>?kaisai_date=YYYYMMDD</code> でリクエストを投げていることがわかった．</p>
-<p><a href="https://race.netkeiba.com/top/race_list_sub.html?kaisai_date=YYYYMMDD" target="_blank" rel="noopener noreferrer">https://race.netkeiba.com/top/race_list_sub.html?kaisai_date=YYYYMMDD</a></p>
-<p>留意すべきは，開催済み・開催前のレースの両方とも同一の形式で取得できてしまうことである．
-すなわち，ベースとなる HTML が <code>/race/shutuba.html</code> と <code>/race/result.html</code> というように異なっている．</p>
-<p>となると，beautifulSoup に喰わせるのではなく正規表現で <code>race_id</code> を引っこ抜いてくるのが賢いだろう．</p>
-<div class="theme-admonition theme-admonition-caution admonition_xJq3 alert alert--warning"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>caution</div><div class="admonitionContent_BuS1"><p>レース ID については，例えば凱旋門賞や香港スプリントといった中央競馬以外のレースの場合には，例外処理が必要かもしれない．
-…………と思ったのもつかの間，ご丁寧に <code>?race_id=YYYYPPNNDDRR&amp;rf=race_list</code> といった具合に <code>&amp;rf=race_list</code> が手がかりとなってくれている．
-ありがたくこれを活用し，正規表現でレース ID のみをぶっこ抜く．</p></div></div>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="スクレイピングの負荷分散">スクレイピングの負荷分散<a href="https://ningensei848.github.io/2022/03/12#%E3%82%B9%E3%82%AF%E3%83%AC%E3%82%A4%E3%83%94%E3%83%B3%E3%82%B0%E3%81%AE%E8%B2%A0%E8%8D%B7%E5%88%86%E6%95%A3" class="hash-link" aria-label="Direct link to スクレイピングの負荷分散" title="Direct link to スクレイピングの負荷分散">​</a></h2>
-<p>で，実際にスクレイピングしていくにあたって，<strong>負荷分散を考えねばならない</strong>という問題がある．
-例えば手元の Python プログラムで秒間 150 回のリクエストをサーバに送ったとしよう．
-それによって自分は素早く大量のデータを得ることができるが，そんな大量のリクエストを捌かねばならない（しかも無償で！）サーバ側はたまったものではない．
-多くの場合，ロードバランサーなり監視システムなりが同一 IP からの異常リクエストを検知し遮断する措置が取られる．</p>
-<p>データを集めるためには「お行儀よく」スクレイピングのコードを書く必要がある……とこれまでは思っていたが，あまりにも時間がかかりすぎる．
-待っている時間にもサーバ利用料金は発生してしまうし，資源の無駄である．
-どうにか回避するためには，<strong>複数箇所から同時並行に</strong>リクエストを投げれば良いことに気づくだろう．
-各プロセスが 2 秒ずつ待機せねばならなかったとしても，それが 10 プロセス同時であれば効率は十倍になる（進次郎構文）．</p>
-<p>最近になって，これを手軽に実装できるのは，<a href="https://cloud.google.com/api-gateway" target="_blank" rel="noopener noreferrer">Google API Gateway</a> + <a href="https://cloud.google.com/functions" target="_blank" rel="noopener noreferrer">Google Cloud Function</a> の組み合わせであろうことに気がついた．
-単にリクエストのプロキシになってもらうというだけなので，特段難しいコードは存在しない（Fetch のみ）．
-ちょうど先月にプレビュー版が出た Cloud Function Gen 2 を試しつつ，API Gateway で wrap して，Python からでも並列処理がしやすい方法を検討する．
-<del>（ただし，現時点ではエントリポイントがパブリックにオープンになってて悪用の恐れがあるので，認証かなんかをきちんと検証する必要がある）</del></p>
-<p>API Gateway に対するリクエストが膨大になっても問題ないっぽいし，認証に API キー使えば不特定多数にオープンになるリスクも減らせる．</p>
-<blockquote class="twitter-tweet" align="center" data-width="550" data-lang="ja" data-dnt="true"><p lang="ja" dir="ltr">このドキュメントによると，「100秒あたり1000万リクエストまで」がレート制限っぽいので，個人が100並列でスクレイピングかける程度だと全然問題ないっぽい，やったぜ<a href="https://t.co/uAiCr1YTo8" target="_blank" rel="noopener noreferrer">https://t.co/uAiCr1YTo8</a> <a href="https://t.co/gFPWwErK6k" target="_blank" rel="noopener noreferrer">https://t.co/gFPWwErK6k</a></p>— JAK阻害剤が効かないと後が無い🌗 (@Ningensei848) <a href="https://twitter.com/Ningensei848/status/1502576964527267840?ref_src=twsrc%5Etfw" target="_blank" rel="noopener noreferrer">2022年3月12日</a></blockquote>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="api-gateway-と-cloud-function">API Gateway と Cloud Function<a href="https://ningensei848.github.io/2022/03/12#api-gateway-%E3%81%A8-cloud-function" class="hash-link" aria-label="Direct link to API Gateway と Cloud Function" title="Direct link to API Gateway と Cloud Function">​</a></h2>
-<p>色々こねこねして，使いたい名前をファイルに列挙するだけで API Gateway が生えるようにした．</p>
-<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">$ npm run exec:all --name=NAME --project=projectName</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">$ npm run gateway:describe --name=NAME --project=projectName</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">$ npm run gateway:describe:api --name=NAME --project=projectName</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">$ gcloud services enable my-api-123abc456def1.apigateway.my-project.cloud.goog</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<p><code>gateway:describe</code> でエンドポイントが得られ，<code>gateway:describe:api</code> で<strong>マネージドサービスプロパティ</strong>が表示される．
-<code>gcloud services enable ${managedServiceUri}</code> で API を有効化することで，エンドポイントに対して API キーによる認証付きでリクエストができるようになる．</p>
-<p>また，その API キーについては，コンソール上の<a href="https://console.cloud.google.com/apis" target="_blank" rel="noopener noreferrer">API とサービス</a>で取得する．
-〈呼び出せるキーの制限〉は，<code>openapi.yaml</code> で <code>info.title</code> で指定したもの<sup><a href="https://ningensei848.github.io/2022/03/12#user-content-fn-1-afd12d" id="user-content-fnref-1-afd12d" data-footnote-ref="true" aria-describedby="footnote-label">1</a></sup>をドロップダウンから選べば良い．</p>
-<p>これでエンドポイントには，クエリパラメータとして <code>key=${API_KEY}</code> を渡さないと拒否されるようになった．</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="リクエストのプロキシ">リクエストのプロキシ<a href="https://ningensei848.github.io/2022/03/12#%E3%83%AA%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%81%AE%E3%83%97%E3%83%AD%E3%82%AD%E3%82%B7" class="hash-link" aria-label="Direct link to リクエストのプロキシ" title="Direct link to リクエストのプロキシ">​</a></h2>
-<p>いよいよ python コードを書くことになるが，リクエストを投げるのは対象とする URL ではなく，API Gateway のエンドポイントであり，URL はクエリパラメータとして <code>url=${TARGET_URL}</code> という形で渡す．
-返り値は特に加工してないため，単純にリクエストを投げたのと同様の HTML が返る．
-一箇所から規定時間内に規定回数以上のリクエストを投げると，DoS 攻撃と勘違いされてアクセス制限の憂き目に合うが，Cloud Functions で負荷分散＋ Gateway でプロキシしてやれば，問題は生じないかも？</p>
-<p>まだ検証していない段階だが，ひとまず API Gateway の自動生成までは出来たので一区切り．</p>
-<!-- -->
-<section data-footnotes="true" class="footnotes"><h2 class="anchor anchorWithStickyNavbar_LWe7 sr-only" id="footnote-label">Footnotes<a href="https://ningensei848.github.io/2022/03/12#footnote-label" class="hash-link" aria-label="Direct link to Footnotes" title="Direct link to Footnotes">​</a></h2>
-<ol>
-<li id="user-content-fn-1-afd12d">
-<p><a href="https://cloud.google.com/api-gateway/docs/secure-traffic-gcloud#creating_an_api_config" target="_blank" rel="noopener noreferrer">API 構成の作成</a>を参照 <a href="https://ningensei848.github.io/2022/03/12#user-content-fnref-1-afd12d" data-footnote-backref="" aria-label="Back to reference 1" class="data-footnote-backref">↩</a></p>
-</li>
-</ol>
-</section>]]></content>
-        <author>
-            <name>Kiai</name>
-            <email>k.kubokawa@klis.tsukuba.ac.jp</email>
-            <uri>https://twitter.com/Ningensei848</uri>
-        </author>
-        <category label="python" term="python"/>
-        <category label="スクレイピング" term="スクレイピング"/>
-        <category label="競馬" term="競馬"/>
     </entry>
 </feed>
