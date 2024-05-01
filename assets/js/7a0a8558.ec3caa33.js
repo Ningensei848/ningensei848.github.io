@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkningensei_848_github_io=self.webpackChunkningensei_848_github_io||[]).push([[4268],{6644:e=>{e.exports=JSON.parse('{"label":"2024GW","permalink":"/tags/2024-gw","allTagsPath":"/tags","count":2,"unlisted":false}')}}]);

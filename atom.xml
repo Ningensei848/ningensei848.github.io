@@ -2,12 +2,181 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ningensei848.github.io</id>
     <title>気合でなんとか</title>
-    <updated>2024-04-29T00:00:00.000Z</updated>
+    <updated>2024-05-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ningensei848.github.io"/>
     <subtitle>Kiai (@ningensei848) が日々を生きた証</subtitle>
     <icon>https://ningensei848.github.io/img/favicon.ico</icon>
     <rights>Copyright © ningensei848, 2024</rights>
+    <entry>
+        <title type="html"><![CDATA[zsh プラグイン管理を考える]]></title>
+        <id>https://ningensei848.github.io/2024/05/01</id>
+        <link href="https://ningensei848.github.io/2024/05/01"/>
+        <updated>2024-05-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[つい昨日、Oh My Zsh を採用すると宣言したのもつかの間、カスタマイズをしようと調べ始めたら「起動速度が気になる」「デカいからもっさりしちゃう」「もっと新しいの使え」などとたくさんのコメントに触れた。]]></summary>
+        <content type="html"><![CDATA[<p>つい昨日、<a href="https://ohmyz.sh/" target="_blank" rel="noopener noreferrer"><code>Oh My Zsh</code></a> を採用すると宣言したのもつかの間、カスタマイズをしようと調べ始めたら「起動速度が気になる」「デカいからもっさりしちゃう」「もっと新しいの使え」などとたくさんのコメントに触れた。</p>
+<p>そんなにいうならどれ使うんだよ！！！！！！となったため、取り敢えず現時点での最新情報をまとめてみることにした。
+いや、そんな手間かけるよりググれカスと誹られて当然だが、先ずは自分で調べてみるのもリハビリなので……
+ということで、やっていきましょう。</p>
+<p align="center"><img src="https://raw.githubusercontent.com/Zsh-art/logo/17617f2f6c70c65943a48745c91d997e7561f19d/svg/color_horizontal_icon.svg" alt="Zsh is a shell designed for interactive use, although it is also a powerful scripting language." width="50%"></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ググる">ググる<a href="https://ningensei848.github.io/2024/05/01#%E3%82%B0%E3%82%B0%E3%82%8B" class="hash-link" aria-label="Direct link to ググる" title="Direct link to ググる">​</a></h2>
+<p>まずはググってみる（それはそう）。
+「<a href="https://www.google.com/search?q=zsh+plugin+manager+2024" target="_blank" rel="noopener noreferrer">zsh plugin manager 2024</a>」で検索すると、<a href="https://www.reddit.com/r/zsh/comments/vryjud/what_is_the_best_plugin_manager_in_your_opinion/" target="_blank" rel="noopener noreferrer">Reddit の記事（r/zsh）</a>と<a href="https://github.com/rossmacarthur/zsh-plugin-manager-benchmark" target="_blank" rel="noopener noreferrer">各種プラグインマネージャのベンチマークテスト</a>が出てきた。<sup><a href="https://ningensei848.github.io/2024/05/01#user-content-fn-1-126895" id="user-content-fnref-1-126895" data-footnote-ref="true" aria-describedby="footnote-label">1</a></sup></p>
+<p><a href="https://www.reddit.com/r/zsh/comments/vryjud/what_is_the_best_plugin_manager_in_your_opinion/" target="_blank" rel="noopener noreferrer">What is the best plugin manager in your opinion? : r/zsh</a></p>
+<p><img decoding="async" loading="lazy" src="https://raw.githubusercontent.com/rossmacarthur/zsh-plugin-manager-benchmark/master/results/load.png" alt="Load time: Lower is better. This is the metric we care about most because its the time it takes to open a new shell until we get a usable prompt." class="img_ev3q"></p>
+<p>概況はわかったところで、 GitHub でも検索かけてみる。
+検索タグは以下の通り：</p>
+<ul>
+<li><a href="https://github.com/topics/plugin-manager" target="_blank" rel="noopener noreferrer"><code>plugin-manager</code></a>
+<ul>
+<li><a href="https://github.com/topics/zsh-plugin-manager" target="_blank" rel="noopener noreferrer"><code>zsh-plugin-manager</code></a></li>
+</ul>
+</li>
+<li><a href="https://github.com/topics/zsh-plugin" target="_blank" rel="noopener noreferrer"><code>zsh-plugin</code></a> / <a href="https://github.com/topics/zsh-plugins" target="_blank" rel="noopener noreferrer"><code>zsh-plugins</code></a></li>
+<li><a href="https://github.com/topics/oh-my-zsh" target="_blank" rel="noopener noreferrer"><code>oh-my-zsh</code></a></li>
+</ul>
+<p>加えて、<a href="https://github.com/unixorn/awesome-zsh-plugins" target="_blank" rel="noopener noreferrer">unixorn/awesome-zsh-plugins: A collection of ZSH frameworks, plugins, themes and tutorials.</a> も参照してみる。<sup><a href="https://ningensei848.github.io/2024/05/01#user-content-fn-2-126895" id="user-content-fnref-2-126895" data-footnote-ref="true" aria-describedby="footnote-label">2</a></sup></p>
+<p>あまりに古そう or メンテされないものを排除すると、<code>prezto</code>, <code>zinit</code>, <code>sheldon</code>, <code>zgenom</code>あたりが候補として残った。
+次章からは各候補について調査していく。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="それぞれのひとくちメモ">それぞれのひとくちメモ<a href="https://ningensei848.github.io/2024/05/01#%E3%81%9D%E3%82%8C%E3%81%9E%E3%82%8C%E3%81%AE%E3%81%B2%E3%81%A8%E3%81%8F%E3%81%A1%E3%83%A1%E3%83%A2" class="hash-link" aria-label="Direct link to それぞれのひとくちメモ" title="Direct link to それぞれのひとくちメモ">​</a></h2>
+<p>ここからは、それぞれのプロジェクトについて概要や特色、気になったことをメモしていく。
+基本的には検索して Hit したものから調べたため、特に順序に意味はない。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="prezto">prezto<a href="https://ningensei848.github.io/2024/05/01#prezto" class="hash-link" aria-label="Direct link to prezto" title="Direct link to prezto">​</a></h3>
+<p><img decoding="async" loading="lazy" alt="Tag search result on GitHub" src="https://ningensei848.github.io/assets/images/tag-search_result_prezto_github-a56eeaf8789fedea49544825535a34ab.png" width="838" height="498" class="img_ev3q"></p>
+<blockquote>
+<p><strong>Prezto — Instantly Awesome Zsh</strong></p>
+<p>Prezto is the configuration framework for Zsh; it enriches the command line interface environment with sane defaults, aliases, functions, auto completion, and prompt themes.</p>
+<p>cf. <a href="https://github.com/sorin-ionescu/prezto" target="_blank" rel="noopener noreferrer">sorin-ionescu/prezto: The configuration framework for Zsh</a></p>
+</blockquote>
+<p>Zsh をきゃわにするテーマという記事<sup><a href="https://ningensei848.github.io/2024/05/01#user-content-fn-3-126895" id="user-content-fnref-3-126895" data-footnote-ref="true" aria-describedby="footnote-label">3</a></sup>でも触れられていたが、 Plugin Manager というよりは Framework であるらしい。</p>
+<p>なるほど、色々できるっぽいのか～というのはわかった一方で、じゃあどこが強みっぽいのか、よくわからなかった。
+スター数がダントツに多いからユーザが居るのは確かなのだろうが、日本語文献だけみるとあんまり……？
+かなり古い結果も出てくることから察するに、zsh 登場以後長く使われてきた老舗 FW なのかもしれない。</p>
+<p>そんなわけで<a href="https://ema-hiro.hatenablog.com/entry/2024/04/21/111038#google_vignette" target="_blank" rel="noopener noreferrer">こういう記事</a>も出ている。<sup><a href="https://ningensei848.github.io/2024/05/01#user-content-fn-4-126895" id="user-content-fnref-4-126895" data-footnote-ref="true" aria-describedby="footnote-label">4</a></sup></p>
+<p>速度を気にしていることからして、もっさり感とかに苦しめられたのかなとも思ったが、<em>"zsh の起動に大体 600ms 程度かかっていたのがだいぶ気になってはいた"</em> という言及からするとそこまで重い感じではなさそう？
+（もちろんその 0.6 秒が俺には大切なんだという価値観もアリだが）</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="zinit">zinit<a href="https://ningensei848.github.io/2024/05/01#zinit" class="hash-link" aria-label="Direct link to zinit" title="Direct link to zinit">​</a></h3>
+<p><img decoding="async" loading="lazy" src="https://raw.githubusercontent.com/zdharma-continuum/zinit/images/zinit.png" alt="Zinit is a flexible and fast Zshell plugin manager that will allow you to install everything from GitHub and other sites." class="img_ev3q"></p>
+<hr>
+<p>なんて素知らぬ顔をしているが、実は過去に一悶着あったとかなかったとか……。<sup><a href="https://ningensei848.github.io/2024/05/01#user-content-fn-5-126895" id="user-content-fnref-5-126895" data-footnote-ref="true" aria-describedby="footnote-label">5</a></sup></p>
+<p>まぁ「速い」ことは前提として、<code>oh-my-zsh</code> や <code>prezto</code> と何が違うんじゃい！と思った。
+<a href="https://zenn.dev/xeres/articles/2021-05-05-understanding-zinit-syntax" target="_blank" rel="noopener noreferrer">この記事</a>を読むと、移行にあたってこれら２つの資産を（ほぼ）そのまま流用できるという特徴があるらしい。<sup><a href="https://ningensei848.github.io/2024/05/01#user-content-fn-6-126895" id="user-content-fnref-6-126895" data-footnote-ref="true" aria-describedby="footnote-label">6</a></sup>
+ラクなのは大事だよね～～
+でもそれって資産がない人には勧めない理由にもなっちゃうのでは？</p>
+<p>個人的にはう～～～～～んと思いつつ、取り敢えず一旦保留にして他を調べてみることにした。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="sheldon">sheldon<a href="https://ningensei848.github.io/2024/05/01#sheldon" class="hash-link" aria-label="Direct link to sheldon" title="Direct link to sheldon">​</a></h3>
+<blockquote>
+<p><em>Fast, configurable, shell plugin manager</em></p>
+</blockquote>
+<p>cf. <a href="https://github.com/rossmacarthur/sheldon" target="_blank" rel="noopener noreferrer">https://github.com/rossmacarthur/sheldon</a></p>
+<blockquote>
+<p>Sheldon is a fast, configurable, command-line tool to manage your shell plugins.</p>
+</blockquote>
+<p>cf. <a href="https://sheldon.cli.rs/" target="_blank" rel="noopener noreferrer">https://sheldon.cli.rs/</a></p>
+<hr>
+<p>あ～～～～～～～～～もうこれ<strong>確定</strong>ですね、そんな直感がします
+（一旦保留して他も調べますが……
+ちょろっと調べた感じとか雰囲気とか、全部好みだし速度も申し分ないしサイコー感が醸されていますね？）</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="zgenom">zgenom<a href="https://ningensei848.github.io/2024/05/01#zgenom" class="hash-link" aria-label="Direct link to zgenom" title="Direct link to zgenom">​</a></h3>
+<blockquote>
+<p>A lightweight yet powerful plugin manager for Zsh.</p>
+<p>It is a superset of the brilliant <a href="https://github.com/tarjoilija/zgen" target="_blank" rel="noopener noreferrer">zgen</a>.
+Providing more features and bugfixes while being fully backwards compatible.
+Have a look at the migration guide if you're currently using zgen.
+Also have a look at new features of zgenom.</p>
+</blockquote>
+<p>cf. <a href="https://github.com/jandamm/zgenom" target="_blank" rel="noopener noreferrer">https://github.com/jandamm/zgenom</a></p>
+<hr>
+<p><code>antigen</code> -&gt; <code>zgen</code> -&gt; <code>zgenom</code> という流れがあるらしい。
+調べようにも和文でヒットするものがほとんど無く、ほんとに使われてるのか…？（疑念）
+一応は <code>zinit</code> と同様に <code>oh-my-zsh</code> &amp; <code>prezto</code> への互換性があるため移行が簡単だよ～と宣伝してはいるようだ。</p>
+<p>シェルのカスタマイズとかいう俺が一切精通していない分野で和文ソースなしという無謀はあまりに恐ろしい。
+流石に手を出すのはやめておきたい（ごめんなさいの顔）。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="閑話">閑話<a href="https://ningensei848.github.io/2024/05/01#%E9%96%91%E8%A9%B1" class="hash-link" aria-label="Direct link to 閑話" title="Direct link to 閑話">​</a></h2>
+<p>ここまで特に区別なく Zsh 周りのプロジェクトについて調べてきたが、その経過で認識したワードの使い分けをメモに残す。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="plugin">Plugin<a href="https://ningensei848.github.io/2024/05/01#plugin" class="hash-link" aria-label="Direct link to Plugin" title="Direct link to Plugin">​</a></h3>
+<p>文字通り「プラグイン」であり、バニラな Zsh に機能を追加したり拡張したりするもの全般を指す。
+専らこれらの (un)install / (up|down)grade を管理するのが Plugin Manager ということになる。</p>
+<p><code>oh-my-zsh</code> しかり <code>prezto</code> しかり、多くの場合 PM ごとに方言がある。
+ただし、それだと新規ユーザは呼び込めても既存の別 PM のユーザは資産の喪失を恐れて流入を見込めない。
+そのため、後方互換性を確保して対応するといったことがしばしば生じる。
+個人的には、このことが原因でプロジェクトの開発スピードが下がったり記述量が増えて容量増大につながるのではないかという懸念はある
+（つまりツールを乗り換えるときはそれなりのコストを支払ってエイヤっと切るのを重視すべきと考える）。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="theme--prompt">Theme / Prompt<a href="https://ningensei848.github.io/2024/05/01#theme--prompt" class="hash-link" aria-label="Direct link to Theme / Prompt" title="Direct link to Theme / Prompt">​</a></h3>
+<p>shell の見た目を制御するものである。
+各 PM 向けにつくられたものもあれば、なんでも使えるよ～といったものまであるようだ。
+Theme は PM のコマンドや config で設定するが、 Prompt は zsh とは独立して存在するものを使うらしい。
+<a href="https://github.com/topics/shell-prompt" target="_blank" rel="noopener noreferrer"><code>#shell-prompt</code></a> や <a href="https://github.com/topics/zsh-prompt" target="_blank" rel="noopener noreferrer"><code>#zsh-prompt</code></a> で惹かれるものを探してみるのもいい。</p>
+<p>現時点で圧巻の <strong>40.9K Star</strong>★を誇る<a href="https://github.com/starship/starship" target="_blank" rel="noopener noreferrer">StarShip</a> なんかは Rust 製で見目麗しく<sup><a href="https://ningensei848.github.io/2024/05/01#user-content-fn-7-126895" id="user-content-fnref-7-126895" data-footnote-ref="true" aria-describedby="footnote-label">7</a></sup>ぜひ使ってみたいものだ――</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="framework">Framework<a href="https://ningensei848.github.io/2024/05/01#framework" class="hash-link" aria-label="Direct link to Framework" title="Direct link to Framework">​</a></h3>
+<p>いわゆる「フレームワーク」であり、実用上はほぼ PM と同じ役割を持つ。
+ただし、Theme の管理やその他特殊なあれこれの機能を持っていることが多いようだ。
+PM + α が Framework と言えるだろう。
+ただし、追加の機能を持つ分だけ記述量は増えているはずで、その分だけ速度に係数がかかるかもしれないことには留意が必要だ。
+適宜、最新のベンチマーク等を参照し、ストレスのない環境を維持することに努めたい。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="結論">結論<a href="https://ningensei848.github.io/2024/05/01#%E7%B5%90%E8%AB%96" class="hash-link" aria-label="Direct link to 結論" title="Direct link to 結論">​</a></h2>
+<p>俺は <code>oh-my-zsh</code> をやめて <strong>Sheldon + 任意の Theme</strong> を採用する。
+理由は以下の通り：</p>
+<ul>
+<li>はやそう（Rust 製のツール全盛の時代が来ると期待</li>
+<li>PM は Plugin に集中していい / 他は不要なはず</li>
+<li><code>prezto</code>, <code>zinit</code> とも迷ったけど、現状俺には資産がない<!-- -->
+<ul>
+<li>じゃあ新しいものに手を出したほうがいいと信じたい</li>
+</ul>
+</li>
+<li>StarShip も併用してみたい</li>
+<li>和文ソースがたくさん ← 先人たちの模倣で誤魔化せる</li>
+</ul>
+<hr>
+<p>こんな感じだろうか。
+具体的な　Sheldon + Starship についての設定方法やカスタマイズについては他の記事に譲る。
+さっそく自分の <code>dotfiles</code> に反映し、快適な開発環境を手に入れようと思う。</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="次に読みたい和文記事">次に読みたい和文記事<a href="https://ningensei848.github.io/2024/05/01#%E6%AC%A1%E3%81%AB%E8%AA%AD%E3%81%BF%E3%81%9F%E3%81%84%E5%92%8C%E6%96%87%E8%A8%98%E4%BA%8B" class="hash-link" aria-label="Direct link to 次に読みたい和文記事" title="Direct link to 次に読みたい和文記事">​</a></h2>
+<ul>
+<li><a href="https://zenn.dev/ganta/articles/e1e0746136ce67" target="_blank" rel="noopener noreferrer">高速で設定しやすいZsh/BashプラグインマネージャーSheldonの紹介</a></li>
+<li><a href="https://ktrysmt.github.io/blog/migrate-zinit-to-sheldon/" target="_blank" rel="noopener noreferrer">zinitが不安なのでsheldonへ移行したらzshの起動が50msと更に速くなった - Engineering blog at ktrysmt</a></li>
+<li><a href="https://ryota2357.com/blog/2022/zsh-plugmanager-zplug-to-sheldon/" target="_blank" rel="noopener noreferrer">zplugからsheldonに乗り換えた</a></li>
+<li><a href="https://zenn.dev/5ei74r0/articles/create-dotfiles" target="_blank" rel="noopener noreferrer">Rust製ツールまみれのdotfilesを始めた</a></li>
+<li><a href="https://zenn.dev/fuzmare/articles/zsh-plugin-manager-cache" target="_blank" rel="noopener noreferrer">究極のzshプラグイン読み込み高速化: プラグインマネージャーの限界を越えろ【起動時間14.6ms】</a></li>
+<li><a href="https://karamaru-alpha.com/posts/zsh-faster/" target="_blank" rel="noopener noreferrer">俺が考える最速のZsh×モニターなし開発環境 · からまるのブログ</a></li>
+<li><a href="https://ema-hiro.hatenablog.com/entry/2024/04/21/111038" target="_blank" rel="noopener noreferrer">Prezto をやめて sheldon に移行して zsh の起動速度を改善してみた - emahiro/b.log</a></li>
+</ul>
+<!-- -->
+<section data-footnotes="true" class="footnotes"><h2 class="anchor anchorWithStickyNavbar_LWe7 sr-only" id="footnote-label">Footnotes<a href="https://ningensei848.github.io/2024/05/01#footnote-label" class="hash-link" aria-label="Direct link to Footnotes" title="Direct link to Footnotes">​</a></h2>
+<ol>
+<li id="user-content-fn-1-126895">
+<p>とはいえ、最終更新は去年とかなので留意すべきやも (Commits on Jun 6, 2023) <a href="https://ningensei848.github.io/2024/05/01#user-content-fnref-1-126895" data-footnote-backref="" aria-label="Back to reference 1" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-2-126895">
+<p><strong><code>awesome-XX</code></strong> 系のリポジトリはコミュニティ主導で体系的にまとめられているため、Dev 関係で調べたいならまずここだったかも…（後悔） <a href="https://ningensei848.github.io/2024/05/01#user-content-fnref-2-126895" data-footnote-backref="" aria-label="Back to reference 2" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-3-126895">
+<p><a href="https://zenn.dev/spacemarket/articles/6c4244b6bbed63#prezto%E3%81%AE%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97" target="_blank" rel="noopener noreferrer">きゃわzshテーマ（powerlevel10k） - Zenn.dev</a> <a href="https://ningensei848.github.io/2024/05/01#user-content-fnref-3-126895" data-footnote-backref="" aria-label="Back to reference 3" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-4-126895">
+<p><a href="https://ema-hiro.hatenablog.com/entry/2024/04/21/111038" target="_blank" rel="noopener noreferrer">Prezto をやめて sheldon に移行して zsh の起動速度を改善してみた - emahiro/b.log</a> <a href="https://ningensei848.github.io/2024/05/01#user-content-fnref-4-126895" data-footnote-backref="" aria-label="Back to reference 4" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-5-126895">
+<p><a href="https://qiita.com/taiyodayo/items/c1ebdc863e6baa18ea06#%E3%81%A9%E3%81%86%E3%81%97%E3%81%A6%E3%81%93%E3%81%86%E3%81%AA%E3%81%A3%E3%81%9F---%E4%BD%9C%E8%80%85%E3%81%8C%E3%82%AD%E3%83%AC%E3%81%A6%E5%85%A8%E9%83%A8%E6%B6%88%E3%81%97%E3%81%A6%E3%81%97%E3%81%BE%E3%81%A3%E3%81%9F" target="_blank" rel="noopener noreferrer">zsh の zinit (旧zplugin) が消滅しちゃったよ！ 経緯と解決法 #Bash - Qiita</a> <a href="https://ningensei848.github.io/2024/05/01#user-content-fnref-5-126895" data-footnote-backref="" aria-label="Back to reference 5" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-6-126895">
+<p><a href="https://zenn.dev/xeres/articles/2021-05-05-understanding-zinit-syntax#oh-my-zsh-%E3%81%AE%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3%E3%80%81prezto-%E3%81%AE%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%81%AE%E5%86%8D%E5%88%A9%E7%94%A8" target="_blank" rel="noopener noreferrer">zinit をしっかりと理解する - Zenn.dev</a> <a href="https://ningensei848.github.io/2024/05/01#user-content-fnref-6-126895" data-footnote-backref="" aria-label="Back to reference 6" class="data-footnote-backref">↩</a></p>
+</li>
+<li id="user-content-fn-7-126895">
+<p><a href="https://github.com/starship/starship" target="_blank" rel="noopener noreferrer">starship/starship: ☄🌌️ The minimal, blazing-fast, and infinitely customizable prompt for any shell!</a> <a href="https://ningensei848.github.io/2024/05/01#user-content-fnref-7-126895" data-footnote-backref="" aria-label="Back to reference 7" class="data-footnote-backref">↩</a></p>
+</li>
+</ol>
+</section>]]></content>
+        <author>
+            <name>Kiai</name>
+            <email>k.kubokawa@klis.tsukuba.ac.jp</email>
+            <uri>https://twitter.com/Ningensei848</uri>
+        </author>
+        <category label="2024GW" term="2024GW"/>
+        <category label="dev" term="dev"/>
+        <category label="zsh" term="zsh"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[.dotfiles で管理したい]]></title>
         <id>https://ningensei848.github.io/2024/04/29</id>
@@ -20,7 +189,7 @@
 そしてそれはそれとしてコマンドプロンプトがクソ、PowerShellは我が道を行きすぎィ！
 という経緯もあり、早々に諦めてWSL2(Ubuntu)に手を出すこととする。
 もちろんまっさらはじめから、ということで、作業記録を残しつつ「どうすればPCの式年遷宮を乗り越えていくか」という視点で考えたい。</p>
-<p><img decoding="async" loading="lazy" src="https://res.cloudinary.com/canonical/image/fetch/f_auto,q_auto,fl_sanitize,c_fill,w_720/https://assets.ubuntu.com/v1/c5414d0e-Numbat.png" alt="The numbat is a testament that those from humble beginnings can make their mark on the world." class="img_ev3q"></p>
+<p align="center"><img src="https://res.cloudinary.com/canonical/image/fetch/f_auto,q_auto,fl_sanitize,c_fill,w_720/https://assets.ubuntu.com/v1/c5414d0e-Numbat.png" alt="The numbat is a testament that those from humble beginnings can make their mark on the world." width="35%"></p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="必要なものを考える">必要なものを考える<a href="https://ningensei848.github.io/2024/04/29#%E5%BF%85%E8%A6%81%E3%81%AA%E3%82%82%E3%81%AE%E3%82%92%E8%80%83%E3%81%88%E3%82%8B" class="hash-link" aria-label="Direct link to 必要なものを考える" title="Direct link to 必要なものを考える">​</a></h2>
 <p>Windows Terminal も使えて楽し～～という気分はさておき、WSL2 (Ubuntu 24.04 LTS<sup><a href="https://ningensei848.github.io/2024/04/29#user-content-fn-1-a4e273" id="user-content-fnref-1-a4e273" data-footnote-ref="true" aria-describedby="footnote-label">1</a></sup>) までは導入済みという前提で進める。</p>
 <p>まず、shell をどうするかについて、これは特にこだわりなければ zsh を導入するのがいいと考えている。
@@ -31,19 +200,22 @@
 <p>（書きつつ思い出したが、大学時代の Google Workspace を GW 中に引っ越しせねばならないのであった……
 容量制限をあとから課す措置を下す行為になんらかの罰則を制定してほしい……）</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="zsh-with-oh-my-zsh"><code>Zsh</code> (with <em>Oh my Zsh</em>)<sup><a href="https://ningensei848.github.io/2024/04/29#user-content-fn-2-a4e273" id="user-content-fnref-2-a4e273" data-footnote-ref="true" aria-describedby="footnote-label">2</a></sup><a href="https://ningensei848.github.io/2024/04/29#zsh-with-oh-my-zsh" class="hash-link" aria-label="Direct link to zsh-with-oh-my-zsh" title="Direct link to zsh-with-oh-my-zsh">​</a></h3>
-<p align="center"><img src="https://ohmyzsh.s3.amazonaws.com/omz-ansi-github.png" alt="Oh My Zsh" width="50%"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/Zsh-art/logo/17617f2f6c70c65943a48745c91d997e7561f19d/svg/color_horizontal_icon.svg" alt="Zsh is a shell designed for interactive use, although it is also a powerful scripting language." width="50%"></p>
 <p>Ubuntu の場合、 <code>apt</code> ないし <code>apt-get</code> でどうにかするのがいいようだ。
 前者はインタラクティヴ、後者はスクリプト向けということで、ワンライナーで書くと以下の通り：</p>
 <div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sudo apt-get -y update &amp;&amp; \</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">sudo apt-get -y upgrade &amp;&amp; \</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">sudo apt-get -y install zsh &amp;&amp; \</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">zsh --version &amp;&amp; chsh -s $(which zsh) &amp;&amp; \</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">echo $SHELL &amp;&amp; $SHELL --version</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <p>再度シェルを起動し直すと、 <code>bash</code> ではなく <code>zsh</code> に切り替わっている。
 初回起動時には色々設定をする必要があるが、内容をよく見て選択すること。</p>
 <hr>
-<p>zsh をカスタマイズしやすくするフレームワークとして <em>Oh my Zsh</em> がある。
-これもついでに入れてみる。</p>
-<div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<p>だいぶ見栄えと雰囲気が良くなった気がする。
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="追記-2024-05-01">追記: 2024-05-01<a href="https://ningensei848.github.io/2024/04/29#%E8%BF%BD%E8%A8%98-2024-05-01" class="hash-link" aria-label="Direct link to 追記: 2024-05-01" title="Direct link to 追記: 2024-05-01">​</a></h4>
+<p><a href="https://ningensei848.github.io/2024/05/01">後日に再検討した</a>ところ、「いまから新しく始める」のなら <a href="https://github.com/rossmacarthur/sheldon" target="_blank" rel="noopener noreferrer"><code>sheldon</code></a> がよいという結論に至った。
+見た目の方は <a href="https://starship.rs/" target="_blank" rel="noopener noreferrer">Starship</a> で調整する。
+いずれも Rust 製であり、速度や信頼も申し分ないしサイコーな予感が溢れている。
+GW 中にこれらのカスタマイズができると嬉しいが……？</p>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>当時は若く、<code>oh-my-zsh</code> しか知りませんでした（ぇ</summary><div><div class="collapsibleContent_i85q"><p>zsh をカスタマイズしやすくするフレームワークとして <em>Oh my Zsh</em> がある。
+これもついでに入れてみる。</p><div class="language-shell codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-shell codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><p>だいぶ見栄えと雰囲気が良くなった気がする。
 これをいい感じにカスタマイズしていくのだが、今は取り敢えず放置。
-一旦区切りにして次へ行こう。</p>
+一旦区切りにして次へ行こう。</p></div></div></details>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="rye"><code>rye</code><a href="https://ningensei848.github.io/2024/04/29#rye" class="hash-link" aria-label="Direct link to rye" title="Direct link to rye">​</a></h3>
 <p align="center"><img src="https://rye-up.com/static/logo-auto.svg" alt="Rye: a Hassle-Free Python Experience" width="40%"></p>
 <blockquote>
@@ -193,6 +365,7 @@ vscode 等のエディタで開いたときは、この名前のファイルを�
         <category label="2024GW" term="2024GW"/>
         <category label="dev" term="dev"/>
         <category label="dotfiles" term="dotfiles"/>
+        <category label="zsh" term="zsh"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[（最近の動きと）４月からの話]]></title>
@@ -453,7 +626,7 @@ vscode 等のエディタで開いたときは、この名前のファイルを�
 </ul>
 <p>採用枠が多い順に検討していこう（業務説明会の前に予約締切になるところもあるので）：</p>
 <h1>各省庁の検討</h1>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="経済産業省-本省30">経済産業省 本省(30)<a href="https://ningensei848.github.io/2023/07/05#%E7%B5%8C%E6%B8%88%E7%94%A3%E6%A5%AD%E7%9C%81-%E6%9C%AC%E7%9C%8130" class="hash-link" aria-label="Direct link to �経済産業省 本省(30)" title="Direct link to 経済産業省 本省(30)">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="経済��産業省-本省30">経済産業省 本省(30)<a href="https://ningensei848.github.io/2023/07/05#%E7%B5%8C%E6%B8%88%E7%94%A3%E6%A5%AD%E7%9C%81-%E6%9C%AC%E7%9C%8130" class="hash-link" aria-label="Direct link to 経済産業省 本省(30)" title="Direct link to 経済産業省 本省(30)">​</a></h2>
 <ul>
 <li><a href="https://www.meti.go.jp/information/recruit/kanchohomon/06.html" target="_blank" rel="noopener noreferrer">2023 年度版 一般職＜大卒程度・技術系＞官庁訪問 （METI/経済産業省）</a></li>
 </ul>
@@ -553,7 +726,7 @@ vscode 等のエディタで開いたときは、この名前のファイルを�
 </blockquote>
 <p>正直いっちゃん最初に行って玉砕ルートもあり……と思いつつ、他でカンを取り戻してから挑みたい気持ちもある……</p>
 <p>とはいえ 10 日の訪問が一番丸いと思う</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="総務省技術系情報通信分野-6">総務省（技術系（情報通信分野）） (6)<a href="https://ningensei848.github.io/2023/07/05#%E7%B7%8F%E5%8B%99%E7%9C%81%E6%8A%80%E8%A1%93%E7%B3%BB%E6%83%85%E5%A0%B1%E9%80%9A%E4%BF%A1%E5%88%86%E9%87%8E-6" class="hash-link" aria-label="Direct link to 総務省（技術系（情報通信分野）） (6)" title="Direct link to 総務省（技術系（情報通信分野）） (6)">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="総務省技術系情報通信分野-6">総務省（技術系（情報通信分野）） (6)<a href="https://ningensei848.github.io/2023/07/05#%E7%B7%8F%E5%8B%99%E7%9C%81%EF%BF%BD%E6%8A%80%E8%A1%93%E7%B3%BB%E6%83%85%E5%A0%B1%E9%80%9A%E4%BF%A1%E5%88%86%E9%87%8E-6" class="hash-link" aria-label="Direct link to 総務省（技術系（情報通信分野）） (6)" title="Direct link to 総務省（技術系（情報通信分野）） (6)">​</a></h2>
 <p><a href="https://www.soumu.go.jp/menu_syokai/saiyou/i2syu_visit_2019.html" target="_blank" rel="noopener noreferrer">https://www.soumu.go.jp/menu_syokai/saiyou/i2syu_visit_2019.html</a></p>
 <blockquote>
 <p>2022 年 7 月 7 日（金）～<br>
@@ -1196,7 +1369,7 @@ BigQuery を使いこなして、座りしままに餅を食いたいねぇ…�
         <content type="html"><![CDATA[<p><img decoding="async" loading="lazy" src="https://docusaurus.io/img/docusaurus.svg" alt="docusaurus keytar" class="img_ev3q"></p>
 <p>半年近く放置してしまったが、どうにかして本ブログの諸々を更新した</p>
 <p>特に、<a href="https://docusaurus.io/" target="_blank" rel="noopener noreferrer"><code>docusaurus</code></a> を v2.2 まで上げられたのは快挙であろう</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="�感想">感想<a href="https://ningensei848.github.io/2022/11/07#%E6%84%9F%E6%83%B3" class="hash-link" aria-label="Direct link to 感想" title="Direct link to 感想">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="感想">感想<a href="https://ningensei848.github.io/2022/11/07#%E6%84%9F%E6%83%B3" class="hash-link" aria-label="Direct link to 感想" title="Direct link to 感想">​</a></h2>
 <p>思えば、 swizzling がうまく機能しなかったり（ theme 側の実装構造に破壊的変更があったのでしかたがない）、ESLint の flat-config を採用すると決めたり、なかなか骨が折れる仕事であった。。。</p>
 <p><a href="https://github.com/facebook/docusaurus/tree/main/packages/docusaurus-theme-classic" target="_blank" rel="noopener noreferrer"><code>theme-classic</code></a> にはコンポネント構造が大幅に見直されており、カスタマイズするのがだいぶ楽になりそうだという印象を受けた</p>
 <p>実際、これまでは諦めていた「ページネーションの向き」をあっさりと変更できるようになっていたので感激した
@@ -1275,7 +1448,7 @@ BigQuery を使いこなして、座りしままに餅を食いたいねぇ…�
 <p>検索はもとより、ワードクラウドで頻出単語群を見やすくしたり、リプライを交わす仲の良いアカウントが誰なのか人目でわかるようにしたり、いいねしがちなツイートの傾向を探ったりできる。
 本来であれば自分のアカウントで連携サービスに許可を出した上で自分のアカウントに対してしか実行できなかった操作を、他人についてもできるとなればかなり魅力的ではないだろうか。</p>
 <p>……といったところで、規約的な問題が発生しそうなことにも気がついた。</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="懸念シェアしたい">懸念：シェアしたい<a href="https://ningensei848.github.io/2022/06/17#%E6%87%B8%E5%BF%B5%E3%82%B7%E3%82%A7%E3%82%A2%E3%81%97%E3%81%9F%E3%81%84" class="hash-link" aria-label="Direct link to 懸念：シ�ェアしたい" title="Direct link to 懸念：シェアしたい">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="懸念シェアしたい">懸念：シェアしたい<a href="https://ningensei848.github.io/2022/06/17#%E6%87%B8%E5%BF%B5%E3%82%B7%E3%82%A7%E3%82%A2%E3%81%97%E3%81%9F%E3%81%84" class="hash-link" aria-label="Direct link to 懸念：シェアしたい" title="Direct link to 懸念：シェアしたい">​</a></h3>
 <p>「結果をシェアしたい！」という要望が多く生まれると想定されるが、1⃣ 他人のデータを勝手に抜いて 2⃣ 分析ツールに突っ込み 3⃣ 結果を広く公衆に掲示する　という場合、どこかでなにかしら引っかかりそうだ。</p>
 <p>現状の感覚として、1⃣2⃣ は問題なく行えそうだが、3⃣ については Twitter 側の規約に違反していそうな気がする。</p>
 <p>一方で、あくまで二次的なデータだけであれば、そこについてツイート主体が権利侵害を訴えることはできない（なんの権利も侵害していないため）。</p>
@@ -1377,7 +1550,7 @@ BigQuery を使いこなして、座りしままに餅を食いたいねぇ…�
 <p>馬が本来の力を発揮できたか否かによって順位は変わるはず。
 絶好調ならここまで、絶不調でも最低ここまで、という目安は需要ありそう。</p>
 <p>うまく行ければ一着、もしだめでも３着という馬がいれば、買い目はかなり変わってくるだろう。</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="体重による結果の変化">体重による結果の変化<a href="https://ningensei848.github.io/2022/06/09#%E4%BD%93%E9%87%8D%E3%81%AB%E3%82%88%E3%82%8B%E7%B5%90%E6%9E%9C%EF%BF%BD%EF%BF%BD%E3%81%AE%E5%A4%89%E5%8C%96" class="hash-link" aria-label="Direct link to 体重による結果の変化" title="Direct link to 体重による結果の変化">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="体重による結果の変化">体重による結果の変化<a href="https://ningensei848.github.io/2022/06/09#%E4%BD%93%E9%87%8D%E3%81%AB%E3%82%88%E3%82%8B%E7%B5%90%E6%9E%9C%E3%81%AE%E5%A4%89%E5%8C%96" class="hash-link" aria-label="Direct link to 体重による結果の変化" title="Direct link to 体重による結果の変化">​</a></h2>
 <p>インタラクティブにやるべきものとして、前走と体重が同じ場合と比較してどのように結果が変動するのか？を知りたい。
 (馬体重は直前にしか知ることができない、事前にシミュレーションできるツールは現時点ではなさそう)</p>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="サービスとしてローンチする前に">サービスとしてローンチする前に<a href="https://ningensei848.github.io/2022/06/09#%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%81%A8%E3%81%97%E3%81%A6%E3%83%AD%E3%83%BC%E3%83%B3%E3%83%81%E3%81%99%E3%82%8B%E5%89%8D%E3%81%AB" class="hash-link" aria-label="Direct link to サービスとしてローンチする前に" title="Direct link to サービスとしてローンチする前に">​</a></h2>
@@ -1869,40 +2042,5 @@ GitHub のリポジトリ容量制限に引っかかるかもしれないな～�
         <category label="python" term="python"/>
         <category label="スクレイピング" term="スクレイピング"/>
         <category label="競馬" term="競馬"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LOD Challenge 2021 授賞式に参加した]]></title>
-        <id>https://ningensei848.github.io/2022/03/13</id>
-        <link href="https://ningensei848.github.io/2022/03/13"/>
-        <updated>2022-03-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[LOD チャレンジ 2021に昨年秋～年末にかけて制作したものを応募した．]]></summary>
-        <content type="html"><![CDATA[<p><a href="https://2021.lodc.jp/" target="_blank" rel="noopener noreferrer">LOD チャレンジ 2021</a>に昨年秋～年末にかけて制作したものを応募した．
-本命の方は受賞を逃したが，<a href="https://zenn.dev/ningensei848/articles/virtuoso_on_gcp_faster_with_cos" target="_blank" rel="noopener noreferrer">副産物として生まれた記事</a>が<a href="https://2021.lodc.jp/awardPressRelease2021.html" target="_blank" rel="noopener noreferrer">LOD プロモーション賞</a>を受賞した．</p>
-<p><a href="https://zenn.dev/ningensei848/articles/virtuoso_on_gcp_faster_with_cos" target="_blank" rel="noopener noreferrer">https://zenn.dev/ningensei848/articles/virtuoso_on_gcp_faster_with_cos</a></p>
-<blockquote>
-<p>RDF トリプルストア構築のハードルを下げることは、LOD の普及のための重要な要素の一つです。
-本作品は、代表的なトリプルストアである Virtuoso を自前で構築するための先行事例をさらに改良したものであり、技術面でのアプローチのしやすさと、インストール及びデータロードの速度向上が見込める優れたアイデアとして評価いたしました。
-他の様々なクラウドサービスにも応用できそうです。今後さらなる発展を期待いたします。</p>
-</blockquote>
-<p>オンラインではあったが，事務局委員長の武田 英明氏からの言葉とリモート賞状授与を受けて少し涙が出てきた．
-去年から色々散々な人生をやっていてメンタルはだいぶ暗いのだが，久々に誰かに褒めてもらって報われた気持ちになり感極まってしまった……</p>
-<blockquote class="twitter-tweet" align="center" data-width="550" data-lang="ja" data-dnt="true"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/lodc2021?src=hash&amp;ref_src=twsrc%5Etfw" target="_blank" rel="noopener noreferrer">#lodc2021</a> LODプロモーション賞ありがとうございました！<br><br>来年はデータ作成＆活用の両部門に応募してさらに上を目指せるように今後も精進します！</p>— JAK阻害剤が効かないと後が無い🌗 (@Ningensei848) <a href="https://twitter.com/Ningensei848/status/1502928431943598081?ref_src=twsrc%5Etfw" target="_blank" rel="noopener noreferrer">2022年3月13日</a></blockquote>
-<blockquote class="twitter-tweet" align="center" data-width="550" data-lang="ja" data-dnt="true"><p lang="ja" dir="ltr">tkk先生の受賞式での姿を見てﾃﾞｭﾌﾌつってる<a href="https://t.co/ONPBqaP7YS" target="_blank" rel="noopener noreferrer">https://t.co/ONPBqaP7YS</a></p>— JAK阻害剤が効かないと後が無い🌗 (@Ningensei848) <a href="https://twitter.com/Ningensei848/status/1502880947892412416?ref_src=twsrc%5Etfw" target="_blank" rel="noopener noreferrer">2022年3月13日</a></blockquote>
-<blockquote class="twitter-tweet" align="center" data-width="550" data-lang="ja" data-dnt="true"><p lang="ja" dir="ltr"><a href="https://t.co/nFxvNenXSm" target="_blank" rel="noopener noreferrer">https://t.co/nFxvNenXSm</a><br><br>Google site だけども，高校生が頑張って作ってるのすごいなぁ………時代がどんどん</p>— JAK阻害剤が効かないと後が無い🌗 (@Ningensei848) <a href="https://twitter.com/Ningensei848/status/1502895529948172297?ref_src=twsrc%5Etfw" target="_blank" rel="noopener noreferrer">2022年3月13日</a></blockquote>
-<blockquote class="twitter-tweet" align="center" data-width="550" data-lang="ja" data-dnt="true"><p lang="ja" dir="ltr">在野のヤベェおっさん，金を時間に任せてまじでやべ～～～～＾ことをしててすごい，俺もこれになりたいが？</p>— JAK阻害剤が効かないと後が無い🌗 (@Ningensei848) <a href="https://twitter.com/Ningensei848/status/1502901065796120578?ref_src=twsrc%5Etfw" target="_blank" rel="noopener noreferrer">2022年3月13日</a></blockquote>
-<blockquote class="twitter-tweet" align="center" data-width="550" data-lang="ja" data-dnt="true"><p lang="ja" dir="ltr">ピコピコプラネットはマジですごいので見習いたいね<br><br>☆ピコピコプラネット☆ SPACE - SPARQLクエリ共有サイト<a href="https://t.co/ffUP2ulYR6" target="_blank" rel="noopener noreferrer">https://t.co/ffUP2ulYR6</a></p>— JAK阻害剤が効かないと後が無い🌗 (@Ningensei848) <a href="https://twitter.com/Ningensei848/status/1502913211477024768?ref_src=twsrc%5Etfw" target="_blank" rel="noopener noreferrer">2022年3月13日</a></blockquote>
-<hr>
-<p>そろそろ気持ちを切り替えて色々人生をやっていかねばならない．</p>
-<p>ちょうどシンポジウムの最後で Code for Japan さんの採用情報があった．
-ここで一つ応募してみようと思う．</p>
-<p><a href="https://recruit.code4japan.org/" target="_blank" rel="noopener noreferrer">https://recruit.code4japan.org/</a></p>
-<p>人生始めて行かね～～～とな～～</p>]]></content>
-        <author>
-            <name>Kiai</name>
-            <email>k.kubokawa@klis.tsukuba.ac.jp</email>
-            <uri>https://twitter.com/Ningensei848</uri>
-        </author>
-        <category label="LOD" term="LOD"/>
-        <category label="オープンデータ" term="オープンデータ"/>
     </entry>
 </feed>
