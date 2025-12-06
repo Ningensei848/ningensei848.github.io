@@ -47,7 +47,7 @@ const adsense = (id: string) => {
 
 // options は `docusaurus.config.js` にてオプション引数として指定する
 // TODO: async じゃなくてもよさそう？あとで検討したい（閲覧：2022-11-07）
-// eslint-disable-next-line @typescript-eslint/require-await
+
 const plugin = async (context: LoadContext, options: CustomOptions) => {
     return {
         name: 'docusaurus-plugin-inject-html-tags',

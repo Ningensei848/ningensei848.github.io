@@ -14,7 +14,6 @@ const isFulfilled = <T>(input: PromiseSettledResult<T>): input is PromiseFulfill
 
 // 非同期関数を定義
 const processTweetsAsync = async (blockquotes: HTMLCollectionOf<Element>) => {
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-member-access
     const loadEmbedTweet = window.twttr.widgets.load
 
     // Promise<void> を要素とする配列を並列して解決させる
@@ -35,7 +34,7 @@ const processTweetsAsync = async (blockquotes: HTMLCollectionOf<Element>) => {
                             // <blockquote> かつ少なくとも 'class' 属性は持っており，
                             // そこに 'twitter-tweet' という値が含まれる Element に対して，
                             // <script> タグ内で定義した window.twttr.widgets をロードする
-                            // eslint-disable-next-line @typescript-eslint/no-unsafe-call
+
                             loadEmbedTweet(quote)
                             resolve()
                         }

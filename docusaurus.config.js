@@ -131,12 +131,16 @@ const config = {
     // ------------------------------
     tagline: process.env.TAGLINE,
     onBrokenLinks: 'throw',
-    onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.ico',
     organizationName: username, // Usually your GitHub org/user name.
     projectName: repositoryName, // Usually your repo name.
     trailingSlash: false,
-
+    markdown: {
+        hooks: {
+            onBrokenMarkdownLinks: 'warn',
+            onBrokenMarkdownImages: 'throw',
+        },
+    },
     // // Even if you don't use internalization, you can use this field to set useful
     // // metadata like html lang. For example, if your site is Chinese, you may want
     // // to replace "en" with "zh-Hans".
@@ -176,8 +180,7 @@ const config = {
                         title: process.env.FEED_TITLE || process.env.BLOG_TITLE || 'Blog',
                         description:
                             process.env.FEED_DESCRIPTION || process.env.BLOG_DESCRIPTION || `${username}'s Blog`,
-                        copyright:
-                            process.env.FEED_COPYRIGHT || `Copyright © ${username}, ${new Date().getFullYear()}`,
+                        copyright: process.env.FEED_COPYRIGHT || `Copyright © ${username}, ${new Date().getFullYear()}`,
                         language: process.env.FEED_LANGUAGE || 'ja-JP',
                     },
                 },

@@ -6,24 +6,19 @@
         "strict": true,
         "noInterop": true
     },
-    "exclude": [
-        ".*.js$",
-        ".*.map$"
-    ],
+    "exclude": [".*.js$", ".*.map$"],
     "jsc": {
         "externalHelpers": true,
         "parser": {
             "syntax": "typescript",
-            "tsx": false,
+            "tsx": true,
             "decorators": false,
             "dynamicImport": false
         },
         "target": "es2022",
         "baseUrl": ".",
         "paths": {
-            "@site/*": [
-                "./*"
-            ]
+            "@site/*": ["./*"]
         }
     }
 }

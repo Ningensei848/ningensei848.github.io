@@ -1,107 +1,53 @@
-// Originally, this notation below would be used, but since docusaurus v2.2 is not supported, `commonjs`(require) is used instead.
-/*
-import { fileURLToPath } from 'url'
-import { dirname } from 'path'
-
-import typescriptESlintParser from '@typescript-eslint/parser'
-import typescriptESlintPlugin from '@typescript-eslint/eslint-plugin'
-import react from 'eslint-plugin-react'
-import reactHooks from 'eslint-plugin-react-hooks'
-import prettier from 'eslint-config-prettier'
-
-const __filename = fileURLToPath(import.meta.url)
-const __dirname = dirname(__filename)
-*/
-
-// Workaround: docusaurus v2.2 NOT yet ESM compliant, so adapt to commonjs -------------------------------------------
-const typescriptESlintParser = require('@typescript-eslint/parser')
-const typescriptESlintPlugin = require('@typescript-eslint/eslint-plugin')
+// eslint.config.js
+const js = require('@eslint/js')
+const tseslint = require('typescript-eslint')
 const react = require('eslint-plugin-react')
 const reactHooks = require('eslint-plugin-react-hooks')
 const prettier = require('eslint-config-prettier')
-// -------------------------------------------------------------------------------------------------------------------
+const globals = require('globals')
 
-const typescriptParserOptions = {
-    // cf. https://github.com/typescript-eslint/typescript-eslint/tree/main/packages/parser
-    parser: typescriptESlintParser, // imported from "@typescript-eslint/parser"
-    /** @type {import('@typescript-eslint/parser').ParserOptions} */
-    parserOptions: {
-        tsconfigRootDir: __dirname,
-        project: ['./tsconfig.json'],
-        ecmaFeatures: {
-            jsx: true,
-        },
-        ecmaVersion: 2022,
-    },
-    sourceType: 'module',
-    globals: {
-        React: true,
-        JSX: true,
-    },
-}
-
-// CAUTION: Cascading configuration objects
-// > When more than one configuration object matches a given filename,
-// > the configuration objects are merged with later objects overriding previous objects when there is a conflict.
-// cf. https://eslint.org/docs/latest/user-guide/configuring/configuration-files-new#cascading-configuration-objects
-const flatConfig = [
-    /** Predefined Configs ----------------------------------------------------------------------------------------- */
-    // cf. https://eslint.org/docs/latest/user-guide/configuring/configuration-files-new#using-predefined-configurations
-    'eslint:recommended',
-    /** ------------------------------------------------------------------------------------------------------------ */
-    // If you want to use configuration included in a plugin,　you must `import` object and refer to the property as follows:
-    // cf. https://eslint.org/docs/latest/user-guide/configuring/configuration-files-new#using-configurations-included-in-plugins
-    // typescriptESlintPlugin.configs.recommended, // <--- "plugin:@typescript-eslint/recommended",
-    //   typescriptESlintPlugin.configs.recommended-requiring-type-checking,  // <--- "plugin:@typescript-eslint/recommended-requiring-type-checking"
-    /** ------------------------------------------------------------------------------------------------------------ */
-    prettier, // <--- "prettier"
-    /** ------------------------------------------------------------------------------------------------------------ */
-    /** Global ignore -----------------------------------------------------------------------------------------------*/
-    // cf. https://eslint.org/docs/latest/user-guide/configuring/configuration-files-new#globally-ignoring-files-with-ignores
-    // Note: "**/node_modules/**", ".git/**" are default patterns　 (No need to specify)
+module.exports = tseslint.config(
+    // 1. 全体設定 (Ignores)
     {
-        ignores: ['.docusaurus/*', 'build/*', 'src/**/*.js'],
+        ignores: ['.docusaurus/*', 'build/*', 'src/**/*.js', '*.config.js'],
     },
 
-    /** ------------------------------------------------------------------------------------------------------------ */
-    /** Global Rules ----------------------------------------------------------------------------------------------- */
-    // cf. https://eslint.org/docs/latest/user-guide/configuring/configuration-files-new#configuring-rules
+    // 2. JavaScript 推奨設定 (eslint:recommended の代替)
+    js.configs.recommended,
+
+    // 3. TypeScript 推奨設定 (v8 の書き方)
+    ...tseslint.configs.recommended,
+
+    // 4. React 関連の設定
     {
-        rules: {
-            semi: ['error', 'never'], // semi coron は使わない
-        },
-    },
-    /** ------------------------------------------------------------------------------------------------------------ */
-    /** languageOptions -------------------------------------------------------------------------------------------- */
-    // An object containing settings related to how JavaScript is configured for linting
-    // cf. https://eslint.org/docs/latest/user-guide/configuring/configuration-files-new#configuring-language-options
-    {
-        files: ['src/**/*.js', 'src/**/*.ts', 'src/**/*.tsx'],
-        languageOptions: typescriptParserOptions,
+        files: ['src/**/*.{ts,tsx}'],
         plugins: {
-            // cf. https://github.com/typescript-eslint/typescript-eslint/tree/main/packages/eslint-plugin
-            '@typescript-eslint': typescriptESlintPlugin,
-            // cf. https://github.com/jsx-eslint/eslint-plugin-react
             react: react,
-            // cf. https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks
             'react-hooks': reactHooks,
         },
-        rules: {
-            /** Spread Syntax */
-            // cf. https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Operators/Spread_syntax
-            ...typescriptESlintPlugin.configs['eslint-recommended'].overrides[0].rules,
-            ...typescriptESlintPlugin.configs.recommended.rules,
-            ...typescriptESlintPlugin.configs['recommended-requiring-type-checking'].rules,
-            ...react.configs.recommended.rules,
-            ...reactHooks.configs.recommended.rules,
+        languageOptions: {
+            globals: {
+                ...globals.browser,
+                ...globals.node,
+            },
+            parserOptions: {
+                project: ['./tsconfig.json'],
+                tsconfigRootDir: __dirname,
+            },
         },
         settings: {
             react: {
-                version: '17.0',
+                version: 'detect', // 自動検出推奨
             },
         },
+        rules: {
+            ...react.configs.recommended.rules,
+            ...reactHooks.configs.recommended.rules,
+            'react/react-in-jsx-scope': 'off', // React 17+ (Docusaurus) では不要
+            semi: ['error', 'never'], // セミコロンなし
+        },
     },
-    /** ------------------------------------------------------------------------------------------------------------ */
-]
 
-module.exports = flatConfig
+    // 5. Prettier との競合回避 (必ず最後に配置)
+    prettier,
+)
