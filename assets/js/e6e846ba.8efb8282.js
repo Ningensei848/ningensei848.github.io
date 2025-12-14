@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkningensei_848_github_io=self.webpackChunkningensei_848_github_io||[]).push([[972],{9224:e=>{e.exports=JSON.parse('{"label":"Codespaces","permalink":"/tags/codespaces","allTagsPath":"/tags","count":1,"unlisted":false}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkningensei_848_github_io=self.webpackChunkningensei_848_github_io||[]).push([[9518],{5284:s=>{s.exports=JSON.parse('{"label":"zsh","permalink":"/tags/zsh","allTagsPath":"/tags","count":2,"unlisted":false}')}}]);
